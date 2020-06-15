@@ -1,0 +1,75 @@
+{
+  "name": "taro-linui",
+  "version": "1.0.1",
+  "private": false,
+  "description": "基于LinUi的taro3UI框架",
+  "browser": "dist/index.umd.js",
+  "module": "dist/index.esm.js",
+  "main": "dist/index.js",
+  "source": "src/index.ts",
+  "templateInfo": {
+    "name": "default",
+    "typescript": true,
+    "css": "less"
+  },
+  "files": [
+    "dist",
+    "@types",
+    "types",
+    "style",
+    "src/**/interface.ts",
+    "src/**/*.d.ts"
+  ],
+  "scripts": {
+    "dev": "yarn run dev:lib",
+    "dev:lib": "tsc --project ./tsconfig.build.json --watch --incremental",
+    "build": "yarn run build:rollup && yarn run build:lib",
+    "build:lib": "tsc --project ./tsconfig.build.json",
+    "build:rollup": "rollup --config ./config/rollup.config.js",
+    "prepublishOnly": "yarn run clean && yarn run build",
+    "lint": "eslint ./src --fix",
+    "lint:style": "stylelint \"src/**/*.scss\" --syntax scss",
+    "lint:style-fix": "stylelint \"src/**/*.scss\" --syntax scss --fix",
+    "test": "cross-env NODE_ENV=test && jest --coverage",
+    "test:ci": "yarn run build:h5 && yarn run test",
+    "test:analyze": "rollup --config ./config/rollup.config.analyze.js",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+    "clean": "rimraf .temp dist lib coverage"
+  },
+  "browserslist": [
+    "last 3 versions",
+    "Android >= 4.1",
+    "ios >= 8"
+  ],
+  "author": "",
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "dayjs": "^1.7.7",
+    "prop-types": "^15.7.2"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.0.2",
+    "@rollup/plugin-json": "^4.0.2",
+    "@rollup/plugin-node-resolve": "^7.1.1",
+    "@tarojs/components": "3.0.0-beta.5",
+    "@tarojs/react": "3.0.0-beta.5",
+    "@tarojs/taro": "3.0.0-beta.5",
+    "@types/classnames": "^2.2.9",
+    "@types/node": "^13.11.1",
+    "@types/react": "^16.9.23",
+    "@types/react-dom": "^16.9.5",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "rollup": "^2.3.1",
+    "rollup-plugin-copy": "^3.3.0",
+    "rollup-plugin-typescript2": "^0.27.0",
+    "rollup-plugin-visualizer": "^4.0.2",
+    "typescript": "^3.8.3"
+  },
+  "peerDependencies": {
+    "@tarojs/components": ">=3.0.0-beta.4",
+    "@tarojs/react": ">=3.0.0-beta.4",
+    "react": ">=16.13.0",
+    "react-dom": ">=16.13.0"
+  }
+}

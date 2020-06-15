@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig",
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "es6",
+    "outDir": "./dist",
+    "rootDir": "./src",
+  },
+  "include": ["src"]
+}

@@ -1,0 +1,144 @@
+@import ".
+/_base.less";
+
+.l-tag{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: @theme-color;
+
+  &-touch{
+    min-width: 80px;
+  }
+
+  // Size
+  &-super-mini{
+    height: 32px;
+    font-size: 20px;
+  }
+
+  &-mini{
+    height: 42px;
+    font-size: 20px;
+  }
+
+  &-medium{
+    height: 50px;
+    font-size: 24px;
+    letter-spacing: 2px;
+  }
+
+  &-large{
+    height: 60px;
+    font-size: 24px;
+    letter-spacing: 2px;
+  }
+
+  // Shape
+  &-super-mini-square{
+    border-radius: 2px;
+    padding: 0 6px;
+  }
+
+  &-mini-square{
+    border-radius: 2px;
+    padding: 0 12px;
+  }
+
+  &-medium-square{
+    border-radius: 2px;
+    padding: 0 16px;
+  }
+
+  &-large-square{
+    border-radius: 2px;
+    padding: 0 18px;
+  }
+
+  &-super-mini-circle{
+    border-radius: 16px;
+    padding: 0 12px;
+  }
+
+  &-mini-circle{
+    border-radius: 21px;
+    padding: 0 16px;
+  }
+
+  &-medium-circle{
+    border-radius: 25px;
+    padding: 0 20px;
+  }
+
+  &-large-circle{
+    border-radius: 30px;
+    padding: 0 24px;
+  }
+
+  &-plain{
+    background-color: #ffffff;
+    color: @theme-color;
+    border: 2px solid @theme-color;
+
+    &-super-mini{
+      height: 28px;
+      font-size: 20px;
+    }
+  
+    &-mini{
+      height: 38px;
+      font-size: 20px;
+    }
+  
+    &-medium{
+      height: 46px;
+      font-size: 24px;
+      letter-spacing: 2px;
+    }
+  
+    &-large{
+      height: 56px;
+      font-size: 24px;
+      letter-spacing: 2px;
+    }
+  }
+
+  &-disable{
+    background-color: @disabled-color;
+    color:#ffffff;
+    border-color: @disabled-color;
+  }
+
+}
+
+.select{
+  background-color: @theme-color;
+  color: #ffffff;
+  // border: 2px solid @theme-color; 
+}
+
+.content {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-l {
+  display: inline-flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+}
+
+.tag-image {
+  &-mini{
+    width: 20px;
+    height: 20px;
+  }
+
+  &-large{
+    width: 24px;
+    height: 24px;
+  }
+}
