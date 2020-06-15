@@ -1,6 +1,11 @@
 {
   "program": {
     "fileInfos": {
+      "./node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "70ae6416528e68c2ee7b62892200d2ca631759943d4429f8b779b947ff1e124d",
+        "signature": "70ae6416528e68c2ee7b62892200d2ca631759943d4429f8b779b947ff1e124d",
+        "affectsGlobalScope": true
+      },
       "./node_modules/typescript/lib/lib.es2015.d.ts": {
         "version": "dc47c4fa66b9b9890cf076304de2a9c5201e94b740cffdf09f87296d877d71f6",
         "signature": "dc47c4fa66b9b9890cf076304de2a9c5201e94b740cffdf09f87296d877d71f6",
@@ -182,8 +187,8 @@
         "affectsGlobalScope": false
       },
       "./node_modules/@tarojs/components/types/scrollview.d.ts": {
-        "version": "2381862530e8026737d587d9f2f33447df808977a11eedd0c892cd258695228e",
-        "signature": "2381862530e8026737d587d9f2f33447df808977a11eedd0c892cd258695228e",
+        "version": "b71151eaaae90bf6b6dfd60f5c5732a844093013aecc2e3503a2b1b4f294ac20",
+        "signature": "b71151eaaae90bf6b6dfd60f5c5732a844093013aecc2e3503a2b1b4f294ac20",
         "affectsGlobalScope": false
       },
       "./node_modules/@tarojs/components/types/view.d.ts": {
@@ -272,8 +277,8 @@
         "affectsGlobalScope": false
       },
       "./node_modules/@tarojs/components/types/input.d.ts": {
-        "version": "7bf0a9e45c66c2385c609d04208fcc4ca46f7efb42382a86656adcc7681732c2",
-        "signature": "7bf0a9e45c66c2385c609d04208fcc4ca46f7efb42382a86656adcc7681732c2",
+        "version": "263ef19e3f851f60239be8c0109a73b028c4108b06690c8fc9f9d0dc1c897bef",
+        "signature": "263ef19e3f851f60239be8c0109a73b028c4108b06690c8fc9f9d0dc1c897bef",
         "affectsGlobalScope": false
       },
       "./node_modules/@tarojs/components/types/label.d.ts": {
@@ -317,13 +322,13 @@
         "affectsGlobalScope": false
       },
       "./node_modules/@tarojs/components/types/textarea.d.ts": {
-        "version": "b4d58be19bd74ad589e26828a1c3719a66de16ecff90940d1efddd06a61b7d24",
-        "signature": "b4d58be19bd74ad589e26828a1c3719a66de16ecff90940d1efddd06a61b7d24",
+        "version": "30c68e3addb27c38b53db0481a02909624d0ca0da1f6a859278e1ea2693fff7e",
+        "signature": "30c68e3addb27c38b53db0481a02909624d0ca0da1f6a859278e1ea2693fff7e",
         "affectsGlobalScope": false
       },
       "./node_modules/@tarojs/components/types/image.d.ts": {
-        "version": "51f5c4f8f46d1f3553ecbcc7e8408a5903bc013f39b0454059d40616d387ecb3",
-        "signature": "51f5c4f8f46d1f3553ecbcc7e8408a5903bc013f39b0454059d40616d387ecb3",
+        "version": "fb442d08c9f41bed0c32400cf324c1b28c6c7c1b0dbec623fb351394382ffaea",
+        "signature": "fb442d08c9f41bed0c32400cf324c1b28c6c7c1b0dbec623fb351394382ffaea",
         "affectsGlobalScope": false
       },
       "./node_modules/@tarojs/components/types/navigator.d.ts": {
@@ -357,8 +362,8 @@
         "affectsGlobalScope": false
       },
       "./node_modules/@tarojs/components/types/audio.d.ts": {
-        "version": "2f656e9fd790046c219546c29fe235589fa7263caae49fa112979f94f8e82dfa",
-        "signature": "2f656e9fd790046c219546c29fe235589fa7263caae49fa112979f94f8e82dfa",
+        "version": "11fc9342a1230e0d096341f1fd0e42dbbe9bdc54e91c103abd4a895154c67ef3",
+        "signature": "11fc9342a1230e0d096341f1fd0e42dbbe9bdc54e91c103abd4a895154c67ef3",
         "affectsGlobalScope": false
       },
       "./node_modules/@tarojs/components/types/functionalpagenavigator.d.ts": {
@@ -432,7 +437,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/button.tsx": {
-        "version": "318b2d0dcdaff7a66947455bbb086c855d4aabb07d1e24e3fd14fea57b9e5f7e",
+        "version": "b1f8cb3e9c9c0f446b7aea95ec1e5b9584c083c174fcfbd399e06fabc88d3218",
         "signature": "2e659bc01949df0aff6907d2c3d5f8fb4c06d002f928317bf900eb401cd0cc1e",
         "affectsGlobalScope": false
       },
@@ -441,14 +446,484 @@
         "signature": "41d9aaee91693f63ab39855967fecaeafc6c179a8167009d5f27a7fc4d7271ea",
         "affectsGlobalScope": false
       },
-      "./src/index.ts": {
-        "version": "87750f136b9e66c11e9c03a383e768c0d0e68d190acbfc4a0b241b51cf2c67ff",
-        "signature": "5da7d2396420fe3eeea8b7a0f40a499dfcbca485d020e7e0b5971e4b01f65731",
+      "./src/components/lspin.tsx": {
+        "version": "2ec97a6badcfacf929ebeb96eb8049c53e90a4c8052fd4aac318fe24f067abbe",
+        "signature": "485d0286dc2d0b02b4a6e84ad518b9ef4d99aed693759e0d8a205eca0704453d",
         "affectsGlobalScope": false
       },
-      "./src/components/lspin.tsx": {
-        "version": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "./node_modules/@tarojs/taro/types/taro.lifecycle.d.ts": {
+        "version": "3fb9d6970b7ed44672a84a52834af84091d16a3dbe6feed9440e711b30e37e96",
+        "signature": "3fb9d6970b7ed44672a84a52834af84091d16a3dbe6feed9440e711b30e37e96",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/taro.config.d.ts": {
+        "version": "c1b362e0330d258899dbda60204c93a97f3a952cc4a9c314419cad5453a80dee",
+        "signature": "c1b362e0330d258899dbda60204c93a97f3a952cc4a9c314419cad5453a80dee",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/taro.component.d.ts": {
+        "version": "dc683cc0c1b51d3fcdf020d5aabb3a96a9eede04a8df9f60619637c98816c3ce",
+        "signature": "dc683cc0c1b51d3fcdf020d5aabb3a96a9eede04a8df9f60619637c98816c3ce",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/taro.hooks.d.ts": {
+        "version": "0c9127840f4327d67ef2de75cb50b7afea15109dd7535cda035c1adf80d11f68",
+        "signature": "0c9127840f4327d67ef2de75cb50b7afea15109dd7535cda035c1adf80d11f68",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/network/request.d.ts": {
+        "version": "eb9859dbd20d63d6431e07e4c63d7e87ded8eb397060c86835b6066b77ff1281",
+        "signature": "eb9859dbd20d63d6431e07e4c63d7e87ded8eb397060c86835b6066b77ff1281",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/taro.extend.d.ts": {
+        "version": "f7c54810e60f8435ee2c8bbcf2a503bc4e3c0eed0db4ef9182a98105d9249967",
+        "signature": "f7c54810e60f8435ee2c8bbcf2a503bc4e3c0eed0db4ef9182a98105d9249967",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/index.d.ts": {
+        "version": "3db0530f9c154db86d5441b5a767dcc0363caf083cacd8a1251f8979ef228c3e",
+        "signature": "3db0530f9c154db86d5441b5a767dcc0363caf083cacd8a1251f8979ef228c3e",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/ad/index.d.ts": {
+        "version": "da2c609a0f9047822ba67b7a6de3684fed969aa40379be883c771cca3d91542e",
+        "signature": "da2c609a0f9047822ba67b7a6de3684fed969aa40379be883c771cca3d91542e",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/base/index.d.ts": {
+        "version": "de2c673c6d349070d349f662d0cdcb31862d6439d64ade78897ee70da7c41c80",
+        "signature": "de2c673c6d349070d349f662d0cdcb31862d6439d64ade78897ee70da7c41c80",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/base/debug.d.ts": {
+        "version": "1b1f964423ac20269917f6a87ac5c10c3c8f2a94c43ce96d41026ae230d57c95",
+        "signature": "1b1f964423ac20269917f6a87ac5c10c3c8f2a94c43ce96d41026ae230d57c95",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/base/system.d.ts": {
+        "version": "8b83cae0cf39d740e2ecb4558a84b8203a8be003118c6dd3d3b759ea4712e796",
+        "signature": "8b83cae0cf39d740e2ecb4558a84b8203a8be003118c6dd3d3b759ea4712e796",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/base/update.d.ts": {
+        "version": "f0bc1d2de8543be516c7804e3bac2643e01e073ab9c494bebe65285dd547fe04",
+        "signature": "f0bc1d2de8543be516c7804e3bac2643e01e073ab9c494bebe65285dd547fe04",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/base/weapp/life-cycle.d.ts": {
+        "version": "4e5cd3e0141481215f2cff67200a624bbb0bdae155d79f019bcb44a3079e5ed8",
+        "signature": "4e5cd3e0141481215f2cff67200a624bbb0bdae155d79f019bcb44a3079e5ed8",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/base/weapp/app-event.d.ts": {
+        "version": "80fc0eefae5ee26eb62a88682d17b1bc882b5adf3e23f747e75baa593e4354df",
+        "signature": "80fc0eefae5ee26eb62a88682d17b1bc882b5adf3e23f747e75baa593e4354df",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/base/env.d.ts": {
+        "version": "97a8fdec7c9191020b22ff9d571d9798cca195e6b08733f173d36ae76c4443da",
+        "signature": "97a8fdec7c9191020b22ff9d571d9798cca195e6b08733f173d36ae76c4443da",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/canvas/index.d.ts": {
+        "version": "1cf99121cf431322c5493e063379e56864902112f233ca1f56175630a39e327d",
+        "signature": "1cf99121cf431322c5493e063379e56864902112f233ca1f56175630a39e327d",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/cloud/index.d.ts": {
+        "version": "18b105f653bd19419466e6d5e2bd81bd316f2b5f9285a6fa23bcc12c1dc3f0f9",
+        "signature": "18b105f653bd19419466e6d5e2bd81bd316f2b5f9285a6fa23bcc12c1dc3f0f9",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/device/accelerometer.d.ts": {
+        "version": "f52024a398c7e87c0d9ceda607574004c42d4f63101f936229e985c7daee9127",
+        "signature": "f52024a398c7e87c0d9ceda607574004c42d4f63101f936229e985c7daee9127",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/device/battery.d.ts": {
+        "version": "cfc9131677dc41359753a2fcf2ee78953f6eef32c3e191bc89d55a2781dbb9ed",
+        "signature": "cfc9131677dc41359753a2fcf2ee78953f6eef32c3e191bc89d55a2781dbb9ed",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/device/ble.d.ts": {
+        "version": "8be9686d9440fe1d196065b66743a4007ed56f656f4cd1049d65ad342e57b950",
+        "signature": "8be9686d9440fe1d196065b66743a4007ed56f656f4cd1049d65ad342e57b950",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/device/bluetooth.d.ts": {
+        "version": "ba53d0b8ceadfee6d3ac875b4cf2794f83ee7a9926b8a77670618b5e39b69d98",
+        "signature": "ba53d0b8ceadfee6d3ac875b4cf2794f83ee7a9926b8a77670618b5e39b69d98",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/device/clipboard.d.ts": {
+        "version": "d95a7c2c2fec0ac51a059164298502d27a36129ecd1d0ceaf6ca5cc0e06eee39",
+        "signature": "d95a7c2c2fec0ac51a059164298502d27a36129ecd1d0ceaf6ca5cc0e06eee39",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/device/compass.d.ts": {
+        "version": "ea373a1abceadfa19583b2cc8ec5b2bdea92d13963803c1e2264df4aff1d234e",
+        "signature": "ea373a1abceadfa19583b2cc8ec5b2bdea92d13963803c1e2264df4aff1d234e",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/device/contact.d.ts": {
+        "version": "56f2d9d3f6dcf50d24b23d60d8e3fadd3652fa56ef76d2ae15f1fabe224e652a",
+        "signature": "56f2d9d3f6dcf50d24b23d60d8e3fadd3652fa56ef76d2ae15f1fabe224e652a",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/device/gyroscope.d.ts": {
+        "version": "1a3dd19b6fc41ec4484dfc5b3de5f6d257053d4ac27a5555278c692393cf519e",
+        "signature": "1a3dd19b6fc41ec4484dfc5b3de5f6d257053d4ac27a5555278c692393cf519e",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/device/ibeacon.d.ts": {
+        "version": "5a922e075aa5ddce3f0466e1f06f45952cf308a60fa0fbd4b180c696a63a1c9c",
+        "signature": "5a922e075aa5ddce3f0466e1f06f45952cf308a60fa0fbd4b180c696a63a1c9c",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/device/motion.d.ts": {
+        "version": "f11f27cc6dadb451ef6f3782d1a2c6239643306f57924457f03a01a93ec38ef7",
+        "signature": "f11f27cc6dadb451ef6f3782d1a2c6239643306f57924457f03a01a93ec38ef7",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/device/network.d.ts": {
+        "version": "ad2cf1d0c2c043739d395047d53401d48283ed6df663673af5e74fa710b60de4",
+        "signature": "ad2cf1d0c2c043739d395047d53401d48283ed6df663673af5e74fa710b60de4",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/device/nfc.d.ts": {
+        "version": "339bad2441872ce0ac58c56d42bc5e30f7f05c4968958aa2a6d74a366d85a418",
+        "signature": "339bad2441872ce0ac58c56d42bc5e30f7f05c4968958aa2a6d74a366d85a418",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/device/performance.d.ts": {
+        "version": "ad6bba675a8d67c865b7bbe74c0f99eb7049de14ad4ffc5f70471b206bad439b",
+        "signature": "ad6bba675a8d67c865b7bbe74c0f99eb7049de14ad4ffc5f70471b206bad439b",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/device/phone.d.ts": {
+        "version": "912d887d99304697ebb3ded0fabf3b394de6bad50598ea7a3a7a63e51f7390af",
+        "signature": "912d887d99304697ebb3ded0fabf3b394de6bad50598ea7a3a7a63e51f7390af",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/device/scan.d.ts": {
+        "version": "9424f993a07fb4b7c036189d852957c084b4dab8f5bf1097c0e3c580a1910186",
+        "signature": "9424f993a07fb4b7c036189d852957c084b4dab8f5bf1097c0e3c580a1910186",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/device/screen.d.ts": {
+        "version": "d8dbaa8f34bc61629a92160e76882371e80771bc097faeeea0fd66c063b791ed",
+        "signature": "d8dbaa8f34bc61629a92160e76882371e80771bc097faeeea0fd66c063b791ed",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/device/vibrate.d.ts": {
+        "version": "866ebc36594f8e49f90942833922f1b95cf62c10d277c3812037904e0f98d289",
+        "signature": "866ebc36594f8e49f90942833922f1b95cf62c10d277c3812037904e0f98d289",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/device/wifi.d.ts": {
+        "version": "2ce6dba5eac6211cf528a8c3480b2aa46a512032538b506b20bd0ce61b8456d4",
+        "signature": "2ce6dba5eac6211cf528a8c3480b2aa46a512032538b506b20bd0ce61b8456d4",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/ext/index.d.ts": {
+        "version": "3cf796adf2725f08f2babc290ed562f15d3f379ad5b5f53dcf613fc9d76fa8f3",
+        "signature": "3cf796adf2725f08f2babc290ed562f15d3f379ad5b5f53dcf613fc9d76fa8f3",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/files/index.d.ts": {
+        "version": "c8cdaac6ddfe9b59c2ba465b960aff8db21b5b4b0ff142bbbd0edb67a2797bb8",
+        "signature": "c8cdaac6ddfe9b59c2ba465b960aff8db21b5b4b0ff142bbbd0edb67a2797bb8",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/framework/index.d.ts": {
+        "version": "45e9b95f593dae904f5a49ff62e47c496b46d5487c6ff1bb6145cefc319ead08",
+        "signature": "45e9b95f593dae904f5a49ff62e47c496b46d5487c6ff1bb6145cefc319ead08",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/location/index.d.ts": {
+        "version": "f1c9dff6c756cccc68883d566e68a92cf5091e6ef9250f1b9e87328b81d10056",
+        "signature": "f1c9dff6c756cccc68883d566e68a92cf5091e6ef9250f1b9e87328b81d10056",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/media/audio.d.ts": {
+        "version": "1c4aea40c7c50115b0306da6fa2d832770e35b464d0c46421a3f5f83c2ac1eb3",
+        "signature": "1c4aea40c7c50115b0306da6fa2d832770e35b464d0c46421a3f5f83c2ac1eb3",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/media/background-audio.d.ts": {
+        "version": "ac9c59ec38cba7782a5f6dfad9134e8c9cfc4cb77309c1051a1acf0ea5a948a3",
+        "signature": "ac9c59ec38cba7782a5f6dfad9134e8c9cfc4cb77309c1051a1acf0ea5a948a3",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/media/camera.d.ts": {
+        "version": "7e56b532c0c67156444558b27bc56399b78471b141c79247df636862772dc5e9",
+        "signature": "7e56b532c0c67156444558b27bc56399b78471b141c79247df636862772dc5e9",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/media/editor.d.ts": {
+        "version": "35bbb7659387daa80edbfa7e9b9882adb081b9fb45e23831f860c863319b5a9f",
+        "signature": "35bbb7659387daa80edbfa7e9b9882adb081b9fb45e23831f860c863319b5a9f",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/media/image.d.ts": {
+        "version": "a51203958dfea15642ea7c52ad122f6f34fbf8db0b9abe9103a56969a3fc946d",
+        "signature": "a51203958dfea15642ea7c52ad122f6f34fbf8db0b9abe9103a56969a3fc946d",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/media/live.d.ts": {
+        "version": "c0ac1aeef18cc91e67ec9411517c15fdfb87c2b7a258997772f70c26d008ad27",
+        "signature": "c0ac1aeef18cc91e67ec9411517c15fdfb87c2b7a258997772f70c26d008ad27",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/media/map.d.ts": {
+        "version": "7513e7f4d9add638468a4a8ac883616115b1ea2e53367557268b4a10056c94e1",
+        "signature": "7513e7f4d9add638468a4a8ac883616115b1ea2e53367557268b4a10056c94e1",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/media/recorder.d.ts": {
+        "version": "f27fef814706fa89fe34c698ecd5c9028543009fb1485702c8f2cd3754b7db21",
+        "signature": "f27fef814706fa89fe34c698ecd5c9028543009fb1485702c8f2cd3754b7db21",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/media/video.d.ts": {
+        "version": "f37c73616e6e0ff4e2c82523ab65ff057233a1adc8586a75bd8cd81e711a5cd3",
+        "signature": "f37c73616e6e0ff4e2c82523ab65ff057233a1adc8586a75bd8cd81e711a5cd3",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/media/video-processing.d.ts": {
+        "version": "a3b1dae02d73538a0e7e1d26eb760bc8e29cca371cd2c3010623b7dd6fe90a62",
+        "signature": "a3b1dae02d73538a0e7e1d26eb760bc8e29cca371cd2c3010623b7dd6fe90a62",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/network/download.d.ts": {
+        "version": "6c60ff1aa091f9d3d2bd922827922951cd8a82c2d5ea692926114e39a98dc28e",
+        "signature": "6c60ff1aa091f9d3d2bd922827922951cd8a82c2d5ea692926114e39a98dc28e",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/network/mdns.d.ts": {
+        "version": "5fe4a9af14cf383141ba91889a495748dfdc233112e79b0719764d499819a89d",
+        "signature": "5fe4a9af14cf383141ba91889a495748dfdc233112e79b0719764d499819a89d",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/network/udp.d.ts": {
+        "version": "3621ee9504bb36c812aa723a37c7cc56b4d84536ab1316855d99e8854166c202",
+        "signature": "3621ee9504bb36c812aa723a37c7cc56b4d84536ab1316855d99e8854166c202",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/network/upload.d.ts": {
+        "version": "7cc337672fe3362558225ce0de37be2ff1426e142d7c46f35bcb2c16fe6cc9f2",
+        "signature": "7cc337672fe3362558225ce0de37be2ff1426e142d7c46f35bcb2c16fe6cc9f2",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/network/websocket.d.ts": {
+        "version": "86b7bf21f55dd35a30d2bbce444b4e3ea7d383a84e0ac4e1e32cc6bbff289d76",
+        "signature": "86b7bf21f55dd35a30d2bbce444b4e3ea7d383a84e0ac4e1e32cc6bbff289d76",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/open-api/account.d.ts": {
+        "version": "e1319d4035542b47ca4f59c552ab39f84294d23fd7df9d9608113a460596e3d1",
+        "signature": "e1319d4035542b47ca4f59c552ab39f84294d23fd7df9d9608113a460596e3d1",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/open-api/address.d.ts": {
+        "version": "162ced1d47299063e10e3316038c72be2fbae8528f9ee2e21a25d046680fe7b8",
+        "signature": "162ced1d47299063e10e3316038c72be2fbae8528f9ee2e21a25d046680fe7b8",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/open-api/authorize.d.ts": {
+        "version": "5dc79db8a4eec8bc2adebb4b4b5c897b649e2b5dc12d96ea7cac647e7b2792c3",
+        "signature": "5dc79db8a4eec8bc2adebb4b4b5c897b649e2b5dc12d96ea7cac647e7b2792c3",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/open-api/card.d.ts": {
+        "version": "c523d17289b127147f17b753cbd082efdf78c2eb56313ec6062e68f008c15a89",
+        "signature": "c523d17289b127147f17b753cbd082efdf78c2eb56313ec6062e68f008c15a89",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/open-api/data-analysis.d.ts": {
+        "version": "48e56bb2bea590657bc97f02e21c48e98778e2fdcf017f0df0f88b11cd5d2525",
+        "signature": "48e56bb2bea590657bc97f02e21c48e98778e2fdcf017f0df0f88b11cd5d2525",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/open-api/facial.d.ts": {
+        "version": "49a22c2e4f4d7b8c7290bb421bc8c51557bc4750381ba809d0d0fc537a75f7ba",
+        "signature": "49a22c2e4f4d7b8c7290bb421bc8c51557bc4750381ba809d0d0fc537a75f7ba",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/open-api/invoice.d.ts": {
+        "version": "e8a9b631dd4f49974ea9491660ceaa102482f3878130e40f5ae7b409325fb34e",
+        "signature": "e8a9b631dd4f49974ea9491660ceaa102482f3878130e40f5ae7b409325fb34e",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/open-api/login.d.ts": {
+        "version": "fd06b5e98951fde925be2a205cf241cdfd58266cdef93a784de46514f2fe1eab",
+        "signature": "fd06b5e98951fde925be2a205cf241cdfd58266cdef93a784de46514f2fe1eab",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/open-api/navigate.d.ts": {
+        "version": "ac7b76c8cbe352c21de2b84af759312d707c0a5c64afef33ed49962ae5f71078",
+        "signature": "ac7b76c8cbe352c21de2b84af759312d707c0a5c64afef33ed49962ae5f71078",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/open-api/payment.d.ts": {
+        "version": "b9b7d42f75f1c435360e9e1e4b144e2800461ef06e6e3a11d2c207253cf7e9d8",
+        "signature": "b9b7d42f75f1c435360e9e1e4b144e2800461ef06e6e3a11d2c207253cf7e9d8",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/open-api/report.d.ts": {
+        "version": "c5403dc169f16cfa9b68d6b42f839cc8d8c2aa0eac74c91c73348974f8840c14",
+        "signature": "c5403dc169f16cfa9b68d6b42f839cc8d8c2aa0eac74c91c73348974f8840c14",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/open-api/settings.d.ts": {
+        "version": "3ded31dfa8e05d3e6c5fd3ffb9ec0b5823d0da510d5e6047436b93ac182bf81d",
+        "signature": "3ded31dfa8e05d3e6c5fd3ffb9ec0b5823d0da510d5e6047436b93ac182bf81d",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/open-api/soter.d.ts": {
+        "version": "bfc835e92d0e16080313a1f92ff4504508930260f854c7767e1c99fc16af6a4d",
+        "signature": "bfc835e92d0e16080313a1f92ff4504508930260f854c7767e1c99fc16af6a4d",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/open-api/subscribe-message.d.ts": {
+        "version": "488b2a42980536adf0e5f22eb92e45075f9a2811b48b1c69475577e404bfe6e5",
+        "signature": "488b2a42980536adf0e5f22eb92e45075f9a2811b48b1c69475577e404bfe6e5",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/open-api/user-info.d.ts": {
+        "version": "52c2a28a7bfed500c557225a22c20d0c0f19f923a1dde8fbc597f60a40d33d97",
+        "signature": "52c2a28a7bfed500c557225a22c20d0c0f19f923a1dde8fbc597f60a40d33d97",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/open-api/werun.d.ts": {
+        "version": "d63750151f539370be28833ab30e90a941ae32e1aa7f68a71fac76c06b8a9a60",
+        "signature": "d63750151f539370be28833ab30e90a941ae32e1aa7f68a71fac76c06b8a9a60",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/route/index.d.ts": {
+        "version": "3d0a3d6aaebefd52d3741206ce313134d6e2a9eac3051dfdb15b38e4e5b622c5",
+        "signature": "3d0a3d6aaebefd52d3741206ce313134d6e2a9eac3051dfdb15b38e4e5b622c5",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/share/index.d.ts": {
+        "version": "70183b75e5bfb2781437e7cbda6203ead01829dd578b8aea4fb10f9c181ac8df",
+        "signature": "70183b75e5bfb2781437e7cbda6203ead01829dd578b8aea4fb10f9c181ac8df",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/storage/background-fetch.d.ts": {
+        "version": "e5b64c4de14b0c5b0ef184f7f5bee82a2ba39eba4dfb197958a797f1c11b6ef7",
+        "signature": "e5b64c4de14b0c5b0ef184f7f5bee82a2ba39eba4dfb197958a797f1c11b6ef7",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/storage/index.d.ts": {
+        "version": "60c6a30ab95d128f716c86d10ed2fded7922dc34a0bf87ce67d966e512c93e11",
+        "signature": "60c6a30ab95d128f716c86d10ed2fded7922dc34a0bf87ce67d966e512c93e11",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/ui/animation.d.ts": {
+        "version": "f9a4786e27760bb1969ccea52901a37e7a72391ce49f5a38c27c921aa3f187a2",
+        "signature": "f9a4786e27760bb1969ccea52901a37e7a72391ce49f5a38c27c921aa3f187a2",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/ui/background.d.ts": {
+        "version": "6c006251568a711e62f8138b4e315ce4516285fa8417a5f6e51a7625ca060b90",
+        "signature": "6c006251568a711e62f8138b4e315ce4516285fa8417a5f6e51a7625ca060b90",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/ui/custom-component.d.ts": {
+        "version": "dddf76726e23c2259eeb3cda9cbc1f16195935f1b3594c9e8f9658c6dcb010ad",
+        "signature": "dddf76726e23c2259eeb3cda9cbc1f16195935f1b3594c9e8f9658c6dcb010ad",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/ui/fonts.d.ts": {
+        "version": "38c22343d5b17473cc8fda037954cb4cc4524b7ded6f204e03b67e035645c08e",
+        "signature": "38c22343d5b17473cc8fda037954cb4cc4524b7ded6f204e03b67e035645c08e",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/ui/keyboard.d.ts": {
+        "version": "a2fc511690a62b74139f8e742a11185987ced912dcf15a5374b21e7d31593c44",
+        "signature": "a2fc511690a62b74139f8e742a11185987ced912dcf15a5374b21e7d31593c44",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/ui/menu.d.ts": {
+        "version": "56a6cf1d76aee0571fb9a532f3cb14087a0c9ce35c9c49bbb0a8c69c11c22cd9",
+        "signature": "56a6cf1d76aee0571fb9a532f3cb14087a0c9ce35c9c49bbb0a8c69c11c22cd9",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/ui/navigation-bar.d.ts": {
+        "version": "e2ac4bd3d315397fa6500485b29bd7dbc380ac275516fc76b66352985ebb381e",
+        "signature": "e2ac4bd3d315397fa6500485b29bd7dbc380ac275516fc76b66352985ebb381e",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/ui/pull-down-refresh.d.ts": {
+        "version": "e10558be53a0803129aa2dc7ea4eecda3e00ca5fd17e7fe1e768f4db4581c700",
+        "signature": "e10558be53a0803129aa2dc7ea4eecda3e00ca5fd17e7fe1e768f4db4581c700",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/ui/scroll.d.ts": {
+        "version": "a98555403484aa6b2622b673f10adcb61a08c729f9616d1e67fa2930d59657c7",
+        "signature": "a98555403484aa6b2622b673f10adcb61a08c729f9616d1e67fa2930d59657c7",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/ui/sticky.d.ts": {
+        "version": "8cff60dcd515b0ddbffebd736514c5c8d06a0464d5beea02722472f01fa57583",
+        "signature": "8cff60dcd515b0ddbffebd736514c5c8d06a0464d5beea02722472f01fa57583",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/ui/tab-bar.d.ts": {
+        "version": "272329941f2f574075f420d31bda8d12c6590818cf1795f095308c11bc7d9f25",
+        "signature": "272329941f2f574075f420d31bda8d12c6590818cf1795f095308c11bc7d9f25",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/ui/window.d.ts": {
+        "version": "26ed84b754f2f2c3daf4785c7cfbc9e6b8bb4be1bb440a0928f0086ea333247f",
+        "signature": "26ed84b754f2f2c3daf4785c7cfbc9e6b8bb4be1bb440a0928f0086ea333247f",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/ui/interaction.d.ts": {
+        "version": "0f2eda12f91951db1bffcd59b719aa4cd249b0fd40ff49cc1d1f7f9b09b38ad3",
+        "signature": "0f2eda12f91951db1bffcd59b719aa4cd249b0fd40ff49cc1d1f7f9b09b38ad3",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/worker/index.d.ts": {
+        "version": "74a6cd38490762b5dd3a98466d9ac29cad6c313390c5c9c91d623e2f10465c39",
+        "signature": "74a6cd38490762b5dd3a98466d9ac29cad6c313390c5c9c91d623e2f10465c39",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/wxml/index.d.ts": {
+        "version": "f7fa264e6ff64c782eb3e418ee6a20b958aaf6bcb7287056fe8d43eeb33cce8a",
+        "signature": "f7fa264e6ff64c782eb3e418ee6a20b958aaf6bcb7287056fe8d43eeb33cce8a",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/alipay/index.d.ts": {
+        "version": "e2b8afba8815b9c5f692f6021fda1eec15a8797f17fe7bf9879862f1823e4035",
+        "signature": "e2b8afba8815b9c5f692f6021fda1eec15a8797f17fe7bf9879862f1823e4035",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/api/swan/index.d.ts": {
+        "version": "10137f43429fe2aa7399405f7129edb88778daae71df76845f42be09d4dd7e70",
+        "signature": "10137f43429fe2aa7399405f7129edb88778daae71df76845f42be09d4dd7e70",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@tarojs/taro/types/index.d.ts": {
+        "version": "10eb3d513617f4106964e50683ae5c4e88c115f13e39d653051c455cca680734",
+        "signature": "10eb3d513617f4106964e50683ae5c4e88c115f13e39d653051c455cca680734",
+        "affectsGlobalScope": false
+      },
+      "./src/components/lalbumlayout.ts": {
+        "version": "2cd041ee4ebbfbeea74abd623a597946eab91c65848cab99072d33640350ff1e",
+        "signature": "4f1c9f9b6b4a73cee21fc82483cacaece513bb4c666f49dae87e263dca6d73e4",
+        "affectsGlobalScope": false
+      },
+      "./src/components/lalbum.tsx": {
+        "version": "d72ed047dbae6001d6e8b0763bd84c86ea7273f1c8cf27a72b6e15e24e2cb184",
+        "signature": "965b5be5b6845d1b9ee22d1b0dbdbedaa057920a897c40c380b87dbb47a9e766",
+        "affectsGlobalScope": false
+      },
+      "./src/index.ts": {
+        "version": "6ac62ea79be9b2bcb3ad0244e33928dadd1b066719af1e3930b5b18d7acaeb50",
+        "signature": "6c80f28f6065771a01cc82ab0ae0efda61ffb1d3c7c4e3cb4bcacdc34f98be69",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/color-name/index.d.ts": {
@@ -456,19 +931,14 @@
         "signature": "f0cb4b3ab88193e3e51e9e2622e4c375955003f1f81239d72c5b7a95415dad3e",
         "affectsGlobalScope": false
       },
-      "./node_modules/@types/estree/index.d.ts": {
-        "version": "89ccbe04e737ce613f5f04990271cfa84901446350b8551b0555ddf19319723b",
-        "signature": "89ccbe04e737ce613f5f04990271cfa84901446350b8551b0555ddf19319723b",
-        "affectsGlobalScope": false
-      },
       "./node_modules/@types/node/globals.d.ts": {
-        "version": "0a08f81d125dd658353234b6553bf48baa0104257f939f83dcd696a320cf5543",
-        "signature": "0a08f81d125dd658353234b6553bf48baa0104257f939f83dcd696a320cf5543",
+        "version": "2dd7dbacbd70cc156185235140b7b6682c002c1ea678dd87d7a20589d4555fc0",
+        "signature": "2dd7dbacbd70cc156185235140b7b6682c002c1ea678dd87d7a20589d4555fc0",
         "affectsGlobalScope": true
       },
       "./node_modules/@types/node/async_hooks.d.ts": {
-        "version": "96e547b51f95ee76bdb25731c92420fa6f93b59c3f38f23d505be36e2de394ee",
-        "signature": "96e547b51f95ee76bdb25731c92420fa6f93b59c3f38f23d505be36e2de394ee",
+        "version": "4ed9f71ddbb5753771ee391f64297078a88f7dfd1480646dcf08c31395778682",
+        "signature": "4ed9f71ddbb5753771ee391f64297078a88f7dfd1480646dcf08c31395778682",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/node/buffer.d.ts": {
@@ -477,8 +947,8 @@
         "affectsGlobalScope": false
       },
       "./node_modules/@types/node/child_process.d.ts": {
-        "version": "dbd6db9d0fe7ed80f7e8bf00841f45b5816e364c6a8bc1fffb131b44ab46062f",
-        "signature": "dbd6db9d0fe7ed80f7e8bf00841f45b5816e364c6a8bc1fffb131b44ab46062f",
+        "version": "465150173a56b943b2f6d8918e35c89d8386ffd37aa466e486ca54db54d6cee7",
+        "signature": "465150173a56b943b2f6d8918e35c89d8386ffd37aa466e486ca54db54d6cee7",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/node/cluster.d.ts": {
@@ -497,8 +967,8 @@
         "affectsGlobalScope": false
       },
       "./node_modules/@types/node/crypto.d.ts": {
-        "version": "d56c93b6bf66e602869e926ddc8b1b4630d1ff397909291767d18d4ffc22d33f",
-        "signature": "d56c93b6bf66e602869e926ddc8b1b4630d1ff397909291767d18d4ffc22d33f",
+        "version": "d4dd0b19ee0338dd4f1603eacb41859b9d5371bfef2b2849cb870d6fd6602bcb",
+        "signature": "d4dd0b19ee0338dd4f1603eacb41859b9d5371bfef2b2849cb870d6fd6602bcb",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/node/dgram.d.ts": {
@@ -517,23 +987,28 @@
         "affectsGlobalScope": false
       },
       "./node_modules/@types/node/events.d.ts": {
-        "version": "5ffa4219ee64e130980a4231392cbc628544df137ccf650ae8d76e0a1744fd2b",
-        "signature": "5ffa4219ee64e130980a4231392cbc628544df137ccf650ae8d76e0a1744fd2b",
+        "version": "eaa8136bb11fbea5bdaf29e06aa45a1969ddd39fbfb5fe58a01f00d7f1562cd9",
+        "signature": "eaa8136bb11fbea5bdaf29e06aa45a1969ddd39fbfb5fe58a01f00d7f1562cd9",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/node/fs.d.ts": {
-        "version": "e1a12c7e7951b9762cfbcc43c72eb5611120967706a7c3142ad303c6b7ee767f",
-        "signature": "e1a12c7e7951b9762cfbcc43c72eb5611120967706a7c3142ad303c6b7ee767f",
+        "version": "e253cd3c7d10c4f600308d0528dd371d7e4165d8295b37a1f38d0ef6c0dfaf60",
+        "signature": "e253cd3c7d10c4f600308d0528dd371d7e4165d8295b37a1f38d0ef6c0dfaf60",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/fs/promises.d.ts": {
+        "version": "fb28748ff8d015f52e99daee4f454e57cec1a22141f1257c317f3630a15edeb7",
+        "signature": "fb28748ff8d015f52e99daee4f454e57cec1a22141f1257c317f3630a15edeb7",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/node/http.d.ts": {
-        "version": "15f8c6aa0485ad13bd169cd1b8bddaa5a1fde86a1836d04ac8b9f7eebc5244f3",
-        "signature": "15f8c6aa0485ad13bd169cd1b8bddaa5a1fde86a1836d04ac8b9f7eebc5244f3",
+        "version": "9440dcf960685f7ec10856891a6cebb52a5ae8cef6a2e85daf9476dafd346cbe",
+        "signature": "9440dcf960685f7ec10856891a6cebb52a5ae8cef6a2e85daf9476dafd346cbe",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/node/http2.d.ts": {
-        "version": "873da589b78a1f1fa7d623483bd2c2730a02e0852259fb8fdcfe5221ac51d18a",
-        "signature": "873da589b78a1f1fa7d623483bd2c2730a02e0852259fb8fdcfe5221ac51d18a",
+        "version": "5d9394b829cfd504b2fe17287aaad8ce1dcfb2a2183c962a90a85b96da2c1c90",
+        "signature": "5d9394b829cfd504b2fe17287aaad8ce1dcfb2a2183c962a90a85b96da2c1c90",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/node/https.d.ts": {
@@ -542,23 +1017,23 @@
         "affectsGlobalScope": false
       },
       "./node_modules/@types/node/inspector.d.ts": {
-        "version": "4218ced3933a31eed1278d350dd63c5900df0f0904f57d61c054d7a4b83dbe4c",
-        "signature": "4218ced3933a31eed1278d350dd63c5900df0f0904f57d61c054d7a4b83dbe4c",
+        "version": "6c3857edaeeaaf43812f527830ebeece9266b6e8eb5271ab6d2f0008306c9947",
+        "signature": "6c3857edaeeaaf43812f527830ebeece9266b6e8eb5271ab6d2f0008306c9947",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/node/module.d.ts": {
-        "version": "a376e245f494b58365a4391a2568e6dd9da372c3453f4732eb6e15ebb9038451",
-        "signature": "a376e245f494b58365a4391a2568e6dd9da372c3453f4732eb6e15ebb9038451",
+        "version": "bc6a77e750f4d34584e46b1405b771fb69a224197dd6bafe5b0392a29a70b665",
+        "signature": "bc6a77e750f4d34584e46b1405b771fb69a224197dd6bafe5b0392a29a70b665",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/node/net.d.ts": {
-        "version": "ffe8912b7c45288810c870b768190c6c097459930a587dd6ef0d900a5529a811",
-        "signature": "ffe8912b7c45288810c870b768190c6c097459930a587dd6ef0d900a5529a811",
+        "version": "46cac76114704902baa535b30fb66a26aeaf9430f3b3ab44746e329f12e85498",
+        "signature": "46cac76114704902baa535b30fb66a26aeaf9430f3b3ab44746e329f12e85498",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/node/os.d.ts": {
-        "version": "f53678bdb9f25445c8cdf021f2b003b74fd638e69bb1959dde8e370e8cc1e4fa",
-        "signature": "f53678bdb9f25445c8cdf021f2b003b74fd638e69bb1959dde8e370e8cc1e4fa",
+        "version": "ed4ae81196cccc10f297d228bca8d02e31058e6d723a3c5bc4be5fb3c61c6a34",
+        "signature": "ed4ae81196cccc10f297d228bca8d02e31058e6d723a3c5bc4be5fb3c61c6a34",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/node/path.d.ts": {
@@ -597,13 +1072,13 @@
         "affectsGlobalScope": false
       },
       "./node_modules/@types/node/stream.d.ts": {
-        "version": "bf1391c56037d436f055dd41d9da7bfe80017bf6456a6ed2b39455780004c1c7",
-        "signature": "bf1391c56037d436f055dd41d9da7bfe80017bf6456a6ed2b39455780004c1c7",
+        "version": "406a63c7e94107394341e97dbdc3312a1ecea75571d067a69eaa213786d9f154",
+        "signature": "406a63c7e94107394341e97dbdc3312a1ecea75571d067a69eaa213786d9f154",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/node/string_decoder.d.ts": {
-        "version": "7e62aac2cc9c0710d772047ad89e8d7117f52592c791eb995ce1f865fedab432",
-        "signature": "7e62aac2cc9c0710d772047ad89e8d7117f52592c791eb995ce1f865fedab432",
+        "version": "d67e08745494b000da9410c1ae2fdc9965fc6d593fe0f381a47491f75417d457",
+        "signature": "d67e08745494b000da9410c1ae2fdc9965fc6d593fe0f381a47491f75417d457",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/node/timers.d.ts": {
@@ -657,8 +1132,8 @@
         "affectsGlobalScope": false
       },
       "./node_modules/@types/node/base.d.ts": {
-        "version": "2026b7041e063d40039177d4ee3f916b2ef69a6741a0ed092301dee65eea4149",
-        "signature": "2026b7041e063d40039177d4ee3f916b2ef69a6741a0ed092301dee65eea4149",
+        "version": "b46af749e3574b83bccc0ec829322b15e834ae90b45760eebc75a189c28c0868",
+        "signature": "b46af749e3574b83bccc0ec829322b15e834ae90b45760eebc75a189c28c0868",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/node/ts3.2/fs.d.ts": {
@@ -692,8 +1167,8 @@
         "affectsGlobalScope": false
       },
       "./node_modules/@types/node/ts3.5/base.d.ts": {
-        "version": "a5d42eed6d91284727c0c7e3ff35be8868856d08942cc52a54e0b670f455ed08",
-        "signature": "a5d42eed6d91284727c0c7e3ff35be8868856d08942cc52a54e0b670f455ed08",
+        "version": "255dbc5a5acef2b83b47145042aa0127ebf7fe24cd5ce6afaaaf5c8fc2c5eb96",
+        "signature": "255dbc5a5acef2b83b47145042aa0127ebf7fe24cd5ce6afaaaf5c8fc2c5eb96",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/node/ts3.7/assert.d.ts": {
@@ -711,11 +1186,6 @@
         "signature": "d522314e80ed71b57e3c2939d3c9594eaae63a4adf028559e6574f6b270b0fee",
         "affectsGlobalScope": false
       },
-      "./node_modules/@types/fs-extra/index.d.ts": {
-        "version": "5171627120eeb3a7e8afb8ed04ea9be7f0b53ba09bb1fc95172483e0fbb0740c",
-        "signature": "5171627120eeb3a7e8afb8ed04ea9be7f0b53ba09bb1fc95172483e0fbb0740c",
-        "affectsGlobalScope": false
-      },
       "./node_modules/@types/minimatch/index.d.ts": {
         "version": "1d1e6bd176eee5970968423d7e215bfd66828b6db8d54d17afec05a831322633",
         "signature": "1d1e6bd176eee5970968423d7e215bfd66828b6db8d54d17afec05a831322633",
@@ -726,14 +1196,89 @@
         "signature": "64ef5112114bdd77304acb548f93777b263bbf57272776139425a58f68a10775",
         "affectsGlobalScope": false
       },
-      "./node_modules/@types/react-dom/index.d.ts": {
-        "version": "8483a29c17f7feb768a1f4333cf12ccf1e7341bd89dadcf407e012d5315228d0",
-        "signature": "8483a29c17f7feb768a1f4333cf12ccf1e7341bd89dadcf407e012d5315228d0",
+      "./node_modules/@types/lodash/ts3.1/common/common.d.ts": {
+        "version": "4025cf62742c5bb3d383c8a62342481622c87e3397ea5e7b7baab18b9efd5798",
+        "signature": "4025cf62742c5bb3d383c8a62342481622c87e3397ea5e7b7baab18b9efd5798",
         "affectsGlobalScope": false
       },
-      "./node_modules/@types/resolve/index.d.ts": {
-        "version": "2880728492d6a6baa55411d14cc42fa55714a24b1d1d27ff9a8a610abd47c761",
-        "signature": "2880728492d6a6baa55411d14cc42fa55714a24b1d1d27ff9a8a610abd47c761",
+      "./node_modules/@types/lodash/ts3.1/common/array.d.ts": {
+        "version": "f6a75f23e42dc475bdd7fefa8c527a3c5ed502ad371900abe9d138a9010ad80a",
+        "signature": "f6a75f23e42dc475bdd7fefa8c527a3c5ed502ad371900abe9d138a9010ad80a",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/lodash/ts3.1/common/collection.d.ts": {
+        "version": "0c75b204aed9cf6ff1c7b4bed87a3ece0d9d6fc857a6350c0c95ed0c38c814e8",
+        "signature": "0c75b204aed9cf6ff1c7b4bed87a3ece0d9d6fc857a6350c0c95ed0c38c814e8",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/lodash/ts3.1/common/date.d.ts": {
+        "version": "187119ff4f9553676a884e296089e131e8cc01691c546273b1d0089c3533ce42",
+        "signature": "187119ff4f9553676a884e296089e131e8cc01691c546273b1d0089c3533ce42",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/lodash/ts3.1/common/function.d.ts": {
+        "version": "035b95793288bf4457a2b80bfe9b7500a29324ad62adcf9991277198e8833096",
+        "signature": "035b95793288bf4457a2b80bfe9b7500a29324ad62adcf9991277198e8833096",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/lodash/ts3.1/common/lang.d.ts": {
+        "version": "f612468e9c3edff588905c4c4f512487a13ac32ffbd291fe07696268ab8c8dfa",
+        "signature": "f612468e9c3edff588905c4c4f512487a13ac32ffbd291fe07696268ab8c8dfa",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/lodash/ts3.1/common/math.d.ts": {
+        "version": "65648639567d214f62c1b21d200c852807e68bdb08311f95ab6f526ef5b98995",
+        "signature": "65648639567d214f62c1b21d200c852807e68bdb08311f95ab6f526ef5b98995",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/lodash/ts3.1/common/number.d.ts": {
+        "version": "00baffbe8a2f2e4875367479489b5d43b5fc1429ecb4a4cc98cfc3009095f52a",
+        "signature": "00baffbe8a2f2e4875367479489b5d43b5fc1429ecb4a4cc98cfc3009095f52a",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/lodash/ts3.1/common/object.d.ts": {
+        "version": "7fc5a3d7cff296cea5c225911726a56283b663328709088fcc912d61f73682fc",
+        "signature": "7fc5a3d7cff296cea5c225911726a56283b663328709088fcc912d61f73682fc",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/lodash/ts3.1/common/seq.d.ts": {
+        "version": "3c92b6dfd43cc1c2485d9eba5ff0b74a19bb8725b692773ef1d66dac48cda4bd",
+        "signature": "3c92b6dfd43cc1c2485d9eba5ff0b74a19bb8725b692773ef1d66dac48cda4bd",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/lodash/ts3.1/common/string.d.ts": {
+        "version": "e34f3f6159b1e23de9bb5521382795aaa5aaed6f53b4702e70a2ec45bc76ddb5",
+        "signature": "e34f3f6159b1e23de9bb5521382795aaa5aaed6f53b4702e70a2ec45bc76ddb5",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/lodash/ts3.1/common/util.d.ts": {
+        "version": "2630a7cbb597e85d713b7ef47f2946d4280d3d4c02733282770741d40672b1a5",
+        "signature": "2630a7cbb597e85d713b7ef47f2946d4280d3d4c02733282770741d40672b1a5",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/lodash/ts3.1/index.d.ts": {
+        "version": "bbf144d4354e2aaa6439f32761f3ee798cc68d1600adab6e2a596f25269f106d",
+        "signature": "bbf144d4354e2aaa6439f32761f3ee798cc68d1600adab6e2a596f25269f106d",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@types/minimist/index.d.ts": {
+        "version": "3602dfff3072caea42f23a9b63fb34a7b0c95a62b93ce2add5fe6b159447845e",
+        "signature": "3602dfff3072caea42f23a9b63fb34a7b0c95a62b93ce2add5fe6b159447845e",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/normalize-package-data/index.d.ts": {
+        "version": "c9ad058b2cc9ce6dc2ed92960d6d009e8c04bef46d3f5312283debca6869f613",
+        "signature": "c9ad058b2cc9ce6dc2ed92960d6d009e8c04bef46d3f5312283debca6869f613",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/parse-json/index.d.ts": {
+        "version": "2b8264b2fefd7367e0f20e2c04eed5d3038831fe00f5efbc110ff0131aab899b",
+        "signature": "2b8264b2fefd7367e0f20e2c04eed5d3038831fe00f5efbc110ff0131aab899b",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/react-is/index.d.ts": {
+        "version": "52d72d2f44c2207d9517d8a9f2f5ed95334c507b40b4859844ec46ef6fbd47ba",
+        "signature": "52d72d2f44c2207d9517d8a9f2f5ed95334c507b40b4859844ec46ef6fbd47ba",
         "affectsGlobalScope": false
       }
     },
@@ -755,7 +1300,6 @@
       "baseUrl": "./",
       "rootDir": "./src",
       "jsx": 2,
-      "jsxFactory": "React.createElement",
       "allowJs": true,
       "resolveJsonModule": true,
       "typeRoots": [
@@ -1185,6 +1729,657 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./node_modules/@tarojs/taro/types/api/ad/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/alipay/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/base/debug.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/base/env.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/base/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/base/system.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/base/update.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/base/weapp/app-event.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/base/weapp/life-cycle.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/canvas/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/cloud/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/device/accelerometer.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/device/battery.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/device/ble.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/device/bluetooth.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/device/clipboard.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/device/compass.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/device/contact.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/device/gyroscope.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/device/ibeacon.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/device/motion.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/device/network.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/device/nfc.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/device/performance.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/device/phone.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/device/scan.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/device/screen.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/device/vibrate.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/device/wifi.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/ext/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/files/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/framework/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/location/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/media/audio.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/media/background-audio.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/media/camera.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/media/editor.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/media/image.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/media/live.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/media/map.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/media/recorder.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/media/video-processing.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/media/video.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/network/download.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/network/mdns.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/network/request.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/network/udp.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/network/upload.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/network/websocket.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/open-api/account.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/open-api/address.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/open-api/authorize.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/open-api/card.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/open-api/data-analysis.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/open-api/facial.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/open-api/invoice.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/open-api/login.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/open-api/navigate.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/open-api/payment.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/open-api/report.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/open-api/settings.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/open-api/soter.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/open-api/subscribe-message.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/open-api/user-info.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/open-api/werun.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/route/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/share/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/storage/background-fetch.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/storage/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/swan/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/ui/animation.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/ui/background.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/ui/custom-component.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/ui/fonts.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/ui/interaction.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/ui/keyboard.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/ui/menu.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/ui/navigation-bar.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/ui/pull-down-refresh.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/ui/scroll.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/ui/sticky.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/ui/tab-bar.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/ui/window.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/worker/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/wxml/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/index.d.ts": [
+        "./node_modules/@tarojs/taro/types/api/ad/index.d.ts",
+        "./node_modules/@tarojs/taro/types/api/alipay/index.d.ts",
+        "./node_modules/@tarojs/taro/types/api/base/debug.d.ts",
+        "./node_modules/@tarojs/taro/types/api/base/env.d.ts",
+        "./node_modules/@tarojs/taro/types/api/base/index.d.ts",
+        "./node_modules/@tarojs/taro/types/api/base/system.d.ts",
+        "./node_modules/@tarojs/taro/types/api/base/update.d.ts",
+        "./node_modules/@tarojs/taro/types/api/base/weapp/app-event.d.ts",
+        "./node_modules/@tarojs/taro/types/api/base/weapp/life-cycle.d.ts",
+        "./node_modules/@tarojs/taro/types/api/canvas/index.d.ts",
+        "./node_modules/@tarojs/taro/types/api/cloud/index.d.ts",
+        "./node_modules/@tarojs/taro/types/api/device/accelerometer.d.ts",
+        "./node_modules/@tarojs/taro/types/api/device/battery.d.ts",
+        "./node_modules/@tarojs/taro/types/api/device/ble.d.ts",
+        "./node_modules/@tarojs/taro/types/api/device/bluetooth.d.ts",
+        "./node_modules/@tarojs/taro/types/api/device/clipboard.d.ts",
+        "./node_modules/@tarojs/taro/types/api/device/compass.d.ts",
+        "./node_modules/@tarojs/taro/types/api/device/contact.d.ts",
+        "./node_modules/@tarojs/taro/types/api/device/gyroscope.d.ts",
+        "./node_modules/@tarojs/taro/types/api/device/ibeacon.d.ts",
+        "./node_modules/@tarojs/taro/types/api/device/motion.d.ts",
+        "./node_modules/@tarojs/taro/types/api/device/network.d.ts",
+        "./node_modules/@tarojs/taro/types/api/device/nfc.d.ts",
+        "./node_modules/@tarojs/taro/types/api/device/performance.d.ts",
+        "./node_modules/@tarojs/taro/types/api/device/phone.d.ts",
+        "./node_modules/@tarojs/taro/types/api/device/scan.d.ts",
+        "./node_modules/@tarojs/taro/types/api/device/screen.d.ts",
+        "./node_modules/@tarojs/taro/types/api/device/vibrate.d.ts",
+        "./node_modules/@tarojs/taro/types/api/device/wifi.d.ts",
+        "./node_modules/@tarojs/taro/types/api/ext/index.d.ts",
+        "./node_modules/@tarojs/taro/types/api/files/index.d.ts",
+        "./node_modules/@tarojs/taro/types/api/framework/index.d.ts",
+        "./node_modules/@tarojs/taro/types/api/index.d.ts",
+        "./node_modules/@tarojs/taro/types/api/location/index.d.ts",
+        "./node_modules/@tarojs/taro/types/api/media/audio.d.ts",
+        "./node_modules/@tarojs/taro/types/api/media/background-audio.d.ts",
+        "./node_modules/@tarojs/taro/types/api/media/camera.d.ts",
+        "./node_modules/@tarojs/taro/types/api/media/editor.d.ts",
+        "./node_modules/@tarojs/taro/types/api/media/image.d.ts",
+        "./node_modules/@tarojs/taro/types/api/media/live.d.ts",
+        "./node_modules/@tarojs/taro/types/api/media/map.d.ts",
+        "./node_modules/@tarojs/taro/types/api/media/recorder.d.ts",
+        "./node_modules/@tarojs/taro/types/api/media/video-processing.d.ts",
+        "./node_modules/@tarojs/taro/types/api/media/video.d.ts",
+        "./node_modules/@tarojs/taro/types/api/network/download.d.ts",
+        "./node_modules/@tarojs/taro/types/api/network/mdns.d.ts",
+        "./node_modules/@tarojs/taro/types/api/network/request.d.ts",
+        "./node_modules/@tarojs/taro/types/api/network/udp.d.ts",
+        "./node_modules/@tarojs/taro/types/api/network/upload.d.ts",
+        "./node_modules/@tarojs/taro/types/api/network/websocket.d.ts",
+        "./node_modules/@tarojs/taro/types/api/open-api/account.d.ts",
+        "./node_modules/@tarojs/taro/types/api/open-api/address.d.ts",
+        "./node_modules/@tarojs/taro/types/api/open-api/authorize.d.ts",
+        "./node_modules/@tarojs/taro/types/api/open-api/card.d.ts",
+        "./node_modules/@tarojs/taro/types/api/open-api/data-analysis.d.ts",
+        "./node_modules/@tarojs/taro/types/api/open-api/facial.d.ts",
+        "./node_modules/@tarojs/taro/types/api/open-api/invoice.d.ts",
+        "./node_modules/@tarojs/taro/types/api/open-api/login.d.ts",
+        "./node_modules/@tarojs/taro/types/api/open-api/navigate.d.ts",
+        "./node_modules/@tarojs/taro/types/api/open-api/payment.d.ts",
+        "./node_modules/@tarojs/taro/types/api/open-api/report.d.ts",
+        "./node_modules/@tarojs/taro/types/api/open-api/settings.d.ts",
+        "./node_modules/@tarojs/taro/types/api/open-api/soter.d.ts",
+        "./node_modules/@tarojs/taro/types/api/open-api/subscribe-message.d.ts",
+        "./node_modules/@tarojs/taro/types/api/open-api/user-info.d.ts",
+        "./node_modules/@tarojs/taro/types/api/open-api/werun.d.ts",
+        "./node_modules/@tarojs/taro/types/api/route/index.d.ts",
+        "./node_modules/@tarojs/taro/types/api/share/index.d.ts",
+        "./node_modules/@tarojs/taro/types/api/storage/background-fetch.d.ts",
+        "./node_modules/@tarojs/taro/types/api/storage/index.d.ts",
+        "./node_modules/@tarojs/taro/types/api/swan/index.d.ts",
+        "./node_modules/@tarojs/taro/types/api/ui/animation.d.ts",
+        "./node_modules/@tarojs/taro/types/api/ui/background.d.ts",
+        "./node_modules/@tarojs/taro/types/api/ui/custom-component.d.ts",
+        "./node_modules/@tarojs/taro/types/api/ui/fonts.d.ts",
+        "./node_modules/@tarojs/taro/types/api/ui/interaction.d.ts",
+        "./node_modules/@tarojs/taro/types/api/ui/keyboard.d.ts",
+        "./node_modules/@tarojs/taro/types/api/ui/menu.d.ts",
+        "./node_modules/@tarojs/taro/types/api/ui/navigation-bar.d.ts",
+        "./node_modules/@tarojs/taro/types/api/ui/pull-down-refresh.d.ts",
+        "./node_modules/@tarojs/taro/types/api/ui/scroll.d.ts",
+        "./node_modules/@tarojs/taro/types/api/ui/sticky.d.ts",
+        "./node_modules/@tarojs/taro/types/api/ui/tab-bar.d.ts",
+        "./node_modules/@tarojs/taro/types/api/ui/window.d.ts",
+        "./node_modules/@tarojs/taro/types/api/worker/index.d.ts",
+        "./node_modules/@tarojs/taro/types/api/wxml/index.d.ts",
+        "./node_modules/@tarojs/taro/types/taro.component.d.ts",
+        "./node_modules/@tarojs/taro/types/taro.config.d.ts",
+        "./node_modules/@tarojs/taro/types/taro.extend.d.ts",
+        "./node_modules/@tarojs/taro/types/taro.hooks.d.ts",
+        "./node_modules/@tarojs/taro/types/taro.lifecycle.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/taro.component.d.ts": [
+        "./node_modules/@tarojs/taro/types/taro.config.d.ts",
+        "./node_modules/@tarojs/taro/types/taro.lifecycle.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/taro.config.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/taro.extend.d.ts": [
+        "./node_modules/@tarojs/taro/types/api/network/request.d.ts",
+        "./node_modules/@tarojs/taro/types/taro.component.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/taro.hooks.d.ts": [
+        "./node_modules/@tarojs/taro/types/taro.component.d.ts",
+        "./node_modules/@tarojs/taro/types/taro.lifecycle.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/taro.lifecycle.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
       "./node_modules/@types/classnames/index.d.ts": [
         "./node_modules/@types/classnames/types.d.ts",
         "./node_modules/@types/node/fs.d.ts",
@@ -1204,19 +2399,6 @@
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts"
       ],
-      "./node_modules/@types/estree/index.d.ts": [
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts",
-        "./node_modules/@types/node/util.d.ts"
-      ],
-      "./node_modules/@types/fs-extra/index.d.ts": [
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts",
-        "./node_modules/@types/node/ts3.7/index.d.ts",
-        "./node_modules/@types/node/util.d.ts"
-      ],
       "./node_modules/@types/glob/index.d.ts": [
         "./node_modules/@types/minimatch/index.d.ts",
         "./node_modules/@types/node/events.d.ts",
@@ -1226,7 +2408,247 @@
         "./node_modules/@types/node/ts3.7/index.d.ts",
         "./node_modules/@types/node/util.d.ts"
       ],
+      "./node_modules/@types/lodash/ts3.1/common/array.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/common/collection.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/common/common.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/common/date.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/common/function.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/common/lang.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/common/math.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/common/number.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/common/object.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/common/seq.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/common/string.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/common/util.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/index.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
       "./node_modules/@types/minimatch/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/minimist/index.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts",
@@ -1251,6 +2673,7 @@
         "./node_modules/@types/node/domain.d.ts",
         "./node_modules/@types/node/events.d.ts",
         "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/fs/promises.d.ts",
         "./node_modules/@types/node/globals.d.ts",
         "./node_modules/@types/node/http.d.ts",
         "./node_modules/@types/node/http2.d.ts",
@@ -1356,10 +2779,17 @@
       ],
       "./node_modules/@types/node/fs.d.ts": [
         "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/fs/promises.d.ts",
         "./node_modules/@types/node/stream.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/url.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/fs/promises.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts"
       ],
       "./node_modules/@types/node/globals.d.ts": [
@@ -1628,13 +3058,25 @@
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts"
       ],
+      "./node_modules/@types/normalize-package-data/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/parse-json/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
       "./node_modules/@types/prop-types/index.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts"
       ],
-      "./node_modules/@types/react-dom/index.d.ts": [
+      "./node_modules/@types/react-is/index.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts",
@@ -1655,13 +3097,6 @@
         "./node_modules/@types/prop-types/index.d.ts",
         "./node_modules/@types/react/global.d.ts",
         "./node_modules/csstype/index.d.ts"
-      ],
-      "./node_modules/@types/resolve/index.d.ts": [
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts",
-        "./node_modules/@types/node/ts3.7/index.d.ts",
-        "./node_modules/@types/node/util.d.ts"
       ],
       "./node_modules/csstype/index.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
@@ -1837,6 +3272,12 @@
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts"
       ],
+      "./node_modules/typescript/lib/lib.es5.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
       "./node_modules/typescript/lib/lib.esnext.intl.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
@@ -1864,6 +3305,24 @@
         "./node_modules/@types/react/index.d.ts",
         "./types/button.d.ts"
       ],
+      "./src/components/lalbum.tsx": [
+        "./node_modules/@tarojs/components/types/image.d.ts",
+        "./node_modules/@tarojs/components/types/index.d.ts",
+        "./node_modules/@tarojs/taro/types/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/react/index.d.ts",
+        "./src/components/lalbumlayout.ts"
+      ],
+      "./src/components/lalbumlayout.ts": [
+        "./node_modules/@tarojs/taro/types/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
       "./src/components/licon.tsx": [
         "./node_modules/@tarojs/components/types/index.d.ts",
         "./node_modules/@types/classnames/index.d.ts",
@@ -1874,10 +3333,13 @@
         "./node_modules/@types/react/index.d.ts"
       ],
       "./src/components/lspin.tsx": [
+        "./node_modules/@tarojs/components/types/index.d.ts",
+        "./node_modules/@types/classnames/index.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts",
-        "./node_modules/@types/node/util.d.ts"
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/react/index.d.ts"
       ],
       "./src/components/ltag.tsx": [
         "./node_modules/@tarojs/components/types/index.d.ts",
@@ -1895,7 +3357,9 @@
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./src/components/button.tsx",
+        "./src/components/lalbum.tsx",
         "./src/components/licon.tsx",
+        "./src/components/lspin.tsx",
         "./src/components/ltag.tsx"
       ],
       "./types/button.d.ts": [
@@ -2324,6 +3788,657 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./node_modules/@tarojs/taro/types/api/ad/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/alipay/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/base/debug.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/base/env.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/base/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/base/system.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/base/update.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/base/weapp/app-event.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/base/weapp/life-cycle.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/canvas/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/cloud/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/device/accelerometer.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/device/battery.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/device/ble.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/device/bluetooth.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/device/clipboard.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/device/compass.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/device/contact.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/device/gyroscope.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/device/ibeacon.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/device/motion.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/device/network.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/device/nfc.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/device/performance.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/device/phone.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/device/scan.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/device/screen.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/device/vibrate.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/device/wifi.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/ext/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/files/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/framework/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/location/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/media/audio.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/media/background-audio.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/media/camera.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/media/editor.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/media/image.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/media/live.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/media/map.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/media/recorder.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/media/video-processing.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/media/video.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/network/download.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/network/mdns.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/network/request.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/network/udp.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/network/upload.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/network/websocket.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/open-api/account.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/open-api/address.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/open-api/authorize.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/open-api/card.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/open-api/data-analysis.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/open-api/facial.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/open-api/invoice.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/open-api/login.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/open-api/navigate.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/open-api/payment.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/open-api/report.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/open-api/settings.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/open-api/soter.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/open-api/subscribe-message.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/open-api/user-info.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/open-api/werun.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/route/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/share/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/storage/background-fetch.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/storage/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/swan/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/ui/animation.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/ui/background.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/ui/custom-component.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/ui/fonts.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/ui/interaction.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/ui/keyboard.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/ui/menu.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/ui/navigation-bar.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/ui/pull-down-refresh.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/ui/scroll.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/ui/sticky.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/ui/tab-bar.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/ui/window.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/worker/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/api/wxml/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/index.d.ts": [
+        "./node_modules/@tarojs/taro/types/api/ad/index.d.ts",
+        "./node_modules/@tarojs/taro/types/api/alipay/index.d.ts",
+        "./node_modules/@tarojs/taro/types/api/base/debug.d.ts",
+        "./node_modules/@tarojs/taro/types/api/base/env.d.ts",
+        "./node_modules/@tarojs/taro/types/api/base/index.d.ts",
+        "./node_modules/@tarojs/taro/types/api/base/system.d.ts",
+        "./node_modules/@tarojs/taro/types/api/base/update.d.ts",
+        "./node_modules/@tarojs/taro/types/api/base/weapp/app-event.d.ts",
+        "./node_modules/@tarojs/taro/types/api/base/weapp/life-cycle.d.ts",
+        "./node_modules/@tarojs/taro/types/api/canvas/index.d.ts",
+        "./node_modules/@tarojs/taro/types/api/cloud/index.d.ts",
+        "./node_modules/@tarojs/taro/types/api/device/accelerometer.d.ts",
+        "./node_modules/@tarojs/taro/types/api/device/battery.d.ts",
+        "./node_modules/@tarojs/taro/types/api/device/ble.d.ts",
+        "./node_modules/@tarojs/taro/types/api/device/bluetooth.d.ts",
+        "./node_modules/@tarojs/taro/types/api/device/clipboard.d.ts",
+        "./node_modules/@tarojs/taro/types/api/device/compass.d.ts",
+        "./node_modules/@tarojs/taro/types/api/device/contact.d.ts",
+        "./node_modules/@tarojs/taro/types/api/device/gyroscope.d.ts",
+        "./node_modules/@tarojs/taro/types/api/device/ibeacon.d.ts",
+        "./node_modules/@tarojs/taro/types/api/device/motion.d.ts",
+        "./node_modules/@tarojs/taro/types/api/device/network.d.ts",
+        "./node_modules/@tarojs/taro/types/api/device/nfc.d.ts",
+        "./node_modules/@tarojs/taro/types/api/device/performance.d.ts",
+        "./node_modules/@tarojs/taro/types/api/device/phone.d.ts",
+        "./node_modules/@tarojs/taro/types/api/device/scan.d.ts",
+        "./node_modules/@tarojs/taro/types/api/device/screen.d.ts",
+        "./node_modules/@tarojs/taro/types/api/device/vibrate.d.ts",
+        "./node_modules/@tarojs/taro/types/api/device/wifi.d.ts",
+        "./node_modules/@tarojs/taro/types/api/ext/index.d.ts",
+        "./node_modules/@tarojs/taro/types/api/files/index.d.ts",
+        "./node_modules/@tarojs/taro/types/api/framework/index.d.ts",
+        "./node_modules/@tarojs/taro/types/api/index.d.ts",
+        "./node_modules/@tarojs/taro/types/api/location/index.d.ts",
+        "./node_modules/@tarojs/taro/types/api/media/audio.d.ts",
+        "./node_modules/@tarojs/taro/types/api/media/background-audio.d.ts",
+        "./node_modules/@tarojs/taro/types/api/media/camera.d.ts",
+        "./node_modules/@tarojs/taro/types/api/media/editor.d.ts",
+        "./node_modules/@tarojs/taro/types/api/media/image.d.ts",
+        "./node_modules/@tarojs/taro/types/api/media/live.d.ts",
+        "./node_modules/@tarojs/taro/types/api/media/map.d.ts",
+        "./node_modules/@tarojs/taro/types/api/media/recorder.d.ts",
+        "./node_modules/@tarojs/taro/types/api/media/video-processing.d.ts",
+        "./node_modules/@tarojs/taro/types/api/media/video.d.ts",
+        "./node_modules/@tarojs/taro/types/api/network/download.d.ts",
+        "./node_modules/@tarojs/taro/types/api/network/mdns.d.ts",
+        "./node_modules/@tarojs/taro/types/api/network/request.d.ts",
+        "./node_modules/@tarojs/taro/types/api/network/udp.d.ts",
+        "./node_modules/@tarojs/taro/types/api/network/upload.d.ts",
+        "./node_modules/@tarojs/taro/types/api/network/websocket.d.ts",
+        "./node_modules/@tarojs/taro/types/api/open-api/account.d.ts",
+        "./node_modules/@tarojs/taro/types/api/open-api/address.d.ts",
+        "./node_modules/@tarojs/taro/types/api/open-api/authorize.d.ts",
+        "./node_modules/@tarojs/taro/types/api/open-api/card.d.ts",
+        "./node_modules/@tarojs/taro/types/api/open-api/data-analysis.d.ts",
+        "./node_modules/@tarojs/taro/types/api/open-api/facial.d.ts",
+        "./node_modules/@tarojs/taro/types/api/open-api/invoice.d.ts",
+        "./node_modules/@tarojs/taro/types/api/open-api/login.d.ts",
+        "./node_modules/@tarojs/taro/types/api/open-api/navigate.d.ts",
+        "./node_modules/@tarojs/taro/types/api/open-api/payment.d.ts",
+        "./node_modules/@tarojs/taro/types/api/open-api/report.d.ts",
+        "./node_modules/@tarojs/taro/types/api/open-api/settings.d.ts",
+        "./node_modules/@tarojs/taro/types/api/open-api/soter.d.ts",
+        "./node_modules/@tarojs/taro/types/api/open-api/subscribe-message.d.ts",
+        "./node_modules/@tarojs/taro/types/api/open-api/user-info.d.ts",
+        "./node_modules/@tarojs/taro/types/api/open-api/werun.d.ts",
+        "./node_modules/@tarojs/taro/types/api/route/index.d.ts",
+        "./node_modules/@tarojs/taro/types/api/share/index.d.ts",
+        "./node_modules/@tarojs/taro/types/api/storage/background-fetch.d.ts",
+        "./node_modules/@tarojs/taro/types/api/storage/index.d.ts",
+        "./node_modules/@tarojs/taro/types/api/swan/index.d.ts",
+        "./node_modules/@tarojs/taro/types/api/ui/animation.d.ts",
+        "./node_modules/@tarojs/taro/types/api/ui/background.d.ts",
+        "./node_modules/@tarojs/taro/types/api/ui/custom-component.d.ts",
+        "./node_modules/@tarojs/taro/types/api/ui/fonts.d.ts",
+        "./node_modules/@tarojs/taro/types/api/ui/interaction.d.ts",
+        "./node_modules/@tarojs/taro/types/api/ui/keyboard.d.ts",
+        "./node_modules/@tarojs/taro/types/api/ui/menu.d.ts",
+        "./node_modules/@tarojs/taro/types/api/ui/navigation-bar.d.ts",
+        "./node_modules/@tarojs/taro/types/api/ui/pull-down-refresh.d.ts",
+        "./node_modules/@tarojs/taro/types/api/ui/scroll.d.ts",
+        "./node_modules/@tarojs/taro/types/api/ui/sticky.d.ts",
+        "./node_modules/@tarojs/taro/types/api/ui/tab-bar.d.ts",
+        "./node_modules/@tarojs/taro/types/api/ui/window.d.ts",
+        "./node_modules/@tarojs/taro/types/api/worker/index.d.ts",
+        "./node_modules/@tarojs/taro/types/api/wxml/index.d.ts",
+        "./node_modules/@tarojs/taro/types/taro.component.d.ts",
+        "./node_modules/@tarojs/taro/types/taro.config.d.ts",
+        "./node_modules/@tarojs/taro/types/taro.extend.d.ts",
+        "./node_modules/@tarojs/taro/types/taro.hooks.d.ts",
+        "./node_modules/@tarojs/taro/types/taro.lifecycle.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/taro.component.d.ts": [
+        "./node_modules/@tarojs/taro/types/taro.config.d.ts",
+        "./node_modules/@tarojs/taro/types/taro.lifecycle.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/taro.config.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/taro.extend.d.ts": [
+        "./node_modules/@tarojs/taro/types/api/network/request.d.ts",
+        "./node_modules/@tarojs/taro/types/taro.component.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/taro.hooks.d.ts": [
+        "./node_modules/@tarojs/taro/types/taro.component.d.ts",
+        "./node_modules/@tarojs/taro/types/taro.lifecycle.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@tarojs/taro/types/taro.lifecycle.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
       "./node_modules/@types/classnames/index.d.ts": [
         "./node_modules/@types/classnames/types.d.ts",
         "./node_modules/@types/node/fs.d.ts",
@@ -2343,19 +4458,6 @@
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts"
       ],
-      "./node_modules/@types/estree/index.d.ts": [
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts",
-        "./node_modules/@types/node/util.d.ts"
-      ],
-      "./node_modules/@types/fs-extra/index.d.ts": [
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts",
-        "./node_modules/@types/node/ts3.7/index.d.ts",
-        "./node_modules/@types/node/util.d.ts"
-      ],
       "./node_modules/@types/glob/index.d.ts": [
         "./node_modules/@types/minimatch/index.d.ts",
         "./node_modules/@types/node/events.d.ts",
@@ -2365,7 +4467,247 @@
         "./node_modules/@types/node/ts3.7/index.d.ts",
         "./node_modules/@types/node/util.d.ts"
       ],
+      "./node_modules/@types/lodash/ts3.1/common/array.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/common/collection.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/common/common.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/common/date.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/common/function.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/common/lang.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/common/math.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/common/number.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/common/object.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/common/seq.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/common/string.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/common/util.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/index.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
       "./node_modules/@types/minimatch/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/minimist/index.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts",
@@ -2390,6 +4732,7 @@
         "./node_modules/@types/node/domain.d.ts",
         "./node_modules/@types/node/events.d.ts",
         "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/fs/promises.d.ts",
         "./node_modules/@types/node/globals.d.ts",
         "./node_modules/@types/node/http.d.ts",
         "./node_modules/@types/node/http2.d.ts",
@@ -2495,10 +4838,17 @@
       ],
       "./node_modules/@types/node/fs.d.ts": [
         "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/fs/promises.d.ts",
         "./node_modules/@types/node/stream.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/url.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/fs/promises.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts"
       ],
       "./node_modules/@types/node/globals.d.ts": [
@@ -2767,13 +5117,25 @@
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts"
       ],
+      "./node_modules/@types/normalize-package-data/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/parse-json/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
       "./node_modules/@types/prop-types/index.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts"
       ],
-      "./node_modules/@types/react-dom/index.d.ts": [
+      "./node_modules/@types/react-is/index.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts",
@@ -2794,13 +5156,6 @@
         "./node_modules/@types/prop-types/index.d.ts",
         "./node_modules/@types/react/global.d.ts",
         "./node_modules/csstype/index.d.ts"
-      ],
-      "./node_modules/@types/resolve/index.d.ts": [
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts",
-        "./node_modules/@types/node/ts3.7/index.d.ts",
-        "./node_modules/@types/node/util.d.ts"
       ],
       "./node_modules/csstype/index.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
@@ -2976,6 +5331,12 @@
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts"
       ],
+      "./node_modules/typescript/lib/lib.es5.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
       "./node_modules/typescript/lib/lib.esnext.intl.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
@@ -2998,7 +5359,14 @@
         "./node_modules/@types/react/index.d.ts",
         "./types/button.d.ts"
       ],
+      "./src/components/lalbum.tsx": [
+        "./node_modules/@tarojs/components/types/image.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./src/components/licon.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/lspin.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
       "./src/components/ltag.tsx": [
@@ -3006,7 +5374,9 @@
       ],
       "./src/index.ts": [
         "./src/components/button.tsx",
+        "./src/components/lalbum.tsx",
         "./src/components/licon.tsx",
+        "./src/components/lspin.tsx",
         "./src/components/ltag.tsx"
       ],
       "./types/button.d.ts": [
@@ -3018,7 +5388,305 @@
         "./node_modules/@types/react/index.d.ts"
       ]
     },
-    "semanticDiagnosticsPerFile": []
+    "semanticDiagnosticsPerFile": [
+      "./node_modules/@tarojs/components/types/ad.d.ts",
+      "./node_modules/@tarojs/components/types/audio.d.ts",
+      "./node_modules/@tarojs/components/types/block.d.ts",
+      "./node_modules/@tarojs/components/types/button.d.ts",
+      "./node_modules/@tarojs/components/types/camera.d.ts",
+      "./node_modules/@tarojs/components/types/canvas.d.ts",
+      "./node_modules/@tarojs/components/types/checkbox.d.ts",
+      "./node_modules/@tarojs/components/types/checkboxgroup.d.ts",
+      "./node_modules/@tarojs/components/types/common.d.ts",
+      "./node_modules/@tarojs/components/types/coverimage.d.ts",
+      "./node_modules/@tarojs/components/types/coverview.d.ts",
+      "./node_modules/@tarojs/components/types/editor.d.ts",
+      "./node_modules/@tarojs/components/types/event.d.ts",
+      "./node_modules/@tarojs/components/types/form.d.ts",
+      "./node_modules/@tarojs/components/types/functionalpagenavigator.d.ts",
+      "./node_modules/@tarojs/components/types/icon.d.ts",
+      "./node_modules/@tarojs/components/types/image.d.ts",
+      "./node_modules/@tarojs/components/types/index.d.ts",
+      "./node_modules/@tarojs/components/types/input.d.ts",
+      "./node_modules/@tarojs/components/types/label.d.ts",
+      "./node_modules/@tarojs/components/types/liveplayer.d.ts",
+      "./node_modules/@tarojs/components/types/livepusher.d.ts",
+      "./node_modules/@tarojs/components/types/map.d.ts",
+      "./node_modules/@tarojs/components/types/movablearea.d.ts",
+      "./node_modules/@tarojs/components/types/movableview.d.ts",
+      "./node_modules/@tarojs/components/types/navigationbar.d.ts",
+      "./node_modules/@tarojs/components/types/navigator.d.ts",
+      "./node_modules/@tarojs/components/types/officialaccount.d.ts",
+      "./node_modules/@tarojs/components/types/opendata.d.ts",
+      "./node_modules/@tarojs/components/types/pagemeta.d.ts",
+      "./node_modules/@tarojs/components/types/picker.d.ts",
+      "./node_modules/@tarojs/components/types/pickerview.d.ts",
+      "./node_modules/@tarojs/components/types/pickerviewcolumn.d.ts",
+      "./node_modules/@tarojs/components/types/progress.d.ts",
+      "./node_modules/@tarojs/components/types/radio.d.ts",
+      "./node_modules/@tarojs/components/types/radiogroup.d.ts",
+      "./node_modules/@tarojs/components/types/richtext.d.ts",
+      "./node_modules/@tarojs/components/types/scrollview.d.ts",
+      "./node_modules/@tarojs/components/types/slider.d.ts",
+      "./node_modules/@tarojs/components/types/swiper.d.ts",
+      "./node_modules/@tarojs/components/types/swiperitem.d.ts",
+      "./node_modules/@tarojs/components/types/switch.d.ts",
+      "./node_modules/@tarojs/components/types/text.d.ts",
+      "./node_modules/@tarojs/components/types/textarea.d.ts",
+      "./node_modules/@tarojs/components/types/video.d.ts",
+      "./node_modules/@tarojs/components/types/view.d.ts",
+      "./node_modules/@tarojs/components/types/webview.d.ts",
+      "./node_modules/@tarojs/taro/types/api/ad/index.d.ts",
+      "./node_modules/@tarojs/taro/types/api/alipay/index.d.ts",
+      "./node_modules/@tarojs/taro/types/api/base/debug.d.ts",
+      "./node_modules/@tarojs/taro/types/api/base/env.d.ts",
+      "./node_modules/@tarojs/taro/types/api/base/index.d.ts",
+      "./node_modules/@tarojs/taro/types/api/base/system.d.ts",
+      "./node_modules/@tarojs/taro/types/api/base/update.d.ts",
+      "./node_modules/@tarojs/taro/types/api/base/weapp/app-event.d.ts",
+      "./node_modules/@tarojs/taro/types/api/base/weapp/life-cycle.d.ts",
+      "./node_modules/@tarojs/taro/types/api/canvas/index.d.ts",
+      "./node_modules/@tarojs/taro/types/api/cloud/index.d.ts",
+      "./node_modules/@tarojs/taro/types/api/device/accelerometer.d.ts",
+      "./node_modules/@tarojs/taro/types/api/device/battery.d.ts",
+      "./node_modules/@tarojs/taro/types/api/device/ble.d.ts",
+      "./node_modules/@tarojs/taro/types/api/device/bluetooth.d.ts",
+      "./node_modules/@tarojs/taro/types/api/device/clipboard.d.ts",
+      "./node_modules/@tarojs/taro/types/api/device/compass.d.ts",
+      "./node_modules/@tarojs/taro/types/api/device/contact.d.ts",
+      "./node_modules/@tarojs/taro/types/api/device/gyroscope.d.ts",
+      "./node_modules/@tarojs/taro/types/api/device/ibeacon.d.ts",
+      "./node_modules/@tarojs/taro/types/api/device/motion.d.ts",
+      "./node_modules/@tarojs/taro/types/api/device/network.d.ts",
+      "./node_modules/@tarojs/taro/types/api/device/nfc.d.ts",
+      "./node_modules/@tarojs/taro/types/api/device/performance.d.ts",
+      "./node_modules/@tarojs/taro/types/api/device/phone.d.ts",
+      "./node_modules/@tarojs/taro/types/api/device/scan.d.ts",
+      "./node_modules/@tarojs/taro/types/api/device/screen.d.ts",
+      "./node_modules/@tarojs/taro/types/api/device/vibrate.d.ts",
+      "./node_modules/@tarojs/taro/types/api/device/wifi.d.ts",
+      "./node_modules/@tarojs/taro/types/api/ext/index.d.ts",
+      "./node_modules/@tarojs/taro/types/api/files/index.d.ts",
+      "./node_modules/@tarojs/taro/types/api/framework/index.d.ts",
+      "./node_modules/@tarojs/taro/types/api/index.d.ts",
+      "./node_modules/@tarojs/taro/types/api/location/index.d.ts",
+      "./node_modules/@tarojs/taro/types/api/media/audio.d.ts",
+      "./node_modules/@tarojs/taro/types/api/media/background-audio.d.ts",
+      "./node_modules/@tarojs/taro/types/api/media/camera.d.ts",
+      "./node_modules/@tarojs/taro/types/api/media/editor.d.ts",
+      "./node_modules/@tarojs/taro/types/api/media/image.d.ts",
+      "./node_modules/@tarojs/taro/types/api/media/live.d.ts",
+      "./node_modules/@tarojs/taro/types/api/media/map.d.ts",
+      "./node_modules/@tarojs/taro/types/api/media/recorder.d.ts",
+      "./node_modules/@tarojs/taro/types/api/media/video-processing.d.ts",
+      "./node_modules/@tarojs/taro/types/api/media/video.d.ts",
+      "./node_modules/@tarojs/taro/types/api/network/download.d.ts",
+      "./node_modules/@tarojs/taro/types/api/network/mdns.d.ts",
+      "./node_modules/@tarojs/taro/types/api/network/request.d.ts",
+      "./node_modules/@tarojs/taro/types/api/network/udp.d.ts",
+      "./node_modules/@tarojs/taro/types/api/network/upload.d.ts",
+      "./node_modules/@tarojs/taro/types/api/network/websocket.d.ts",
+      "./node_modules/@tarojs/taro/types/api/open-api/account.d.ts",
+      "./node_modules/@tarojs/taro/types/api/open-api/address.d.ts",
+      "./node_modules/@tarojs/taro/types/api/open-api/authorize.d.ts",
+      "./node_modules/@tarojs/taro/types/api/open-api/card.d.ts",
+      "./node_modules/@tarojs/taro/types/api/open-api/data-analysis.d.ts",
+      "./node_modules/@tarojs/taro/types/api/open-api/facial.d.ts",
+      "./node_modules/@tarojs/taro/types/api/open-api/invoice.d.ts",
+      "./node_modules/@tarojs/taro/types/api/open-api/login.d.ts",
+      "./node_modules/@tarojs/taro/types/api/open-api/navigate.d.ts",
+      "./node_modules/@tarojs/taro/types/api/open-api/payment.d.ts",
+      "./node_modules/@tarojs/taro/types/api/open-api/report.d.ts",
+      "./node_modules/@tarojs/taro/types/api/open-api/settings.d.ts",
+      "./node_modules/@tarojs/taro/types/api/open-api/soter.d.ts",
+      "./node_modules/@tarojs/taro/types/api/open-api/subscribe-message.d.ts",
+      "./node_modules/@tarojs/taro/types/api/open-api/user-info.d.ts",
+      "./node_modules/@tarojs/taro/types/api/open-api/werun.d.ts",
+      "./node_modules/@tarojs/taro/types/api/route/index.d.ts",
+      "./node_modules/@tarojs/taro/types/api/share/index.d.ts",
+      "./node_modules/@tarojs/taro/types/api/storage/background-fetch.d.ts",
+      "./node_modules/@tarojs/taro/types/api/storage/index.d.ts",
+      "./node_modules/@tarojs/taro/types/api/swan/index.d.ts",
+      "./node_modules/@tarojs/taro/types/api/ui/animation.d.ts",
+      "./node_modules/@tarojs/taro/types/api/ui/background.d.ts",
+      "./node_modules/@tarojs/taro/types/api/ui/custom-component.d.ts",
+      "./node_modules/@tarojs/taro/types/api/ui/fonts.d.ts",
+      "./node_modules/@tarojs/taro/types/api/ui/interaction.d.ts",
+      "./node_modules/@tarojs/taro/types/api/ui/keyboard.d.ts",
+      "./node_modules/@tarojs/taro/types/api/ui/menu.d.ts",
+      "./node_modules/@tarojs/taro/types/api/ui/navigation-bar.d.ts",
+      "./node_modules/@tarojs/taro/types/api/ui/pull-down-refresh.d.ts",
+      "./node_modules/@tarojs/taro/types/api/ui/scroll.d.ts",
+      "./node_modules/@tarojs/taro/types/api/ui/sticky.d.ts",
+      "./node_modules/@tarojs/taro/types/api/ui/tab-bar.d.ts",
+      "./node_modules/@tarojs/taro/types/api/ui/window.d.ts",
+      "./node_modules/@tarojs/taro/types/api/worker/index.d.ts",
+      "./node_modules/@tarojs/taro/types/api/wxml/index.d.ts",
+      "./node_modules/@tarojs/taro/types/index.d.ts",
+      [
+        "./node_modules/@tarojs/taro/types/taro.component.d.ts",
+        [
+          {
+            "file": "./node_modules/@tarojs/taro/types/taro.component.d.ts",
+            "start": 5053,
+            "length": 3,
+            "messageText": "Cannot find namespace 'Vue'.",
+            "category": 1,
+            "code": 2503
+          },
+          {
+            "file": "./node_modules/@tarojs/taro/types/taro.component.d.ts",
+            "start": 5074,
+            "length": 3,
+            "messageText": "Cannot find name 'Vue'.",
+            "category": 1,
+            "code": 2304
+          }
+        ]
+      ],
+      "./node_modules/@tarojs/taro/types/taro.config.d.ts",
+      "./node_modules/@tarojs/taro/types/taro.extend.d.ts",
+      "./node_modules/@tarojs/taro/types/taro.hooks.d.ts",
+      "./node_modules/@tarojs/taro/types/taro.lifecycle.d.ts",
+      "./node_modules/@types/classnames/index.d.ts",
+      "./node_modules/@types/classnames/types.d.ts",
+      "./node_modules/@types/color-name/index.d.ts",
+      "./node_modules/@types/glob/index.d.ts",
+      "./node_modules/@types/lodash/ts3.1/common/array.d.ts",
+      "./node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+      "./node_modules/@types/lodash/ts3.1/common/common.d.ts",
+      "./node_modules/@types/lodash/ts3.1/common/date.d.ts",
+      "./node_modules/@types/lodash/ts3.1/common/function.d.ts",
+      "./node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+      "./node_modules/@types/lodash/ts3.1/common/math.d.ts",
+      "./node_modules/@types/lodash/ts3.1/common/number.d.ts",
+      "./node_modules/@types/lodash/ts3.1/common/object.d.ts",
+      "./node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+      "./node_modules/@types/lodash/ts3.1/common/string.d.ts",
+      "./node_modules/@types/lodash/ts3.1/common/util.d.ts",
+      "./node_modules/@types/lodash/ts3.1/index.d.ts",
+      "./node_modules/@types/minimatch/index.d.ts",
+      "./node_modules/@types/minimist/index.d.ts",
+      "./node_modules/@types/node/async_hooks.d.ts",
+      "./node_modules/@types/node/base.d.ts",
+      "./node_modules/@types/node/buffer.d.ts",
+      "./node_modules/@types/node/child_process.d.ts",
+      "./node_modules/@types/node/cluster.d.ts",
+      "./node_modules/@types/node/console.d.ts",
+      "./node_modules/@types/node/constants.d.ts",
+      "./node_modules/@types/node/crypto.d.ts",
+      "./node_modules/@types/node/dgram.d.ts",
+      "./node_modules/@types/node/dns.d.ts",
+      "./node_modules/@types/node/domain.d.ts",
+      "./node_modules/@types/node/events.d.ts",
+      "./node_modules/@types/node/fs.d.ts",
+      "./node_modules/@types/node/fs/promises.d.ts",
+      "./node_modules/@types/node/globals.d.ts",
+      "./node_modules/@types/node/http.d.ts",
+      "./node_modules/@types/node/http2.d.ts",
+      "./node_modules/@types/node/https.d.ts",
+      "./node_modules/@types/node/inspector.d.ts",
+      "./node_modules/@types/node/module.d.ts",
+      "./node_modules/@types/node/net.d.ts",
+      "./node_modules/@types/node/os.d.ts",
+      "./node_modules/@types/node/path.d.ts",
+      "./node_modules/@types/node/perf_hooks.d.ts",
+      "./node_modules/@types/node/process.d.ts",
+      "./node_modules/@types/node/punycode.d.ts",
+      "./node_modules/@types/node/querystring.d.ts",
+      "./node_modules/@types/node/readline.d.ts",
+      "./node_modules/@types/node/repl.d.ts",
+      "./node_modules/@types/node/stream.d.ts",
+      "./node_modules/@types/node/string_decoder.d.ts",
+      "./node_modules/@types/node/timers.d.ts",
+      "./node_modules/@types/node/tls.d.ts",
+      "./node_modules/@types/node/trace_events.d.ts",
+      "./node_modules/@types/node/ts3.2/base.d.ts",
+      "./node_modules/@types/node/ts3.2/fs.d.ts",
+      "./node_modules/@types/node/ts3.2/globals.d.ts",
+      "./node_modules/@types/node/ts3.2/util.d.ts",
+      "./node_modules/@types/node/ts3.5/base.d.ts",
+      "./node_modules/@types/node/ts3.5/globals.global.d.ts",
+      "./node_modules/@types/node/ts3.5/wasi.d.ts",
+      "./node_modules/@types/node/ts3.7/assert.d.ts",
+      "./node_modules/@types/node/ts3.7/base.d.ts",
+      "./node_modules/@types/node/ts3.7/index.d.ts",
+      "./node_modules/@types/node/tty.d.ts",
+      "./node_modules/@types/node/url.d.ts",
+      "./node_modules/@types/node/util.d.ts",
+      "./node_modules/@types/node/v8.d.ts",
+      "./node_modules/@types/node/vm.d.ts",
+      "./node_modules/@types/node/worker_threads.d.ts",
+      "./node_modules/@types/node/zlib.d.ts",
+      "./node_modules/@types/normalize-package-data/index.d.ts",
+      "./node_modules/@types/parse-json/index.d.ts",
+      "./node_modules/@types/prop-types/index.d.ts",
+      "./node_modules/@types/react-is/index.d.ts",
+      "./node_modules/@types/react/global.d.ts",
+      "./node_modules/@types/react/index.d.ts",
+      "./node_modules/csstype/index.d.ts",
+      "./node_modules/typescript/lib/lib.dom.d.ts",
+      "./node_modules/typescript/lib/lib.dom.iterable.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.core.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.generator.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.promise.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.proxy.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.reflect.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+      "./node_modules/typescript/lib/lib.es2016.array.include.d.ts",
+      "./node_modules/typescript/lib/lib.es2016.d.ts",
+      "./node_modules/typescript/lib/lib.es2017.d.ts",
+      "./node_modules/typescript/lib/lib.es2017.full.d.ts",
+      "./node_modules/typescript/lib/lib.es2017.intl.d.ts",
+      "./node_modules/typescript/lib/lib.es2017.object.d.ts",
+      "./node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts",
+      "./node_modules/typescript/lib/lib.es2017.string.d.ts",
+      "./node_modules/typescript/lib/lib.es2017.typedarrays.d.ts",
+      "./node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts",
+      "./node_modules/typescript/lib/lib.es2018.asynciterable.d.ts",
+      "./node_modules/typescript/lib/lib.es2018.d.ts",
+      "./node_modules/typescript/lib/lib.es2018.intl.d.ts",
+      "./node_modules/typescript/lib/lib.es2018.promise.d.ts",
+      "./node_modules/typescript/lib/lib.es2018.regexp.d.ts",
+      "./node_modules/typescript/lib/lib.es2020.bigint.d.ts",
+      "./node_modules/typescript/lib/lib.es5.d.ts",
+      "./node_modules/typescript/lib/lib.esnext.intl.d.ts",
+      "./node_modules/typescript/lib/lib.scripthost.d.ts",
+      "./node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
+      "./src/components/button.tsx",
+      "./src/components/lalbum.tsx",
+      [
+        "./src/components/lalbumlayout.ts",
+        [
+          {
+            "file": "./src/components/lalbumlayout.ts",
+            "start": 99,
+            "length": 11,
+            "messageText": "Expected 1 arguments, but got 2.",
+            "category": 1,
+            "code": 2554
+          },
+          {
+            "file": "./src/components/lalbumlayout.ts",
+            "start": 174,
+            "length": 9,
+            "messageText": "'gapColumn' is declared but its value is never read.",
+            "category": 1,
+            "code": 6133,
+            "reportsUnnecessary": true
+          }
+        ]
+      ],
+      "./src/components/licon.tsx",
+      "./src/components/lspin.tsx",
+      "./src/components/ltag.tsx",
+      "./src/index.ts",
+      "./types/button.d.ts"
+    ]
   },
   "version": "3.9.5"
 }

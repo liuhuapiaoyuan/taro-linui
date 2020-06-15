@@ -26,18 +26,20 @@
     "@tarojs/react": "3.0.0-beta.5",
     "@tarojs/runtime": "3.0.0-beta.5",
     "@tarojs/taro": "3.0.0-beta.5",
-    "react": "^16.10.0",
-    "react-dom": "^16.10.0"
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
   },
   "devDependencies": {
     "@babel/core": "^7.8.0",
     "@tarojs/cli": "3.0.0-beta.5",
     "@tarojs/mini-runner": "3.0.0-beta.5",
     "@tarojs/webpack-runner": "3.0.0-beta.5",
-    "@types/react": "^16.0.0",
+    "@types/react": "^16.9.23",
+    "@types/react-dom": "^16.9.5",
     "@types/webpack-env": "^1.13.6",
     "babel-preset-taro": "3.0.0-beta.5",
     "eslint-config-taro": "3.0.0-beta.5",
-    "typescript": "^3.8.3"
+    "typescript": "^3.8.3",
+    "webpack-bundle-analyzer": "^3.8.0"
   }
 }

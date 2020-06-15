@@ -2,10 +2,8 @@ import React from 'react'
 import {View} from '@tarojs/components'
 import {LButtonProps} from '../../types/Button'
 
-
-
 import '../../style/Button.less'
-
+  
  
 
 const LButton : React.FC<LButtonProps> = props=>{
