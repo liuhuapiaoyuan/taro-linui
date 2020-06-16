@@ -1,13 +1,15 @@
-import React,{useState,useRef,useEffect,useLayoutEffect} from 'react'
+import React,{useState,useLayoutEffect} from 'react'
 import Taro from '@tarojs/taro'
 import {View,Image} from '@tarojs/components'
 import { ImageProps } from '@tarojs/components/types/Image'
 import {containerStyle,blockClass,blockStyle} from './LAlbumLayout'
+import classnames from 'classnames'
 import '../../style/LAlbum.less'
-import { reject } from 'lodash'
+
 
 export interface LAlbumProps  {
   className?: string
+  style?: React.CSSProperties
   children?:React.ReactChild
   /** 图片链接 ,老模式：url数组，新模式则传入一个对象 */
   urls:string[]
@@ -38,26 +40,29 @@ async function horizontalOrVertical(imgUrl,singleSize):Promise<any>{
         shortSideValue: shortSide * singleSize / longSide
     }
 } 
-//查询dom的宽度和高度
+//查询dom的宽度和高度，注意这里获得的是一个px单位
 async function getDOMRect(id){
   const query = Taro.createSelectorQuery();
-  return new Promise(reslove=>{
-    Taro.nextTick(()=>{
-      console.log('0-000')
-      query.select('#'+id).boundingClientRect()
-      query.exec(res=>{
-        console.log(res) 
-        if(res[0]==null){return reject('Cannot find the #'+id+' selector')}
-        reslove({
-          width:res[0].width,
-          height:res[0].height,
-        })
+  return new Promise((reslove,reject)=>{
+    query.select('#'+id).boundingClientRect()
+    query.exec(res=>{
+      if(res[0]==null){return reject('Cannot find the #'+id+' selector')}
+      reslove({
+        width:res[0].width,
+        height:res[0].height,
       })
     })
   })  
 }
+
+//不断查询直到有结果
+function poll(promiseFunc){
+  return promiseFunc().catch(()=>new Promise(reslove=>Taro.nextTick(()=>reslove(poll(promiseFunc)))))
+}
 const LAlbum : React.FC<LAlbumProps> = props=>{
   const {
+    className,
+    style,
     urls,
     singleSize,multipleSize, gapRow, gapColumn,
     singleMode,multipleMode,
@@ -71,8 +76,7 @@ const LAlbum : React.FC<LAlbumProps> = props=>{
   const showUrls= urls.slice(0, 9)
   //计算horizontalScreen,shortSideValue
   const [calValues,setCalValues] = useState({horizontalScreen:0,shortSideValue:0})
-  const [id] = useState("L"+Date.now()+"" + Math.round(Math.random()*1000))
-  const containerRef = useRef("");
+  const [id] = useState("L"+Date.now()+"" + Math.round(Math.random()*1000)) 
   useLayoutEffect(()=>{
     horizontalOrVertical(urls[0],singleSize)
     .then(setCalValues)
@@ -80,31 +84,27 @@ const LAlbum : React.FC<LAlbumProps> = props=>{
     if(urls.length > 9){
         console.warn('超过9张图片,只能显示9张图片！');
     }
-    getDOMRect(id).then(e=>console.log(e))
-    .catch(console.error)
-
-  },[urls[0]])
-  useEffect(()=>{
-    const query = Taro.createSelectorQuery();
-    Taro.createSelectorQuery().select('#'+id).boundingClientRect(console.log)
-  },[])
-  return  <View ref={containerRef} id={id} className="container l-class" 
-    style={containerStyle(showUrls,multipleSize, gapRow, gapColumn)}>
-  {
-    showUrls.map((url,index)=><Image
-    key={index+url}   
-    className={blockClass(showUrls, calValues.horizontalScreen)}
-    style={blockStyle(showUrls, calValues.horizontalScreen, calValues.shortSideValue, 
-        singleSize, multipleSize)} 
-     src={url}
-    mode={showUrls.length === 1?singleMode:multipleMode} 
-    onClick={()=>{
-        preview && Taro.previewImage({current: url,urls:showUrls});
-        (!!onImageClick) && onImageClick(index,url,showUrls)
-    }}
-    />)
-  }
-</View>
+    poll(()=>getDOMRect(id)).then(console.log)
+  },[urls[0]]) 
+  return  <View  id={id}  style={style}>
+    <View className={classnames("container",className)} 
+      style={containerStyle(showUrls,multipleSize, gapRow, gapColumn)}>
+    {
+      showUrls.map((url,index)=><Image
+      key={index+url}   
+      className={blockClass(showUrls, calValues.horizontalScreen)}
+      style={blockStyle(showUrls, calValues.horizontalScreen, calValues.shortSideValue, 
+          singleSize, multipleSize)} 
+      src={url}
+      mode={showUrls.length === 1?singleMode:multipleMode} 
+      onClick={()=>{
+          preview && Taro.previewImage({current: url,urls:showUrls});
+          (!!onImageClick) && onImageClick(index,url,showUrls)
+      }}
+      />)
+    }
+  </View>
+  </View>
 
 }  
 

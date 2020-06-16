@@ -33,9 +33,9 @@ const Home =  ()=>{
       <View>查看头像组件</View>
       <LAvatar/>
       <LAvatar shape="square"/>
-      <View>
+      <View> 
       =========查看Album组件
-      <LAlbum urls={[
+      <LAlbum style={{width:'600rpx'}} urls={[
         'http://qiniu.9981soft.com/Ft976dxPRnGHeDrKaMfOmOTfIXLQ',
         'http://qiniu.9981soft.com/FmuYWs_OMWA3nYYb4l4hebf5PbbW',
         'http://qiniu.9981soft.com/FjBCDRqa-yvLYDNYElaa9ENaWc4X',
