@@ -426,31 +426,6 @@
         "signature": "d22e870fef25a052477d24f34356470262881420c8b058c89d86392de6502c42",
         "affectsGlobalScope": false
       },
-      "./src/components/licon.tsx": {
-        "version": "77a97fa425ed64d0046b483389e6365b1f0963f06b35e9a1f94c58c0f1bab652",
-        "signature": "4a309c16603fac186e5078735df4c1e5be712ab0ccad535b5f1d60882159f34f",
-        "affectsGlobalScope": false
-      },
-      "./types/button.d.ts": {
-        "version": "7a1cfadd9702446e161b55ca14fa1b66bc7ad333ceedf0e12a72b4dfff5ab0c3",
-        "signature": "7a1cfadd9702446e161b55ca14fa1b66bc7ad333ceedf0e12a72b4dfff5ab0c3",
-        "affectsGlobalScope": false
-      },
-      "./src/components/button.tsx": {
-        "version": "b1f8cb3e9c9c0f446b7aea95ec1e5b9584c083c174fcfbd399e06fabc88d3218",
-        "signature": "2e659bc01949df0aff6907d2c3d5f8fb4c06d002f928317bf900eb401cd0cc1e",
-        "affectsGlobalScope": false
-      },
-      "./src/components/ltag.tsx": {
-        "version": "c5b4925ddf3a76a55ae6fe4444c23ce85b173d45f314b33be123c2c68a983ee2",
-        "signature": "41d9aaee91693f63ab39855967fecaeafc6c179a8167009d5f27a7fc4d7271ea",
-        "affectsGlobalScope": false
-      },
-      "./src/components/lspin.tsx": {
-        "version": "2ec97a6badcfacf929ebeb96eb8049c53e90a4c8052fd4aac318fe24f067abbe",
-        "signature": "485d0286dc2d0b02b4a6e84ad518b9ef4d99aed693759e0d8a205eca0704453d",
-        "affectsGlobalScope": false
-      },
       "./node_modules/@tarojs/taro/types/taro.lifecycle.d.ts": {
         "version": "3fb9d6970b7ed44672a84a52834af84091d16a3dbe6feed9440e711b30e37e96",
         "signature": "3fb9d6970b7ed44672a84a52834af84091d16a3dbe6feed9440e711b30e37e96",
@@ -911,19 +886,124 @@
         "signature": "10eb3d513617f4106964e50683ae5c4e88c115f13e39d653051c455cca680734",
         "affectsGlobalScope": false
       },
+      "./src/px.ts": {
+        "version": "6204328dc5baaf4ad181a107ba9ee50c8baab75943232f6f829dd0c5898dca13",
+        "signature": "994481ff1d6954473cbeec2f9ca20d103c9dc68c5b94412c813b01ac58d50820",
+        "affectsGlobalScope": false
+      },
+      "./src/components/licon.tsx": {
+        "version": "2d3bc79811e5e0fb01e78fc77633fd5adeb31c2581da35d4c7409c8b99a8b933",
+        "signature": "b586fe8ce98ce3bf70d80f8ec290dff1e00ab6b97f0111a2508de82122549c2d",
+        "affectsGlobalScope": false
+      },
+      "./src/components/lbutton.tsx": {
+        "version": "16b5c49c7d3b92998011553e5ead5d6b3722afa45c95720ffe18c861f3456941",
+        "signature": "b1e1ba955dab6605a335600c3c8db0523bff41be60fb38ad249daf05a3ea34ed",
+        "affectsGlobalScope": false
+      },
+      "./src/components/ltag.tsx": {
+        "version": "c5b4925ddf3a76a55ae6fe4444c23ce85b173d45f314b33be123c2c68a983ee2",
+        "signature": "41d9aaee91693f63ab39855967fecaeafc6c179a8167009d5f27a7fc4d7271ea",
+        "affectsGlobalScope": false
+      },
+      "./src/components/lspin.tsx": {
+        "version": "2ec97a6badcfacf929ebeb96eb8049c53e90a4c8052fd4aac318fe24f067abbe",
+        "signature": "485d0286dc2d0b02b4a6e84ad518b9ef4d99aed693759e0d8a205eca0704453d",
+        "affectsGlobalScope": false
+      },
       "./src/components/lalbumlayout.ts": {
         "version": "2cd041ee4ebbfbeea74abd623a597946eab91c65848cab99072d33640350ff1e",
         "signature": "4f1c9f9b6b4a73cee21fc82483cacaece513bb4c666f49dae87e263dca6d73e4",
         "affectsGlobalScope": false
       },
+      "./node_modules/@types/lodash/ts3.1/common/common.d.ts": {
+        "version": "4025cf62742c5bb3d383c8a62342481622c87e3397ea5e7b7baab18b9efd5798",
+        "signature": "4025cf62742c5bb3d383c8a62342481622c87e3397ea5e7b7baab18b9efd5798",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/lodash/ts3.1/common/array.d.ts": {
+        "version": "f6a75f23e42dc475bdd7fefa8c527a3c5ed502ad371900abe9d138a9010ad80a",
+        "signature": "f6a75f23e42dc475bdd7fefa8c527a3c5ed502ad371900abe9d138a9010ad80a",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/lodash/ts3.1/common/collection.d.ts": {
+        "version": "0c75b204aed9cf6ff1c7b4bed87a3ece0d9d6fc857a6350c0c95ed0c38c814e8",
+        "signature": "0c75b204aed9cf6ff1c7b4bed87a3ece0d9d6fc857a6350c0c95ed0c38c814e8",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/lodash/ts3.1/common/date.d.ts": {
+        "version": "187119ff4f9553676a884e296089e131e8cc01691c546273b1d0089c3533ce42",
+        "signature": "187119ff4f9553676a884e296089e131e8cc01691c546273b1d0089c3533ce42",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/lodash/ts3.1/common/function.d.ts": {
+        "version": "035b95793288bf4457a2b80bfe9b7500a29324ad62adcf9991277198e8833096",
+        "signature": "035b95793288bf4457a2b80bfe9b7500a29324ad62adcf9991277198e8833096",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/lodash/ts3.1/common/lang.d.ts": {
+        "version": "f612468e9c3edff588905c4c4f512487a13ac32ffbd291fe07696268ab8c8dfa",
+        "signature": "f612468e9c3edff588905c4c4f512487a13ac32ffbd291fe07696268ab8c8dfa",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/lodash/ts3.1/common/math.d.ts": {
+        "version": "65648639567d214f62c1b21d200c852807e68bdb08311f95ab6f526ef5b98995",
+        "signature": "65648639567d214f62c1b21d200c852807e68bdb08311f95ab6f526ef5b98995",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/lodash/ts3.1/common/number.d.ts": {
+        "version": "00baffbe8a2f2e4875367479489b5d43b5fc1429ecb4a4cc98cfc3009095f52a",
+        "signature": "00baffbe8a2f2e4875367479489b5d43b5fc1429ecb4a4cc98cfc3009095f52a",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/lodash/ts3.1/common/object.d.ts": {
+        "version": "7fc5a3d7cff296cea5c225911726a56283b663328709088fcc912d61f73682fc",
+        "signature": "7fc5a3d7cff296cea5c225911726a56283b663328709088fcc912d61f73682fc",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/lodash/ts3.1/common/seq.d.ts": {
+        "version": "3c92b6dfd43cc1c2485d9eba5ff0b74a19bb8725b692773ef1d66dac48cda4bd",
+        "signature": "3c92b6dfd43cc1c2485d9eba5ff0b74a19bb8725b692773ef1d66dac48cda4bd",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/lodash/ts3.1/common/string.d.ts": {
+        "version": "e34f3f6159b1e23de9bb5521382795aaa5aaed6f53b4702e70a2ec45bc76ddb5",
+        "signature": "e34f3f6159b1e23de9bb5521382795aaa5aaed6f53b4702e70a2ec45bc76ddb5",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/lodash/ts3.1/common/util.d.ts": {
+        "version": "2630a7cbb597e85d713b7ef47f2946d4280d3d4c02733282770741d40672b1a5",
+        "signature": "2630a7cbb597e85d713b7ef47f2946d4280d3d4c02733282770741d40672b1a5",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/lodash/ts3.1/index.d.ts": {
+        "version": "bbf144d4354e2aaa6439f32761f3ee798cc68d1600adab6e2a596f25269f106d",
+        "signature": "bbf144d4354e2aaa6439f32761f3ee798cc68d1600adab6e2a596f25269f106d",
+        "affectsGlobalScope": true
+      },
       "./src/components/lalbum.tsx": {
-        "version": "d72ed047dbae6001d6e8b0763bd84c86ea7273f1c8cf27a72b6e15e24e2cb184",
+        "version": "473a4ae0f48072e47b9f5c944a204ec24de4933be66f908c96e849e8ed101b53",
         "signature": "965b5be5b6845d1b9ee22d1b0dbdbedaa057920a897c40c380b87dbb47a9e766",
         "affectsGlobalScope": false
       },
+      "./src/components/lavatar.tsx": {
+        "version": "d0cfe341eed03d33c4a615121040a484fa91cc4c7ee8550940ff6901447fe3d3",
+        "signature": "77d617aef6cc2072bc6af57a2a379355f9c4620967764d9cc3ab8e8097dd678a",
+        "affectsGlobalScope": false
+      },
+      "./src/components/lactionsheet.tsx": {
+        "version": "71183c60e4c546ac8822ce0f613af6c7623db7bf561c1ac28a1589b7ed45fafe",
+        "signature": "ad845c7f3ffec88ed9ca885934a42e3c6d1e6635d640acdf4d8e5806f3266296",
+        "affectsGlobalScope": false
+      },
+      "./src/components/lpopup.tsx": {
+        "version": "bf2c16d9d56ccbae138cef903f38b6145a296abcc7591b1e657ccc5c0b37a847",
+        "signature": "c25f743b35ab34950ee351c1b3f634fc840924683b03cb109b464362d57922f6",
+        "affectsGlobalScope": false
+      },
       "./src/index.ts": {
-        "version": "6ac62ea79be9b2bcb3ad0244e33928dadd1b066719af1e3930b5b18d7acaeb50",
-        "signature": "6c80f28f6065771a01cc82ab0ae0efda61ffb1d3c7c4e3cb4bcacdc34f98be69",
+        "version": "53ad1bb8e0a4c133b395b9dcd53450e802869ad893ca42314a93146251e06dc6",
+        "signature": "4686bab5e56c53f4f79684972c4d28cb0a17b8069a155d0fc686fc8ac9e3fc31",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/color-name/index.d.ts": {
@@ -1195,71 +1275,6 @@
         "version": "64ef5112114bdd77304acb548f93777b263bbf57272776139425a58f68a10775",
         "signature": "64ef5112114bdd77304acb548f93777b263bbf57272776139425a58f68a10775",
         "affectsGlobalScope": false
-      },
-      "./node_modules/@types/lodash/ts3.1/common/common.d.ts": {
-        "version": "4025cf62742c5bb3d383c8a62342481622c87e3397ea5e7b7baab18b9efd5798",
-        "signature": "4025cf62742c5bb3d383c8a62342481622c87e3397ea5e7b7baab18b9efd5798",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/lodash/ts3.1/common/array.d.ts": {
-        "version": "f6a75f23e42dc475bdd7fefa8c527a3c5ed502ad371900abe9d138a9010ad80a",
-        "signature": "f6a75f23e42dc475bdd7fefa8c527a3c5ed502ad371900abe9d138a9010ad80a",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/lodash/ts3.1/common/collection.d.ts": {
-        "version": "0c75b204aed9cf6ff1c7b4bed87a3ece0d9d6fc857a6350c0c95ed0c38c814e8",
-        "signature": "0c75b204aed9cf6ff1c7b4bed87a3ece0d9d6fc857a6350c0c95ed0c38c814e8",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/lodash/ts3.1/common/date.d.ts": {
-        "version": "187119ff4f9553676a884e296089e131e8cc01691c546273b1d0089c3533ce42",
-        "signature": "187119ff4f9553676a884e296089e131e8cc01691c546273b1d0089c3533ce42",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/lodash/ts3.1/common/function.d.ts": {
-        "version": "035b95793288bf4457a2b80bfe9b7500a29324ad62adcf9991277198e8833096",
-        "signature": "035b95793288bf4457a2b80bfe9b7500a29324ad62adcf9991277198e8833096",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/lodash/ts3.1/common/lang.d.ts": {
-        "version": "f612468e9c3edff588905c4c4f512487a13ac32ffbd291fe07696268ab8c8dfa",
-        "signature": "f612468e9c3edff588905c4c4f512487a13ac32ffbd291fe07696268ab8c8dfa",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/lodash/ts3.1/common/math.d.ts": {
-        "version": "65648639567d214f62c1b21d200c852807e68bdb08311f95ab6f526ef5b98995",
-        "signature": "65648639567d214f62c1b21d200c852807e68bdb08311f95ab6f526ef5b98995",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/lodash/ts3.1/common/number.d.ts": {
-        "version": "00baffbe8a2f2e4875367479489b5d43b5fc1429ecb4a4cc98cfc3009095f52a",
-        "signature": "00baffbe8a2f2e4875367479489b5d43b5fc1429ecb4a4cc98cfc3009095f52a",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/lodash/ts3.1/common/object.d.ts": {
-        "version": "7fc5a3d7cff296cea5c225911726a56283b663328709088fcc912d61f73682fc",
-        "signature": "7fc5a3d7cff296cea5c225911726a56283b663328709088fcc912d61f73682fc",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/lodash/ts3.1/common/seq.d.ts": {
-        "version": "3c92b6dfd43cc1c2485d9eba5ff0b74a19bb8725b692773ef1d66dac48cda4bd",
-        "signature": "3c92b6dfd43cc1c2485d9eba5ff0b74a19bb8725b692773ef1d66dac48cda4bd",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/lodash/ts3.1/common/string.d.ts": {
-        "version": "e34f3f6159b1e23de9bb5521382795aaa5aaed6f53b4702e70a2ec45bc76ddb5",
-        "signature": "e34f3f6159b1e23de9bb5521382795aaa5aaed6f53b4702e70a2ec45bc76ddb5",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/lodash/ts3.1/common/util.d.ts": {
-        "version": "2630a7cbb597e85d713b7ef47f2946d4280d3d4c02733282770741d40672b1a5",
-        "signature": "2630a7cbb597e85d713b7ef47f2946d4280d3d4c02733282770741d40672b1a5",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/lodash/ts3.1/index.d.ts": {
-        "version": "bbf144d4354e2aaa6439f32761f3ee798cc68d1600adab6e2a596f25269f106d",
-        "signature": "bbf144d4354e2aaa6439f32761f3ee798cc68d1600adab6e2a596f25269f106d",
-        "affectsGlobalScope": true
       },
       "./node_modules/@types/minimist/index.d.ts": {
         "version": "3602dfff3072caea42f23a9b63fb34a7b0c95a62b93ce2add5fe6b159447845e",
@@ -3296,19 +3311,21 @@
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts"
       ],
-      "./src/components/button.tsx": [
+      "./src/components/lactionsheet.tsx": [
+        "./node_modules/@tarojs/components/types/common.d.ts",
         "./node_modules/@tarojs/components/types/index.d.ts",
+        "./node_modules/@types/classnames/index.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/react/index.d.ts",
-        "./types/button.d.ts"
+        "./node_modules/@types/react/index.d.ts"
       ],
       "./src/components/lalbum.tsx": [
         "./node_modules/@tarojs/components/types/image.d.ts",
         "./node_modules/@tarojs/components/types/index.d.ts",
         "./node_modules/@tarojs/taro/types/index.d.ts",
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts",
@@ -3323,7 +3340,42 @@
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts"
       ],
+      "./src/components/lavatar.tsx": [
+        "./node_modules/@tarojs/components/types/image.d.ts",
+        "./node_modules/@tarojs/components/types/index.d.ts",
+        "./node_modules/@types/classnames/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/react/index.d.ts",
+        "./src/components/licon.tsx",
+        "./src/px.ts"
+      ],
+      "./src/components/lbutton.tsx": [
+        "./node_modules/@tarojs/components/types/button.d.ts",
+        "./node_modules/@tarojs/components/types/index.d.ts",
+        "./node_modules/@types/classnames/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/react/index.d.ts",
+        "./src/components/licon.tsx",
+        "./src/px.ts"
+      ],
       "./src/components/licon.tsx": [
+        "./node_modules/@tarojs/components/types/index.d.ts",
+        "./node_modules/@types/classnames/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/react/index.d.ts",
+        "./src/px.ts"
+      ],
+      "./src/components/lpopup.tsx": [
+        "./node_modules/@tarojs/components/types/common.d.ts",
         "./node_modules/@tarojs/components/types/index.d.ts",
         "./node_modules/@types/classnames/index.d.ts",
         "./node_modules/@types/node/fs.d.ts",
@@ -3356,19 +3408,21 @@
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts",
-        "./src/components/button.tsx",
+        "./src/components/lactionsheet.tsx",
         "./src/components/lalbum.tsx",
+        "./src/components/lavatar.tsx",
+        "./src/components/lbutton.tsx",
         "./src/components/licon.tsx",
+        "./src/components/lpopup.tsx",
         "./src/components/lspin.tsx",
         "./src/components/ltag.tsx"
       ],
-      "./types/button.d.ts": [
-        "./node_modules/@tarojs/components/types/common.d.ts",
+      "./src/px.ts": [
+        "./node_modules/@tarojs/taro/types/index.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/react/index.d.ts"
+        "./node_modules/@types/node/util.d.ts"
       ]
     },
     "exportedModulesMap": {
@@ -5355,15 +5409,27 @@
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts"
       ],
-      "./src/components/button.tsx": [
-        "./node_modules/@types/react/index.d.ts",
-        "./types/button.d.ts"
+      "./src/components/lactionsheet.tsx": [
+        "./node_modules/@tarojs/components/types/common.d.ts",
+        "./node_modules/@types/react/index.d.ts"
       ],
       "./src/components/lalbum.tsx": [
         "./node_modules/@tarojs/components/types/image.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./src/components/lavatar.tsx": [
+        "./node_modules/@tarojs/components/types/image.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/lbutton.tsx": [
+        "./node_modules/@tarojs/components/types/button.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./src/components/licon.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/lpopup.tsx": [
+        "./node_modules/@tarojs/components/types/common.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
       "./src/components/lspin.tsx": [
@@ -5373,19 +5439,14 @@
         "./node_modules/@types/react/index.d.ts"
       ],
       "./src/index.ts": [
-        "./src/components/button.tsx",
+        "./src/components/lactionsheet.tsx",
         "./src/components/lalbum.tsx",
+        "./src/components/lavatar.tsx",
+        "./src/components/lbutton.tsx",
         "./src/components/licon.tsx",
+        "./src/components/lpopup.tsx",
         "./src/components/lspin.tsx",
         "./src/components/ltag.tsx"
-      ],
-      "./types/button.d.ts": [
-        "./node_modules/@tarojs/components/types/common.d.ts",
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/react/index.d.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -5657,8 +5718,87 @@
       "./node_modules/typescript/lib/lib.esnext.intl.d.ts",
       "./node_modules/typescript/lib/lib.scripthost.d.ts",
       "./node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
-      "./src/components/button.tsx",
-      "./src/components/lalbum.tsx",
+      [
+        "./src/components/lactionsheet.tsx",
+        [
+          {
+            "file": "./src/components/lactionsheet.tsx",
+            "start": 859,
+            "length": 6,
+            "messageText": "'zIndex' is declared but its value is never read.",
+            "category": 1,
+            "code": 6133,
+            "reportsUnnecessary": true
+          },
+          {
+            "file": "./src/components/lactionsheet.tsx",
+            "start": 892,
+            "length": 4,
+            "messageText": "'show' is declared but its value is never read.",
+            "category": 1,
+            "code": 6133,
+            "reportsUnnecessary": true
+          },
+          {
+            "file": "./src/components/lactionsheet.tsx",
+            "start": 1567,
+            "length": 8,
+            "messageText": "Cannot find name 'isOpened'.",
+            "category": 1,
+            "code": 2304
+          }
+        ]
+      ],
+      [
+        "./src/components/lalbum.tsx",
+        [
+          {
+            "file": "./src/components/lalbum.tsx",
+            "start": 2652,
+            "length": 5,
+            "messageText": "'query' is declared but its value is never read.",
+            "category": 1,
+            "code": 6133,
+            "reportsUnnecessary": true
+          },
+          {
+            "file": "./src/components/lalbum.tsx",
+            "start": 2793,
+            "length": 3,
+            "code": 2322,
+            "category": 1,
+            "messageText": {
+              "messageText": "Type 'MutableRefObject<string>' is not assignable to type 'string | ((node: any) => any) | undefined'.",
+              "category": 1,
+              "code": 2322,
+              "next": [
+                {
+                  "messageText": "Type 'MutableRefObject<string>' is not assignable to type '(node: any) => any'.",
+                  "category": 1,
+                  "code": 2322,
+                  "next": [
+                    {
+                      "messageText": "Type 'MutableRefObject<string>' provides no match for the signature '(node: any): any'.",
+                      "category": 1,
+                      "code": 2658
+                    }
+                  ]
+                }
+              ]
+            },
+            "relatedInformation": [
+              {
+                "file": "./node_modules/@tarojs/components/types/common.d.ts",
+                "start": 623,
+                "length": 3,
+                "messageText": "The expected type comes from property 'ref' which is declared here on type 'IntrinsicAttributes & ViewProps & { children?: ReactNode; }'",
+                "category": 3,
+                "code": 6500
+              }
+            ]
+          }
+        ]
+      ],
       [
         "./src/components/lalbumlayout.ts",
         [
@@ -5681,11 +5821,26 @@
           }
         ]
       ],
+      "./src/components/lavatar.tsx",
+      "./src/components/lbutton.tsx",
       "./src/components/licon.tsx",
+      "./src/components/lpopup.tsx",
       "./src/components/lspin.tsx",
       "./src/components/ltag.tsx",
       "./src/index.ts",
-      "./types/button.d.ts"
+      [
+        "./src/px.ts",
+        [
+          {
+            "file": "./src/px.ts",
+            "start": 143,
+            "length": 11,
+            "messageText": "Expected 1 arguments, but got 2.",
+            "category": 1,
+            "code": 2554
+          }
+        ]
+      ]
     ]
   },
   "version": "3.9.5"

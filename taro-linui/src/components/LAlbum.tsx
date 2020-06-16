@@ -1,9 +1,10 @@
-import React,{useState,useLayoutEffect} from 'react'
+import React,{useState,useRef,useEffect,useLayoutEffect} from 'react'
 import Taro from '@tarojs/taro'
 import {View,Image} from '@tarojs/components'
 import { ImageProps } from '@tarojs/components/types/Image'
 import {containerStyle,blockClass,blockStyle} from './LAlbumLayout'
 import '../../style/LAlbum.less'
+import { reject } from 'lodash'
 
 export interface LAlbumProps  {
   className?: string
@@ -37,6 +38,24 @@ async function horizontalOrVertical(imgUrl,singleSize):Promise<any>{
         shortSideValue: shortSide * singleSize / longSide
     }
 } 
+//查询dom的宽度和高度
+async function getDOMRect(id){
+  const query = Taro.createSelectorQuery();
+  return new Promise(reslove=>{
+    Taro.nextTick(()=>{
+      console.log('0-000')
+      query.select('#'+id).boundingClientRect()
+      query.exec(res=>{
+        console.log(res) 
+        if(res[0]==null){return reject('Cannot find the #'+id+' selector')}
+        reslove({
+          width:res[0].width,
+          height:res[0].height,
+        })
+      })
+    })
+  })  
+}
 const LAlbum : React.FC<LAlbumProps> = props=>{
   const {
     urls,
@@ -52,6 +71,8 @@ const LAlbum : React.FC<LAlbumProps> = props=>{
   const showUrls= urls.slice(0, 9)
   //计算horizontalScreen,shortSideValue
   const [calValues,setCalValues] = useState({horizontalScreen:0,shortSideValue:0})
+  const [id] = useState("L"+Date.now()+"" + Math.round(Math.random()*1000))
+  const containerRef = useRef("");
   useLayoutEffect(()=>{
     horizontalOrVertical(urls[0],singleSize)
     .then(setCalValues)
@@ -59,9 +80,15 @@ const LAlbum : React.FC<LAlbumProps> = props=>{
     if(urls.length > 9){
         console.warn('超过9张图片,只能显示9张图片！');
     }
-  },[urls[0]])
+    getDOMRect(id).then(e=>console.log(e))
+    .catch(console.error)
 
-  return  <View className="container l-class" 
+  },[urls[0]])
+  useEffect(()=>{
+    const query = Taro.createSelectorQuery();
+    Taro.createSelectorQuery().select('#'+id).boundingClientRect(console.log)
+  },[])
+  return  <View ref={containerRef} id={id} className="container l-class" 
     style={containerStyle(showUrls,multipleSize, gapRow, gapColumn)}>
   {
     showUrls.map((url,index)=><Image
