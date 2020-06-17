@@ -1,12 +1,17 @@
 import React, { useState} from 'react'
-import { View,Button} from '@tarojs/components'
-import {LAvatar,LSpin,LAlbum,LButton,LPopup} from 'taro-linui'
+import { View} from '@tarojs/components'
+import {LAvatar,LSpin,LAlbum,LButton,LPopup,LLoading} from 'taro-linui'
 
 const Home =  ()=>{
   const [show,setShow] = useState(false)
   return (
     <View className='index'>
-      <Button></Button>
+      <View>loading组件</View>
+      <LLoading show/>
+      <LLoading show type="flip"/>
+      <LLoading show type="change"/>
+      <LLoading show type="flash"/>
+      <LLoading show type="circle"/>
       <View>按钮组件</View>
       <LPopup  direction="bottom" show={show} onClose={()=>setShow(false)}>
         <View style={{backgroundColor:'white'}}>
@@ -48,6 +53,7 @@ const Home =  ()=>{
         'http://qiniu.9981soft.com/Ft976dxPRnGHeDrKaMfOmOTfIXLQ',
         'http://qiniu.9981soft.com/Ft976dxPRnGHeDrKaMfOmOTfIXLQ',
       ]}/>
+      =========查看Album组件,默认3列模式，并且限定宽度为300px
       <LAlbum style={{width:'600rpx'}} urls={[
         'http://qiniu.9981soft.com/Ft976dxPRnGHeDrKaMfOmOTfIXLQ',
         'http://qiniu.9981soft.com/FmuYWs_OMWA3nYYb4l4hebf5PbbW',
@@ -63,7 +69,7 @@ const Home =  ()=>{
       ]}/>
       =========查看Album组件，但图片模式
       <LAlbum urls={[
-        'http://qiniu.9981soft.com/FmuYWs_OMWA3nYYb4l4hebf5PbbW',
+        'http://qiniu.9981soft.com/FjBCDRqa-yvLYDNYElaa9ENaWc4X'
       ]}/>
       </View>
       <View>

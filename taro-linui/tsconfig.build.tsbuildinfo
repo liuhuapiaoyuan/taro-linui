@@ -917,8 +917,8 @@
         "affectsGlobalScope": false
       },
       "./src/components/lalbum.tsx": {
-        "version": "0f907835687e581420929501cba56ddf38ab910abe5b3d2a92960dd5581bf2b1",
-        "signature": "98fc447bb5e11ec2593a38d9670fe4e570e26b1c912b53b26a3a52b7b52236cb",
+        "version": "5ae27bd6ec5c22d45627ac8dd94a0a2c2e320db43c4bfe83228554fb24fe36d6",
+        "signature": "111841698ec7402253d488dd485ea37044628b6c4aee5b5d321a780697a9a174",
         "affectsGlobalScope": false
       },
       "./src/components/lavatar.tsx": {
@@ -936,9 +936,14 @@
         "signature": "c25f743b35ab34950ee351c1b3f634fc840924683b03cb109b464362d57922f6",
         "affectsGlobalScope": false
       },
+      "./src/components/lloading.tsx": {
+        "version": "9df596ba41b34bca3db324be42641eec320c2ee6636232380cb1285ba9b35db0",
+        "signature": "7ff2968e18545ef05efd7537e3173d27a278094ca04655c54496c303381c65a0",
+        "affectsGlobalScope": false
+      },
       "./src/index.ts": {
-        "version": "53ad1bb8e0a4c133b395b9dcd53450e802869ad893ca42314a93146251e06dc6",
-        "signature": "4686bab5e56c53f4f79684972c4d28cb0a17b8069a155d0fc686fc8ac9e3fc31",
+        "version": "2844d62c4b335919c1379a36ab2b2299160c542896c6bc5ac016916ec0f846ff",
+        "signature": "7afc0bfaf10393f9851e20d44765845d3ab928195d37ea4d92d4d7a71bf7099b",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/color-name/index.d.ts": {
@@ -3375,6 +3380,15 @@
         "./node_modules/@types/react/index.d.ts",
         "./src/px.ts"
       ],
+      "./src/components/lloading.tsx": [
+        "./node_modules/@tarojs/components/types/index.d.ts",
+        "./node_modules/@types/classnames/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./src/components/lpopup.tsx": [
         "./node_modules/@tarojs/components/types/common.d.ts",
         "./node_modules/@tarojs/components/types/index.d.ts",
@@ -3414,6 +3428,7 @@
         "./src/components/lavatar.tsx",
         "./src/components/lbutton.tsx",
         "./src/components/licon.tsx",
+        "./src/components/lloading.tsx",
         "./src/components/lpopup.tsx",
         "./src/components/lspin.tsx",
         "./src/components/ltag.tsx"
@@ -5429,6 +5444,9 @@
       "./src/components/licon.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./src/components/lloading.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./src/components/lpopup.tsx": [
         "./node_modules/@tarojs/components/types/common.d.ts",
         "./node_modules/@types/react/index.d.ts"
@@ -5445,6 +5463,7 @@
         "./src/components/lavatar.tsx",
         "./src/components/lbutton.tsx",
         "./src/components/licon.tsx",
+        "./src/components/lloading.tsx",
         "./src/components/lpopup.tsx",
         "./src/components/lspin.tsx",
         "./src/components/ltag.tsx"
@@ -5798,6 +5817,7 @@
       "./src/components/lavatar.tsx",
       "./src/components/lbutton.tsx",
       "./src/components/licon.tsx",
+      "./src/components/lloading.tsx",
       "./src/components/lpopup.tsx",
       "./src/components/lspin.tsx",
       "./src/components/ltag.tsx",

@@ -38,7 +38,7 @@ export interface LAlbumProps  {
   gapColumn?:number
   /** 每行展示几列产品 ,默认是3列显示*/
   column?:number,
-  /** 单图片的 图片长边大小 默认360像素 */
+  /** 单图片的 图片长边大小 默认360rpx */
   singleSize?:number
   /** 单图片时，图片的显示模式 */
   singleMode?:keyof ImageProps.mode
