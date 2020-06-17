@@ -917,7 +917,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/lalbum.tsx": {
-        "version": "5d99121a25c528d8ae725c24879d140fb2af7b70fbdc21f65c879c3c2de6c8d9",
+        "version": "0f907835687e581420929501cba56ddf38ab910abe5b3d2a92960dd5581bf2b1",
         "signature": "98fc447bb5e11ec2593a38d9670fe4e570e26b1c912b53b26a3a52b7b52236cb",
         "affectsGlobalScope": false
       },
