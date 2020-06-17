@@ -4,25 +4,42 @@ import {View,Image} from '@tarojs/components'
 import { ImageProps } from '@tarojs/components/types/Image'
 import {containerStyle,blockClass,blockStyle} from './LAlbumLayout'
 import classnames from 'classnames'
+import {px} from '../px'
 import '../../style/LAlbum.less'
 
 
+
+/** 计算单行图片的样式 */
+const singleStyle = (horizontalScreen,shortSideValue,singleSize)=>{
+  if (horizontalScreen) {
+      return {
+          height:px(shortSideValue),
+          width:px(singleSize)
+      }  
+  } else {
+      return {
+          height:px(singleSize),
+          width:px(shortSideValue)
+      } 
+  }
+}
+
 export interface LAlbumProps  {
   className?: string
-  style?: React.CSSProperties
+  style?: React.CSSProperties 
   children?:React.ReactChild
   /** 图片链接 ,老模式：url数组，新模式则传入一个对象 */
   urls:string[]
   /** 是否点击打开预览 */
   preview?:boolean
-  /** 多图时，图片水平间隔  默认为10*/
+  /** 多图时，图片水平间隔  默认为10px*/
   gapRow?:number
-  /** 多图时，图片垂直间隔 默认为：10*/
+  /** 多图时，图片垂直间隔 默认为：10px*/
   gapColumn?:number
+  /** 每行展示几列产品 ,默认是3列显示*/
+  column?:number,
   /** 单图片的 图片长边大小 默认360像素 */
   singleSize?:number
-  /** 多图片的 图片长边大小 默认158px */
-  multipleSize?:number
   /** 单图片时，图片的显示模式 */
   singleMode?:keyof ImageProps.mode
   /** 多图片时，图片的显示模式 */
@@ -62,11 +79,12 @@ function poll(promiseFunc){
 const LAlbum : React.FC<LAlbumProps> = props=>{
   const {
     className,
-    style,
+    style={},
     urls,
-    singleSize,multipleSize, gapRow, gapColumn,
+    singleSize, gapRow=10, gapColumn=10,
     singleMode,multipleMode,
     preview,
+    column=3,
     onImageClick
   } = props
   //图片最多9张
@@ -76,6 +94,7 @@ const LAlbum : React.FC<LAlbumProps> = props=>{
   const showUrls= urls.slice(0, 9)
   //计算horizontalScreen,shortSideValue
   const [calValues,setCalValues] = useState({horizontalScreen:0,shortSideValue:0})
+  const [containerWidth,setContainerWidth] = useState(750)
   const [id] = useState("L"+Date.now()+"" + Math.round(Math.random()*1000)) 
   useLayoutEffect(()=>{
     horizontalOrVertical(urls[0],singleSize)
@@ -84,17 +103,29 @@ const LAlbum : React.FC<LAlbumProps> = props=>{
     if(urls.length > 9){
         console.warn('超过9张图片,只能显示9张图片！');
     }
-    poll(()=>getDOMRect(id)).then(console.log)
+    poll(()=>getDOMRect(id)).then(e=>setContainerWidth(e.width))
   },[urls[0]]) 
+  //计算每一项目的宽度   w*column + (column-1)*gapColumn = containerWidth
+  const itemWidth  = (containerWidth - (column+1)*gapColumn )/column
   return  <View  id={id}  style={style}>
-    <View className={classnames("container",className)} 
-      style={containerStyle(showUrls,multipleSize, gapRow, gapColumn)}>
+    <View className={classnames("container",className)}
+      style={{paddingLeft:gapColumn,paddingRight:gapColumn}} 
+      // style={containerStyle(showUrls,multipleSize, gapRow, gapColumn)}
+      >
     {
       showUrls.map((url,index)=><Image
       key={index+url}   
       className={blockClass(showUrls, calValues.horizontalScreen)}
-      style={blockStyle(showUrls, calValues.horizontalScreen, calValues.shortSideValue, 
-          singleSize, multipleSize)} 
+      style={
+        (urls.length<2)?singleStyle(calValues.horizontalScreen,calValues.shortSideValue,singleSize)
+          :
+          {
+            width:itemWidth,
+            height:itemWidth,
+            marginBottom:gapRow,
+            marginRight:((index+1)%column == 0 )?0 : gapColumn
+          }
+      } 
       src={url}
       mode={showUrls.length === 1?singleMode:multipleMode} 
       onClick={()=>{
@@ -113,10 +144,10 @@ LAlbum.defaultProps = {
     gapRow:10,
     gapColumn:10,
     singleSize:360,
-    multipleSize:118,
     singleMode:'aspectFit',
     multipleMode:'aspectFill',
     urls:[],
+    column:3,
     onImageClick:undefined
 }
 export {LAlbum}

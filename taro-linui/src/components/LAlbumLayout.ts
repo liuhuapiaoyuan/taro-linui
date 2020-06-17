@@ -51,6 +51,8 @@ var blockStyle = function (urls, horizontalScreen, shortSideValue, singleSize, m
     }
 }
 
+
+
 export {containerStyle}
 export {blockClass}
 export {blockStyle}

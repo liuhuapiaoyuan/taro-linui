@@ -912,13 +912,13 @@
         "affectsGlobalScope": false
       },
       "./src/components/lalbumlayout.ts": {
-        "version": "2cd041ee4ebbfbeea74abd623a597946eab91c65848cab99072d33640350ff1e",
+        "version": "e22b9c60039701289cbe3b2483a8a3150a2a45921a8df1c80aa2b585c9cb3f3b",
         "signature": "4f1c9f9b6b4a73cee21fc82483cacaece513bb4c666f49dae87e263dca6d73e4",
         "affectsGlobalScope": false
       },
       "./src/components/lalbum.tsx": {
-        "version": "f29300d8f7fe839367c2846046327c2a8640e89ff24535bb2ec0d5120a9abc09",
-        "signature": "896b23f4611ce46be6252c7a47af1554ad573cd6fe1d760f3452cb0bc1952f7e",
+        "version": "5d99121a25c528d8ae725c24879d140fb2af7b70fbdc21f65c879c3c2de6c8d9",
+        "signature": "98fc447bb5e11ec2593a38d9670fe4e570e26b1c912b53b26a3a52b7b52236cb",
         "affectsGlobalScope": false
       },
       "./src/components/lavatar.tsx": {
@@ -3331,7 +3331,8 @@
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/react/index.d.ts",
-        "./src/components/lalbumlayout.ts"
+        "./src/components/lalbumlayout.ts",
+        "./src/px.ts"
       ],
       "./src/components/lalbumlayout.ts": [
         "./node_modules/@tarojs/taro/types/index.d.ts",
@@ -5749,7 +5750,29 @@
           }
         ]
       ],
-      "./src/components/lalbum.tsx",
+      [
+        "./src/components/lalbum.tsx",
+        [
+          {
+            "file": "./src/components/lalbum.tsx",
+            "start": 203,
+            "length": 14,
+            "messageText": "'containerStyle' is declared but its value is never read.",
+            "category": 1,
+            "code": 6133,
+            "reportsUnnecessary": true
+          },
+          {
+            "file": "./src/components/lalbum.tsx",
+            "start": 229,
+            "length": 10,
+            "messageText": "'blockStyle' is declared but its value is never read.",
+            "category": 1,
+            "code": 6133,
+            "reportsUnnecessary": true
+          }
+        ]
+      ],
       [
         "./src/components/lalbumlayout.ts",
         [
