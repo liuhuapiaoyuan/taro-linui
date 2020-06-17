@@ -14,6 +14,7 @@
     "@types",
     "types",
     "style",
+    "assert",
     "src/**/interface.ts",
     "src/**/*.d.ts"
   ],

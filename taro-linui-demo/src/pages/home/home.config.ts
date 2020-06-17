@@ -1,4 +1,5 @@
 export default {
-    navigationBarTitleText: 'home页'
+    navigationBarTitleText: 'home页',
+    // navigationStyle:'custom'
   }
   

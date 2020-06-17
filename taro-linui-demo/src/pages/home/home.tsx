@@ -1,24 +1,32 @@
 import React, { useState} from 'react'
-import { View , Block} from '@tarojs/components'
-import {LAvatar,LSpin,LAlbum,LButton,LPopup,LLoading,LMask,LLoadMore} from 'taro-linui'
+import { View , Block,Label,CoverImage,CoverView,OpenData,Button,OfficialAccount} from '@tarojs/components'
+import {LAvatar,LSpin,LAlbum,LButton,LPopup,LLoading,LMask,LLoadMore,LCapsuleBar} from 'taro-linui'
 
 const Home =  ()=>{
-  const [show,setShow] = useState(false)
+  const [show,setShow] = useState(false) 
   const [showMask,setShowMask] = useState(false)
   return (
     <View className='index'>
-      <Block>
-      <LLoadMore show line={true} type="end" loadingText="疯狂加载中..."/>
-      </Block> 
-      <LButton onClick={()=>setShowMask(true)}>测试mask组件，点击弹窗</LButton>
-      <LMask show={showMask} locked onClose={()=>setShowMask(false)}>
-        <LLoading show/>
-      </LMask>
-      <View>loading组件</View>
-      <LLoading show type="flip"/>
-      <LLoading show type="change"/>
-      <LLoading show type="flash"/>
-      <LLoading show type="circle"/> 
+      <View>胶囊导航栏</View>  
+      <LCapsuleBar bgColor="transparent" homePage="/pages/index/index" title="标题咯" />
+          <Label>
+            <Button></Button>
+            <CoverImage></CoverImage>
+            <CoverView></CoverView>
+            <OpenData></OpenData>
+          </Label>
+          <Block>  
+          <LLoadMore show line={true} type="end" loadingText="疯狂加载中..."/>
+          </Block> 
+          <LButton onClick={()=>setShowMask(true)}>测试mask组件，点击弹窗</LButton>
+          <LMask show={showMask} locked onClose={()=>setShowMask(false)}>
+            <LLoading show/>
+          </LMask>
+          <View>loading组件</View>
+          <LLoading show type="flip"/>
+          <LLoading show type="change"/>
+          <LLoading show type="flash"/>
+          <LLoading show type="circle"/> 
       <View>按钮组件</View>
       <LPopup  direction="bottom" show={show} onClose={()=>setShow(false)}>
         <View style={{backgroundColor:'white'}}>
