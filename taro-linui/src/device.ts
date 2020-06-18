@@ -1,5 +1,7 @@
 
 import Taro from '@tarojs/taro'
+
+console.warn(Taro)
 /**
  * 设备工具类
  * 可以获取一些与设备相关的信息
@@ -57,8 +59,7 @@ class DeviceUtil {
       const capsuleButtonInfo = Taro.getMenuButtonBoundingClientRect();
       const gap = capsuleButtonInfo.top - statusBarHeight;
       return this.px2rpx(gap * 2 + capsuleButtonInfo.height);
-    }
-  
+    } 
   }
   
   const deviceUtil = new DeviceUtil(Taro.getSystemInfoSync());

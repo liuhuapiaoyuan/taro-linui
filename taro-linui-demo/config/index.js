@@ -26,7 +26,13 @@ const config = {
   mini: {
     webpackChain (chain, webpack) {
       chain.plugin('analyzer')
-        .use(require('webpack-bundle-analyzer').BundleAnalyzerPlugin, [])
+      .use(require('webpack-bundle-analyzer').BundleAnalyzerPlugin, [])
+    },
+    alias: {
+      '@tarojs/taro': path.resolve(__dirname, '..', 'node_modules/@tarojs/taro'),
+      '@tarojs/components': path.resolve(__dirname, '..', 'node_modules/@tarojs/components/mini'),
+      '@tarojs/runtime': path.resolve(__dirname, '..', 'node_modules/@tarojs/runtime/dist'),
+      '@tarojs/taro-h5': path.resolve(__dirname, '..', 'node_modules/@tarojs/taro-h5/dist'),
     },
     postcss: {
       pxtransform: {

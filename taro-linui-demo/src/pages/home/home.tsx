@@ -1,32 +1,59 @@
 import React, { useState} from 'react'
+import Taro from '@tarojs/taro'
 import { View , Block,Label,CoverImage,CoverView,OpenData,Button,OfficialAccount} from '@tarojs/components'
-import {LAvatar,LSpin,LAlbum,LButton,LPopup,LLoading,LMask,LLoadMore,LCapsuleBar} from 'taro-linui'
-
-const Home =  ()=>{
+import {LStatusShow,LMessage,LActionSheet, LAvatar,LSpin,LAlbum,LButton,LPopup,LLoading,LMask,LLoadMore} from 'taro-linui'
+const Home =  ()=>{ 
   const [show,setShow] = useState(false) 
   const [showMask,setShowMask] = useState(false)
-  return (
-    <View className='index'>
-      <View>胶囊导航栏</View>  
-      <LCapsuleBar bgColor="transparent" homePage="/pages/index/index" title="标题咯" />
-          <Label>
-            <Button></Button>
-            <CoverImage></CoverImage>
-            <CoverView></CoverView>
-            <OpenData></OpenData>
-          </Label>
-          <Block>  
-          <LLoadMore show line={true} type="end" loadingText="疯狂加载中..."/>
-          </Block> 
-          <LButton onClick={()=>setShowMask(true)}>测试mask组件，点击弹窗</LButton>
-          <LMask show={showMask} locked onClose={()=>setShowMask(false)}>
-            <LLoading show/>
-          </LMask>
-          <View>loading组件</View>
-          <LLoading show type="flip"/>
-          <LLoading show type="change"/>
-          <LLoading show type="flash"/>
-          <LLoading show type="circle"/> 
+  const [actShow,setActShow] = useState(false)
+  return ( 
+    <View className='index'>   
+    <View>状态栏：statusShow</View>
+    <LStatusShow />
+      <LButton  type="success" onClick={()=>{
+        Taro.linMessage({
+          content:'测试一下',
+          type:'warning'
+        }) 
+      }}>打开message</LButton> 
+
+      <LMessage />
+      <LButton  type="warning" onClick={()=>setActShow(true)}>打开LActionSheet</LButton>
+      <LActionSheet
+        onClose={()=>setActShow(false)}
+        title="测试一下标题"
+        show={actShow} onCancel={()=>setActShow(false)} itemList={[
+        {
+          name:'测试',
+          icon:'success'
+        },
+        {
+          name:'分享一下',
+          icon:'share',
+          color:'green',
+          openType:"share"
+        }
+      ]} />
+      {/* <View>胶囊导航栏</View>  
+      <LCapsuleBar  homePage="/pages/index/index" title="标题咯" /> */}
+      <Label> 
+        <Button></Button>
+        <CoverImage></CoverImage>
+        <CoverView></CoverView>
+        <OpenData></OpenData>
+      </Label>
+      <Block>  
+      <LLoadMore show line={true} type="end" loadingText="疯狂加载中..."/>
+      </Block> 
+      <LButton onClick={()=>setShowMask(true)}>测试mask组件，点击弹窗</LButton>
+      <LMask show={showMask}  onClose={()=>setShowMask(false)}>
+        <LLoading show/>
+      </LMask>
+      <View>loading组件</View>
+      <LLoading show type="flip"/>
+      <LLoading show type="change"/>
+      <LLoading show type="flash"/>
+      <LLoading show type="circle"/> 
       <View>按钮组件</View>
       <LPopup  direction="bottom" show={show} onClose={()=>setShow(false)}>
         <View style={{backgroundColor:'white'}}>

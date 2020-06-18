@@ -642,7 +642,7 @@
         "affectsGlobalScope": false
       },
       "./src/device.ts": {
-        "version": "59a664337bd27c878cfef37537493c5da5fd9e56658a8f2de36906eea05d4584",
+        "version": "de2f7eebdca3cf26c2c8a186ba7827cc9651619862bbbd94500949dcfe4faf40",
         "signature": "4fba4454ec035c4e6eb369dc7ef06c4ebdeaf562cd10bb2e7d3faca277b2af1d",
         "affectsGlobalScope": false
       },
@@ -891,24 +891,9 @@
         "signature": "c54b92571fb1b8f266c1c7ed7541b3ff3443edf2434ba17680fbc9e6662ebee0",
         "affectsGlobalScope": false
       },
-      "./src/components/lactionsheet.tsx": {
-        "version": "71183c60e4c546ac8822ce0f613af6c7623db7bf561c1ac28a1589b7ed45fafe",
-        "signature": "ad845c7f3ffec88ed9ca885934a42e3c6d1e6635d640acdf4d8e5806f3266296",
-        "affectsGlobalScope": false
-      },
-      "./src/components/lalbumlayout.ts": {
-        "version": "e22b9c60039701289cbe3b2483a8a3150a2a45921a8df1c80aa2b585c9cb3f3b",
-        "signature": "4f1c9f9b6b4a73cee21fc82483cacaece513bb4c666f49dae87e263dca6d73e4",
-        "affectsGlobalScope": false
-      },
       "./src/px.ts": {
         "version": "9c001a8c1a6d0a6feb00b2dd97acb06a3cc108ccd85aa1aefbbee80db7477651",
         "signature": "97918bb942cc8bfeb8f9fc8a43574416ed8309abdbffc4a92b53b6ddf3f10e6b",
-        "affectsGlobalScope": false
-      },
-      "./src/components/lalbum.tsx": {
-        "version": "5ae27bd6ec5c22d45627ac8dd94a0a2c2e320db43c4bfe83228554fb24fe36d6",
-        "signature": "111841698ec7402253d488dd485ea37044628b6c4aee5b5d321a780697a9a174",
         "affectsGlobalScope": false
       },
       "./src/components/licon.tsx": {
@@ -916,14 +901,34 @@
         "signature": "b586fe8ce98ce3bf70d80f8ec290dff1e00ab6b97f0111a2508de82122549c2d",
         "affectsGlobalScope": false
       },
-      "./src/components/lavatar.tsx": {
-        "version": "d0cfe341eed03d33c4a615121040a484fa91cc4c7ee8550940ff6901447fe3d3",
-        "signature": "77d617aef6cc2072bc6af57a2a379355f9c4620967764d9cc3ab8e8097dd678a",
+      "./src/components/lpopup.tsx": {
+        "version": "bf2c16d9d56ccbae138cef903f38b6145a296abcc7591b1e657ccc5c0b37a847",
+        "signature": "c25f743b35ab34950ee351c1b3f634fc840924683b03cb109b464362d57922f6",
         "affectsGlobalScope": false
       },
       "./src/components/lbutton.tsx": {
         "version": "16b5c49c7d3b92998011553e5ead5d6b3722afa45c95720ffe18c861f3456941",
         "signature": "b1e1ba955dab6605a335600c3c8db0523bff41be60fb38ad249daf05a3ea34ed",
+        "affectsGlobalScope": false
+      },
+      "./src/components/lactionsheet.tsx": {
+        "version": "dd910f9cb1ca8dd349bf921b42afcb340608947c0cc69bb4fc41aee636b0cc9f",
+        "signature": "e660d174386cd815c20a248b983287e92d3ddd436afa327136bd55d030093bd6",
+        "affectsGlobalScope": false
+      },
+      "./src/components/lalbumlayout.ts": {
+        "version": "e22b9c60039701289cbe3b2483a8a3150a2a45921a8df1c80aa2b585c9cb3f3b",
+        "signature": "4f1c9f9b6b4a73cee21fc82483cacaece513bb4c666f49dae87e263dca6d73e4",
+        "affectsGlobalScope": false
+      },
+      "./src/components/lalbum.tsx": {
+        "version": "5ae27bd6ec5c22d45627ac8dd94a0a2c2e320db43c4bfe83228554fb24fe36d6",
+        "signature": "111841698ec7402253d488dd485ea37044628b6c4aee5b5d321a780697a9a174",
+        "affectsGlobalScope": false
+      },
+      "./src/components/lavatar.tsx": {
+        "version": "d0cfe341eed03d33c4a615121040a484fa91cc4c7ee8550940ff6901447fe3d3",
+        "signature": "77d617aef6cc2072bc6af57a2a379355f9c4620967764d9cc3ab8e8097dd678a",
         "affectsGlobalScope": false
       },
       "./src/components/lloading.tsx": {
@@ -941,11 +946,6 @@
         "signature": "dcb72905854374879deb66726bf2992e019e8443a98a7abbef32eab513e2e338",
         "affectsGlobalScope": false
       },
-      "./src/components/lpopup.tsx": {
-        "version": "bf2c16d9d56ccbae138cef903f38b6145a296abcc7591b1e657ccc5c0b37a847",
-        "signature": "c25f743b35ab34950ee351c1b3f634fc840924683b03cb109b464362d57922f6",
-        "affectsGlobalScope": false
-      },
       "./src/components/lspin.tsx": {
         "version": "2ec97a6badcfacf929ebeb96eb8049c53e90a4c8052fd4aac318fe24f067abbe",
         "signature": "485d0286dc2d0b02b4a6e84ad518b9ef4d99aed693759e0d8a205eca0704453d",
@@ -961,10 +961,25 @@
         "signature": "4aee8fc658620435e8dfdb143ec003e8c65579d632ec0b474a2a7e1a6a68453b",
         "affectsGlobalScope": false
       },
-      "./src/index.ts": {
-        "version": "d1109231877d2440a398647b3883bf1cdea366ea23eca5251d5b18c5e171cd8a",
-        "signature": "a34e829bcea7d92931110d8d7105fc5c9476b3c0bf8c247543e6d5629642b7e2",
+      "./src/components/lmessage.tsx": {
+        "version": "c2f471b54d9a5e375371d6fdd5d925ab1fb33f386e0721fb911b2026805c45e6",
+        "signature": "c942b8efefc262943cf0bc950f98e24b198f7e6f6525c7354ccdc69520e97e1e",
         "affectsGlobalScope": false
+      },
+      "./src/components/lstatusshow.tsx": {
+        "version": "2a28e2eebbf9a64abeafe24a84e5125af3f6f988da14d4c939f547f9be256642",
+        "signature": "0a565ce3c1fecab6d9d663eb029fe2c1152f4d9184e56862760791d47fb210d7",
+        "affectsGlobalScope": false
+      },
+      "./src/index.ts": {
+        "version": "9da7b2d87c00bf88e047d8fe53c29371909e4171b5ab7932dadc595ce90f6464",
+        "signature": "14f81f4fdde570b09d8daf89ebfc89d2c593166af55973f1245dc803b019e4c0",
+        "affectsGlobalScope": false
+      },
+      "./src/taro.linextend.d.ts": {
+        "version": "cd026bbfcd087fdbeb73f97078573aba6f2b636321c1768d522b63557d303acf",
+        "signature": "cd026bbfcd087fdbeb73f97078573aba6f2b636321c1768d522b63557d303acf",
+        "affectsGlobalScope": true
       },
       "./node_modules/@types/color-name/index.d.ts": {
         "version": "f0cb4b3ab88193e3e51e9e2622e4c375955003f1f81239d72c5b7a95415dad3e",
@@ -3337,14 +3352,20 @@
         "./node_modules/@types/node/util.d.ts"
       ],
       "./src/components/lactionsheet.tsx": [
+        "./node_modules/@tarojs/components/types/button.d.ts",
         "./node_modules/@tarojs/components/types/common.d.ts",
+        "./node_modules/@tarojs/components/types/image.d.ts",
         "./node_modules/@tarojs/components/types/index.d.ts",
+        "./node_modules/@tarojs/taro/types/index.d.ts",
         "./node_modules/@types/classnames/index.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/react/index.d.ts"
+        "./node_modules/@types/react/index.d.ts",
+        "./src/components/lbutton.tsx",
+        "./src/components/licon.tsx",
+        "./src/components/lpopup.tsx"
       ],
       "./src/components/lalbum.tsx": [
         "./node_modules/@tarojs/components/types/image.d.ts",
@@ -3439,6 +3460,17 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./src/components/lmessage.tsx": [
+        "./node_modules/@tarojs/components/types/index.d.ts",
+        "./node_modules/@tarojs/taro/types/index.d.ts",
+        "./node_modules/@types/classnames/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/react/index.d.ts",
+        "./src/components/licon.tsx"
+      ],
       "./src/components/lpopup.tsx": [
         "./node_modules/@tarojs/components/types/common.d.ts",
         "./node_modules/@tarojs/components/types/index.d.ts",
@@ -3457,6 +3489,17 @@
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/lstatusshow.tsx": [
+        "./node_modules/@tarojs/components/types/index.d.ts",
+        "./node_modules/@tarojs/taro/types/index.d.ts",
+        "./node_modules/@types/classnames/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/react/index.d.ts",
+        "./src/components/lbutton.tsx"
       ],
       "./src/components/ltag.tsx": [
         "./node_modules/@tarojs/components/types/index.d.ts",
@@ -3489,12 +3532,20 @@
         "./src/components/lloading.tsx",
         "./src/components/lloadmore.tsx",
         "./src/components/lmask.tsx",
+        "./src/components/lmessage.tsx",
         "./src/components/lpopup.tsx",
         "./src/components/lspin.tsx",
+        "./src/components/lstatusshow.tsx",
         "./src/components/ltag.tsx"
       ],
       "./src/px.ts": [
         "./node_modules/@tarojs/taro/types/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./src/taro.linextend.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts",
@@ -5486,7 +5537,9 @@
         "./node_modules/@types/node/util.d.ts"
       ],
       "./src/components/lactionsheet.tsx": [
+        "./node_modules/@tarojs/components/types/button.d.ts",
         "./node_modules/@tarojs/components/types/common.d.ts",
+        "./node_modules/@tarojs/components/types/image.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
       "./src/components/lalbum.tsx": [
@@ -5517,11 +5570,17 @@
         "./node_modules/@tarojs/components/types/common.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./src/components/lmessage.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./src/components/lpopup.tsx": [
         "./node_modules/@tarojs/components/types/common.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
       "./src/components/lspin.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/lstatusshow.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
       "./src/components/ltag.tsx": [
@@ -5537,9 +5596,17 @@
         "./src/components/lloading.tsx",
         "./src/components/lloadmore.tsx",
         "./src/components/lmask.tsx",
+        "./src/components/lmessage.tsx",
         "./src/components/lpopup.tsx",
         "./src/components/lspin.tsx",
+        "./src/components/lstatusshow.tsx",
         "./src/components/ltag.tsx"
+      ],
+      "./src/taro.linextend.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -5811,37 +5878,7 @@
       "./node_modules/typescript/lib/lib.esnext.intl.d.ts",
       "./node_modules/typescript/lib/lib.scripthost.d.ts",
       "./node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
-      [
-        "./src/components/lactionsheet.tsx",
-        [
-          {
-            "file": "./src/components/lactionsheet.tsx",
-            "start": 859,
-            "length": 6,
-            "messageText": "'zIndex' is declared but its value is never read.",
-            "category": 1,
-            "code": 6133,
-            "reportsUnnecessary": true
-          },
-          {
-            "file": "./src/components/lactionsheet.tsx",
-            "start": 892,
-            "length": 4,
-            "messageText": "'show' is declared but its value is never read.",
-            "category": 1,
-            "code": 6133,
-            "reportsUnnecessary": true
-          },
-          {
-            "file": "./src/components/lactionsheet.tsx",
-            "start": 1567,
-            "length": 8,
-            "messageText": "Cannot find name 'isOpened'.",
-            "category": 1,
-            "code": 2304
-          }
-        ]
-      ],
+      "./src/components/lactionsheet.tsx",
       [
         "./src/components/lalbum.tsx",
         [
@@ -5942,6 +5979,7 @@
           }
         ]
       ],
+      "./src/components/lmessage.tsx",
       "./src/components/lpopup.tsx",
       "./src/components/lspin.tsx",
       "./src/components/ltag.tsx",
@@ -5959,7 +5997,8 @@
             "code": 2554
           }
         ]
-      ]
+      ],
+      "./src/taro.linextend.d.ts"
     ]
   },
   "version": "3.9.5"

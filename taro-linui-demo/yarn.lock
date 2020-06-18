@@ -11685,6 +11685,9 @@ taro-css-to-react-native@^2.0.4:
     css-mediaquery "^0.1.2"
     postcss-value-parser "^3.3.0"
 
+"taro-linui@file:../taro-linui":
+  version "1.0.1"
+
 term-size@^1.2.0:
   version "1.2.0"
   resolved "https://registry.npm.taobao.org/term-size/download/term-size-1.2.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fterm-size%2Fdownload%2Fterm-size-1.2.0.tgz#458b83887f288fc56d6fffbfad262e26638efa69"

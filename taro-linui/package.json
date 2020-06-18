@@ -19,7 +19,7 @@
     "src/**/*.d.ts"
   ],
   "scripts": {
-    "dev": "yarn run dev:lib",
+    "dev": "yarn run clean && yarn run dev:lib",
     "dev:lib": "tsc --project ./tsconfig.build.json --watch --incremental",
     "build": "yarn run build:rollup && yarn run build:lib",
     "build:lib": "tsc --project ./tsconfig.build.json",
@@ -32,7 +32,7 @@
     "test:ci": "yarn run build:h5 && yarn run test",
     "test:analyze": "rollup --config ./config/rollup.config.analyze.js",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
-    "clean": "rimraf .temp dist lib coverage"
+    "clean": "rimraf .temp dist lib coverage tsconfig.build.tsbuildinfo"
   },
   "browserslist": [
     "last 3 versions",
@@ -41,15 +41,11 @@
   ],
   "author": "",
   "dependencies": {
-    "classnames": "^2.2.6",
-    "dayjs": "^1.7.7",
-    "prop-types": "^15.7.2"
   },
   "devDependencies": {
+    "prop-types": "^15.7.2",
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
-    "@tarojs/components": "^3.0.0-rc.3",
-    "@tarojs/taro": "^3.0.0-rc.3",
     "@types/classnames": "^2.2.10",
     "@types/lodash": "^4.14.155",
     "@types/node": "^14.0.11",
@@ -58,10 +54,11 @@
     "husky": "^4.2.5",
     "np": "^6.2.4",
     "rimraf": "^3.0.2",
-    "taro-ui": "^3.0.0-alpha.2",
     "typedoc": "^0.17.7",
     "typedoc-plugin-markdown": "^2.3.1",
-    "typescript": "^3.9.5"
+    "typescript": "^3.9.5",
+    "@tarojs/components": "^3.0.0-beta.5",
+    "@tarojs/taro": "^3.0.0-beta.5"
   },
   "peerDependencies": {
     "@tarojs/components": ">=3.0.0-beta.4",
