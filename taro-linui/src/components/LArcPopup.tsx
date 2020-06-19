@@ -8,17 +8,17 @@ import '../../style/LArcPopup.less'
 
 export interface LArcPopupProps  {
   className?: string
-  children?:React.ReactChild
+  children?:React.ReactNode
   /**自定义header，注意放入一个React */
-  header?:React.ReactChild
+  header?:React.ReactNode|string
   style?:React.CSSProperties
   /**控制弹窗，默认隐藏 */
   show?:boolean
-  /** 最大的高度 默认600px*/
+  /** 最大的高度 默认300px*/
   maxHeight?:number
-  /** 最小的高度 默认200px*/ 
+  /** 最小的高度 默认100px*/ 
   minHeight?:number
-  /** 顶部弧度大小，默认18px */
+  /** 顶部弧度大小，默认9px */
   arcRadius?:number 
   /**动画效果的显示、隐藏，默认打开true */
   transition?:boolean
@@ -37,17 +37,16 @@ export interface LArcPopupProps  {
    * 一般点击背后的模态框会触发该事件
    */
   onClose?: (event?: CommonEvent) => void
-}
+} 
 
 /** 获得arc的样式 */
-const getArcPopupStyle = ({direction,arcRadius,maxHeight,minHeight})=>  `
-    border-bottom-left-radius:${direction === 'top' ? arcRadius : 0}rpx;
-    border-bottom-right-radius:${direction === 'top' ? arcRadius : 0}rpx;
-    border-top-left-radius:${direction === 'bottom' ? arcRadius : 0}rpx;
-    border-top-right-radius:${direction === 'bottom' ? arcRadius : 0}rpx;
-    max-height:${maxHeight}rpx;
-    min-height:${minHeight}rpx;
-  ` 
+const getArcPopupStyle = ({direction,arcRadius,maxHeight,minHeight})=> ({
+  borderBottomLeftRadius:direction === 'top' ? arcRadius : 0,
+  borderBottomRightRadius:direction === 'top' ? arcRadius : 0,
+  borderTopLeftRadius:direction === 'bottom' ? arcRadius : 0,
+  borderTopRightRadius:direction === 'bottom' ? arcRadius : 0,
+  maxHeight,minHeight
+})
 
 
 const LArcPopup : React.FC<LArcPopupProps> = props=>{
@@ -57,7 +56,7 @@ const LArcPopup : React.FC<LArcPopupProps> = props=>{
     children,
     header,
     show=false,
-    direction="bottom",arcRadius=18,maxHeight=600,minHeight=200,
+    direction="bottom",arcRadius=9,maxHeight=300,minHeight=100,
     transition,
     opacity=0.4,
     locked=false,
