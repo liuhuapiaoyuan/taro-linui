@@ -6,10 +6,13 @@ const Home =  ()=>{
   const [show,setShow] = useState(false) 
   const [showMask,setShowMask] = useState(false)
   const [actShow,setActShow] = useState(false)
+  const [showStatusShow,setShowStatusShow] = useState(false)
   return ( 
     <View className='index'>   
-    <View>状态栏：statusShow</View>
-    <LStatusShow />
+    <LButton onClick={()=>setShowStatusShow(true)}>状态页：statusShow</LButton>
+    <LStatusShow show={showStatusShow}>
+      <LButton onClick={()=>setShowStatusShow(false)}>确定</LButton>
+      </LStatusShow>
       <LButton  type="success" onClick={()=>{
         Taro.linMessage({
           content:'测试一下',
@@ -45,7 +48,7 @@ const Home =  ()=>{
       <Block>  
       <LLoadMore show line={true} type="end" loadingText="疯狂加载中..."/>
       </Block> 
-      <LButton onClick={()=>setShowMask(true)}>测试mask组件，点击弹窗</LButton>
+      <LButton type="success" onClick={()=>setShowMask(true)}>测试mask组件，点击弹窗</LButton>
       <LMask show={showMask}  onClose={()=>setShowMask(false)}>
         <LLoading show/>
       </LMask>

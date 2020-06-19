@@ -22,29 +22,33 @@ export interface LPopupProps  {
   locked?:boolean 
     /** 弹层的层级，默认为777 */
   zIndex?:number
-/**
- * 元素被关闭触发的事件
- * 一般点击背后的模态框会触发该事件
- */
-onClose?: (event?: CommonEvent) => void
+  /** 背景层透明度，默认0.4 */
+  opacity?:number
+  /**
+   * 元素被关闭触发的事件
+   * 一般点击背后的模态框会触发该事件
+   */
+  onClose?: (event?: CommonEvent) => void
 }
 
 const LPopup : React.FC<LPopupProps> = props=>{
   const {
+    className,
     show=false ,
     animation=true ,
     transition=null,
     zIndex=777,
     direction='center',
+    opacity=0.4,
     children,
     onClose=()=>1
   } = props
   const status = show?'show':'hide'
-  return  <View className={classnames('container-popup',"l-popup-" + direction,{
+  return  <View className={classnames('container-popup',className,"l-popup-" + direction,{
       'popup-show':show
   })} 
   style={{zIndex}}>
-<View   className='container-bg l-bg-class'　/>
+<View  style={{opacity}} className='container-bg l-bg-class'　/>
 {show &&<View onClick={onClose}  className={classnames('popup-content','l-panel-class'
     ,`popup-fade-${direction}-active-${(transition===null?animation:transition) ? status:''}`
     ,{

@@ -902,8 +902,8 @@
         "affectsGlobalScope": false
       },
       "./src/components/lpopup.tsx": {
-        "version": "bf2c16d9d56ccbae138cef903f38b6145a296abcc7591b1e657ccc5c0b37a847",
-        "signature": "c25f743b35ab34950ee351c1b3f634fc840924683b03cb109b464362d57922f6",
+        "version": "740956c2f4c80b37b0a7b16a4750663d3c4c678fee7597f157e89da4b5fdcb81",
+        "signature": "eebc4cf3cadf5774d08b1eecb894ed740c3234ba768d54d8ae2e0f87b917e44d",
         "affectsGlobalScope": false
       },
       "./src/components/lbutton.tsx": {
@@ -967,13 +967,18 @@
         "affectsGlobalScope": false
       },
       "./src/components/lstatusshow.tsx": {
-        "version": "2a28e2eebbf9a64abeafe24a84e5125af3f6f988da14d4c939f547f9be256642",
-        "signature": "0a565ce3c1fecab6d9d663eb029fe2c1152f4d9184e56862760791d47fb210d7",
+        "version": "0533609b5c806b01815a26f63d49a36cfa6e66aadc65955fabd7cefebfee2a19",
+        "signature": "9c549b060e12a7689c2bac32f9331e87c0aceead5a32ff12dccb7881212593fd",
+        "affectsGlobalScope": false
+      },
+      "./src/components/larcpopup.tsx": {
+        "version": "b512a5767b7a13e938b8466a7fd8cda5e9fd8d687d53723371151897e7b65d7e",
+        "signature": "08a268ca917139e6e5ac7e4a5345d9a6d756c353d5861d64f81ab1c6c033e74b",
         "affectsGlobalScope": false
       },
       "./src/index.ts": {
-        "version": "9da7b2d87c00bf88e047d8fe53c29371909e4171b5ab7932dadc595ce90f6464",
-        "signature": "14f81f4fdde570b09d8daf89ebfc89d2c593166af55973f1245dc803b019e4c0",
+        "version": "ade45613427c356bd3e4f218163e95a64bf062c845b8b2a91335630529a7ce56",
+        "signature": "1bdc50f7d889b9a7c0f2ff76298592ac131578f29a27c0d0b9c830afe9835d95",
         "affectsGlobalScope": false
       },
       "./src/taro.linextend.d.ts": {
@@ -3387,6 +3392,17 @@
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts"
       ],
+      "./src/components/larcpopup.tsx": [
+        "./node_modules/@tarojs/components/types/common.d.ts",
+        "./node_modules/@tarojs/components/types/index.d.ts",
+        "./node_modules/@types/classnames/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/react/index.d.ts",
+        "./src/components/lpopup.tsx"
+      ],
       "./src/components/lavatar.tsx": [
         "./node_modules/@tarojs/components/types/image.d.ts",
         "./node_modules/@tarojs/components/types/index.d.ts",
@@ -3491,6 +3507,7 @@
         "./node_modules/@types/react/index.d.ts"
       ],
       "./src/components/lstatusshow.tsx": [
+        "./node_modules/@tarojs/components/types/common.d.ts",
         "./node_modules/@tarojs/components/types/index.d.ts",
         "./node_modules/@tarojs/taro/types/index.d.ts",
         "./node_modules/@types/classnames/index.d.ts",
@@ -3525,6 +3542,7 @@
         "./node_modules/@types/node/util.d.ts",
         "./src/components/lactionsheet.tsx",
         "./src/components/lalbum.tsx",
+        "./src/components/larcpopup.tsx",
         "./src/components/lavatar.tsx",
         "./src/components/lbutton.tsx",
         "./src/components/lcapsulebar/index.tsx",
@@ -5546,6 +5564,10 @@
         "./node_modules/@tarojs/components/types/image.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./src/components/larcpopup.tsx": [
+        "./node_modules/@tarojs/components/types/common.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./src/components/lavatar.tsx": [
         "./node_modules/@tarojs/components/types/image.d.ts",
         "./node_modules/@types/react/index.d.ts"
@@ -5581,6 +5603,7 @@
         "./node_modules/@types/react/index.d.ts"
       ],
       "./src/components/lstatusshow.tsx": [
+        "./node_modules/@tarojs/components/types/common.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
       "./src/components/ltag.tsx": [
@@ -5589,6 +5612,7 @@
       "./src/index.ts": [
         "./src/components/lactionsheet.tsx",
         "./src/components/lalbum.tsx",
+        "./src/components/larcpopup.tsx",
         "./src/components/lavatar.tsx",
         "./src/components/lbutton.tsx",
         "./src/components/lcapsulebar/index.tsx",
@@ -5924,6 +5948,7 @@
           }
         ]
       ],
+      "./src/components/larcpopup.tsx",
       "./src/components/lavatar.tsx",
       "./src/components/lbutton.tsx",
       [
@@ -5982,6 +6007,20 @@
       "./src/components/lmessage.tsx",
       "./src/components/lpopup.tsx",
       "./src/components/lspin.tsx",
+      [
+        "./src/components/lstatusshow.tsx",
+        [
+          {
+            "file": "./src/components/lstatusshow.tsx",
+            "start": 91,
+            "length": 31,
+            "messageText": "'Taro' is declared but its value is never read.",
+            "category": 1,
+            "code": 6133,
+            "reportsUnnecessary": true
+          }
+        ]
+      ],
       "./src/components/ltag.tsx",
       "./src/device.ts",
       "./src/index.ts",
