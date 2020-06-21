@@ -7,7 +7,7 @@ import '../../style/LIcon.less'
 
 export interface LIconProps  {
     className?: string
-    style?: React.CSSProperties
+    style?: string|React.CSSProperties|undefined
     /** 图标名称 */
     name?:string,
     /** 颜色，支持CSS颜色定义 */

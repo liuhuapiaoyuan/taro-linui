@@ -28,7 +28,7 @@ type ActionSheetListItem = {
 export interface LActionSheetProps  {
     className?: string
     /**自定义样式 */
-    style?: React.CSSProperties 
+    style?: React.CSSProperties|string|undefined 
      /** 是否显示 默认为false*/
      show?: boolean 
      /** 是否显示取消按钮 */

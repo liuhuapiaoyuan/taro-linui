@@ -8,8 +8,8 @@ import '../../style/LPopup.less'
 /** 弹层组件 */
 export interface LPopupProps  {
   className?: string
-  children?:React.ReactChild,
-  style?: React.CSSProperties,
+  children?:React.ReactNode,
+  style?: React.CSSProperties|string|undefined,
   /** 是否显示 */
   show?:boolean 
   /** 是否带有动画效果,默认开启 */

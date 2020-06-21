@@ -9,8 +9,8 @@ import '../../style/LButton.less'
 
 export interface LButtonProps  extends Omit<_ButtonProps, 'size' | 'type'>{
     className?: string
-    children?:React.ReactChild
-    style?: React.CSSProperties
+    children?:React.ReactNode
+    style?: React.CSSProperties|string|undefined
     /** 组件的类型 */
     type?:'warning'|'success'|'error'|'default'
     /** 是否是镂空按钮 */

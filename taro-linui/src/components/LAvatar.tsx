@@ -9,7 +9,7 @@ import '../../style/LAvatar.less'
 
 export interface LAvatarProps  {
   className?: string
-  children?:React.ReactChild
+  children?:React.ReactNode
   /**图标 */
   icon?:string,
   /** 图标尺寸 */

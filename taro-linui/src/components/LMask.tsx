@@ -7,7 +7,7 @@ import '../../style/LMask.less'
 
 export interface LMaskProps  {
   className?: string
-  children?:React.ReactChild
+  children?:React.ReactNode
   style?:React.CSSProperties
   show?:boolean 
   /** 透明度  默认0.4 */

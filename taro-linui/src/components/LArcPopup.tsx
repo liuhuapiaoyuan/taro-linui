@@ -11,7 +11,7 @@ export interface LArcPopupProps  {
   children?:React.ReactNode
   /**自定义header，注意放入一个React */
   header?:React.ReactNode|string
-  style?:React.CSSProperties
+  style?:React.CSSProperties|string|undefined
   /**控制弹窗，默认隐藏 */
   show?:boolean
   /** 最大的高度 默认300px*/

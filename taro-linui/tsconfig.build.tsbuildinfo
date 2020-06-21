@@ -897,23 +897,23 @@
         "affectsGlobalScope": false
       },
       "./src/components/licon.tsx": {
-        "version": "2d3bc79811e5e0fb01e78fc77633fd5adeb31c2581da35d4c7409c8b99a8b933",
-        "signature": "b586fe8ce98ce3bf70d80f8ec290dff1e00ab6b97f0111a2508de82122549c2d",
+        "version": "37f83cd8b98b73fc5c4526e255477e1e1012a50872235a23490dae7c253a73ef",
+        "signature": "ea6502937cc6d70a7b4071bdf4cf4f67e02aaf7955e8c7c82a7cb0703c5dbbb9",
         "affectsGlobalScope": false
       },
       "./src/components/lpopup.tsx": {
-        "version": "740956c2f4c80b37b0a7b16a4750663d3c4c678fee7597f157e89da4b5fdcb81",
-        "signature": "eebc4cf3cadf5774d08b1eecb894ed740c3234ba768d54d8ae2e0f87b917e44d",
+        "version": "1bd5afeb82a92d082b0ff16eb38e5d8862b95f484b1bcf290db74623d168a0ba",
+        "signature": "93760e60963f52ab9af8d5be4555cdf42bfcaff5764e5d9b89c61e261ce5a591",
         "affectsGlobalScope": false
       },
       "./src/components/lbutton.tsx": {
-        "version": "16b5c49c7d3b92998011553e5ead5d6b3722afa45c95720ffe18c861f3456941",
-        "signature": "b1e1ba955dab6605a335600c3c8db0523bff41be60fb38ad249daf05a3ea34ed",
+        "version": "06aa17cb7aef6cd204186fd2b2e5aef354934fb8ad769f608e15e6066f484f88",
+        "signature": "675ea6431a67dd39dd220047cf15dea18e0dc6ae5f3250a121aaa22eb9af481f",
         "affectsGlobalScope": false
       },
       "./src/components/lactionsheet.tsx": {
-        "version": "dd910f9cb1ca8dd349bf921b42afcb340608947c0cc69bb4fc41aee636b0cc9f",
-        "signature": "e660d174386cd815c20a248b983287e92d3ddd436afa327136bd55d030093bd6",
+        "version": "820e61c3f0f26e9e73a56e05fb4216900dcc7b7c8feafc7f438aeb18ed849cd2",
+        "signature": "ceabd13e565ed0f2dff17f4ab374131406770b05d68b9231ffe43c2050f73043",
         "affectsGlobalScope": false
       },
       "./src/components/lalbumlayout.ts": {
@@ -922,63 +922,88 @@
         "affectsGlobalScope": false
       },
       "./src/components/lalbum.tsx": {
-        "version": "5ae27bd6ec5c22d45627ac8dd94a0a2c2e320db43c4bfe83228554fb24fe36d6",
-        "signature": "111841698ec7402253d488dd485ea37044628b6c4aee5b5d321a780697a9a174",
+        "version": "cd27ceb92849d752cc63cdd12c046fb5feedee5d6f4cd7b02868eb402f06071e",
+        "signature": "857d542f9e327672ed3adc8e3dbbad23ccf722eb5c6b5c482f85127e1fdbc233",
         "affectsGlobalScope": false
       },
       "./src/components/lavatar.tsx": {
-        "version": "d0cfe341eed03d33c4a615121040a484fa91cc4c7ee8550940ff6901447fe3d3",
-        "signature": "77d617aef6cc2072bc6af57a2a379355f9c4620967764d9cc3ab8e8097dd678a",
+        "version": "f79975a34c843806a5394b5a0495d61c3e67f6ea27be50cf174fcbe4b10d1106",
+        "signature": "4168317f689a23830f132577889885eaeddd6720d01c9a79747979582e348b88",
         "affectsGlobalScope": false
       },
       "./src/components/lloading.tsx": {
-        "version": "9df596ba41b34bca3db324be42641eec320c2ee6636232380cb1285ba9b35db0",
-        "signature": "7ff2968e18545ef05efd7537e3173d27a278094ca04655c54496c303381c65a0",
+        "version": "5ed488277a9202820c45427fd25ab3801b7af05e98ebca3c9be5dc1b63f86dca",
+        "signature": "d08b741f8be99642ed303d38fafd2759a55036f69b0bd46ca0ab7519f647f930",
         "affectsGlobalScope": false
       },
       "./src/components/lloadmore.tsx": {
-        "version": "9f0a5e0dc60996c6675dac145620f35541d2f9f34cc483930d2fa636bcf2550c",
-        "signature": "ce0c06338771d1d59aa690248b3462b2941ff1e9efd2c8efc7c2a73fdbd0803d",
+        "version": "67a533907ac3473b3c4c829b9ee09558a5a6d5442514648f494c3a5ac41a27a6",
+        "signature": "4735003880ef061e127daa6bc7683126217cec3830b38c8f86e8c2a489b9c46b",
         "affectsGlobalScope": false
       },
       "./src/components/lmask.tsx": {
-        "version": "e8654edfbefbe23b723d0808b00c781fceb30fa9312e7c76aff6132e78919ad0",
-        "signature": "dcb72905854374879deb66726bf2992e019e8443a98a7abbef32eab513e2e338",
+        "version": "de5d3aa26484ec28294aa8263137f4deabb981fda7126be29f3d23d1c91ab97c",
+        "signature": "2ff78030a43830832771ca3a62f7b04ef2bdbeb2c3eb40ba848eafd72e52c087",
         "affectsGlobalScope": false
       },
       "./src/components/lspin.tsx": {
-        "version": "2ec97a6badcfacf929ebeb96eb8049c53e90a4c8052fd4aac318fe24f067abbe",
-        "signature": "485d0286dc2d0b02b4a6e84ad518b9ef4d99aed693759e0d8a205eca0704453d",
+        "version": "677322c440dc8fbe50ef64d0946e9b12102d471f1d90955182ed2d49e2e84c17",
+        "signature": "411809eba8512a8ca2a8b9afc8e7266b9778c44b6732ef6796496ef331f3d867",
         "affectsGlobalScope": false
       },
       "./src/components/ltag.tsx": {
-        "version": "c5b4925ddf3a76a55ae6fe4444c23ce85b173d45f314b33be123c2c68a983ee2",
-        "signature": "41d9aaee91693f63ab39855967fecaeafc6c179a8167009d5f27a7fc4d7271ea",
+        "version": "864a41e684c3fe5bde1730a7e4af66c2ce14ca1f9fc574bd7ee075c84d8d606e",
+        "signature": "aa7c4bd9b34a4927abd4ff43c4120e85aaaee7dd181ad8312d76402293adf86d",
         "affectsGlobalScope": false
       },
       "./src/components/lcapsulebar/index.tsx": {
-        "version": "14088a69956b5d5815dec794c7b5955fb0ec66feaed75e98b3759898bea3f20a",
-        "signature": "4aee8fc658620435e8dfdb143ec003e8c65579d632ec0b474a2a7e1a6a68453b",
+        "version": "09546c30173976962ebd950bd3b2dbf9d182725b274df2e984ac38ddb15ddd86",
+        "signature": "2a7ad7eee4cf6c5dfc1ff7472a6b8e63878371a321d2667a29b02b35c14cf676",
         "affectsGlobalScope": false
       },
       "./src/components/lmessage.tsx": {
-        "version": "c2f471b54d9a5e375371d6fdd5d925ab1fb33f386e0721fb911b2026805c45e6",
-        "signature": "c942b8efefc262943cf0bc950f98e24b198f7e6f6525c7354ccdc69520e97e1e",
+        "version": "22711b2f80fc699f6cfb6855c4d83fe8db9aea65211ec50da8f37c853a0dc6b3",
+        "signature": "6d35492d6173eda454fbb424990071f02c9f6bb6ce982db760abe730eb9fc816",
         "affectsGlobalScope": false
       },
       "./src/components/lstatusshow.tsx": {
-        "version": "0533609b5c806b01815a26f63d49a36cfa6e66aadc65955fabd7cefebfee2a19",
-        "signature": "9c549b060e12a7689c2bac32f9331e87c0aceead5a32ff12dccb7881212593fd",
+        "version": "5146986e40155b1e83a5be5911da8f842335b4824aa9c5ebd15c5169be1b0514",
+        "signature": "c5861c10073fc74265939ff48b979699ede8e8d838ad280f167aeb00e0ecbde2",
         "affectsGlobalScope": false
       },
       "./src/components/larcpopup.tsx": {
-        "version": "cbc715b999bc8a9b19b794490cf0700fe217c6763326c1de7ef698b6f0886549",
-        "signature": "22147c9dcd9dab04b0b382b5cb4b2945f045b44c84b12fc09d90583500c9cd93",
+        "version": "d868e7c1e6e2754e17564b18f4333924ee6f535a0031697d1689c44e0f9a7c7f",
+        "signature": "37c7275ea98c68a555f6bf9c0924d2ed26ab06d3b6a764471079bb226b8e305d",
+        "affectsGlobalScope": false
+      },
+      "./src/components/lcard.tsx": {
+        "version": "3a3c6afd7a41fd567e9c0ff2511cc7fd149e99ad9fa3b65c3003eec36b576a20",
+        "signature": "fab6442a4f858892c3495fb7bcb41c19ec9b7e8eb0a7c29d7c8c0b414df0c846",
+        "affectsGlobalScope": false
+      },
+      "./src/components/lbadge.tsx": {
+        "version": "0138162312fdc197001c0f47bbb486b59c2e841ae33dedde0abcee7484ad40fa",
+        "signature": "9225b8991f169c29f7bc5e7493716ded217e108293209a0cc99115b36dca2153",
+        "affectsGlobalScope": false
+      },
+      "./src/components/llist.tsx": {
+        "version": "0f19adbf47c30efb1b7c01d1b229fe74ebd27c355a6f0de33283161b2dac60ee",
+        "signature": "4968585f15f721a134d4ec234b69adfa413cbf3fe4c0e97e0c1c7f714612c72d",
+        "affectsGlobalScope": false
+      },
+      "./src/components/lgriditem.tsx": {
+        "version": "53424de3b09d97428eefc715ed95231343e6dcf5c31ed3395a0604c8b6e0867d",
+        "signature": "efa16c6336172c447b9e6894176eaa71ef7233c0a82c23f3de52c3329a0170b9",
+        "affectsGlobalScope": false
+      },
+      "./src/components/lgrid.tsx": {
+        "version": "f0f824c70e40943f609978f6be866be28f24f523237a75a515e12f5e3b7dd041",
+        "signature": "c3d9d25e2595ec673de83ba02b9f2a0f58f49f05a5d4304def2f69f7c552c5df",
         "affectsGlobalScope": false
       },
       "./src/index.ts": {
-        "version": "ade45613427c356bd3e4f218163e95a64bf062c845b8b2a91335630529a7ce56",
-        "signature": "1bdc50f7d889b9a7c0f2ff76298592ac131578f29a27c0d0b9c830afe9835d95",
+        "version": "366b56d8b6d55b51ba1a7c668d3d47adb3743954ed36ce67f61c8c65cb5cf790",
+        "signature": "9dbef2711519495aca5e2fe83663b3315281a952f7440456dd6ce8e3b9b6ca50",
         "affectsGlobalScope": false
       },
       "./src/taro.linextend.d.ts": {
@@ -3415,6 +3440,16 @@
         "./src/components/licon.tsx",
         "./src/px.ts"
       ],
+      "./src/components/lbadge.tsx": [
+        "./node_modules/@tarojs/components/types/index.d.ts",
+        "./node_modules/@tarojs/components/types/view.d.ts",
+        "./node_modules/@types/classnames/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./src/components/lbutton.tsx": [
         "./node_modules/@tarojs/components/types/button.d.ts",
         "./node_modules/@tarojs/components/types/index.d.ts",
@@ -3437,6 +3472,36 @@
         "./node_modules/@types/react/index.d.ts",
         "./src/device.ts"
       ],
+      "./src/components/lcard.tsx": [
+        "./node_modules/@tarojs/components/types/image.d.ts",
+        "./node_modules/@tarojs/components/types/index.d.ts",
+        "./node_modules/@types/classnames/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/lgrid.tsx": [
+        "./node_modules/@tarojs/components/types/index.d.ts",
+        "./node_modules/@types/classnames/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/react/index.d.ts",
+        "./src/components/lgriditem.tsx"
+      ],
+      "./src/components/lgriditem.tsx": [
+        "./node_modules/@tarojs/components/types/common.d.ts",
+        "./node_modules/@tarojs/components/types/index.d.ts",
+        "./node_modules/@types/classnames/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./src/components/licon.tsx": [
         "./node_modules/@tarojs/components/types/index.d.ts",
         "./node_modules/@types/classnames/index.d.ts",
@@ -3446,6 +3511,20 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./src/px.ts"
+      ],
+      "./src/components/llist.tsx": [
+        "./node_modules/@tarojs/components/types/index.d.ts",
+        "./node_modules/@tarojs/components/types/view.d.ts",
+        "./node_modules/@tarojs/taro/types/index.d.ts",
+        "./node_modules/@types/classnames/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/react/index.d.ts",
+        "./src/components/lbadge.tsx",
+        "./src/components/licon.tsx",
+        "./src/components/ltag.tsx"
       ],
       "./src/components/lloading.tsx": [
         "./node_modules/@tarojs/components/types/index.d.ts",
@@ -3544,9 +3623,13 @@
         "./src/components/lalbum.tsx",
         "./src/components/larcpopup.tsx",
         "./src/components/lavatar.tsx",
+        "./src/components/lbadge.tsx",
         "./src/components/lbutton.tsx",
         "./src/components/lcapsulebar/index.tsx",
+        "./src/components/lcard.tsx",
+        "./src/components/lgrid.tsx",
         "./src/components/licon.tsx",
+        "./src/components/llist.tsx",
         "./src/components/lloading.tsx",
         "./src/components/lloadmore.tsx",
         "./src/components/lmask.tsx",
@@ -5572,6 +5655,10 @@
         "./node_modules/@tarojs/components/types/image.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./src/components/lbadge.tsx": [
+        "./node_modules/@tarojs/components/types/view.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./src/components/lbutton.tsx": [
         "./node_modules/@tarojs/components/types/button.d.ts",
         "./node_modules/@types/react/index.d.ts"
@@ -5579,7 +5666,23 @@
       "./src/components/lcapsulebar/index.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./src/components/lcard.tsx": [
+        "./node_modules/@tarojs/components/types/image.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/lgrid.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/components/lgriditem.tsx"
+      ],
+      "./src/components/lgriditem.tsx": [
+        "./node_modules/@tarojs/components/types/common.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./src/components/licon.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/llist.tsx": [
+        "./node_modules/@tarojs/components/types/view.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
       "./src/components/lloading.tsx": [
@@ -5614,9 +5717,13 @@
         "./src/components/lalbum.tsx",
         "./src/components/larcpopup.tsx",
         "./src/components/lavatar.tsx",
+        "./src/components/lbadge.tsx",
         "./src/components/lbutton.tsx",
         "./src/components/lcapsulebar/index.tsx",
+        "./src/components/lcard.tsx",
+        "./src/components/lgrid.tsx",
         "./src/components/licon.tsx",
+        "./src/components/llist.tsx",
         "./src/components/lloading.tsx",
         "./src/components/lloadmore.tsx",
         "./src/components/lmask.tsx",
@@ -5950,13 +6057,14 @@
       ],
       "./src/components/larcpopup.tsx",
       "./src/components/lavatar.tsx",
+      "./src/components/lbadge.tsx",
       "./src/components/lbutton.tsx",
       [
         "./src/components/lcapsulebar/index.tsx",
         [
           {
             "file": "./src/components/lcapsulebar/index.tsx",
-            "start": 1716,
+            "start": 1715,
             "length": 11,
             "messageText": "'disableBack' is declared but its value is never read.",
             "category": 1,
@@ -5965,7 +6073,7 @@
           },
           {
             "file": "./src/components/lcapsulebar/index.tsx",
-            "start": 1740,
+            "start": 1739,
             "length": 11,
             "messageText": "'disableHome' is declared but its value is never read.",
             "category": 1,
@@ -5974,7 +6082,24 @@
           }
         ]
       ],
+      "./src/components/lcard.tsx",
+      [
+        "./src/components/lgrid.tsx",
+        [
+          {
+            "file": "./src/components/lgrid.tsx",
+            "start": 794,
+            "length": 7,
+            "messageText": "'isHover' is declared but its value is never read.",
+            "category": 1,
+            "code": 6133,
+            "reportsUnnecessary": true
+          }
+        ]
+      ],
+      "./src/components/lgriditem.tsx",
       "./src/components/licon.tsx",
+      "./src/components/llist.tsx",
       "./src/components/lloading.tsx",
       [
         "./src/components/lloadmore.tsx",
@@ -6021,7 +6146,19 @@
           }
         ]
       ],
-      "./src/components/ltag.tsx",
+      [
+        "./src/components/ltag.tsx",
+        [
+          {
+            "file": "./src/components/ltag.tsx",
+            "start": 1741,
+            "length": 8,
+            "messageText": "Spread types may only be created from object types.",
+            "category": 1,
+            "code": 2698
+          }
+        ]
+      ],
       "./src/device.ts",
       "./src/index.ts",
       [

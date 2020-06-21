@@ -46,7 +46,7 @@ export interface LStatusShowProps  {
   /**
    * 自定义页面内容
    */
-  children?:React.ReactChild
+  children?:React.ReactNode
   style?:React.CSSProperties,
   /** 显示状态 */
   show?:boolean 

@@ -26,8 +26,8 @@ const singleStyle = (horizontalScreen,shortSideValue,singleSize)=>{
 
 export interface LAlbumProps  {
   className?: string
-  style?: React.CSSProperties 
-  children?:React.ReactChild
+  style?: React.CSSProperties|string|undefined 
+  children?:React.ReactNode
   /** 图片链接 ,老模式：url数组，新模式则传入一个对象 */
   urls:string[]
   /** 是否点击打开预览 */

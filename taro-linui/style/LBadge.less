@@ -1,0 +1,54 @@
+@import "./_base.less";
+
+.l-badge {
+  position      : relative;
+  display       : inline-block;
+  line-height   : 1;
+  vertical-align: middle;
+
+  &-content {
+    max-width          : 650px;
+    left               : 70%;
+    background-color   : #ff474b;
+    color              : #fff;
+    // position           : absolute;
+    font-size          : 20px;
+    display            : inline-block;
+    white-space        : nowrap;
+    text-overflow      : ellipsis;
+    overflow           : hidden;
+    text-align         : center;
+    box-sizing         : border-box;
+    z-index            : 10;
+    letter-spacing     : .5px;
+
+    &-horn {
+      height       : 28px;
+      min-width    : 54px;
+      padding      : 0 8px;
+      border-radius: 14px 14px 14px 0px;
+      line-height  : 28px;
+      top          : -10px;
+    }
+
+    &-circle {
+      height       : 32px;
+      min-width    : 32px;
+      padding      : 0 10px;
+      border-radius: 16px;
+      line-height  : 32px;
+      top          : -10px;
+    }
+  }
+
+  &-dot {
+    height          : 16px;
+    width           : 16px;
+    transform       : translateX(50%);
+    border-radius   : 50%;
+    background-color: #ff474b;
+    position        : absolute;
+    top             : -4px;
+    right           : 0px;
+  }
+}

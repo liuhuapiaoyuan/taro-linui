@@ -1,0 +1,132 @@
+.card-container {
+    margin: 0 auto;
+    padding: 30px;
+    box-sizing: border-box;
+    background: #fff;
+    display: flex;
+  
+    &-full{
+      width: 100%;
+    }
+  
+    &-unfull{
+      width: 92%;
+      box-shadow: 0 4px 20px 0 rgba(212, 217, 223, 0.5);
+      border-radius: 4px;
+    }
+  
+    &-primary-left {
+      flex-direction: row;
+    }
+    
+    &-primary-right {
+      flex-direction: row-reverse;
+    }
+    
+    &-avatar {
+      flex-direction: column;
+    }
+  
+    &-cover {
+      flex-direction: column;
+    }
+  }
+  
+  .cover-img{
+    &-full{
+      width: 100%;
+      height: 260px;
+    }
+  
+    &-unfull{
+      width: 100%;
+      height: 260px;
+    }
+  }
+  
+  .card-img {
+    &-primary{
+      height: 240px;
+      width: 240px;
+      overflow: hidden;
+  
+      &-left{
+        margin-right: 40px;
+      }
+  
+      &-right{
+        margin-left: 40px;
+      }
+    }
+  
+    &-avatar{
+      height: 60px;
+      width: 60px;
+      border-radius: 50%;
+      margin-right: 30px;
+    }
+  }
+  
+  .card-img-avatar {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 30px;
+  }
+  
+  .card-content {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+  }
+  
+  .card-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #333;
+  
+    &-primary{
+      font-size: 32px;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+    }
+  
+    &-avatar{
+      font-size: 28px;
+    }
+  
+    &-cover{
+      font-size: 30px;
+      margin-top: 10px;
+    }
+  }
+  
+  .card-title-avatar {
+    font-size: 28px;
+  }
+  
+  .card-avatar-top {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .card-avatar-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .card-avatar{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .describe {
+    color: #666;
+    font-size: 24px;
+  }

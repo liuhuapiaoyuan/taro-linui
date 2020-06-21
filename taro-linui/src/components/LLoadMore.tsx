@@ -11,7 +11,7 @@
  export interface LLoadMoreProps  {
    className?: string
    /** 相当于内容插槽 content */
-   children?:React.ReactChild
+   children?:React.ReactNode
    /** 加载完成插槽，前提是customer:true */
    end?:React.ReactChild
    /** 加载中插槽，前提是customer:true */

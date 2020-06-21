@@ -6,7 +6,7 @@ import '../../style/LSpin.less'
 
 export interface LSpinProps  {
   className?: string
-  children?:React.ReactChild
+  children?:React.ReactNode
   /**颜色 */
   color?:string
   /** 显示/隐藏 */

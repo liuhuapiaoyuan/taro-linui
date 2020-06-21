@@ -10,7 +10,7 @@ import '../../style/LMessage.less'
  */
 export interface LMessageProps  {
   className?: string
-  children?:React.ReactChild
+  children?:React.ReactNode
   style?:React.CSSProperties
   /**是否显示 */
   // show?:boolean

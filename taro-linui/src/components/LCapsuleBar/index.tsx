@@ -7,7 +7,7 @@ import '../../../style/LCapsuleBar.less'
 
 export interface LCapsuleBarProps  {
   className?: string
-  children?:React.ReactChild
+  children?:React.ReactNode
   style?:React.CSSProperties
   /** 胶囊栏的颜色 默认是 white白色 */
   bgColor?:string 

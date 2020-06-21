@@ -6,7 +6,7 @@ import '../../style/LLoading.less'
 
 export interface LLoadingProps  {
   className?: string
-  children?:React.ReactChild
+  children?:React.ReactNode
   /**内容插槽 */
   content?:React.ReactChild
   style?:React.CSSProperties
