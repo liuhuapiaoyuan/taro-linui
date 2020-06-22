@@ -1006,9 +1006,19 @@
         "signature": "d2303755a387bbedd48cddfe4e85f2d35eeda23055e66971780ee7a9b7b1964e",
         "affectsGlobalScope": false
       },
+      "./src/components/lstep.tsx": {
+        "version": "19f0b03c5afb6e1d16992b560ecb0b72142e1a1331d0cb60b250078fa7aec3d1",
+        "signature": "2cef8df853fc5d8c06940dc6a76b5e55f08cf4460d63eb6c4f2d4fc84f54cd92",
+        "affectsGlobalScope": false
+      },
+      "./src/components/lsteps.tsx": {
+        "version": "97c43ebcccbee0518b3f38b0d9a5f3739918c3d2a609469adddb95028c11eb73",
+        "signature": "7cba93630a8c4a0485eed5dc0e48d34f41e131849f310f99eeeddba3fbcb1bdb",
+        "affectsGlobalScope": false
+      },
       "./src/index.ts": {
-        "version": "7d879e72379f2d120794f359c173857ce931433df1ed92ebf8d32dd511785478",
-        "signature": "3fb6d135980cb30544854bc7166d95be9f1b22fcd1b9039768d11082bf20f157",
+        "version": "0bce8b9051b133ebd4cc2f1620a9551780df57cffd94850d0c06f9609ad5c53d",
+        "signature": "2b8d8d9ea855f1da93ad49e0b6412bdb15273e47306ac53b64482d3c5a9b27eb",
         "affectsGlobalScope": false
       },
       "./src/taro.linextend.d.ts": {
@@ -3602,6 +3612,25 @@
         "./node_modules/@types/react/index.d.ts",
         "./src/components/lbutton.tsx"
       ],
+      "./src/components/lstep.tsx": [
+        "./node_modules/@tarojs/components/types/index.d.ts",
+        "./node_modules/@types/classnames/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/react/index.d.ts",
+        "./src/components/licon.tsx"
+      ],
+      "./src/components/lsteps.tsx": [
+        "./node_modules/@tarojs/components/types/index.d.ts",
+        "./node_modules/@types/classnames/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./src/components/ltag.tsx": [
         "./node_modules/@tarojs/components/types/index.d.ts",
         "./node_modules/@types/classnames/index.d.ts",
@@ -3651,6 +3680,8 @@
         "./src/components/lpopup.tsx",
         "./src/components/lspin.tsx",
         "./src/components/lstatusshow.tsx",
+        "./src/components/lstep.tsx",
+        "./src/components/lsteps.tsx",
         "./src/components/ltag.tsx",
         "./src/components/lwaterflow.tsx"
       ],
@@ -5724,6 +5755,12 @@
         "./node_modules/@tarojs/components/types/common.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./src/components/lstep.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/lsteps.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./src/components/ltag.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
@@ -5749,6 +5786,8 @@
         "./src/components/lpopup.tsx",
         "./src/components/lspin.tsx",
         "./src/components/lstatusshow.tsx",
+        "./src/components/lstep.tsx",
+        "./src/components/lsteps.tsx",
         "./src/components/ltag.tsx",
         "./src/components/lwaterflow.tsx"
       ],
@@ -6165,6 +6204,39 @@
           }
         ]
       ],
+      [
+        "./src/components/lstep.tsx",
+        [
+          {
+            "file": "./src/components/lstep.tsx",
+            "start": 1641,
+            "length": 5,
+            "messageText": "'style' is declared but its value is never read.",
+            "category": 1,
+            "code": 6133,
+            "reportsUnnecessary": true
+          },
+          {
+            "file": "./src/components/lstep.tsx",
+            "start": 1650,
+            "length": 8,
+            "messageText": "'children' is declared but its value is never read.",
+            "category": 1,
+            "code": 6133,
+            "reportsUnnecessary": true
+          },
+          {
+            "file": "./src/components/lstep.tsx",
+            "start": 1870,
+            "length": 10,
+            "messageText": "'stepsWidth' is declared but its value is never read.",
+            "category": 1,
+            "code": 6133,
+            "reportsUnnecessary": true
+          }
+        ]
+      ],
+      "./src/components/lsteps.tsx",
       [
         "./src/components/ltag.tsx",
         [

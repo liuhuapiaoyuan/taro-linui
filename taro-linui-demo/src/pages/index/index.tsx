@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { View, Text } from '@tarojs/components'
-import {LCard,LWaterFlow,LArcPopup,LList,LIcon,LButton,LGrid,LGridItem,LBadge} from 'taro-linui'
+import {LCard,LStep,LSteps,LWaterFlow,LArcPopup,LList,LIcon,LButton,LGrid,LGridItem,LBadge} from 'taro-linui'
 
 import {WaterFlowItem} from '../../components/WaterFlowItem'
 import './index.less'
@@ -10,7 +10,7 @@ const waterFlowData = [{
   describe: '柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。',
   count: '888',
   delCount: '666'
-},{
+},{ 
   image: 'http://zhai-jia.oss-cn-hangzhou.aliyuncs.com/uploads/20200612/67dd0b12d30865963557be71b9ca2d74.jpg',
   title: '显瘦中长款系带风衣',
   describe: '柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。好打理。',
@@ -62,6 +62,18 @@ function Index(){
   const [arc2,setArc2] = useState(false)
   return (
     <View className='index'> 
+    <View>测试步骤列表</View> 
+    <LSteps direction="column" activeIndex={1}>
+      <LStep title="已支付" describe="11:30"></LStep>
+      <LStep title="备餐中" describe="11:30"></LStep>
+      <LStep title="已出餐" describe="11:30"></LStep>
+    </LSteps>
+    <LSteps  activeIndex={1}>
+      <LStep title="已支付" describe="11:30"></LStep>
+      <LStep title="备餐中" describe="11:30"></LStep>
+      <LStep title="已出餐" describe="11:30"></LStep>
+      <LStep title="已评价" describe="11:30"></LStep>
+    </LSteps>
     <View>测试瀑布流</View>
     <LWaterFlow>
     {waterFlowData.map((item,index)=><WaterFlowItem key={index} { ...item}/>)}
