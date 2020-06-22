@@ -1,8 +1,46 @@
 import React, { useState } from 'react'
 import { View, Text } from '@tarojs/components'
-import {LCard,LArcPopup,LList,LIcon,LButton,LGrid,LGridItem,LBadge} from 'taro-linui'
-import './index.less'
+import {LCard,LWaterFlow,LArcPopup,LList,LIcon,LButton,LGrid,LGridItem,LBadge} from 'taro-linui'
 
+import {WaterFlowItem} from '../../components/WaterFlowItem'
+import './index.less'
+const waterFlowData = [{
+  image: 'http://zhai-jia.oss-cn-hangzhou.aliyuncs.com/uploads/20200612/67dd0b12d30865963557be71b9ca2d74.jpg',
+  title: '显瘦中长款系带风衣',
+  describe: '柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。',
+  count: '888',
+  delCount: '666'
+},{
+  image: 'http://zhai-jia.oss-cn-hangzhou.aliyuncs.com/uploads/20200612/67dd0b12d30865963557be71b9ca2d74.jpg',
+  title: '显瘦中长款系带风衣',
+  describe: '柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。好打理。',
+  count: '888',
+  delCount: '666'
+},{
+  image: 'http://zhai-jia.oss-cn-hangzhou.aliyuncs.com/uploads/20200612/67dd0b12d30865963557be71b9ca2d74.jpg',
+  title: '显瘦中长款系带风衣',
+  describe: '柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。',
+  count: '888',
+  delCount: '666'
+},{
+  image: 'http://zhai-jia.oss-cn-hangzhou.aliyuncs.com/uploads/20200612/67dd0b12d30865963557be71b9ca2d74.jpg',
+  title: '显瘦中长款系带风衣',
+  describe: '柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。',
+  count: '888',
+  delCount: '666'
+},{
+  image: 'http://zhai-jia.oss-cn-hangzhou.aliyuncs.com/uploads/20200612/67dd0b12d30865963557be71b9ca2d74.jpg',
+  title: '显瘦中长款系带风衣',
+  describe: '柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。',
+  count: '888',
+  delCount: '666'
+},{
+  image: 'http://zhai-jia.oss-cn-hangzhou.aliyuncs.com/uploads/20200612/67dd0b12d30865963557be71b9ca2d74.jpg',
+  title: '显瘦中长款系带风衣',
+  describe: '柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。',
+  count: '888',
+  delCount: '666'
+}]
 const grids2 = [{
   image: 'cart',
   text: '我的购物车'
@@ -24,6 +62,10 @@ function Index(){
   const [arc2,setArc2] = useState(false)
   return (
     <View className='index'> 
+    <View>测试瀑布流</View>
+    <LWaterFlow>
+    {waterFlowData.map((item,index)=><WaterFlowItem key={index} { ...item}/>)}
+    </LWaterFlow>
     <View>列表测试</View> 
     <LList gap={10} title="消息" isLink icon="notification" />
     <LList title="客服中心" icon="notification"  desc="工作时间：8:00-18:00"  />
@@ -32,8 +74,7 @@ function Index(){
     <LList title="设置" icon="setting" tagContent="我的" tagPosition="right" tagColor="#F4516c" />
     <LList title="消息" icon="notification" badgeCount="9" badgePosition="right" />
     <LList title="您有提醒" icon="notification" dotBadge/>
-
-
+  
     <View>红点测试</View>
     <LBadge shape="circle" value="1000"/>
     <LBadge value="33"/> 

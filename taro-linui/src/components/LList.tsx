@@ -155,7 +155,7 @@ const CellRight: React.FC<any> = ({children,rightDesc,tagContent,tagPosition,isL
         {tagContent && tagPosition ==='right' && !tagPlain && <LTag size="mini" shape={tagShape} bgColor={tagColor} className="celLTag">{tagContent}</LTag>}
         {tagContent && tagPosition ==='right' && tagPlain && <LTag size="mini" shape={tagShape} plain={tagPlain} fontColor={tagColor} className="celLTag">{tagContent}</LTag>}
         {(!!rightDesc) && <View className="l-text">{rightDesc}</View>}
-        {isLink && <LIcon className="l-arrow" name="right"  />}
+        {isLink && <LIcon size={26} color="#8c98ae" name="right"  />}
     </View>
 )
 export {LList}

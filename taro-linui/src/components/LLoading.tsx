@@ -57,7 +57,7 @@ const LLoading : React.FC<LLoadingProps> = props=>{
     <View 
           //wx:if="{{show}}"
           className={classnames('l-class',type + '-spinner',{
-              ['spinner-' + type + '-' + size]:type==='change'||custom
+              ['spinner-' + type + '-' + size]:type==='change'||custom 
           })}
           style={{marginBottom:distance}}>
       {custom && children}

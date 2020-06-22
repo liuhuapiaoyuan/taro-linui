@@ -932,7 +932,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/lloading.tsx": {
-        "version": "5ed488277a9202820c45427fd25ab3801b7af05e98ebca3c9be5dc1b63f86dca",
+        "version": "31e84992b66e4fb8b72e5ec7dade5c936eecba8d9ead66e4b464cd730fdc8d21",
         "signature": "d08b741f8be99642ed303d38fafd2759a55036f69b0bd46ca0ab7519f647f930",
         "affectsGlobalScope": false
       },
@@ -987,7 +987,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/llist.tsx": {
-        "version": "0f19adbf47c30efb1b7c01d1b229fe74ebd27c355a6f0de33283161b2dac60ee",
+        "version": "1da42da49815b1877f9ade2eb5afae97a5d45c270d84872674a8e50d33f68589",
         "signature": "4968585f15f721a134d4ec234b69adfa413cbf3fe4c0e97e0c1c7f714612c72d",
         "affectsGlobalScope": false
       },
@@ -1001,9 +1001,14 @@
         "signature": "c3d9d25e2595ec673de83ba02b9f2a0f58f49f05a5d4304def2f69f7c552c5df",
         "affectsGlobalScope": false
       },
+      "./src/components/lwaterflow.tsx": {
+        "version": "06357535f53741bd97913e50cddad78daa8b810d3d4f59374ca43be029fae73a",
+        "signature": "d2303755a387bbedd48cddfe4e85f2d35eeda23055e66971780ee7a9b7b1964e",
+        "affectsGlobalScope": false
+      },
       "./src/index.ts": {
-        "version": "366b56d8b6d55b51ba1a7c668d3d47adb3743954ed36ce67f61c8c65cb5cf790",
-        "signature": "9dbef2711519495aca5e2fe83663b3315281a952f7440456dd6ce8e3b9b6ca50",
+        "version": "7d879e72379f2d120794f359c173857ce931433df1ed92ebf8d32dd511785478",
+        "signature": "3fb6d135980cb30544854bc7166d95be9f1b22fcd1b9039768d11082bf20f157",
         "affectsGlobalScope": false
       },
       "./src/taro.linextend.d.ts": {
@@ -3607,6 +3612,15 @@
         "./node_modules/@types/react/index.d.ts",
         "./src/components/licon.tsx"
       ],
+      "./src/components/lwaterflow.tsx": [
+        "./node_modules/@tarojs/components/types/index.d.ts",
+        "./node_modules/@types/classnames/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./src/device.ts": [
         "./node_modules/@tarojs/taro/types/index.d.ts",
         "./node_modules/@types/node/fs.d.ts",
@@ -3637,7 +3651,8 @@
         "./src/components/lpopup.tsx",
         "./src/components/lspin.tsx",
         "./src/components/lstatusshow.tsx",
-        "./src/components/ltag.tsx"
+        "./src/components/ltag.tsx",
+        "./src/components/lwaterflow.tsx"
       ],
       "./src/px.ts": [
         "./node_modules/@tarojs/taro/types/index.d.ts",
@@ -5712,6 +5727,9 @@
       "./src/components/ltag.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./src/components/lwaterflow.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./src/index.ts": [
         "./src/components/lactionsheet.tsx",
         "./src/components/lalbum.tsx",
@@ -5731,7 +5749,8 @@
         "./src/components/lpopup.tsx",
         "./src/components/lspin.tsx",
         "./src/components/lstatusshow.tsx",
-        "./src/components/ltag.tsx"
+        "./src/components/ltag.tsx",
+        "./src/components/lwaterflow.tsx"
       ],
       "./src/taro.linextend.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
@@ -6156,6 +6175,19 @@
             "messageText": "Spread types may only be created from object types.",
             "category": 1,
             "code": 2698
+          }
+        ]
+      ],
+      [
+        "./src/components/lwaterflow.tsx",
+        [
+          {
+            "file": "./src/components/lwaterflow.tsx",
+            "start": 275,
+            "length": 2,
+            "code": 2345,
+            "category": 1,
+            "messageText": "Argument of type 'never[]' is not assignable to parameter of type 'never'."
           }
         ]
       ],
