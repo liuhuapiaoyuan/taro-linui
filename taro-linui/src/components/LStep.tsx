@@ -77,7 +77,7 @@ const LStep : React.FC<LStepProps> = props=>{
     describe,
     custom,
     title,describeText,
-    icon,iconColor,iconSize,
+    icon,iconColor,iconSize=24,
     index=0,activeIndex=0,direction,length=1,status='process',
     stepMinHeight=120,stepsWidth=120,
   } = props

@@ -1,5 +1,5 @@
 import React, {  } from 'react'
-import {View,Block,Text,Image} from '@tarojs/components'
+import {CoverView,View,Block,Text,Image} from '@tarojs/components'
 import Taro from '@tarojs/taro'
 import classnames from 'classnames'
 import {LButton} from './LButton'

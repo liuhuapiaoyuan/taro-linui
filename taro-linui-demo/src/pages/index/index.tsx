@@ -63,13 +63,13 @@ function Index(){
   return (
     <View className='index'> 
     <View>测试步骤列表</View> 
-    <LSteps direction="column" activeIndex={1}>
-      <LStep title="已支付" describe="11:30"></LStep>
+    <LSteps color="red" direction="column" activeIndex={3}>
+      <LStep  title="已支付" describe="11:30"></LStep>
       <LStep title="备餐中" describe="11:30"></LStep>
       <LStep title="已出餐" describe="11:30"></LStep>
     </LSteps>
-    <LSteps  activeIndex={1}>
-      <LStep title="已支付" describe="11:30"></LStep>
+    <LSteps dot activeIndex={1}>
+      <LStep icon="cart" title="已支付" describe="11:30"></LStep>
       <LStep title="备餐中" describe="11:30"></LStep>
       <LStep title="已出餐" describe="11:30"></LStep>
       <LStep title="已评价" describe="11:30"></LStep>

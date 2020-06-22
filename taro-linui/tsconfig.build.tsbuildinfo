@@ -902,7 +902,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/lpopup.tsx": {
-        "version": "1bd5afeb82a92d082b0ff16eb38e5d8862b95f484b1bcf290db74623d168a0ba",
+        "version": "8d91cab09160f09040b0723fe1623b18a825286d6b822f225a1a31cfc63575ee",
         "signature": "93760e60963f52ab9af8d5be4555cdf42bfcaff5764e5d9b89c61e261ce5a591",
         "affectsGlobalScope": false
       },
@@ -967,7 +967,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/lstatusshow.tsx": {
-        "version": "5146986e40155b1e83a5be5911da8f842335b4824aa9c5ebd15c5169be1b0514",
+        "version": "5cbd95e04881a6aaef3402b898c01bb948be367aa9d1e66fed86974a67f50f0e",
         "signature": "c5861c10073fc74265939ff48b979699ede8e8d838ad280f167aeb00e0ecbde2",
         "affectsGlobalScope": false
       },
@@ -1007,7 +1007,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/lstep.tsx": {
-        "version": "19f0b03c5afb6e1d16992b560ecb0b72142e1a1331d0cb60b250078fa7aec3d1",
+        "version": "9c15e2ad5ccf5f003bac03c8639f35417c03ac9c3038d7878b59c1b5fccc7b6c",
         "signature": "2cef8df853fc5d8c06940dc6a76b5e55f08cf4460d63eb6c4f2d4fc84f54cd92",
         "affectsGlobalScope": false
       },
@@ -6195,7 +6195,16 @@
         [
           {
             "file": "./src/components/lstatusshow.tsx",
-            "start": 91,
+            "start": 41,
+            "length": 9,
+            "messageText": "'CoverView' is declared but its value is never read.",
+            "category": 1,
+            "code": 6133,
+            "reportsUnnecessary": true
+          },
+          {
+            "file": "./src/components/lstatusshow.tsx",
+            "start": 101,
             "length": 31,
             "messageText": "'Taro' is declared but its value is never read.",
             "category": 1,
@@ -6227,7 +6236,7 @@
           },
           {
             "file": "./src/components/lstep.tsx",
-            "start": 1870,
+            "start": 1873,
             "length": 10,
             "messageText": "'stepsWidth' is declared but its value is never read.",
             "category": 1,

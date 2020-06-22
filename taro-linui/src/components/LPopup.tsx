@@ -48,7 +48,7 @@ const LPopup : React.FC<LPopupProps> = props=>{
       'popup-show':show
   })} 
   style={{zIndex}}>
-<View  style={{opacity}} className='container-bg l-bg-class'　/>
+<View  style={{opacity}}  className='container-bg l-bg-class'　/>
 {show &&<View onClick={onClose}  className={classnames('popup-content','l-panel-class'
     ,`popup-fade-${direction}-active-${(transition===null?animation:transition) ? status:''}`
     ,{
