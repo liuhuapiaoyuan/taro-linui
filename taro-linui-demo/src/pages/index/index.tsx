@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { View, Text } from '@tarojs/components'
-import {LCard,LStep,LSteps,LWaterFlow,LArcPopup,LList,LIcon,LButton,LGrid,LGridItem,LBadge} from 'taro-linui'
+import Taro from '@tarojs/taro'
+import {LDialog,LCard,LStep,LSteps,LWaterFlow,LArcPopup,LList,LIcon,LButton,LGrid,LGridItem,LBadge} from 'taro-linui'
 
 import {WaterFlowItem} from '../../components/WaterFlowItem'
 import './index.less'
@@ -10,7 +11,7 @@ const waterFlowData = [{
   describe: '柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。',
   count: '888',
   delCount: '666'
-},{ 
+},{  
   image: 'http://zhai-jia.oss-cn-hangzhou.aliyuncs.com/uploads/20200612/67dd0b12d30865963557be71b9ca2d74.jpg',
   title: '显瘦中长款系带风衣',
   describe: '柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。好打理。',
@@ -60,8 +61,20 @@ const grids2 = [{
 function Index(){
   const [arc1,setArc1] = useState(false)
   const [arc2,setArc2] = useState(false)
-  return (
+  const [showDialog,setShowDialog] = useState(false)
+  return ( 
     <View className='index'> 
+    <View>测试弹窗</View>
+    <LButton onClick={()=>setShowDialog(true)}>点击弹窗测试</LButton>
+    <LDialog type="confirm" show={showDialog} 
+    onCancel={()=>{
+      Taro.showToast({title:"点击了取消按钮",icon:"none"}) 
+      setShowDialog(false)
+    }}
+    onConfirm={()=>{
+      Taro.showToast({title:"点击了确定按钮"}) 
+      setShowDialog(false)
+    }} title="测试一下">阿的萨达啥大声道</LDialog>
     <View>测试步骤列表</View> 
     <LSteps color="red" direction="column" activeIndex={3}>
       <LStep  title="已支付" describe="11:30"></LStep>

@@ -1,0 +1,3 @@
+{
+    "eslint.workingDirectories": [ "./taro-linui-demo", "./taro-linui" ]
+}

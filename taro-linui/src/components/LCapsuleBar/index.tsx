@@ -122,5 +122,18 @@ const LCapsuleBar : React.FC<LCapsuleBarProps> = props=>{
   </View>
 </View>
 }  
-
+// /**
+//  * 导航栏的转换方法，可以使得导航栏随着滚动条转换透明度
+//  * @param scrollTop 
+//  * @param maxScroll 
+//  */
+// LCapsuleBar.transformScrollTop = (scrollTop:number,maxScroll:number=130 ):string=>{
+//   let opciaty = scrollTop / maxScroll;
+//   if (opciaty >= 1) {
+//     opciaty = 1;
+//   } else if (opciaty <= 0) {
+//     opciaty = 0;
+//   }
+//   return `rgba(255,0,0,${opciaty})`
+// }
 export {LCapsuleBar}

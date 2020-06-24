@@ -922,7 +922,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/lalbum.tsx": {
-        "version": "cd27ceb92849d752cc63cdd12c046fb5feedee5d6f4cd7b02868eb402f06071e",
+        "version": "600de8c63b309dedfadb3090f72ac267b3d72f58528e9a3eb53b07577ce95d13",
         "signature": "857d542f9e327672ed3adc8e3dbbad23ccf722eb5c6b5c482f85127e1fdbc233",
         "affectsGlobalScope": false
       },
@@ -957,7 +957,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/lcapsulebar/index.tsx": {
-        "version": "09546c30173976962ebd950bd3b2dbf9d182725b274df2e984ac38ddb15ddd86",
+        "version": "fe429542f7a2cc26333fe16d1340daaa40fb6439ca5143a6785eaec6ef724ab9",
         "signature": "2a7ad7eee4cf6c5dfc1ff7472a6b8e63878371a321d2667a29b02b35c14cf676",
         "affectsGlobalScope": false
       },
@@ -1016,9 +1016,14 @@
         "signature": "7cba93630a8c4a0485eed5dc0e48d34f41e131849f310f99eeeddba3fbcb1bdb",
         "affectsGlobalScope": false
       },
+      "./src/components/ldialog.tsx": {
+        "version": "5c636b4c5a3557c29894856649bf44e9a0c8b237c71aab112b8e0882c20e0d17",
+        "signature": "33206b6b5db8dc6bac3d7eac67cb7b11c9049243d3d371f80a05e805aee1cacf",
+        "affectsGlobalScope": false
+      },
       "./src/index.ts": {
-        "version": "0bce8b9051b133ebd4cc2f1620a9551780df57cffd94850d0c06f9609ad5c53d",
-        "signature": "2b8d8d9ea855f1da93ad49e0b6412bdb15273e47306ac53b64482d3c5a9b27eb",
+        "version": "b80936c79c25b1364de894253e05936953e5def69da988ecf3c68be17cc1cc74",
+        "signature": "bd8410775fe3bc91e1a8da00c8ce5851c7f925cf3635b1bf563f61cbc21727e3",
         "affectsGlobalScope": false
       },
       "./src/taro.linextend.d.ts": {
@@ -3497,6 +3502,18 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./src/components/ldialog.tsx": [
+        "./node_modules/@tarojs/components/types/common.d.ts",
+        "./node_modules/@tarojs/components/types/index.d.ts",
+        "./node_modules/@tarojs/taro/types/index.d.ts",
+        "./node_modules/@types/classnames/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/react/index.d.ts",
+        "./src/components/lpopup.tsx"
+      ],
       "./src/components/lgrid.tsx": [
         "./node_modules/@tarojs/components/types/index.d.ts",
         "./node_modules/@types/classnames/index.d.ts",
@@ -3670,6 +3687,7 @@
         "./src/components/lbutton.tsx",
         "./src/components/lcapsulebar/index.tsx",
         "./src/components/lcard.tsx",
+        "./src/components/ldialog.tsx",
         "./src/components/lgrid.tsx",
         "./src/components/licon.tsx",
         "./src/components/llist.tsx",
@@ -5716,6 +5734,10 @@
         "./node_modules/@tarojs/components/types/image.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./src/components/ldialog.tsx": [
+        "./node_modules/@tarojs/components/types/common.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./src/components/lgrid.tsx": [
         "./node_modules/@types/react/index.d.ts",
         "./src/components/lgriditem.tsx"
@@ -5776,6 +5798,7 @@
         "./src/components/lbutton.tsx",
         "./src/components/lcapsulebar/index.tsx",
         "./src/components/lcard.tsx",
+        "./src/components/ldialog.tsx",
         "./src/components/lgrid.tsx",
         "./src/components/licon.tsx",
         "./src/components/llist.tsx",
@@ -6141,6 +6164,20 @@
         ]
       ],
       "./src/components/lcard.tsx",
+      [
+        "./src/components/ldialog.tsx",
+        [
+          {
+            "file": "./src/components/ldialog.tsx",
+            "start": 1510,
+            "length": 6,
+            "messageText": "'locked' is declared but its value is never read.",
+            "category": 1,
+            "code": 6133,
+            "reportsUnnecessary": true
+          }
+        ]
+      ],
       [
         "./src/components/lgrid.tsx",
         [

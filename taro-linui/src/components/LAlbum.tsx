@@ -59,7 +59,7 @@ async function horizontalOrVertical(imgUrl,singleSize):Promise<any>{
 } 
 //查询dom的宽度和高度，注意这里获得的是一个px单位
 async function getDOMRect(id){
-  const query = Taro.createSelectorQuery();
+  const query = Taro.createSelectorQuery(); 
   query.select('#'+id).boundingClientRect()
   return new Promise((reslove,reject)=>{
     query.exec(res=>{
