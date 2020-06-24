@@ -57,73 +57,73 @@ export interface LButtonProps  extends Omit<_ButtonProps, 'size' | 'type'>{
    
 
 const LButton : React.FC<LButtonProps> = props=>{
-    const {
-        // name
-        shape='circle'
-        ,type='default'
-        ,size='medium'
-        ,plain=false
-        ,disabled=false
-        ,special=false
-        ,loading=false
-        ,icon
-        ,iconColor 
-        ,iconSize=24
-        ,hoverStartTime
-        ,hoverStayTime
-        ,hoverStopPropagation
-        ,width
-        ,height
-        ,bgColor
-        ,children
-        ,style
-        ,className
-        ,...rest
-    } = props
-    let btnStyle:any = {
-        backgroundColor:bgColor
-    }
-    if(size=='long'){
-        btnStyle.borderRadius = 0
-    }
-    if(width){
-        btnStyle.minWidth = px(width)
-    }
-    if(height){
-        btnStyle.minHeight = px(height)
-        btnStyle.lineHeight = px(height)
-    }
-    return (
-    <Label 　className={classnames("l-label-class",className)} style={style}>
-    {special &&<View className="special-container l-class">
+  const {
+    // name
+    shape='circle'
+    ,type='default'
+    ,size='medium'
+    ,plain=false
+    ,disabled=false
+    ,special=false
+    ,loading=false
+    ,icon
+    ,iconColor 
+    ,iconSize=24
+    ,hoverStartTime
+    ,hoverStayTime
+    ,hoverStopPropagation
+    ,width
+    ,height
+    ,bgColor
+    ,children
+    ,style
+    ,className
+    ,...rest
+  } = props
+  let btnStyle:any = {
+    backgroundColor:bgColor
+  }
+  if(size=='long'){
+    btnStyle.borderRadius = 0
+  }
+  if(width){
+    btnStyle.minWidth = px(width)
+  }
+  if(height){
+    btnStyle.minHeight = px(height)
+    btnStyle.lineHeight = px(height)
+  }
+  return (
+    <Label 　className={classnames('l-label-class',className)} style={style}>
+      {special &&<View className='special-container l-class'>
         {children}
       </View>}
       {!special &&<View 
         className={classnames('l-btn','l-btn-' + size,'l-btn-' + type
-        ,'l-btn-' + shape
-        ,{
+          ,'l-btn-' + shape
+          ,{
             'l-btn-plain':plain,
             'l-btn-disabled':disabled,
-        })}
+          })}
         hoverClass={disabled?'':'btn-hover l-hover-class'}
         hoverStopPropagation={hoverStopPropagation}
         hoverStartTime={hoverStartTime}
         hoverStayTime={hoverStayTime}
         style={btnStyle}
-        >
+      >
         {loading && <View className={
-            classnames('l-btn-loading','margin-'+size,{
-                [`l-btn-loading-${type}`]:plain
-            })} 
-            />}
+          classnames('l-btn-loading','margin-'+size,{
+            [`l-btn-loading-${type}`]:plain
+          })}
+        />}
         {icon && <LIcon  className={classnames('l-icon-class',)}   name={icon} color={iconColor} size={iconSize} />}
         {children}
       </View>} 
       <Button {...rest}
-       style="position: absolute;top: -999px;left: -999px;"
+        style='position: absolute;top: -999px;left: -999px;'
       />
-  </Label>
-    )
+    </Label>
+  )
 }  
 LButton.defaultProps ={
 }

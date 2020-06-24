@@ -17,7 +17,7 @@ export interface LPopupProps  {
   /** 是否用transition 替代animation ，默认为null */
   transition?:boolean 
   /** 弹出的方向 ，默认为center*/
-  direction?:"top"| 'right'| 'left'| 'bottom'| 'center'
+  direction?:'top'| 'right'| 'left'| 'bottom'| 'center'
   /** 是否锁定 */
   locked?:boolean 
     /** 弹层的层级，默认为777 */
@@ -44,23 +44,25 @@ const LPopup : React.FC<LPopupProps> = props=>{
     onClose=()=>1
   } = props
   const status = show?'show':'hide'
-  return  <View className={classnames('container-popup',className,"l-popup-" + direction,{
+  return  <View className={
+    classnames('container-popup',className,'l-popup-' + direction,{
       'popup-show':show
-  })} 
-  style={{zIndex}}>
-<View  style={{opacity}}  className='container-bg l-bg-class'　/>
-{show &&<View onClick={onClose}  className={classnames('popup-content','l-panel-class'
-    ,`popup-fade-${direction}-active-${(transition===null?animation:transition) ? status:''}`
-    ,{
-      [direction]:show,
-  })}  
-　>
-    <View onClick={e=>e.stopPropagation()}>
-    {children}
+    })
+  }  style={{zIndex}}
+  >
+    <View  style={{opacity}}  className='container-bg l-bg-class'　/>
+    {show &&<View onClick={onClose}  className={classnames('popup-content','l-panel-class'
+      ,`popup-fade-${direction}-active-${(transition===null?animation:transition) ? status:''}`
+      ,{
+        [direction]:show,
+      })}
+    >
+      <View onClick={e=>e.stopPropagation()}>
+        {children}
+      </View>
     </View>
-</View>
-}  
-</View>
+    }  
+  </View>
 }
 
 export {LPopup}

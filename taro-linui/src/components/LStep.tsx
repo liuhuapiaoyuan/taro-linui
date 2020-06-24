@@ -40,32 +40,32 @@ export interface LStepProps  {
 }
 
 var setStatus = function(activeIndex,index,status){
-    if(activeIndex===index){
-      return status || 'process'
-    } else if(activeIndex>index){
-      return 'finish'
-    }else{
-      return 'wait'
-    }
+  if(activeIndex===index){
+    return status || 'process'
+  } else if(activeIndex>index){
+    return 'finish'
+  }else{
+    return 'wait'
   }
+}
   
-  var statusStyle = function(activeIndex,index,color,status){
-    if(activeIndex===index){
-      return status==='error'?'':('background-color:' + color)
-    } else if(activeIndex>index){
-      return ('border-color:' + color + ';color:' + color)
-    }else{
-      return ''
-    }
+var statusStyle = function(activeIndex,index,color,status){
+  if(activeIndex===index){
+    return status==='error'?'':('background-color:' + color)
+  } else if(activeIndex>index){
+    return ('border-color:' + color + ';color:' + color)
+  }else{
+    return ''
   }
+}
   
-  var dotStyle = function(activeIndex,index,color){
-    if(activeIndex>=index){
-      return ('background-color:' + color)
-    } else{
-      return ''
-    }
+var dotStyle = function(activeIndex,index,color){
+  if(activeIndex>=index){
+    return ('background-color:' + color)
+  } else{
+    return ''
   }
+}
 
 
 const LStep : React.FC<LStepProps> = props=>{
@@ -81,49 +81,52 @@ const LStep : React.FC<LStepProps> = props=>{
     index=0,activeIndex=0,direction,length=1,status='process',
     stepMinHeight=120,stepsWidth=120,
   } = props
-    const statusText = setStatus(activeIndex, index, status)
+  const statusText = setStatus(activeIndex, index, status)
   let cstyle = {} as any 
-  direction==='row'?cstyle.width=(100/length)+"%" :cstyle.minHeight = stepMinHeight
+  direction==='row'?cstyle.width=(100/length)+'%' :cstyle.minHeight = stepMinHeight
   return  <View className={classnames('step ','step-'+direction,'l-class',className)}  
-      style={cstyle}>
-  <View className={classnames("step-container", "l-step-class", 'step-container-'+direction)}>
-    {custom ? <View   className="step-custom">
-      {dot}
-    </View> :<View className={classnames('l-step-class',dot && !icon?'step-dot-'+statusText+' step-dot':'step-'+statusText+' step-icon')}
-          style={dot?dotStyle(activeIndex,index,color):statusStyle(activeIndex,index,color,status)}>
-      {icon && <LIcon 
-        name={icon} 
-        size={iconSize} 
-        color={statusText==='process'?'#3963BC':iconColor}/>}
+    style={cstyle}
+  >
+    <View className={classnames('step-container', 'l-step-class', 'step-container-'+direction)}>
+      {custom ? <View   className='step-custom'>
+        {dot}
+      </View> :<View className={classnames('l-step-class',dot && !icon?'step-dot-'+statusText+' step-dot':'step-'+statusText+' step-icon')}
+        style={dot?dotStyle(activeIndex,index,color):statusStyle(activeIndex,index,color,status)}
+      >
+        {icon && <LIcon 
+          name={icon} 
+          size={iconSize} 
+          color={statusText==='process'?'#3963BC':iconColor}
+        />}
         {
-            !dot && !icon && <>
+          !dot && !icon && <>
             {
               (  statusText==='error' || statusText==='finish') ? <View 
-              className={classnames('iconfont',`icon-${statusText}`)} /> : (index+1)
+                className={classnames('iconfont',`icon-${statusText}`)}
+              /> : (index+1)
             }
-            </>
+          </>
         } 
+      </View>
+      }
     </View>
-}
+    <View className={classnames('step-content', 'step-content-'+direction)} >
+      <View className={classnames('l-title-class',activeIndex===index?'step-title-process':'step-title')} >
+        {title}
+      </View>
+      <View className='l-describe-class step-describe'>
+        {describeText}
+        {describe}
+      </View>
+    </View>
+    { length !== index+1 && <View className={classnames(
+      'step-line','l-line-class',
+      'step-line-'+ direction,
+      activeIndex>index?'step-line-finish':'step-line-wait'
+    )} style={activeIndex>index?('background-color:'+color):''}
+    >
+    </View>}
   </View>
-  <View className={classnames('step-content', 'step-content-'+direction)} >
-    <View className={classnames("l-title-class",activeIndex===index?'step-title-process':'step-title')} >
-      {title}
-    </View>
-    <View className="l-describe-class step-describe">
-      {describeText}
-      {describe}
-    </View>
-  </View>
- { length !== index+1 && <View className={classnames(
-                "step-line","l-line-class",
-                'step-line-'+ direction,
-                activeIndex>index?'step-line-finish':'step-line-wait'
-                )}
-        style={activeIndex>index?('background-color:'+color):''} 
-        >
-  </View>}
-</View>
 }  
 
 export {LStep}

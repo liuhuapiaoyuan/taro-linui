@@ -13,16 +13,16 @@ import '../../style/LBadge.less'
  * @param numberType 
  */
 const calculateNumberShow = (value:number,maxCount:number,numberType?:'overflow'| 'limit'| 'ellipsis')=>{
-    switch (numberType) {
-    case 'overflow':
-      return  value > maxCount ? `${maxCount}+` : value
-    case 'ellipsis':
-      return  value > maxCount ? '...' : value
-    case 'limit':
-      return  value > 999 ? (value >= 9999 ? Math.floor(value / 10000 * 100) / 100 + 'w' : Math.floor(value / 1000 * 100) / 100 + 'k') : value
-    default:
-      return value
-    }
+  switch (numberType) {
+  case 'overflow':
+    return  value > maxCount ? `${maxCount}+` : value
+  case 'ellipsis':
+    return  value > maxCount ? '...' : value
+  case 'limit':
+    return  value > 999 ? (value >= 9999 ? Math.floor(value / 10000 * 100) / 100 + 'w' : Math.floor(value / 1000 * 100) / 100 + 'k') : value
+  default:
+    return value
+  }
 }
 
 export interface LBadgeProps  {
@@ -63,15 +63,16 @@ const LBadge : React.FC<LBadgeProps> = props=>{
   const isNumber = mode=='number' && (!isNaN(Number(value)))
   const finalCount = isNumber ? calculateNumberShow(Number(value),maxCount,numberType) : value
   return  <View  className={classnames('l-badge',className)} style={style} onClick={onClick}>
- {children}
- {
-   show && <>
-    {dot && <View  className="l-badge-dot  l-class l-class-self l-self-class" />}
-   {!dot && <View  
-   className={classnames('l-badge-content-'+shape,'l-class','l-badge-content','l-class-self','l-self-class')}>{finalCount}</View>}
-   </>
- } 
-</View> 
+    {children}
+    {
+      show && <>
+        {dot && <View  className='l-badge-dot  l-class l-class-self l-self-class' />}
+        {!dot && <View  
+          className={classnames('l-badge-content-'+shape,'l-class','l-badge-content','l-class-self','l-self-class')}
+        >{finalCount}</View>}
+      </>
+    } 
+  </View> 
 }  
 
 export {LBadge}

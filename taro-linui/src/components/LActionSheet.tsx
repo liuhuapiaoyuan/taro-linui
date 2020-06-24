@@ -58,68 +58,72 @@ export interface LActionSheetProps  {
 }
 
 export const LActionSheet: React.FC<LActionSheetProps> = props => {
-    const { 
-        className,
-        style = {}, 
-        zIndex=777,
-        show=false, 
-        title,
-        locked=false,
-        showCancel=true, 
-        itemList=[],
-        cancelText = '取消', 
-        onClickItem,
-        isHover=false
-    } = props
-    const isIphoneX = Taro.getSystemInfoSync().model === 'iPhone X'
-    const onClose = useCallback(
-        e => props.onClose && props.onClose(e),
-        [props.onClose]
-    )
+  const { 
+    className,
+    style = {}, 
+    zIndex=777,
+    show=false, 
+    title,
+    locked=false,
+    showCancel=true, 
+    itemList=[],
+    cancelText = '取消', 
+    onClickItem,
+    isHover=false,
+    onClose,onCancel
+  } = props
+  const isIphoneX = Taro.getSystemInfoSync().model === 'iPhone X'
+  const _onClose = useCallback(
+    e => onClose && onClose(e),
+    [onClose]
+  )
 
-    const onCancel = useCallback(
-        e => props.onCancel?props.onCancel(e):onClose(e),
-        [onClose, props.onCancel]
-    )
+  const _onCancel = useCallback(
+    e => onCancel?onCancel(e):_onClose(e),
+    [_onClose, onCancel]
+  )
 
-    return (
-        <LPopup show={show}  onClose={onClose} direction="bottom" locked={locked}  z-index={zIndex}>
-        <View className={classnames('l-action-sheet',className)} style={style}>
-            {title &&<View  className="l-item-button l-class-title l-title-class">{ title }</View>}
-            {
-                itemList.map((item,index)=>(
-                    <View key={item.name} hoverClass={isHover?'list-hover':''}>
-                        <LButton onClick={e=>onClickItem&& onClickItem(index,e)}   openType={ item.openType } icon={item.icon} type="default" size="long" special={true} >
-                            <View style={ item.color ? 'color: ' + item.color : '' } 
-                            className={classnames("l-item-button","l-class-item","l-item-class",{
-                                'l-image-button':item.image || item.icon
-                            })}>
-                                {
-                                    item.image && <Image  className="l-button-image" src={item.image} style={item.imageStyle} mode={item.imageMode}/>
-                                }
-                                {
-                                    item.icon &&  <LIcon
-                                    name={ item.icon }
-                                    l-className="l-item-button"
-                                    size={ item.iconSize }
-                                    color={item.iconColor?item.iconColor:item.color} />
-                                }
-                                <Text className="l-button-text">{ item.name }</Text>
-                            </View>
-                        </LButton>
-                    </View>
-                ))
-            }
-            {showCancel && <View
-            className={classnames("l-cancel","l-class-cancel","l-cancel-class",{
-                'l-cancel-x':isIphoneX
-            })}
-              hoverClass={isHover?'list-hover':''}>
-                <LButton type="default" size="long" onClick={onCancel} special>
-                    <View className="l-item-button l-cancel-button">{cancelText}</View>
-                </LButton>
-            </View>}
-        </View>
-        </LPopup>
-    )
+  return (
+    <LPopup show={show}  onClose={_onClose} direction='bottom' locked={locked}  z-index={zIndex}>
+      <View className={classnames('l-action-sheet',className)} style={style}>
+        {title &&<View  className='l-item-button l-class-title l-title-class'>{ title }</View>}
+        {
+          itemList.map((item,index)=>(
+            <View key={item.name} hoverClass={isHover?'list-hover':''}>
+              <LButton onClick={e=>onClickItem&& onClickItem(index,e)}   openType={item.openType} icon={item.icon} type='default' size='long' special >
+                <View style={item.color ? 'color: ' + item.color : ''} 
+                  className={classnames('l-item-button','l-class-item','l-item-class',{
+                    'l-image-button':item.image || item.icon
+                  })}
+                >
+                  {
+                    item.image && <Image  className='l-button-image' src={item.image} style={item.imageStyle} mode={item.imageMode} />
+                  }
+                  {
+                    item.icon &&  <LIcon
+                      name={item.icon}
+                      l-className='l-item-button'
+                      size={item.iconSize}
+                      color={item.iconColor?item.iconColor:item.color}
+                    />
+                  }
+                  <Text className='l-button-text'>{ item.name }</Text>
+                </View>
+              </LButton>
+            </View>
+          ))
+        }
+        {showCancel && <View
+          className={classnames('l-cancel','l-class-cancel','l-cancel-class',{
+            'l-cancel-x':isIphoneX
+          })}
+          hoverClass={isHover?'list-hover':''}
+        >
+          <LButton type='default' size='long' onClick={_onCancel} special>
+            <View className='l-item-button l-cancel-button'>{cancelText}</View>
+          </LButton>
+        </View>}
+      </View>
+    </LPopup>
+  )
 }

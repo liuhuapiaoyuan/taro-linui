@@ -27,7 +27,7 @@ export interface LArcPopupProps  {
   /**背景的透明度，默认0.4 */
   opacity?:number
   /** 默认的弹出方向，顶部或者底部，默认是 bottom底部弹出 */
-  direction?:"top"|"bottom"
+  direction?:'top'|'bottom'
   /**header是否自动吸顶，默认为 true */
   headerFixed?:boolean 
   /**层级，默认是99 */
@@ -56,7 +56,7 @@ const LArcPopup : React.FC<LArcPopupProps> = props=>{
     children,
     header,
     show=false,
-    direction="bottom",arcRadius=9,maxHeight=300,minHeight=100,
+    direction='bottom',arcRadius=9,maxHeight=300,minHeight=100,
     transition,
     opacity=0.4,
     locked=false,
@@ -66,30 +66,31 @@ const LArcPopup : React.FC<LArcPopupProps> = props=>{
   } = props
   const arcStyle = getArcPopupStyle({direction,arcRadius,maxHeight,minHeight})
   return <LPopup 
-  show={show} 
-  direction={direction} 
-  transition={transition} 
-  locked={locked} 
-  opacity={opacity}
-  zIndex={zIndex} 
-  className={className}
-  style={style}
-  onClose={onClose}
->
-  <ScrollView
-    scrollY
-    className="arc-popup l-panel-class" 
-    style={arcStyle} 
+    show={show} 
+    direction={direction} 
+    transition={transition} 
+    locked={locked} 
+    opacity={opacity}
+    zIndex={zIndex} 
+    className={className}
+    style={style}
+    onClose={onClose}
   >
-    <View className= {classnames('header-popup','l-header-class"',
-    {'fixed':headerFixed})} >
-     {header}
-    </View>
-    <View className="content-arc-popup">
-      {children}
-    </View>
-  </ScrollView>
-</LPopup>
+    <ScrollView
+      scrollY
+      className='arc-popup l-panel-class' 
+      style={arcStyle} 
+    >
+      <View className={classnames('header-popup','l-header-class"',
+        {'fixed':headerFixed})}
+      >
+        {header}
+      </View>
+      <View className='content-arc-popup'>
+        {children}
+      </View>
+    </ScrollView>
+  </LPopup>
 }  
 
 export {LArcPopup}

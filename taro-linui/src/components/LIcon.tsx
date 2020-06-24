@@ -17,20 +17,20 @@ export interface LIconProps  {
 }
  
 const LIcon : React.FC<LIconProps> = props=>{
-    const {
-        name,
-        color='#3963bc',
-        size=40,
-    } = props
-    return (<View 
-        className={classnames("l-class l-class-self l-self-class l-icon",{
-            [`l-icon-${name}`]:name
-        })}
-        style = {{
-            fontSize:(typeof(size)==='number')? (px(size)) : size,
-            color
-        }}
-        />
+  const {
+    name,
+    color='#3963bc',
+    size=40,
+  } = props
+  return (<View 
+    className={classnames('l-class l-class-self l-self-class l-icon',{
+      [`l-icon-${name}`]:name
+    })}
+    style={{
+      fontSize:(typeof(size)==='number')? (px(size)) : size,
+      color
+    }}
+  />
   )
 }  
  

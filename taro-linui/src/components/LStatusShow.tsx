@@ -1,44 +1,43 @@
 import React, {  } from 'react'
-import {CoverView,View,Block,Text,Image} from '@tarojs/components'
-import Taro from '@tarojs/taro'
+import {View,Block,Text,Image} from '@tarojs/components'
 import classnames from 'classnames'
-import {LButton} from './LButton'
 import { CommonEvent } from '@tarojs/components/types/common'
+import {LButton} from './LButton'
 
 import '../../style/LStatusShow.less'
 
 const _defaultType = {
   'success':{
     typeImage: require('../../assert/status-show/image/success.png'),
-      typeText: '操作成功~'
+    typeText: '操作成功~'
   },
   'error':{
-      typeImage: require('../../assert/status-show/image/error.png'),
-      typeText: '操作失败~'
+    typeImage: require('../../assert/status-show/image/error.png'),
+    typeText: '操作失败~'
   },
   'cart':{
-        typeImage: require('../../assert/status-show/image/cart.png'),
-      typeText: '购物车空空如也，去逛逛吧~'
+    typeImage: require('../../assert/status-show/image/cart.png'),
+    typeText: '购物车空空如也，去逛逛吧~'
   },
   'order':{
-      typeImage: require('../../assert/status-show/image/order.png'),
-      typeText: '您暂时还没有订单哦~'
+    typeImage: require('../../assert/status-show/image/order.png'),
+    typeText: '您暂时还没有订单哦~'
   },
   'network':{
     typeImage: require('../../assert/status-show/image/network.png'),
-      typeText: '糟糕！网络错误~'
+    typeText: '糟糕！网络错误~'
   },
   'address':{
     typeImage: require('../../assert/status-show/image/address.png'),
-      typeText: '您暂时还没有地址哦~'
+    typeText: '您暂时还没有地址哦~'
   },
   'product':{
     typeImage: require('../../assert/status-show/image/product.png'),
-      typeText: '暂时还没有商品哦~~'
+    typeText: '暂时还没有商品哦~~'
   },
   'data':{
-        typeImage: require('../../assert/status-show/image/data.png'),
-      typeText: '暂时还没有相关数据哦~~'
+    typeImage: require('../../assert/status-show/image/data.png'),
+    typeText: '暂时还没有相关数据哦~~'
   },
 }
 export interface LStatusShowProps  {
@@ -87,36 +86,38 @@ const LStatusShow : React.FC<LStatusShowProps> = props=>{
   const {typeText,typeImage} = _defaultType[type]
   if(!show) return null 
   return  <View  className={classnames('l-status-container',{content:fullScreen})}
-  style={{backgroundColor:bgColor,alignItems:fullScreen?'center':'left'}}>
-  {custom && children}
-  {!custom && (<Block>
-    {image && <Image 
-      className={classnames('left-img','l-image-class',{
-        'image_margin_top':fullScreen
-      })}  src={image} />}
-    {
-      !image && <Image className={classnames("l-image-class",type=='success'||type=='error'?'left-img':'top-img',{
-        'ad-img':type=='address',
-        'image_margin_top':fullScreen
-      })}
-      src={typeImage} />
-    }
+    style={{backgroundColor:bgColor,alignItems:fullScreen?'center':'left'}}
+  >
+    {custom && children}
+    {!custom && (<Block>
+      {image && <Image 
+        className={classnames('left-img','l-image-class',{
+          'image_margin_top':fullScreen
+        })}  src={image}
+      />}
+      {
+        !image && <Image className={classnames('l-image-class',type=='success'||type=='error'?'left-img':'top-img',{
+          'ad-img':type=='address',
+          'image_margin_top':fullScreen
+        })}  src={typeImage}
+        />
+      }
     
-    {describe && <Text  className="status-text l-describe-class">{describe}</Text>}
-    {!describe && <Text className="status-text l-describe-class">{typeText}</Text>}
-    {buttonText && <LButton onClick={onClickButton} className="l-button-class button_margin_top">
-      <View>{buttonText}</View>
-    </LButton>}
-    {!buttonText && type ==='network' && <LButton onClick={onClickButton} className="l-button-class button_margin_top">
-      <View>重新加载</View>
-    </LButton>}
-    {!buttonText && type ==='cart' &&  <LButton onClick={onClickButton} className="l-button-class button_margin_top" >
-      <View>去逛逛</View>
-    </LButton>}
-    {/* 自定义按钮内容 */}
-    {children}
-  </Block>)}
-</View>
+      {describe && <Text  className='status-text l-describe-class'>{describe}</Text>}
+      {!describe && <Text className='status-text l-describe-class'>{typeText}</Text>}
+      {buttonText && <LButton onClick={onClickButton} className='l-button-class button_margin_top'>
+        <View>{buttonText}</View>
+      </LButton>}
+      {!buttonText && type ==='network' && <LButton onClick={onClickButton} className='l-button-class button_margin_top'>
+        <View>重新加载</View>
+      </LButton>}
+      {!buttonText && type ==='cart' &&  <LButton onClick={onClickButton} className='l-button-class button_margin_top' >
+        <View>去逛逛</View>
+      </LButton>}
+      {/* 自定义按钮内容 */}
+      {children}
+    </Block>)}
+  </View>
 }
 
 export {LStatusShow}

@@ -1,9 +1,14 @@
 {
-  "extends": ["taro/react"],
+  "extends": ["taro/react"], 
   "rules": {
+    "import/no-commonjs":0,
+    "quotes": [1, "single"],
     "indent": ["error", 2],
     "no-unused-vars": ["error", { "varsIgnorePattern": "Taro" }],
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".tsx"] }]
   },
-    "parser": "babel-eslint"
-}
+    "parser": "@typescript-eslint/parser",
+    "parserOptions":{
+      "project":"./tsconfig.json"
+    }
+} 

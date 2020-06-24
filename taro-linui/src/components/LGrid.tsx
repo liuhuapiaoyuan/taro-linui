@@ -32,32 +32,32 @@ const LGrid : React.FC<LGridProps> = props=>{
   } = props
   const isHover= false  
   return  <View className={classnames('l-grid','l-class',className)} style={style}>
-      {
-          children && React.Children.map(children,(child,index)=>React.cloneElement(child as any,{
-            className:classnames("l-grid-item","l-class-grid","l-grid-class",{
-                'side-grid':index%rowNum !== rowNum-1 &&(showBorder||showColBorder),
-                'center-grid':(index<React.Children.count(children)-(React.Children.count(children)%rowNum||rowNum)) &&(showBorder||showRowBorder)
-              }),
-            style:{
-                minWidth:100/rowNum + "%"
-            },
-            onClick:e=>onClickItem && onClickItem(index,e)
-          }))
-      }
-      {
-        //   children && children.map((item,index)=><LGridItem 
-        //   className={classnames("l-grid-item","l-class-grid","l-grid-class",{
-        //     'side-grid':index%rowNum !== rowNum-1 &&(showBorder||showColBorder),
-        //     'center-grid':(index<children.length-(children.length%rowNum||rowNum)) &&(showBorder||showRowBorder)
-        //   })}
-        //   style={{
-        //       minWidth:100/rowNum + "%"
-        //   }}
-        //   onClick={e=>onClickItem && onClickItem()}
-        //   key={item.key} {...item} />
-        //   )
-      }
-</View>
+    {
+      children && React.Children.map(children,(child,index)=>React.cloneElement(child as any,{
+        className:classnames('l-grid-item','l-class-grid','l-grid-class',{
+          'side-grid':index%rowNum !== rowNum-1 &&(showBorder||showColBorder),
+          'center-grid':(index<React.Children.count(children)-(React.Children.count(children)%rowNum||rowNum)) &&(showBorder||showRowBorder)
+        }),
+        style:{
+          minWidth:100/rowNum + '%'
+        },
+        onClick:e=>onClickItem && onClickItem(index,e)
+      }))
+    }
+    {
+      //   children && children.map((item,index)=><LGridItem 
+      //   className={classnames("l-grid-item","l-class-grid","l-grid-class",{
+      //     'side-grid':index%rowNum !== rowNum-1 &&(showBorder||showColBorder),
+      //     'center-grid':(index<children.length-(children.length%rowNum||rowNum)) &&(showBorder||showRowBorder)
+      //   })}
+      //   style={{
+      //       minWidth:100/rowNum + "%"
+      //   }}
+      //   onClick={e=>onClickItem && onClickItem()}
+      //   key={item.key} {...item} />
+      //   )
+    }
+  </View>
 }  
 
 export {LGrid}

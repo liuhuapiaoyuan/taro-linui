@@ -32,39 +32,42 @@ export interface LCardProps  {
 const LCard : React.FC<LCardProps> = props=>{
   const {
     children,more,className,style,full=false,
-    type="primary",position="left",plaintext=false,
-    title,imageMode="aspectFill",image,describe
+    type='primary',position='left',plaintext=false,
+    title,imageMode='aspectFill',image,describe
   } = props
   return  <View style={style} className={classnames(className,'card-container','card-container-' + type,
-  'card-container-' + type + '-' + position,full?'card-container-full':'card-container-unfull'
-  )}  >
+    'card-container-' + type + '-' + position,full?'card-container-full':'card-container-unfull'
+  )}
+  >
     {(type ==='primary' || type ==='cover') && image && <Block>
-        {!plaintext && <Image  
-        className={classnames("l-img-class",'card-img-' + type,'card-img-' + type + '-' + position,full?'cover-img-full':'cover-img-unfull')}
-        mode={imageMode} lazyLoad src={image} />}
-    <View className="card-content">
-      <Text className={classnames("l-title-class",'card-title','card-title-' + type)}>{title}</Text>
-      {children}
-    </View>
-  </Block>}
-  {type ==='avatar' &&  <Block >
-    <View className="card-avatar-top">
-      <View className="card-avatar-left">
-        {image && <Image mode={imageMode} 
-        className={classnames("l-img-class",'card-img-' + type)} 
-        src={image}  
-        lazyLoad />}
-        <View className="card-avatar">
-          <Text className={classnames("l-title-class",'card-title','card-title-' + type)}>{title}</Text>
-          <Text className="describe">{describe}</Text>
-        </View>
+      {!plaintext && <Image  
+        className={classnames('l-img-class','card-img-' + type,'card-img-' + type + '-' + position,full?'cover-img-full':'cover-img-unfull')}
+        mode={imageMode} lazyLoad src={image}
+      />}
+      <View className='card-content'>
+        <Text className={classnames('l-title-class','card-title','card-title-' + type)}>{title}</Text>
+        {children}
       </View>
-     {more}
-    </View>
-    {children}
-  </Block>}
+    </Block>}
+    {type ==='avatar' &&  <Block >
+      <View className='card-avatar-top'>
+        <View className='card-avatar-left'>
+          {image && <Image mode={imageMode} 
+            className={classnames('l-img-class','card-img-' + type)} 
+            src={image}  
+            lazyLoad
+          />}
+          <View className='card-avatar'>
+            <Text className={classnames('l-title-class','card-title','card-title-' + type)}>{title}</Text>
+            <Text className='describe'>{describe}</Text>
+          </View>
+        </View>
+        {more}
+      </View>
+      {children}
+    </Block>}
  
-</View>
+  </View>
 }  
 
 export {LCard}

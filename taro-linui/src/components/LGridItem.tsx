@@ -24,10 +24,11 @@ const LGridItem : React.FC<LGridItemProps> = props=>{
     onClick
   } = props
   return  <View  style={style}
-    className={classnames("l-grid-item","l-grid-item-class","grid-item",className)}
-   onClick={onClick}>
-  {children}
-</View>
+    className={classnames('l-grid-item','l-grid-item-class','grid-item',className)}
+    onClick={onClick}
+  >
+    {children}
+  </View>
 }  
 
 export {LGridItem}

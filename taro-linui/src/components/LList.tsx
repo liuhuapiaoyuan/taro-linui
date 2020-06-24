@@ -84,7 +84,7 @@ const LList : React.FC<LListProps> = props=>{
     badgeMaxCount=99,
     rightDesc,isLink=true,
     leftSection,rightSection,
-    tagShape="circle",tagPlain=false,
+    tagShape='circle',tagPlain=false,
     image,icon,title,desc,tagContent,tagPosition='left',tagColor,iconSize,iconColor,
     onClick
   } = props
@@ -94,34 +94,35 @@ const LList : React.FC<LListProps> = props=>{
   if(gap){style.padding = `0 ${gap}px`}
   if(leftGap){style.paddingLeft = `${leftGap}px`}
   if(rightGap){style.paddingRight = `${rightGap}px`}
-  return  <View className={classnames("l-list","l-class",className)} 
+  return  <View className={classnames('l-list','l-class',className)} 
     hoverClass='l-list-hover' 
     hoverStartTime={20}
     hoverStayTime={50}  
     style={style}
     onClick={e=>{
       isLink ? (url && Taro[linkType]({url}) )
-      :(onClick && onClick(e))
+        :(onClick && onClick(e))
     }}
-    >
+  >
     {
       ((badgeCount > 0 || dotBadge ) && badgePosition ==='left' ) ?  <LBadge
-        className="l-list-badge"
-      value={badgeCount}
-      dot={dotBadge}
-      maxCount={badgeMaxCount}
-      numberType={badgeCountType}
+        className='l-list-badge'
+        value={badgeCount}
+        dot={dotBadge}
+        maxCount={badgeMaxCount}
+        numberType={badgeCountType}
       >
         <CellLeft {...leftProps}>{leftSection}</CellLeft>
       </LBadge> :　<CellLeft {...leftProps}>{leftSection}</CellLeft>
     }
     {
       ((badgeCount > 0 || dotBadge ) && badgePosition ==='right' ) ?  <LBadge
-        className="l-list-badge l-list-badge-right"
+        className='l-list-badge l-list-badge-right'
         value={badgeCount}
         dot={dotBadge}
         maxCount={badgeMaxCount}
-        numberType={badgeCountType}>
+        numberType={badgeCountType}
+      >
         <CellRight  {...rightProps}>{rightSection}</CellRight>
       </LBadge> :　<CellRight  {...rightProps}>{rightSection}</CellRight>
     }
@@ -133,16 +134,16 @@ const LList : React.FC<LListProps> = props=>{
  * @param props 
  */
 const CellLeft : React.FC<any> = ({image,icon,title,desc,tagContent,tagPosition,tagColor,tagShape,tagPlain,iconSize,iconColor,children}) =>(
-  <View className="left-section ">
-    {image && <Image  className="l-image l-class-image l-image-class" src={image} mode={'aspectFit'} />}
-    {icon && <LIcon   className="l-class-icon l-icon-class" name={icon} size={iconSize} color={iconColor} />}
-    <View className="l-text">
-        <View className="l-content l-class-content l-content-class">{title}</View>
-        {desc && <View className="l-desc l-class-desc l-desc-class" >{desc}</View>}
+  <View className='left-section '>
+    {image && <Image  className='l-image l-class-image l-image-class' src={image} mode='aspectFit' />}
+    {icon && <LIcon   className='l-class-icon l-icon-class' name={icon} size={iconSize} color={iconColor} />}
+    <View className='l-text'>
+      <View className='l-content l-class-content l-content-class'>{title}</View>
+      {desc && <View className='l-desc l-class-desc l-desc-class' >{desc}</View>}
     </View>
-    {tagContent && tagPosition ==='left' && !tagPlain && <LTag size="mini"  shape={tagShape} bgColor={tagColor} className="celLTag">{tagContent}</LTag>}
-    {tagContent && tagPosition ==='left' && tagPlain && <LTag size="mini" shape={tagShape} plain={tagPlain} fontColor={tagColor} l-className="celLTag">{tagContent}</LTag>}
-   {children}
+    {tagContent && tagPosition ==='left' && !tagPlain && <LTag size='mini'  shape={tagShape} bgColor={tagColor} className='celLTag'>{tagContent}</LTag>}
+    {tagContent && tagPosition ==='left' && tagPlain && <LTag size='mini' shape={tagShape} plain={tagPlain} fontColor={tagColor} l-className='celLTag'>{tagContent}</LTag>}
+    {children}
   </View>
 )
 /**
@@ -150,12 +151,12 @@ const CellLeft : React.FC<any> = ({image,icon,title,desc,tagContent,tagPosition,
  * @param props 
  */
 const CellRight: React.FC<any> = ({children,rightDesc,tagContent,tagPosition,isLink,tagColor,tagShape,tagPlain}) =>(
-  <View className="right-section l-class-right l-right-class">
-       {children}
-        {tagContent && tagPosition ==='right' && !tagPlain && <LTag size="mini" shape={tagShape} bgColor={tagColor} className="celLTag">{tagContent}</LTag>}
-        {tagContent && tagPosition ==='right' && tagPlain && <LTag size="mini" shape={tagShape} plain={tagPlain} fontColor={tagColor} className="celLTag">{tagContent}</LTag>}
-        {(!!rightDesc) && <View className="l-text">{rightDesc}</View>}
-        {isLink && <LIcon size={26} color="#8c98ae" name="right"  />}
-    </View>
+  <View className='right-section l-class-right l-right-class'>
+    {children}
+    {tagContent && tagPosition ==='right' && !tagPlain && <LTag size='mini' shape={tagShape} bgColor={tagColor} className='celLTag'>{tagContent}</LTag>}
+    {tagContent && tagPosition ==='right' && tagPlain && <LTag size='mini' shape={tagShape} plain={tagPlain} fontColor={tagColor} className='celLTag'>{tagContent}</LTag>}
+    {(!!rightDesc) && <View className='l-text'>{rightDesc}</View>}
+    {isLink && <LIcon size={26} color='#8c98ae' name='right'  />}
+  </View>
 )
 export {LList}

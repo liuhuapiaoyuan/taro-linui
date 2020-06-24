@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { View, Text } from '@tarojs/components'
+import { View } from '@tarojs/components'
 import Taro from '@tarojs/taro'
 import {LDialog,LCard,LStep,LSteps,LWaterFlow,LArcPopup,LList,LIcon,LButton,LGrid,LGridItem,LBadge} from 'taro-linui'
 
@@ -11,7 +11,7 @@ const waterFlowData = [{
   describe: '柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。',
   count: '888',
   delCount: '666'
-},{  
+},{   
   image: 'http://zhai-jia.oss-cn-hangzhou.aliyuncs.com/uploads/20200612/67dd0b12d30865963557be71b9ca2d74.jpg',
   title: '显瘦中长款系带风衣',
   describe: '柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。好打理。',
@@ -63,7 +63,7 @@ function Index(){
   const [arc2,setArc2] = useState(false)
   const [showDialog,setShowDialog] = useState(false)
   return ( 
-    <View className='index'> 
+    <View className='index'>
     <View>测试弹窗</View>
     <LButton onClick={()=>setShowDialog(true)}>点击弹窗测试</LButton>
     <LDialog type="confirm" show={showDialog} 
@@ -154,7 +154,7 @@ function Index(){
           <View className="like-container">
             <LIcon name="like" color="#666" size={28} />
             <View className="number">160喜欢</View>
-          </View>
+          </View>   
           <View className="like-container">
             <LIcon name="default" color="#666"   />
             <View className="number">10评论</View>

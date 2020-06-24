@@ -35,31 +35,31 @@ const LMessage : React.FC<LMessageProps> = props=>{
   } as Taro.LMessageOptions)
   const atMessageHandler = (options = {} as Taro.LMessageOptions) => {
     clearTimeout(timerRef.current)
-    const { type='primary', content,image,icon,iconColor='#fff',iconSize=28,top=0,duration=1500 } = options
-    setState(prev => ({ ...prev, show: true, content, type, duration,image,icon,iconColor,iconSize,top }))
-    timerRef.current = setTimeout(() => setState(prev => ({ ...prev, show: false })), duration)
-}
+    //type='primary', content,image,icon,iconColor='#fff',iconSize=28,top=0
+    // const { duration=1500,..._options } = options
+    setState(prev => ({ ...prev, show: true, ...options }))
+    timerRef.current = setTimeout(() => setState(prev => ({ ...prev, show: false })), options.duration)
+  }
 
-useEffect(() => {
+  useEffect(() => {
     Taro.eventCenter.on('LinuiMessage', atMessageHandler)
     return () => Taro.eventCenter.off('LinuiMessage', atMessageHandler)
-}, [])
+  }, [])
 
-  return  <View  className={classnames('l-message','l-message-'+type,{
-    'l-message-show':show 
-  })}
-   style={{zIndex,top:top+'px'}}>
-     {
-       show && <Block >
-       <View style={{marginRight:15}}>
-         <LIcon name={icon?icon:type} size={iconSize} color={type==='warning'?'#333':iconColor} />
-       </View>
-       {image && <Image  src={image} className="l-message-Image l-class-Image"/>}
-       <Text>{content}</Text>
-       {children}
-     </Block>
-     }
-</View>
+  return  <View  className={classnames('l-message','l-message-'+type,{'l-message-show':show})}
+    style={{zIndex,top:top+'px'}}
+  >
+    {
+      show && <Block >
+        <View style={{marginRight:15}}>
+          <LIcon name={icon?icon:type} size={iconSize} color={type==='warning'?'#333':iconColor} />
+        </View>
+        {image && <Image  src={image} className='l-message-Image l-class-Image' />}
+        <Text>{content}</Text>
+        {children}
+      </Block>
+    }
+  </View>
 }  
 export const show =  Taro.eventCenter.trigger.bind(Taro.eventCenter, 'LinuiMessage')
 

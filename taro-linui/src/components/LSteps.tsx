@@ -1,4 +1,4 @@
-    import React from 'react'
+import React from 'react'
 import {View} from '@tarojs/components'
 import classnames from 'classnames'
 // import {LIcon} from './LIcon'
@@ -10,7 +10,7 @@ export interface LStepsProps  {
   children?:React.ReactNode
   style?:string|React.CSSProperties|undefined
     /** 方向，默认是row */
-  direction?:"row"|"column"
+  direction?:'row'|'column'
   /** 当前的步骤索引，默认是0 */
   activeIndex?:number
   /** 整体配色 */
@@ -27,19 +27,19 @@ export interface LStepsProps  {
 
 const LSteps : React.FC<LStepsProps> = props=>{
   const {
-      style,className,children,
+    style,className,children,
     stepMinHeight=60,
     direction='row',
     dot,status,color,activeIndex=0
-} = props
-    const stepMinWidth=60
+  } = props
+  const stepMinWidth=60
   //stepsWidth: res[0].width
   //将所有的子类步骤条进行映射
   const length = React.Children.count(children)
   return  <View style={style} className={classnames('l-class','steps-container',className,'steps-container-'+direction)}>
-        {React.Children.map(children,(child,index)=>React.cloneElement(child as any,{
-            length,index,stepMinHeight,stepMinWidth,direction,dot,status,color,activeIndex
-        }))}
+    {React.Children.map(children,(child,index)=>React.cloneElement(child as any,{
+      length,index,stepMinHeight,stepMinWidth,direction,dot,status,color,activeIndex
+    }))}
   </View>
 }   
 

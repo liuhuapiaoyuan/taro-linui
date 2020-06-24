@@ -72,8 +72,8 @@ const LDialog : React.FC<LDialogProps> = props=>{
   return  <LPopup  style={style}  show={show}
             animation
             direction="center"
-            locked
-            onClose={()=>1}
+            locked={locked}
+            onClose={()=>1}  
             className={classnames(className,"l-bg-class")}
             z-index={zIndex}>
  <View className="dialog-container l-class" style={{marginBottom:distance}}>
@@ -81,7 +81,7 @@ const LDialog : React.FC<LDialogProps> = props=>{
         <View className="dialog-content l-content-class" style={{color:contentColor}}>
             {children}
             {content}
-        </View>
+        </View> 
         <View className="dialog-btn-group">
             {type==='confirm' && <View
                 className="dialog-btn-cancel l-cancel-class"

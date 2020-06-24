@@ -46,7 +46,7 @@ const LMask : React.FC<LMaskProps> = props=>{
     className={classnames('container-mask',{center:center,'mask-hidden':!show})}
     style={containerStyle}
   >
-    <View onClick={e=>e.stopPropagation()} className="mask-content l-mask-class" >
+    <View onClick={e=>e.stopPropagation()} className='mask-content l-mask-class' >
       {children}
     </View>
   </View>

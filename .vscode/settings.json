@@ -1,3 +1,7 @@
 {
-    "eslint.workingDirectories": [ "./taro-linui-demo", "./taro-linui" ]
+    "eslint.format.enable": true,
+    "eslint.workingDirectories": [  "./taro-linui" ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    }
 }

@@ -1,9 +1,9 @@
 import React,{useState,useLayoutEffect} from 'react'
 import Taro from '@tarojs/taro'
+import classnames from 'classnames'
 import {View,Image} from '@tarojs/components'
 import { ImageProps } from '@tarojs/components/types/Image'
-import {containerStyle,blockClass,blockStyle} from './LAlbumLayout'
-import classnames from 'classnames'
+import {blockClass} from './LAlbumLayout'
 import {px} from '../px'
 import '../../style/LAlbum.less'
 
@@ -12,15 +12,15 @@ import '../../style/LAlbum.less'
 /** 计算单行图片的样式 */
 const singleStyle = (horizontalScreen,shortSideValue,singleSize)=>{
   if (horizontalScreen) {
-      return {
-          height:px(shortSideValue),
-          width:px(singleSize)
-      }  
+    return {
+      height:px(shortSideValue),
+      width:px(singleSize)
+    }  
   } else {
-      return {
-          height:px(singleSize),
-          width:px(shortSideValue)
-      } 
+    return {
+      height:px(singleSize),
+      width:px(shortSideValue)
+    } 
   }
 }
 
@@ -45,24 +45,24 @@ export interface LAlbumProps  {
   /** 多图片时，图片的显示模式 */
   multipleMode?:keyof ImageProps.mode,
   onImageClick?: (index: number, current: string,all:string[]) => void
-}
- 
+} 
+  
 //通过ImageInfo来获取图片的w 和 h
 async function horizontalOrVertical(imgUrl,singleSize):Promise<any>{
-    const {width,height} = await Taro.getImageInfo({src:imgUrl})
-    const longSide = Math.max(width,height)
-    const shortSide =Math.min(width,height)
-    return {
-        horizontalScreen: width >= height,
-        shortSideValue: shortSide * singleSize / longSide
-    }
+  const {width,height} = await Taro.getImageInfo({src:imgUrl})
+  const longSide = Math.max(width,height)
+  const shortSide =Math.min(width,height)
+  return {
+    horizontalScreen: width >= height,
+    shortSideValue: shortSide * singleSize / longSide
+  } 
 } 
-//查询dom的宽度和高度，注意这里获得的是一个px单位
+//查询dom的宽度和高度，注意这里获得的是一个px单位 
 async function getDOMRect(id){
   const query = Taro.createSelectorQuery(); 
   query.select('#'+id).boundingClientRect()
   return new Promise((reslove,reject)=>{
-    query.exec(res=>{
+    query.exec(res=>{ 
       if(res[0]==null){return reject('Cannot find the #'+id+' selector')}
       reslove({
         width:res[0].width,
@@ -87,67 +87,67 @@ const LAlbum : React.FC<LAlbumProps> = props=>{
     column=3,
     onImageClick
   } = props
-  //图片最多9张
-    if(urls.length<1){
-        return null
-    }
-  const showUrls= urls.slice(0, 9)
+ 
   //计算horizontalScreen,shortSideValue
   const [calValues,setCalValues] = useState({horizontalScreen:0,shortSideValue:0})
   const [containerWidth,setContainerWidth] = useState(750)
-  const [id] = useState("L"+Date.now()+"" + Math.round(Math.random()*1000)) 
+  const [id] = useState('L'+Date.now()+'' + Math.round(Math.random()*1000)) 
   useLayoutEffect(()=>{
     horizontalOrVertical(urls[0],singleSize)
-    .then(setCalValues)
-    .catch(e=>console.warn('图片加载失败：',e)) 
+      .then(setCalValues)
+      .catch(e=>console.warn('图片加载失败：',e)) 
     if(urls.length > 9){
-        console.warn('超过9张图片,只能显示9张图片！');
+      console.warn('超过9张图片,只能显示9张图片！');
     }
     poll(()=>getDOMRect(id)).then(e=>setContainerWidth(e.width))
-  },[urls[0]]) 
+  },[id, singleSize, urls]) 
   //计算每一项目的宽度   w*column + (column-1)*gapColumn = containerWidth
   const itemWidth  = (containerWidth - (column+1)*gapColumn )/column
+  //图片最多9张
+  if(urls.length<1){
+    return null
+  }
+  const showUrls= urls.slice(0, 9)
   return  <View  id={id}  style={style}>
-    <View className={classnames("container",className)}
-      style={{paddingLeft:gapColumn,paddingRight:gapColumn}} 
-      // style={containerStyle(showUrls,multipleSize, gapRow, gapColumn)}
-      >
-    {
-      showUrls.map((url,index)=><Image
-      key={index+url}   
-      className={blockClass(showUrls, calValues.horizontalScreen)}
-      style={
-        (urls.length<2)?singleStyle(calValues.horizontalScreen,calValues.shortSideValue,singleSize)
-          :
-          {
-            width:itemWidth,
-            height:itemWidth,
-            marginBottom:gapRow,
-            marginRight:((index+1)%column == 0 )?0 : gapColumn
-          }
-      } 
-      src={url}
-      mode={showUrls.length === 1?singleMode:multipleMode} 
-      onClick={()=>{
-          preview && Taro.previewImage({current: url,urls:showUrls});
-          (!!onImageClick) && onImageClick(index,url,showUrls)
-      }}
-      />)
-    }
-  </View>
+    <View className={classnames('container',className)}
+      style={{paddingLeft:gapColumn,paddingRight:gapColumn}}
+    >
+      { 
+        showUrls.map((url,index)=><Image
+          key={index+url}   
+          className={blockClass(showUrls, calValues.horizontalScreen)}
+          style={
+            (urls.length<2)?singleStyle(calValues.horizontalScreen,calValues.shortSideValue,singleSize)
+              :
+              {
+                width:itemWidth,
+                height:itemWidth,
+                marginBottom:gapRow,
+                marginRight:((index+1)%column == 0 )?0 : gapColumn
+              }
+          } 
+          src={url}
+          mode={showUrls.length === 1?singleMode:multipleMode} 
+          onClick={()=>{
+            preview && Taro.previewImage({current: url,urls:showUrls});
+            (!!onImageClick) && onImageClick(index,url,showUrls)
+          }}
+        />)
+      }
+    </View>
   </View>
 
 }  
 
 LAlbum.defaultProps = {
-    preview:true,
-    gapRow:10,
-    gapColumn:10,
-    singleSize:360,
-    singleMode:'aspectFit',
-    multipleMode:'aspectFill',
-    urls:[],
-    column:3,
-    onImageClick:undefined
+  preview:true,
+  gapRow:10,
+  gapColumn:10,
+  singleSize:360,
+  singleMode:'aspectFit',
+  multipleMode:'aspectFill',
+  urls:[],
+  column:3,
+  onImageClick:undefined
 }
 export {LAlbum}
