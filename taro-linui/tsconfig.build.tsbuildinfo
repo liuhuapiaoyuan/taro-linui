@@ -1021,9 +1021,14 @@
         "signature": "33206b6b5db8dc6bac3d7eac67cb7b11c9049243d3d371f80a05e805aee1cacf",
         "affectsGlobalScope": false
       },
+      "./src/components/lprice.tsx": {
+        "version": "3ff935a3e1c911b34168cd9a8d3e64ce19e76a675bfeff1d09d8f2d327e8e639",
+        "signature": "dcc7756e3def45907912f9b97855ccf6af2f6065bf201eee91ab8f4803c69ffa",
+        "affectsGlobalScope": false
+      },
       "./src/index.ts": {
-        "version": "b80936c79c25b1364de894253e05936953e5def69da988ecf3c68be17cc1cc74",
-        "signature": "bd8410775fe3bc91e1a8da00c8ce5851c7f925cf3635b1bf563f61cbc21727e3",
+        "version": "09cc5f0a276251b68587c77dca547599b83a0c894c3210ea1e863f3d3b2360da",
+        "signature": "4cfa783d8c227f74a84b53748ec8ac22386149af37106e09b6078eddb5d7e892",
         "affectsGlobalScope": false
       },
       "./src/taro.linextend.d.ts": {
@@ -3641,6 +3646,15 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./src/components/lprice.tsx": [
+        "./node_modules/@tarojs/components/types/index.d.ts",
+        "./node_modules/@types/classnames/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./src/components/lspin.tsx": [
         "./node_modules/@tarojs/components/types/index.d.ts",
         "./node_modules/@types/classnames/index.d.ts",
@@ -3728,6 +3742,7 @@
         "./src/components/lmask.tsx",
         "./src/components/lmessage.tsx",
         "./src/components/lpopup.tsx",
+        "./src/components/lprice.tsx",
         "./src/components/lspin.tsx",
         "./src/components/lstatusshow.tsx",
         "./src/components/lstep.tsx",
@@ -5820,6 +5835,9 @@
         "./node_modules/@tarojs/components/types/common.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./src/components/lprice.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./src/components/lspin.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
@@ -5857,6 +5875,7 @@
         "./src/components/lmask.tsx",
         "./src/components/lmessage.tsx",
         "./src/components/lpopup.tsx",
+        "./src/components/lprice.tsx",
         "./src/components/lspin.tsx",
         "./src/components/lstatusshow.tsx",
         "./src/components/lstep.tsx",
@@ -6244,6 +6263,7 @@
       ],
       "./src/components/lmessage.tsx",
       "./src/components/lpopup.tsx",
+      "./src/components/lprice.tsx",
       "./src/components/lspin.tsx",
       "./src/components/lstatusshow.tsx",
       [

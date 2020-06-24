@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import { View } from '@tarojs/components'
 import Taro from '@tarojs/taro'
-import {LDialog,LCard,LStep,LSteps,LWaterFlow,LArcPopup,LList,LIcon,LButton,LGrid,LGridItem,LBadge} from 'taro-linui'
+import {LDialog,LPrice,LCard,LStep,LSteps,LWaterFlow,LArcPopup,LList,LIcon,LButton,LGrid,LGridItem,LBadge} from 'taro-linui'
 
 import {WaterFlowItem} from '../../components/WaterFlowItem'
-import './index.less'
+import './index.less' 
 const waterFlowData = [{
   image: 'http://zhai-jia.oss-cn-hangzhou.aliyuncs.com/uploads/20200612/67dd0b12d30865963557be71b9ca2d74.jpg',
   title: '显瘦中长款系带风衣',
@@ -64,6 +64,9 @@ function Index(){
   const [showDialog,setShowDialog] = useState(false)
   return ( 
     <View className='index'>
+      <LPrice deleted value={100}/>
+      <LPrice value={100}/>
+      <LPrice value={100}/>
     <View>测试弹窗</View>
     <LButton onClick={()=>setShowDialog(true)}>点击弹窗测试</LButton>
     <LDialog type="confirm" show={showDialog} 
