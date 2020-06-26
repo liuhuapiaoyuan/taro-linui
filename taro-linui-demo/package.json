@@ -27,7 +27,8 @@
     "@tarojs/runtime": "3.0.0-beta.5",
     "@tarojs/taro": "3.0.0-beta.5",
     "react": "^16.13.0",
-    "react-dom": "^16.13.0"
+    "react-dom": "^16.13.0",
+    "taro-linui": "../taro-linui"
   },
   "devDependencies": {
     "@babel/core": "^7.8.0",

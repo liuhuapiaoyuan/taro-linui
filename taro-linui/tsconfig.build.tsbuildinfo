@@ -1022,13 +1022,33 @@
         "affectsGlobalScope": false
       },
       "./src/components/lprice.tsx": {
-        "version": "3ff935a3e1c911b34168cd9a8d3e64ce19e76a675bfeff1d09d8f2d327e8e639",
-        "signature": "dcc7756e3def45907912f9b97855ccf6af2f6065bf201eee91ab8f4803c69ffa",
+        "version": "36139c4d75008c0bb6cd8c9d18dd06d74359443c4ff504d0b8006170374029c7",
+        "signature": "1ff972884687c1ffcc1bcaf6b54e10776bd4d9f3e1de24e372c2bb105b446012",
+        "affectsGlobalScope": false
+      },
+      "./src/components/lcheckbox.tsx": {
+        "version": "83ad81fb516f25cf8ccdb501322e296b4837d2210d79581765da2113a5c4760b",
+        "signature": "607f1e34136d217d565f9f7c30a5406582d763c040a1e0956c1c261036ba3966",
+        "affectsGlobalScope": false
+      },
+      "./src/components/lcheckboxgroup.tsx": {
+        "version": "002685276b86628332d410d6e56e6402f3216ace0f47af3574f7c2b7558cd05a",
+        "signature": "8afe5a457364998a0ee48502dd8398d6022ab6ddd657e368e9a61ae1ac81eec6",
+        "affectsGlobalScope": false
+      },
+      "./src/components/lcollapseitem.tsx": {
+        "version": "4d0edbbbccbc900fbe5a2ae6a16355d9b0a6f28bb02a24ad212c72f95f5dfa57",
+        "signature": "531b23b9a5f6bb94df3f3e40ece92606bbbcdc463a407308a6b9d86e8508f561",
+        "affectsGlobalScope": false
+      },
+      "./src/components/lcollapse.tsx": {
+        "version": "df69fad58221163a0d227f3c97e0a5c9f4f27d0e2a36739858151528055f36e6",
+        "signature": "1c08aa5c0c38e7b9ef04cb0c09ee69df8a4131206166c125abd54f89b3a8ac28",
         "affectsGlobalScope": false
       },
       "./src/index.ts": {
-        "version": "09cc5f0a276251b68587c77dca547599b83a0c894c3210ea1e863f3d3b2360da",
-        "signature": "4cfa783d8c227f74a84b53748ec8ac22386149af37106e09b6078eddb5d7e892",
+        "version": "ac199bf6325433c47bb8e65aaec140bff2bbbc1ac92ad6ffabf4503f1e6d3870",
+        "signature": "947e21fbf0731046ef877defe2807883735065c5498a0664d1181188bed57c1b",
         "affectsGlobalScope": false
       },
       "./src/taro.linextend.d.ts": {
@@ -3540,6 +3560,43 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./src/components/lcheckbox.tsx": [
+        "./node_modules/@tarojs/components/types/index.d.ts",
+        "./node_modules/@tarojs/components/types/view.d.ts",
+        "./node_modules/@types/classnames/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/lcheckboxgroup.tsx": [
+        "./node_modules/@tarojs/components/types/index.d.ts",
+        "./node_modules/@types/classnames/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/lcollapse.tsx": [
+        "./node_modules/@tarojs/components/types/index.d.ts",
+        "./node_modules/@types/classnames/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/lcollapseitem.tsx": [
+        "./node_modules/@tarojs/components/types/index.d.ts",
+        "./node_modules/@types/classnames/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./src/components/ldialog.tsx": [
         "./node_modules/@tarojs/components/types/common.d.ts",
         "./node_modules/@tarojs/components/types/index.d.ts",
@@ -3733,6 +3790,10 @@
         "./src/components/lbutton.tsx",
         "./src/components/lcapsulebar/index.tsx",
         "./src/components/lcard.tsx",
+        "./src/components/lcheckbox.tsx",
+        "./src/components/lcheckboxgroup.tsx",
+        "./src/components/lcollapse.tsx",
+        "./src/components/lcollapseitem.tsx",
         "./src/components/ldialog.tsx",
         "./src/components/lgrid.tsx",
         "./src/components/licon.tsx",
@@ -5799,6 +5860,19 @@
         "./node_modules/@tarojs/components/types/image.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./src/components/lcheckbox.tsx": [
+        "./node_modules/@tarojs/components/types/view.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/lcheckboxgroup.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/lcollapse.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/lcollapseitem.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./src/components/ldialog.tsx": [
         "./node_modules/@tarojs/components/types/common.d.ts",
         "./node_modules/@types/react/index.d.ts"
@@ -5866,6 +5940,9 @@
         "./src/components/lbutton.tsx",
         "./src/components/lcapsulebar/index.tsx",
         "./src/components/lcard.tsx",
+        "./src/components/lcheckbox.tsx",
+        "./src/components/lcheckboxgroup.tsx",
+        "./src/components/lcollapseitem.tsx",
         "./src/components/ldialog.tsx",
         "./src/components/lgrid.tsx",
         "./src/components/licon.tsx",
@@ -6214,6 +6291,117 @@
         ]
       ],
       "./src/components/lcard.tsx",
+      [
+        "./src/components/lcheckbox.tsx",
+        [
+          {
+            "file": "./src/components/lcheckbox.tsx",
+            "start": 16,
+            "length": 8,
+            "messageText": "'Children' is declared but its value is never read.",
+            "category": 1,
+            "code": 6133,
+            "reportsUnnecessary": true
+          },
+          {
+            "file": "./src/components/lcheckbox.tsx",
+            "start": 54,
+            "length": 5,
+            "messageText": "'Label' is declared but its value is never read.",
+            "category": 1,
+            "code": 6133,
+            "reportsUnnecessary": true
+          },
+          {
+            "file": "./src/components/lcheckbox.tsx",
+            "start": 60,
+            "length": 8,
+            "messageText": "'Checkbox' is declared but its value is never read.",
+            "category": 1,
+            "code": 6133,
+            "reportsUnnecessary": true
+          }
+        ]
+      ],
+      [
+        "./src/components/lcheckboxgroup.tsx",
+        [
+          {
+            "file": "./src/components/lcheckboxgroup.tsx",
+            "start": 877,
+            "length": 5,
+            "messageText": "Object is possibly 'null' or 'undefined'.",
+            "category": 1,
+            "code": 2533
+          },
+          {
+            "file": "./src/components/lcheckboxgroup.tsx",
+            "start": 883,
+            "length": 5,
+            "code": 2339,
+            "category": 1,
+            "messageText": {
+              "messageText": "Property 'props' does not exist on type 'string | number | boolean | {} | ReactElement<any, string | ((props: any) => ReactElement<any, string | ... | (new (props: any) => Component<any, any, any>)> | null) | (new (props: any) => Component<...>)> | ReactNodeArray | ReactPortal'.",
+              "category": 1,
+              "code": 2339,
+              "next": [
+                {
+                  "messageText": "Property 'props' does not exist on type 'string'.",
+                  "category": 1,
+                  "code": 2339
+                }
+              ]
+            }
+          },
+          {
+            "file": "./src/components/lcheckboxgroup.tsx",
+            "start": 1148,
+            "length": 5,
+            "code": 2339,
+            "category": 1,
+            "messageText": {
+              "messageText": "Property 'props' does not exist on type 'string | number | true | {} | ReactElement<any, string | ((props: any) => ReactElement<any, string | ... | (new (props: any) => Component<any, any, any>)> | null) | (new (props: any) => Component<...>)> | ReactNodeArray | ReactPortal'.",
+              "category": 1,
+              "code": 2339,
+              "next": [
+                {
+                  "messageText": "Property 'props' does not exist on type 'string'.",
+                  "category": 1,
+                  "code": 2339
+                }
+              ]
+            }
+          }
+        ]
+      ],
+      [
+        "./src/components/lcollapse.tsx",
+        [
+          {
+            "file": "./src/components/lcollapse.tsx",
+            "start": 68,
+            "length": 35,
+            "messageText": "'classnames' is declared but its value is never read.",
+            "category": 1,
+            "code": 6133,
+            "reportsUnnecessary": true
+          }
+        ]
+      ],
+      [
+        "./src/components/lcollapseitem.tsx",
+        [
+          {
+            "file": "./src/components/lcollapseitem.tsx",
+            "start": 68,
+            "length": 35,
+            "messageText": "'classnames' is declared but its value is never read.",
+            "category": 1,
+            "code": 6133,
+            "reportsUnnecessary": true
+          }
+        ]
+      ],
       "./src/components/ldialog.tsx",
       [
         "./src/components/lgrid.tsx",

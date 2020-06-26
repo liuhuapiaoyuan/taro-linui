@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import { View } from '@tarojs/components'
 import Taro from '@tarojs/taro'
-import {LDialog,LPrice,LCard,LStep,LSteps,LWaterFlow,LArcPopup,LList,LIcon,LButton,LGrid,LGridItem,LBadge} from 'taro-linui'
+import {LDialog,LCheckbox,LCheckboxGroup,LPrice,LCard,LStep,LSteps,LWaterFlow,LArcPopup,LList,LIcon,LButton,LGrid,LGridItem,LBadge} from 'taro-linui'
 
 import {WaterFlowItem} from '../../components/WaterFlowItem'
-import './index.less' 
+import './index.less'  
 const waterFlowData = [{
   image: 'http://zhai-jia.oss-cn-hangzhou.aliyuncs.com/uploads/20200612/67dd0b12d30865963557be71b9ca2d74.jpg',
   title: '显瘦中长款系带风衣',
@@ -40,7 +40,7 @@ const waterFlowData = [{
   title: '显瘦中长款系带风衣',
   describe: '柔软顺滑、上身挺括显瘦，垂坠飘逸、不易皱好打理。',
   count: '888',
-  delCount: '666'
+  delCount: '666' 
 }]
 const grids2 = [{
   image: 'cart',
@@ -62,8 +62,21 @@ function Index(){
   const [arc1,setArc1] = useState(false)
   const [arc2,setArc2] = useState(false)
   const [showDialog,setShowDialog] = useState(false)
+  const [cvalue,setCValue] = useState([])
   return ( 
     <View className='index'>
+      {/* 测试一下分组 */}
+      <View>分组的checkbox</View>
+      <LCheckboxGroup placement="column" value={cvalue} onChange={e=>setCValue(e)}>
+          <LCheckbox value="男" >男</LCheckbox>
+          <LCheckbox value="女" >女</LCheckbox>
+          <LCheckbox value="自定义" custom customIcon="是" customSelectIcon="否">自定义</LCheckbox>
+          <LCheckbox disabled value="未知" >未知</LCheckbox>
+      </LCheckboxGroup>
+      <View>单独的CheckBox</View>
+      <LCheckbox  disabled>测试单个</LCheckbox>
+      <LCheckbox checked placement="right">测试单个2</LCheckbox>
+      <View></View>
       <LPrice deleted value={100}/>
       <LPrice value={100}/>
       <LPrice value={100}/>

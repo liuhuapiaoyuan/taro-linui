@@ -43,10 +43,10 @@ export interface LPriceProps  {
   unitSize?:string|number
   /** 单位字体加粗 */
   unitBold?:number
-    /** 显示的数值，比填 */
+    /** 显示的数值，必须填 */
   value:string|number
   /** 显示的模式，默认是number */
-  mode:'number'| 'Text'
+  mode?:'number'| 'Text'
   valueColor?:string,
   /** 保留的小数点位数，默认2 */
   reserveDigit?:number 
