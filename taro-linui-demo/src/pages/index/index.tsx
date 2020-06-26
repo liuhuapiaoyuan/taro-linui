@@ -1,7 +1,10 @@
 import React, { useState } from 'react'
 import { View } from '@tarojs/components'
 import Taro from '@tarojs/taro'
-import {LDialog,LCheckbox,LCheckboxGroup,LPrice,LCard,LStep,LSteps,LWaterFlow,LArcPopup,LList,LIcon,LButton,LGrid,LGridItem,LBadge} from 'taro-linui'
+import {LDialog,LRate,LCheckbox,LCheckboxGroup,LPrice,LCard,
+  LStep,LSteps,LWaterFlow,LArcPopup
+  ,LList,LIcon,LButton
+  ,LGrid,LGridItem,LBadge} from 'taro-linui'
 
 import {WaterFlowItem} from '../../components/WaterFlowItem'
 import './index.less'  
@@ -53,7 +56,7 @@ const grids2 = [{
   text: '地址管理'
 }, {
   image: 'order',
-  text: '我的订单'
+  text: '我的订单' 
 }, {
   image: 'customer-service',
   text: '联系客服'
@@ -63,8 +66,14 @@ function Index(){
   const [arc2,setArc2] = useState(false)
   const [showDialog,setShowDialog] = useState(false)
   const [cvalue,setCValue] = useState([])
+  const [rateVlaue,setRateValue] = useState(0)
   return ( 
     <View className='index'>
+      <View>测试rate评分组件</View>
+      <LRate value={rateVlaue} onChange={setRateValue} count={6} />
+      <View>小数点</View>
+      <LRate value={3.2} count={6} />
+      <LRate value={3.5} count={6} />
       {/* 测试一下分组 */}
       <View>分组的checkbox</View>
       <LCheckboxGroup placement="column" value={cvalue} onChange={e=>setCValue(e)}>

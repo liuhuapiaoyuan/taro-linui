@@ -1046,9 +1046,14 @@
         "signature": "1c08aa5c0c38e7b9ef04cb0c09ee69df8a4131206166c125abd54f89b3a8ac28",
         "affectsGlobalScope": false
       },
+      "./src/components/lrate.tsx": {
+        "version": "d9a8582b3ef4a3962e4287706f4bcedbb3cc4291a4e8309b66e2d884e2f64b0e",
+        "signature": "8969177e4e6a146bcb17207b2195140631381c4a90116f3c75caf6a6ff1f9944",
+        "affectsGlobalScope": false
+      },
       "./src/index.ts": {
-        "version": "ac199bf6325433c47bb8e65aaec140bff2bbbc1ac92ad6ffabf4503f1e6d3870",
-        "signature": "947e21fbf0731046ef877defe2807883735065c5498a0664d1181188bed57c1b",
+        "version": "94c9a7c0dcff2351648baccbd66eccd8661462a2e5cf2da47dec2445aefe25b1",
+        "signature": "91f592797d9bc4a028b0db00044916a2ae9cfa88f77de868e590467caaae0bd2",
         "affectsGlobalScope": false
       },
       "./src/taro.linextend.d.ts": {
@@ -3712,6 +3717,17 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./src/components/lrate.tsx": [
+        "./node_modules/@tarojs/components/types/index.d.ts",
+        "./node_modules/@tarojs/components/types/view.d.ts",
+        "./node_modules/@types/classnames/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/react/index.d.ts",
+        "./src/components/licon.tsx"
+      ],
       "./src/components/lspin.tsx": [
         "./node_modules/@tarojs/components/types/index.d.ts",
         "./node_modules/@types/classnames/index.d.ts",
@@ -3804,6 +3820,7 @@
         "./src/components/lmessage.tsx",
         "./src/components/lpopup.tsx",
         "./src/components/lprice.tsx",
+        "./src/components/lrate.tsx",
         "./src/components/lspin.tsx",
         "./src/components/lstatusshow.tsx",
         "./src/components/lstep.tsx",
@@ -5912,6 +5929,9 @@
       "./src/components/lprice.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./src/components/lrate.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./src/components/lspin.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
@@ -5942,6 +5962,7 @@
         "./src/components/lcard.tsx",
         "./src/components/lcheckbox.tsx",
         "./src/components/lcheckboxgroup.tsx",
+        "./src/components/lcollapse.tsx",
         "./src/components/lcollapseitem.tsx",
         "./src/components/ldialog.tsx",
         "./src/components/lgrid.tsx",
@@ -5953,6 +5974,7 @@
         "./src/components/lmessage.tsx",
         "./src/components/lpopup.tsx",
         "./src/components/lprice.tsx",
+        "./src/components/lrate.tsx",
         "./src/components/lspin.tsx",
         "./src/components/lstatusshow.tsx",
         "./src/components/lstep.tsx",
@@ -6452,6 +6474,29 @@
       "./src/components/lmessage.tsx",
       "./src/components/lpopup.tsx",
       "./src/components/lprice.tsx",
+      [
+        "./src/components/lrate.tsx",
+        [
+          {
+            "file": "./src/components/lrate.tsx",
+            "start": 194,
+            "length": 57,
+            "messageText": "'ViewProps' is declared but its value is never read.",
+            "category": 1,
+            "code": 6133,
+            "reportsUnnecessary": true
+          },
+          {
+            "file": "./src/components/lrate.tsx",
+            "start": 1110,
+            "length": 1,
+            "messageText": "'v' is declared but its value is never read.",
+            "category": 1,
+            "code": 6133,
+            "reportsUnnecessary": true
+          }
+        ]
+      ],
       "./src/components/lspin.tsx",
       "./src/components/lstatusshow.tsx",
       [
