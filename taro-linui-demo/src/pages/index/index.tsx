@@ -2,7 +2,8 @@ import React, { useState } from 'react'
 import { View } from '@tarojs/components'
 import Taro from '@tarojs/taro'
 import {LDialog,LRate,LCheckbox,LCheckboxGroup,LPrice,LCard,
-  LStep,LSteps,LWaterFlow,LArcPopup
+  LStep,LSteps,LWaterFlow,LArcPopup,
+  LCollapse,LCollapseItem
   ,LList,LIcon,LButton
   ,LGrid,LGridItem,LBadge} from 'taro-linui'
 
@@ -67,8 +68,22 @@ function Index(){
   const [showDialog,setShowDialog] = useState(false)
   const [cvalue,setCValue] = useState([])
   const [rateVlaue,setRateValue] = useState(0)
+  const [exp,setExp] = useState(false)
   return ( 
     <View className='index'>
+      {exp?'是':'否'}
+      <LButton onClick={()=>setExp(!exp)}>切换扩展</LButton>
+      <LCollapseItem expanded={exp} title="测试一下">单独控制</LCollapseItem>
+      <View>一个Collapse组</View>
+      <LCollapse>
+        <LCollapseItem title="测试一下1">阿打算打算大所大叔大叔</LCollapseItem>
+        <LCollapseItem title="测试一下2">阿打算打算大所大叔大叔</LCollapseItem>
+        <LCollapseItem title="测试一下3">阿打算打算大所大叔大叔</LCollapseItem>
+        <LCollapseItem title="测试一下4">阿打算打算大所大叔大叔</LCollapseItem>
+        <LCollapseItem title="测试一下5">阿打算打算大所大叔大叔</LCollapseItem>
+        <LCollapseItem title="测试一下6">阿打算打算大所大叔大叔</LCollapseItem>
+        <LCollapseItem title="测试一下7">阿打算打算大所大叔大叔</LCollapseItem>
+      </LCollapse>
       <View>测试rate评分组件</View>
       <LRate value={rateVlaue} onChange={setRateValue} count={6} />
       <View>小数点</View>

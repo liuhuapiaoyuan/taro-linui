@@ -897,7 +897,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/licon.tsx": {
-        "version": "5ca2fc46404f471652484d0ac5e489a16a0eadfaf12c636bc5f1b01685fbb6e5",
+        "version": "84bcf4ce7d535cab1c2b80858b5c8006e144bae0bca89ac0547a5e859005e969",
         "signature": "ea6502937cc6d70a7b4071bdf4cf4f67e02aaf7955e8c7c82a7cb0703c5dbbb9",
         "affectsGlobalScope": false
       },
@@ -1036,13 +1036,18 @@
         "signature": "8afe5a457364998a0ee48502dd8398d6022ab6ddd657e368e9a61ae1ac81eec6",
         "affectsGlobalScope": false
       },
+      "./src/nodeutils.ts": {
+        "version": "3c44bd6b14fba600370356a74049719269d2d776691516f32e96ee6016ba4a0e",
+        "signature": "87a9ab07074d8e6f489bd9ef0a380d9ca5230591164274cb031f823d3faeb793",
+        "affectsGlobalScope": false
+      },
       "./src/components/lcollapseitem.tsx": {
-        "version": "4d0edbbbccbc900fbe5a2ae6a16355d9b0a6f28bb02a24ad212c72f95f5dfa57",
-        "signature": "531b23b9a5f6bb94df3f3e40ece92606bbbcdc463a407308a6b9d86e8508f561",
+        "version": "df465d704f3b834996df9757d4d3e797c496207bf582933f87e55634a3cf3a3d",
+        "signature": "71b472602b8614c9e97d41b12064c607e84f2ce97bf2058c4115adce1af5f796",
         "affectsGlobalScope": false
       },
       "./src/components/lcollapse.tsx": {
-        "version": "df69fad58221163a0d227f3c97e0a5c9f4f27d0e2a36739858151528055f36e6",
+        "version": "9df80168464039506e5ceff4be2ef5ab01274aa35993ca1b79a9631f094f8f46",
         "signature": "1c08aa5c0c38e7b9ef04cb0c09ee69df8a4131206166c125abd54f89b3a8ac28",
         "affectsGlobalScope": false
       },
@@ -3595,12 +3600,14 @@
       ],
       "./src/components/lcollapseitem.tsx": [
         "./node_modules/@tarojs/components/types/index.d.ts",
-        "./node_modules/@types/classnames/index.d.ts",
+        "./node_modules/@tarojs/components/types/view.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/react/index.d.ts"
+        "./node_modules/@types/react/index.d.ts",
+        "./src/components/licon.tsx",
+        "./src/nodeutils.ts"
       ],
       "./src/components/ldialog.tsx": [
         "./node_modules/@tarojs/components/types/common.d.ts",
@@ -3827,6 +3834,13 @@
         "./src/components/lsteps.tsx",
         "./src/components/ltag.tsx",
         "./src/components/lwaterflow.tsx"
+      ],
+      "./src/nodeutils.ts": [
+        "./node_modules/@tarojs/taro/types/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
       ],
       "./src/px.ts": [
         "./node_modules/@tarojs/taro/types/index.d.ts",
@@ -5888,6 +5902,7 @@
         "./node_modules/@types/react/index.d.ts"
       ],
       "./src/components/lcollapseitem.tsx": [
+        "./node_modules/@tarojs/components/types/view.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
       "./src/components/ldialog.tsx": [
@@ -6396,34 +6411,8 @@
           }
         ]
       ],
-      [
-        "./src/components/lcollapse.tsx",
-        [
-          {
-            "file": "./src/components/lcollapse.tsx",
-            "start": 68,
-            "length": 35,
-            "messageText": "'classnames' is declared but its value is never read.",
-            "category": 1,
-            "code": 6133,
-            "reportsUnnecessary": true
-          }
-        ]
-      ],
-      [
-        "./src/components/lcollapseitem.tsx",
-        [
-          {
-            "file": "./src/components/lcollapseitem.tsx",
-            "start": 68,
-            "length": 35,
-            "messageText": "'classnames' is declared but its value is never read.",
-            "category": 1,
-            "code": 6133,
-            "reportsUnnecessary": true
-          }
-        ]
-      ],
+      "./src/components/lcollapse.tsx",
+      "./src/components/lcollapseitem.tsx",
       "./src/components/ldialog.tsx",
       [
         "./src/components/lgrid.tsx",
@@ -6440,7 +6429,19 @@
         ]
       ],
       "./src/components/lgriditem.tsx",
-      "./src/components/licon.tsx",
+      [
+        "./src/components/licon.tsx",
+        [
+          {
+            "file": "./src/components/licon.tsx",
+            "start": 809,
+            "length": 8,
+            "messageText": "Spread types may only be created from object types.",
+            "category": 1,
+            "code": 2698
+          }
+        ]
+      ],
       "./src/components/llist.tsx",
       "./src/components/lloading.tsx",
       [
@@ -6560,6 +6561,7 @@
       ],
       "./src/device.ts",
       "./src/index.ts",
+      "./src/nodeutils.ts",
       [
         "./src/px.ts",
         [
