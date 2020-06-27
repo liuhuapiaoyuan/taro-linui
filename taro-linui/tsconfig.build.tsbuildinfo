@@ -1042,13 +1042,13 @@
         "affectsGlobalScope": false
       },
       "./src/components/lcollapseitem.tsx": {
-        "version": "df465d704f3b834996df9757d4d3e797c496207bf582933f87e55634a3cf3a3d",
+        "version": "4ce3662185bfc9ec17de81d3cfb46baae45a3b718bfeb87a1d29bf5f1e2ba737",
         "signature": "71b472602b8614c9e97d41b12064c607e84f2ce97bf2058c4115adce1af5f796",
         "affectsGlobalScope": false
       },
       "./src/components/lcollapse.tsx": {
-        "version": "9df80168464039506e5ceff4be2ef5ab01274aa35993ca1b79a9631f094f8f46",
-        "signature": "1c08aa5c0c38e7b9ef04cb0c09ee69df8a4131206166c125abd54f89b3a8ac28",
+        "version": "1aefc80bbe40676afd9e2178ca49dcff560b08f83ba15660ebc1363803ca7997",
+        "signature": "62206a0f891fa7c537b627ef16ab2c5f43bb59a7bb993fd908640e000ffc9386",
         "affectsGlobalScope": false
       },
       "./src/components/lrate.tsx": {
@@ -3591,7 +3591,6 @@
       ],
       "./src/components/lcollapse.tsx": [
         "./node_modules/@tarojs/components/types/index.d.ts",
-        "./node_modules/@types/classnames/index.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts",
@@ -3601,6 +3600,7 @@
       "./src/components/lcollapseitem.tsx": [
         "./node_modules/@tarojs/components/types/index.d.ts",
         "./node_modules/@tarojs/components/types/view.d.ts",
+        "./node_modules/@types/classnames/index.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts",

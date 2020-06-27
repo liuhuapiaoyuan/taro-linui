@@ -1,9 +1,9 @@
 import React, { useEffect,useState } from 'react'
 import {View} from '@tarojs/components'
 import { ViewProps } from '@tarojs/components/types/View'
+import classnames from 'classnames'
 import {LIcon} from './LIcon'
 import {getNodeRect} from '../nodeutils'
-
 import '../../style/LCollapseItem.less'
 
 export interface LCollapseItemProps  {
@@ -24,6 +24,7 @@ export interface LCollapseItemProps  {
 
 const LCollapseItem : React.FC<LCollapseItemProps> = props=>{
   const {
+    className,style,
     children,customTitle,title,
     disable=false,expanded=false,animationTime='0.3s',
     onClickTitle
@@ -41,12 +42,12 @@ const LCollapseItem : React.FC<LCollapseItemProps> = props=>{
   useEffect(()=>{
     contentHeight>0 &&  setShowContentHeight(expanded?contentHeight:0)
   },[expanded,contentHeight])
-  return  <View className='container l-class'>
-    <View onClick={onClickTitle} className='container-title l-title-class'>
+  return  <View className={classnames('collapseItem',expanded?'expanded':'',className)} style={style}>
+    <View onClick={onClickTitle} className='collapseItem-title l-title-class'>
       {
         !customTitle && <>
           <View style={disable?'color:#DEE2E6':''} >{title}</View> 
-          <LIcon className='container-title-l-icon'   
+          <LIcon className='collapseItem-title-l-icon'   
             style={{
               transform:`rotate(${expanded?'-180':'0'}deg)`
             }}
@@ -59,9 +60,9 @@ const LCollapseItem : React.FC<LCollapseItemProps> = props=>{
     </View>
     <View id={id} onTransitionEnd={()=>{
       setShowContentHeight(expanded?'auto':0)
-    }} style={{height:showContentHeight,transitionDuration:animationTime}}  className='container-body'
+    }} style={{height:showContentHeight,transitionDuration:animationTime}}  className='collapseItem-body'
     >
-      <View className='container-body-wrapper l-body-class'>
+      <View className='collapseItem-body-wrapper l-body-class'>
         {children}
       </View>
     </View>

@@ -71,11 +71,9 @@ function Index(){
   const [exp,setExp] = useState(false)
   return ( 
     <View className='index'>
-      {exp?'是':'否'}
-      <LButton onClick={()=>setExp(!exp)}>切换扩展</LButton>
-      <LCollapseItem expanded={exp} title="测试一下">单独控制</LCollapseItem>
+      <LCollapseItem onClickTitle={()=>setExp(!exp)} expanded={exp} title="点击标题单独切换">单独控制</LCollapseItem>
       <View>一个Collapse组</View>
-      <LCollapse>
+      <LCollapse className="expander-group">
         <LCollapseItem title="测试一下1">阿打算打算大所大叔大叔</LCollapseItem>
         <LCollapseItem title="测试一下2">阿打算打算大所大叔大叔</LCollapseItem>
         <LCollapseItem title="测试一下3">阿打算打算大所大叔大叔</LCollapseItem>
