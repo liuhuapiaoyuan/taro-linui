@@ -922,7 +922,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/lalbum.tsx": {
-        "version": "5671729a04ee154f643a61f96763e892f284b91bef1fed2de4569ed0bdffee98",
+        "version": "a1f709c698302ec810f933b231448390b574b99f45dde986e1f5359a3c239b49",
         "signature": "857d542f9e327672ed3adc8e3dbbad23ccf722eb5c6b5c482f85127e1fdbc233",
         "affectsGlobalScope": false
       },
@@ -1057,7 +1057,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/lnoticebar.tsx": {
-        "version": "b653dcc05d475ae99748ee3e2b949cf7e8473032910c7fec1693b2529813da4b",
+        "version": "39ca1597fdb66a7dc1138aa79c3dfd3f3e80ca817332342f89c79335b817ef50",
         "signature": "26ab8d8a0b62f7344e45f4b7bd7b29235fa6e0a0a2382771e97a338119b03332",
         "affectsGlobalScope": false
       },
@@ -6522,7 +6522,15 @@
         [
           {
             "file": "./src/components/lnoticebar.tsx",
-            "start": 3077,
+            "start": 1643,
+            "length": 3,
+            "messageText": "Expected 1 arguments, but got 2.",
+            "category": 1,
+            "code": 2554
+          },
+          {
+            "file": "./src/components/lnoticebar.tsx",
+            "start": 3080,
             "length": 8,
             "messageText": "Spread types may only be created from object types.",
             "category": 1,

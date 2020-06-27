@@ -50,7 +50,7 @@ const startAnimation = (animation,width,wrapWidth,duration,setAnimation)=>{
   }
   //然后启动动画
   animation.option.transition.duration = duration;
-  setTimeout(() => setAnimation(animation.translateX(-width).step().export()), 100);
+  Taro.nextTick(() => setAnimation(animation.translateX(-width).step().export()), 100);
 }
 const LNoticeBar : React.FC<LNoticeBarProps> = props=>{
   const {

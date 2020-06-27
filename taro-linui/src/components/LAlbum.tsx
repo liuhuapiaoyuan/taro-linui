@@ -94,47 +94,42 @@ const LAlbum : React.FC<LAlbumProps> = props=>{
   const [id] = useState('L'+Date.now()+'' + Math.round(Math.random()*1000)) 
   useLayoutEffect(()=>{
     horizontalOrVertical(urls[0],singleSize)
-      .then(setCalValues)
-      .catch(e=>console.warn('图片加载失败：',e)) 
+      .then(setCalValues) 
     if(urls.length > 9){
       console.warn('超过9张图片,只能显示9张图片！');
     }
     poll(()=>getDOMRect(id)).then(e=>setContainerWidth(e.width))
   },[id, singleSize, urls]) 
   //计算每一项目的宽度   w*column + (column-1)*gapColumn = containerWidth
-  const itemWidth  = (containerWidth - (column+1)*gapColumn )/column
+  const itemWidth  = (containerWidth - (column-1)*gapColumn )/column
   //图片最多9张
   if(urls.length<1){
     return null
   }
   const showUrls= urls.slice(0, 9)
-  return  <View  id={id}  style={style}>
-    <View className={classnames('container',className)}
-      style={{paddingLeft:gapColumn,paddingRight:gapColumn}}
-    >
-      { 
-        showUrls.map((url,index)=><Image
-          key={index+url}   
-          className={blockClass(showUrls, calValues.horizontalScreen)}
-          style={
-            (urls.length<2)?singleStyle(calValues.horizontalScreen,calValues.shortSideValue,singleSize)
-              :
-              {
-                width:itemWidth,
-                height:itemWidth,
-                marginBottom:gapRow,
-                marginRight:((index+1)%column == 0 )?0 : gapColumn
-              }
-          } 
-          src={url}
-          mode={showUrls.length === 1?singleMode:multipleMode} 
-          onClick={()=>{
-            preview && Taro.previewImage({current: url,urls:showUrls});
-            (!!onImageClick) && onImageClick(index,url,showUrls)
-          }}
-        />)
-      }
-    </View>
+  return   <View id={id}  style={style} className={classnames('album',className)}>
+    { 
+      showUrls.map((url,index)=><Image
+        key={index+url}   
+        className={blockClass(showUrls, calValues.horizontalScreen)}
+        style={
+          (urls.length<2)?singleStyle(calValues.horizontalScreen,calValues.shortSideValue,singleSize)
+            :
+            {
+              width:itemWidth,
+              height:itemWidth,
+              marginBottom:gapRow,
+              marginRight:((index+1)%column == 0 )?0 : gapColumn
+            }
+        } 
+        src={url}
+        mode={showUrls.length === 1?singleMode:multipleMode} 
+        onClick={()=>{
+          preview && Taro.previewImage({current: url,urls:showUrls});
+          (!!onImageClick) && onImageClick(index,url,showUrls)
+        }}
+      />)
+    }
   </View>
 
 }  
