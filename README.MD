@@ -1,4 +1,8 @@
+### 组件样式命名规范
+1、组件 LListItem,则样式为 list-item
 
+
+###
 <p align="center">
   <!-- <a href="http://doc.mini.7yue.pro/"> -->
     <img

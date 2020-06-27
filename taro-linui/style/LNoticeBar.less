@@ -1,0 +1,47 @@
+@import "./_base.less";
+
+
+.noticeBar {
+    display: flex;
+    height: 72px;
+    width: 750px;
+    line-height: 72px;
+    font-size: 28px;
+    color: @theme-color;
+    background-color: #dfedff;
+    overflow: hidden;
+    box-shadow: 0 2px 5px 0 rgba(218, 224, 233, 0.4);
+    border-radius: 0 0 8px 8px;
+    &-icon {
+        display: flex;
+        margin-left: 20px;
+        margin-right: 18px;
+        align-items: center;
+        & + .noticeBar-content-wrap-view {
+            margin-left: 5px;
+        }
+    }
+
+    &-operation {
+        display: flex;
+        margin-right: 16px;
+        margin-left: 8px;
+        align-items: center;
+    }
+
+    &-content-wrap {
+        display: flex;
+        margin-left: 5px;
+        flex: 1;
+        height: 72px;
+        position: relative;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        .noticeBar-content {
+            position: absolute;
+            transition-duration:20s;
+        }
+
+    }
+}

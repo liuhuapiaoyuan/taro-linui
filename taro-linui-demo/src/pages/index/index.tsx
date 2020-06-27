@@ -4,6 +4,8 @@ import Taro from '@tarojs/taro'
 import {LDialog,LRate,LCheckbox,LCheckboxGroup,LPrice,LCard,
   LStep,LSteps,LWaterFlow,LArcPopup,
   LCollapse,LCollapseItem
+  //轮播
+  ,LNoticeBar
   ,LList,LIcon,LButton
   ,LGrid,LGridItem,LBadge} from 'taro-linui'
 
@@ -71,6 +73,12 @@ function Index(){
   const [exp,setExp] = useState(false)
   return ( 
     <View className='index'>
+      <View>通告栏</View>
+      <LNoticeBar onClose={()=>console.log('点击关闭')} close>茶几哦啥的教师节</LNoticeBar>
+      <View>自动切换模式</View>
+      <LNoticeBar type="swip" swipArr={["1奇偶iajsodi ","2阿善动i傲视窘境","3啥的奇偶艾索德军"]}/>
+      <View>自动滚动默认是</View>
+      <LNoticeBar type="roll">我是通告栏我是通告栏我是通告栏我是通告栏|||我是通告栏我是通告栏我是通告栏我是通告栏阿萨帝级啊搜i级地哦啊是DOI啊时间的</LNoticeBar>
       <LCollapseItem onClickTitle={()=>setExp(!exp)} expanded={exp} title="点击标题单独切换">单独控制</LCollapseItem>
       <View>一个Collapse组</View>
       <LCollapse className="expander-group">

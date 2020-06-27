@@ -70,32 +70,33 @@ const LDialog : React.FC<LDialogProps> = props=>{
   const distance = screenHeight-windowHeight
 
   return  <LPopup  style={style}  show={show}
-            animation
-            direction="center"
-            locked={locked}
-            onClose={()=>1}  
-            className={classnames(className,"l-bg-class")}
-            z-index={zIndex}>
- <View className="dialog-container l-class" style={{marginBottom:distance}}>
-        {showTitle && <View className="dialog-title l-title-class" style={{color:titleColor}} >{title}</View>}
-        <View className="dialog-content l-content-class" style={{color:contentColor}}>
-            {children}
-            {content}
-        </View> 
-        <View className="dialog-btn-group">
-            {type==='confirm' && <View
-                className="dialog-btn-cancel l-cancel-class"
-                style={{color:cancelColor}}
-                onClick={onCancel}
-                hoverClass='group-hover'
-                >{cancelText}</View>}
-            <View
-                className="dialog-btn-confirm l-confirm-class"
-                style={{color:confirmColor}}
-                hoverClass='group-hover'
-                onClick={onConfirm}
-            >{confirmText}</View>
-        </View>
+    animation
+    direction='center'
+    locked={locked}
+    onClose={()=>1}  
+    className={classnames(className,'l-bg-class')}
+    z-index={zIndex}
+  >
+    <View className='dialog-container l-class' style={{marginBottom:distance}}>
+      {showTitle && <View className='dialog-title l-title-class' style={{color:titleColor}} >{title}</View>}
+      <View className='dialog-content l-content-class' style={{color:contentColor}}>
+        {children}
+        {content}
+      </View> 
+      <View className='dialog-btn-group'>
+        {type==='confirm' && <View
+          className='dialog-btn-cancel l-cancel-class'
+          style={{color:cancelColor}}
+          onClick={onCancel}
+          hoverClass='group-hover'
+        >{cancelText}</View>}
+        <View
+          className='dialog-btn-confirm l-confirm-class'
+          style={{color:confirmColor}}
+          hoverClass='group-hover'
+          onClick={onConfirm}
+        >{confirmText}</View>
+      </View>
     </View>
   </LPopup>
 }  

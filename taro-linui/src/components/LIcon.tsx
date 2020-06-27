@@ -1,6 +1,7 @@
 import React from 'react'
 import {View} from '@tarojs/components'
 import classnames from 'classnames'
+import { ViewProps } from '@tarojs/components/types/View'
 import {px} from '../px'
 
 import '../../style/LIcon.less'
@@ -14,6 +15,7 @@ export interface LIconProps  {
     color?:string,
     /** 尺寸，可以是数字也是可以字符串，注意 如果是字符串请传入尺寸单位：px,rpx */
     size?:number|string
+    onClick?:ViewProps['onClick']
 }
  
 const LIcon : React.FC<LIconProps> = props=>{
@@ -21,9 +23,9 @@ const LIcon : React.FC<LIconProps> = props=>{
     name,
     style={},className,
     color='#3963bc',
-    size=40,
+    size=40,onClick
   } = props
-  return (<View 
+  return (<View onClick={onClick}
     className={classnames(className,'l-class l-class-self l-self-class l-icon',{
       [`l-icon-${name}`]:name
     })}

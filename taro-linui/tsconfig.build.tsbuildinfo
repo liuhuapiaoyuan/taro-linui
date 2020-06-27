@@ -897,8 +897,8 @@
         "affectsGlobalScope": false
       },
       "./src/components/licon.tsx": {
-        "version": "84bcf4ce7d535cab1c2b80858b5c8006e144bae0bca89ac0547a5e859005e969",
-        "signature": "ea6502937cc6d70a7b4071bdf4cf4f67e02aaf7955e8c7c82a7cb0703c5dbbb9",
+        "version": "c19a771d6ee50e6f6e1e93df81a4e189b1ebd2ec983026d1af8d1ef780feecae",
+        "signature": "575b418091dd1c32eb612561fad20217cac120990ff235f17ac18d0bfdb194aa",
         "affectsGlobalScope": false
       },
       "./src/components/lpopup.tsx": {
@@ -1017,7 +1017,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/ldialog.tsx": {
-        "version": "99752b9f5225535e0e1d60a0898e4930950f28b9297b04445fe09e7175740c57",
+        "version": "fa100115ae11594c48ee375c789b5ec36cf8c4e7ae6d6e218fc4825d24c1de0e",
         "signature": "33206b6b5db8dc6bac3d7eac67cb7b11c9049243d3d371f80a05e805aee1cacf",
         "affectsGlobalScope": false
       },
@@ -1056,15 +1056,25 @@
         "signature": "8969177e4e6a146bcb17207b2195140631381c4a90116f3c75caf6a6ff1f9944",
         "affectsGlobalScope": false
       },
+      "./src/components/lnoticebar.tsx": {
+        "version": "a5f09760fe8e013b23e860bb342d7fab56ae0c39be0c45283d6390f01918a436",
+        "signature": "b8fb4ff1683af41b7e2ae145f5657208bcaf5a08ec38075669b511c1f7d2d21e",
+        "affectsGlobalScope": false
+      },
       "./src/index.ts": {
-        "version": "94c9a7c0dcff2351648baccbd66eccd8661462a2e5cf2da47dec2445aefe25b1",
-        "signature": "91f592797d9bc4a028b0db00044916a2ae9cfa88f77de868e590467caaae0bd2",
+        "version": "2e94fec8cd0eddc0aa1ed2fd92c0e00302929ac9954f822bd867708e22578c44",
+        "signature": "4d1edce55bd8e4ab4711bf343cdfee6e509a26b13ddced26276595b119f73bf6",
         "affectsGlobalScope": false
       },
       "./src/taro.linextend.d.ts": {
         "version": "cd026bbfcd087fdbeb73f97078573aba6f2b636321c1768d522b63557d303acf",
         "signature": "cd026bbfcd087fdbeb73f97078573aba6f2b636321c1768d522b63557d303acf",
         "affectsGlobalScope": true
+      },
+      "./src/components/lerrortip.tsx": {
+        "version": "a0f6046f08fe4afc4eafd1c81af3c4f5635e3a9f5fd27dbcd5cfbdc25ba12807",
+        "signature": "9956a38927acabf66e209fc7794258182c994cb1c30b20b6ee2e94d5b940efc0",
+        "affectsGlobalScope": false
       },
       "./node_modules/@types/color-name/index.d.ts": {
         "version": "f0cb4b3ab88193e3e51e9e2622e4c375955003f1f81239d72c5b7a95415dad3e",
@@ -3621,6 +3631,15 @@
         "./node_modules/@types/react/index.d.ts",
         "./src/components/lpopup.tsx"
       ],
+      "./src/components/lerrortip.tsx": [
+        "./node_modules/@tarojs/components/types/index.d.ts",
+        "./node_modules/@types/classnames/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./src/components/lgrid.tsx": [
         "./node_modules/@tarojs/components/types/index.d.ts",
         "./node_modules/@types/classnames/index.d.ts",
@@ -3643,6 +3662,7 @@
       ],
       "./src/components/licon.tsx": [
         "./node_modules/@tarojs/components/types/index.d.ts",
+        "./node_modules/@tarojs/components/types/view.d.ts",
         "./node_modules/@types/classnames/index.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
@@ -3704,6 +3724,19 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./src/components/licon.tsx"
+      ],
+      "./src/components/lnoticebar.tsx": [
+        "./node_modules/@tarojs/components/types/index.d.ts",
+        "./node_modules/@tarojs/components/types/view.d.ts",
+        "./node_modules/@tarojs/taro/types/index.d.ts",
+        "./node_modules/@types/classnames/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/react/index.d.ts",
+        "./src/components/licon.tsx",
+        "./src/nodeutils.ts"
       ],
       "./src/components/lpopup.tsx": [
         "./node_modules/@tarojs/components/types/common.d.ts",
@@ -3825,6 +3858,7 @@
         "./src/components/lloadmore.tsx",
         "./src/components/lmask.tsx",
         "./src/components/lmessage.tsx",
+        "./src/components/lnoticebar.tsx",
         "./src/components/lpopup.tsx",
         "./src/components/lprice.tsx",
         "./src/components/lrate.tsx",
@@ -5909,6 +5943,9 @@
         "./node_modules/@tarojs/components/types/common.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./src/components/lerrortip.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./src/components/lgrid.tsx": [
         "./node_modules/@types/react/index.d.ts",
         "./src/components/lgriditem.tsx"
@@ -5918,6 +5955,7 @@
         "./node_modules/@types/react/index.d.ts"
       ],
       "./src/components/licon.tsx": [
+        "./node_modules/@tarojs/components/types/view.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
       "./src/components/llist.tsx": [
@@ -5935,6 +5973,10 @@
         "./node_modules/@types/react/index.d.ts"
       ],
       "./src/components/lmessage.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/lnoticebar.tsx": [
+        "./node_modules/@tarojs/components/types/view.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
       "./src/components/lpopup.tsx": [
@@ -5987,6 +6029,7 @@
         "./src/components/lloadmore.tsx",
         "./src/components/lmask.tsx",
         "./src/components/lmessage.tsx",
+        "./src/components/lnoticebar.tsx",
         "./src/components/lpopup.tsx",
         "./src/components/lprice.tsx",
         "./src/components/lrate.tsx",
@@ -6414,6 +6457,7 @@
       "./src/components/lcollapse.tsx",
       "./src/components/lcollapseitem.tsx",
       "./src/components/ldialog.tsx",
+      "./src/components/lerrortip.tsx",
       [
         "./src/components/lgrid.tsx",
         [
@@ -6434,7 +6478,7 @@
         [
           {
             "file": "./src/components/licon.tsx",
-            "start": 809,
+            "start": 927,
             "length": 8,
             "messageText": "Spread types may only be created from object types.",
             "category": 1,
@@ -6473,6 +6517,19 @@
         ]
       ],
       "./src/components/lmessage.tsx",
+      [
+        "./src/components/lnoticebar.tsx",
+        [
+          {
+            "file": "./src/components/lnoticebar.tsx",
+            "start": 3143,
+            "length": 8,
+            "messageText": "Spread types may only be created from object types.",
+            "category": 1,
+            "code": 2698
+          }
+        ]
+      ],
       "./src/components/lpopup.tsx",
       "./src/components/lprice.tsx",
       [
