@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { View } from '@tarojs/components'
-import Taro from '@tarojs/taro'
+import Taro from '@tarojs/taro' 
+
 import {LDialog,LRate,LCheckbox,LCheckboxGroup,LPrice,LCard,
   LStep,LSteps,LWaterFlow,LArcPopup,
   LCollapse,LCollapseItem

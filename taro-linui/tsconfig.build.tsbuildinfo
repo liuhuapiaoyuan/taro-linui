@@ -1057,7 +1057,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/lnoticebar.tsx": {
-        "version": "ac829e9e19faea5a8cc59b646ff5b079873d4fdb77aa374c78c214ad9424d1a4",
+        "version": "b653dcc05d475ae99748ee3e2b949cf7e8473032910c7fec1693b2529813da4b",
         "signature": "26ab8d8a0b62f7344e45f4b7bd7b29235fa6e0a0a2382771e97a338119b03332",
         "affectsGlobalScope": false
       },
@@ -1067,8 +1067,8 @@
         "affectsGlobalScope": false
       },
       "./src/taro.linextend.d.ts": {
-        "version": "cd026bbfcd087fdbeb73f97078573aba6f2b636321c1768d522b63557d303acf",
-        "signature": "cd026bbfcd087fdbeb73f97078573aba6f2b636321c1768d522b63557d303acf",
+        "version": "092961e52e7ae02e2a5b74d9f9aa7bae121185a810c86f99321a905dbad3553e",
+        "signature": "092961e52e7ae02e2a5b74d9f9aa7bae121185a810c86f99321a905dbad3553e",
         "affectsGlobalScope": true
       },
       "./src/components/lerrortip.tsx": {
@@ -6522,7 +6522,7 @@
         [
           {
             "file": "./src/components/lnoticebar.tsx",
-            "start": 3208,
+            "start": 3077,
             "length": 8,
             "messageText": "Spread types may only be created from object types.",
             "category": 1,

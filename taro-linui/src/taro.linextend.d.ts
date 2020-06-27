@@ -10,7 +10,7 @@ declare namespace Taro  {
      */
     interface LMessageOptions {
          /**携带提示图标 */ 
-        icon?:string 
+        icon?:string  
         /** 图标的颜色，默认是#fff白色 */
         iconColor?:string
         /** 图标的尺寸，默认28px 像素 */

@@ -42,18 +42,15 @@ export interface LNoticeBarProps  {
   onClickEnd?:ViewProps['onClick']
 }
 const startAnimation = (animation,width,wrapWidth,duration,setAnimation)=>{
+  //先重置位置
   if (animation.option.transition.duration !== 0) {
     animation.option.transition.duration = 0;
     const resetAnimation = animation.translateX(wrapWidth).step();
     setAnimation(resetAnimation.export())
   }
+  //然后启动动画
   animation.option.transition.duration = duration;
-  const animationData = animation.translateX(-width).step();
-  setTimeout(() => setAnimation(animationData.export()), 100);
-  const timer = setTimeout(() => {
-    startAnimation(animation,width,wrapWidth,duration,setAnimation);
-  }, duration)
-  return timer
+  setTimeout(() => setAnimation(animation.translateX(-width).step().export()), 100);
 }
 const LNoticeBar : React.FC<LNoticeBarProps> = props=>{
   const {
@@ -88,8 +85,8 @@ const LNoticeBar : React.FC<LNoticeBarProps> = props=>{
           duration: duration,
           timingFunction: 'linear',
         });
-        // setAnimation(_animation.translateX(-wrapWidth).step().export())
-        timer = startAnimation(_animation,width,wrapWidth,duration,setAnimation)
+        startAnimation(_animation,width,wrapWidth,duration,setAnimation)
+        timer = setInterval(()=>startAnimation(_animation,width,wrapWidth,duration,setAnimation),duration)
       })
     return ()=>{(!!timer) && clearTimeout(timer)}
   },[type,id,wrapId,speed])
