@@ -1057,8 +1057,8 @@
         "affectsGlobalScope": false
       },
       "./src/components/lnoticebar.tsx": {
-        "version": "a5f09760fe8e013b23e860bb342d7fab56ae0c39be0c45283d6390f01918a436",
-        "signature": "b8fb4ff1683af41b7e2ae145f5657208bcaf5a08ec38075669b511c1f7d2d21e",
+        "version": "ac829e9e19faea5a8cc59b646ff5b079873d4fdb77aa374c78c214ad9424d1a4",
+        "signature": "26ab8d8a0b62f7344e45f4b7bd7b29235fa6e0a0a2382771e97a338119b03332",
         "affectsGlobalScope": false
       },
       "./src/index.ts": {
@@ -6522,7 +6522,7 @@
         [
           {
             "file": "./src/components/lnoticebar.tsx",
-            "start": 3143,
+            "start": 3208,
             "length": 8,
             "messageText": "Spread types may only be created from object types.",
             "category": 1,

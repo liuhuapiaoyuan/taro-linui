@@ -38,6 +38,8 @@ export interface LNoticeBarProps  {
   /** 是否关闭 */
   close?:boolean 
   onClose?:ViewProps['onClick']
+  /** 点击结尾的图标 */
+  onClickEnd?:ViewProps['onClick']
 }
 const startAnimation = (animation,width,wrapWidth,duration,setAnimation)=>{
   if (animation.option.transition.duration !== 0) {
@@ -67,7 +69,7 @@ const LNoticeBar : React.FC<LNoticeBarProps> = props=>{
     frontIconSize=28,
     frontIconColor='#3683D6',
     type='still',
-    onClose
+    onClose,onClickEnd
   } = props
   //计算动画数据
   const [animation,setAnimation] = useState<any>()
@@ -102,7 +104,7 @@ const LNoticeBar : React.FC<LNoticeBarProps> = props=>{
     {
       (type==='swip') ? <Swiper autoplay vertical interval={4*speed} className='noticeBar-content-wrap'>
         {
-          React.Children.map(swipArr,(item,index)=><SwiperItem  key={index}>
+          React.Children.map(swipArr,(item,index)=><SwiperItem key={index}>
             {item}
           </SwiperItem>)
         } 
@@ -112,7 +114,7 @@ const LNoticeBar : React.FC<LNoticeBarProps> = props=>{
         </View>
       </View>
     }
-    {endIconName && !close &&<LIcon  size={endIconSize} color={endIconColor} className='noticeBar-operation' name={endIconName}  />}
+    {endIconName && !close &&<LIcon onClick={onClickEnd} size={endIconSize} color={endIconColor} className='noticeBar-operation' name={endIconName}  />}
     {close &&<LIcon onClick={onClose}  className='noticeBar-operation' name='close' size={endIconSize} color={endIconColor} />}
   </View>
 
