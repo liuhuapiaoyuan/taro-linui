@@ -1,7 +1,7 @@
 import React from 'react'
 import {View,Image} from '@tarojs/components'
 import classnames from 'classnames'
-
+import mergeStyle from '../mergeStyle'
 import {LIcon} from './LIcon'
 
 import '../../style/LTag.less'
@@ -70,7 +70,7 @@ const LTag : React.FC<LTagProps> = props=>{
     tagStyle.lineHeight = height
   }
   plain ?  tagStyle.borderColor=fontColor : tagStyle.backgroundColor=bgColor
-  return (<View style={{display:'flex',...style}} className={className}>
+  return (<View style={mergeStyle({display:'flex'},style)} className={className}>
     <View style={tagStyle} className={classnames('l-tag','l-tag-'+size+'-'+ shape,{
       'l-tag-touch':type=='touch',
       [`l-tag-plain-${size}`]:plain,

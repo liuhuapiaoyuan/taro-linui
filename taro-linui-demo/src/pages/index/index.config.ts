@@ -1,3 +1,5 @@
 export default {
-  navigationBarTitleText: '首页ss'
+  navigationBarTitleText: 'TaroLinUI',
+  navigationBarBackgroundColor:'#3963BC',
+  navigationBarTextStyle:'white'
 }

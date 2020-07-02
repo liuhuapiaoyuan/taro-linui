@@ -1,75 +1,84 @@
-/** 卡片的样式 **/
-.content {
-    margin-top: 10px;
-    color: #666;
-    font-size: 26px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 5;
+/**index.wxss**/
+.a{
+  width: 46.875px;
+  height: 20px;
+  background: rebeccapurple;
+  margin: 0 0 50px 50px;
+}
+
+page {
+  background: #f7f7f7;
+}
+
+.container {
+  min-height: 100vh;
+  width: 100%;
+  background: #f7f7f7;
+  padding-bottom: 60px;
+}
+
+.header {
+  font-size: 28px;
+  height: 228px;
+  width: 750px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 1);
+  line-height: 36px;
+  background: #3683d6;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0px 4px 20px 0px rgba(0, 49, 107, 0.3);
+  box-sizing: border-box;
+}
+
+.header-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 750px;
+  height: 228px;
+  z-index: 1;
+}
+
+.header-desc {
+  position: absolute;
+  z-index: 2;
+  font-size: 28px;
+  margin: 60px 0 0 60px;
+  line-height: 48px;
+}
+
+.header-name {
+  font-size: 32px;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 690px;
+  margin: 0 auto;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.index-card{
+  padding: 30px 40px !important;
+  margin-top: 30px !important;
+  margin-bottom: 200px !important;
+  
+  .l-img-class {
+    width: 100px !important;
+    height: 100px !important;
   }
   
-  .avter-content {
-    margin-top: 10px;
-    color: #333;
-    font-size: 26px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 5;
-  }
-  
-  .avter-share-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-  }
-  
-  .like-container{
-    display: flex;
-    flex-direction: row;
-    margin-left: 40px;
-    align-items: center
-  }
-  
-  .number{
-    color: #666;
-    font-size: 24px;
-    margin-left: 12px;
+  .l-title-class {
+    color: #3963bc !important;
   }
 
-  /** 九宫格demo **/
+}
 
-  .gridTest{
-      
-  .num {
-    color: #fc6517;
-    font-size: 42px;
-    font-style: italic;
-  }
-
-  .text {
-    height: 30px;
-    font-size: 22px;
-    font-family: PingFangSC-Regular;
-    font-weight: 400;
-    color: rgba(102, 102, 102, 1);
-    line-height: 30px;
-    margin-top: 9px;
-  }
-
-  .grid-item {
-    height: 200px;
-  } 
-
-  }
-
-  //扩展分组
-  .expander-group .collapseItem-title{
-    border-bottom: 1PX solid rgb(231, 231, 231);
-  }
-  .expander-group .expanded .collapseItem-title{
-    border-bottom: 0
-  }
+.shop-dec {
+  font-size: 28px;
+  color: #8c98ae;
+  margin-top: 15px;
+}

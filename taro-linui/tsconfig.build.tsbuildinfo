@@ -931,8 +931,13 @@
         "signature": "11b0ff47991ff2f070d5e64cd48d86d90206f6527666b55826f7464469569500",
         "affectsGlobalScope": false
       },
+      "./src/mergestyle.ts": {
+        "version": "1c46248913a274f47a0f986eff774c0fad27cc12ad110d8854e076116671f1ee",
+        "signature": "f85be8905520361e23d7440673bdcb7775acb407cfcb8af31459b3943e71601c",
+        "affectsGlobalScope": false
+      },
       "./src/components/lloading.tsx": {
-        "version": "eff593a9f7cc445730e3ab577583765690e76d31b4c66f2907576a53e6c207c5",
+        "version": "cb5247c3e3ae6f428f85db46c374bea3acd6fffa610987b512c0e8f5f0f9d8ee",
         "signature": "d08b741f8be99642ed303d38fafd2759a55036f69b0bd46ca0ab7519f647f930",
         "affectsGlobalScope": false
       },
@@ -952,7 +957,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/ltag.tsx": {
-        "version": "2a250569fe7c2b400722024c64239b696f102ec7715d91cf1a6ea6c4680de5a0",
+        "version": "5472492af57961774b09da1980b7d6d0c60406ed601171a636e5edf9405ea982",
         "signature": "aa7c4bd9b34a4927abd4ff43c4120e85aaaee7dd181ad8312d76402293adf86d",
         "affectsGlobalScope": false
       },
@@ -967,7 +972,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/lstatusshow.tsx": {
-        "version": "06d678c863fe70fc35a66da5295734e24aea41b259900f485d68ac4d6ab35234",
+        "version": "7eff887c655bd7109473f6c48a9c5f25fc6bb1cf986bd6f7bc47041cb9415ca2",
         "signature": "c5861c10073fc74265939ff48b979699ede8e8d838ad280f167aeb00e0ecbde2",
         "affectsGlobalScope": false
       },
@@ -977,8 +982,8 @@
         "affectsGlobalScope": false
       },
       "./src/components/lcard.tsx": {
-        "version": "5cfb1fdc1cd1883c9ecaca803100867d46879b0b64da99b72f34926f8199c65c",
-        "signature": "fab6442a4f858892c3495fb7bcb41c19ec9b7e8eb0a7c29d7c8c0b414df0c846",
+        "version": "401a4ca28d00d6a1fc7a3907414debefce57c96d2accd7b9225fbe1084437ea3",
+        "signature": "21eeb6f03d800bb58d88f1519d2ed41f04abf09e8673f5d232c6cb2ef18d656e",
         "affectsGlobalScope": false
       },
       "./src/components/lbadge.tsx": {
@@ -997,7 +1002,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/lgrid.tsx": {
-        "version": "55f70d4696bb02ac772378a589931112d4a3616f2fce8dac625bdb84814c0cae",
+        "version": "f45c6e554810d6da47a149d97976bbe007904522afe336dcfd21452ae5bf8574",
         "signature": "c3d9d25e2595ec673de83ba02b9f2a0f58f49f05a5d4304def2f69f7c552c5df",
         "affectsGlobalScope": false
       },
@@ -1066,14 +1071,19 @@
         "signature": "4d1edce55bd8e4ab4711bf343cdfee6e509a26b13ddced26276595b119f73bf6",
         "affectsGlobalScope": false
       },
-      "./src/taro.linextend.d.ts": {
-        "version": "092961e52e7ae02e2a5b74d9f9aa7bae121185a810c86f99321a905dbad3553e",
-        "signature": "092961e52e7ae02e2a5b74d9f9aa7bae121185a810c86f99321a905dbad3553e",
-        "affectsGlobalScope": true
-      },
       "./src/components/lerrortip.tsx": {
         "version": "a0f6046f08fe4afc4eafd1c81af3c4f5635e3a9f5fd27dbcd5cfbdc25ba12807",
         "signature": "9956a38927acabf66e209fc7794258182c994cb1c30b20b6ee2e94d5b940efc0",
+        "affectsGlobalScope": false
+      },
+      "./src/components/lsticky.tsx": {
+        "version": "7ebecde4b35bdd03de9ea5f9e85db73d0e870a34f50cc3535fc12d0ecdd4f80b",
+        "signature": "d8f3d2d749c9af8e35d917deda65c377c6c9aece4499e2e9c3f577434f3fa844",
+        "affectsGlobalScope": false
+      },
+      "./src/components/lstickyitem.tsx": {
+        "version": "b23ff1d9901d23cce2a534138ddd48189de41d31cecfb4388f28113a756c34cf",
+        "signature": "a3ee14489106b42c5d4f4fcf65fe4400d44b47983ad4eb17605fd19621fdff0d",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/color-name/index.d.ts": {
@@ -3692,7 +3702,8 @@
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/react/index.d.ts"
+        "./node_modules/@types/react/index.d.ts",
+        "./src/mergestyle.ts"
       ],
       "./src/components/lloadmore.tsx": [
         "./node_modules/@tarojs/components/types/index.d.ts",
@@ -3807,6 +3818,24 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./src/components/lsticky.tsx": [
+        "./node_modules/@tarojs/components/types/index.d.ts",
+        "./node_modules/@types/classnames/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/lstickyitem.tsx": [
+        "./node_modules/@tarojs/components/types/index.d.ts",
+        "./node_modules/@types/classnames/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./src/components/ltag.tsx": [
         "./node_modules/@tarojs/components/types/index.d.ts",
         "./node_modules/@types/classnames/index.d.ts",
@@ -3815,7 +3844,8 @@
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/react/index.d.ts",
-        "./src/components/licon.tsx"
+        "./src/components/licon.tsx",
+        "./src/mergestyle.ts"
       ],
       "./src/components/lwaterflow.tsx": [
         "./node_modules/@tarojs/components/types/index.d.ts",
@@ -3869,6 +3899,12 @@
         "./src/components/ltag.tsx",
         "./src/components/lwaterflow.tsx"
       ],
+      "./src/mergestyle.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
       "./src/nodeutils.ts": [
         "./node_modules/@tarojs/taro/types/index.d.ts",
         "./node_modules/@types/node/fs.d.ts",
@@ -3878,12 +3914,6 @@
       ],
       "./src/px.ts": [
         "./node_modules/@tarojs/taro/types/index.d.ts",
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts",
-        "./node_modules/@types/node/util.d.ts"
-      ],
-      "./src/taro.linextend.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts",
@@ -6002,6 +6032,12 @@
       "./src/components/lsteps.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./src/components/lsticky.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/lstickyitem.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./src/components/ltag.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
@@ -6039,12 +6075,6 @@
         "./src/components/lsteps.tsx",
         "./src/components/ltag.tsx",
         "./src/components/lwaterflow.tsx"
-      ],
-      "./src/taro.linextend.d.ts": [
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts",
-        "./node_modules/@types/node/util.d.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -6458,20 +6488,7 @@
       "./src/components/lcollapseitem.tsx",
       "./src/components/ldialog.tsx",
       "./src/components/lerrortip.tsx",
-      [
-        "./src/components/lgrid.tsx",
-        [
-          {
-            "file": "./src/components/lgrid.tsx",
-            "start": 794,
-            "length": 7,
-            "messageText": "'isHover' is declared but its value is never read.",
-            "category": 1,
-            "code": 6133,
-            "reportsUnnecessary": true
-          }
-        ]
-      ],
+      "./src/components/lgrid.tsx",
       "./src/components/lgriditem.tsx",
       [
         "./src/components/licon.tsx",
@@ -6516,7 +6533,35 @@
           }
         ]
       ],
-      "./src/components/lmessage.tsx",
+      [
+        "./src/components/lmessage.tsx",
+        [
+          {
+            "file": "./src/components/lmessage.tsx",
+            "start": 516,
+            "length": 10,
+            "code": 2339,
+            "category": 1,
+            "messageText": "Property 'linMessage' does not exist on type 'typeof Taro'."
+          },
+          {
+            "file": "./src/components/lmessage.tsx",
+            "start": 854,
+            "length": 15,
+            "messageText": "Namespace 'Taro' has no exported member 'LMessageOptions'.",
+            "category": 1,
+            "code": 2694
+          },
+          {
+            "file": "./src/components/lmessage.tsx",
+            "start": 921,
+            "length": 15,
+            "messageText": "Namespace 'Taro' has no exported member 'LMessageOptions'.",
+            "category": 1,
+            "code": 2694
+          }
+        ]
+      ],
       [
         "./src/components/lnoticebar.tsx",
         [
@@ -6599,18 +6644,34 @@
       ],
       "./src/components/lsteps.tsx",
       [
-        "./src/components/ltag.tsx",
+        "./src/components/lsticky.tsx",
         [
           {
-            "file": "./src/components/ltag.tsx",
-            "start": 1649,
-            "length": 8,
-            "messageText": "Spread types may only be created from object types.",
+            "file": "./src/components/lsticky.tsx",
+            "start": 68,
+            "length": 35,
+            "messageText": "'classnames' is declared but its value is never read.",
             "category": 1,
-            "code": 2698
+            "code": 6133,
+            "reportsUnnecessary": true
           }
         ]
       ],
+      [
+        "./src/components/lstickyitem.tsx",
+        [
+          {
+            "file": "./src/components/lstickyitem.tsx",
+            "start": 68,
+            "length": 35,
+            "messageText": "'classnames' is declared but its value is never read.",
+            "category": 1,
+            "code": 6133,
+            "reportsUnnecessary": true
+          }
+        ]
+      ],
+      "./src/components/ltag.tsx",
       [
         "./src/components/lwaterflow.tsx",
         [
@@ -6626,6 +6687,7 @@
       ],
       "./src/device.ts",
       "./src/index.ts",
+      "./src/mergestyle.ts",
       "./src/nodeutils.ts",
       [
         "./src/px.ts",
@@ -6639,8 +6701,7 @@
             "code": 2554
           }
         ]
-      ],
-      "./src/taro.linextend.d.ts"
+      ]
     ]
   },
   "version": "3.9.5"

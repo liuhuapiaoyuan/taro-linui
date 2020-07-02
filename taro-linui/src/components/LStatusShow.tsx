@@ -85,7 +85,7 @@ const LStatusShow : React.FC<LStatusShowProps> = props=>{
   } = props
   const {typeText,typeImage} = _defaultType[type]
   if(!show) return null 
-  return  <View  className={classnames('l-status-container',{content:fullScreen})}
+  return  <View  className={classnames('LStatusShow',{content:fullScreen})}
     style={{backgroundColor:bgColor,alignItems:fullScreen?'center':'left'}}
   >
     {custom && children}

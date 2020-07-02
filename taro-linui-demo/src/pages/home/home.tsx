@@ -1,7 +1,7 @@
 import React, { useState} from 'react'
 import Taro from '@tarojs/taro'
 import { View , Block,Label,CoverImage,CoverView,OpenData,Button,OfficialAccount} from '@tarojs/components'
-import {LStatusShow,LMessage,LActionSheet, LAvatar,LSpin,LAlbum,LButton,LPopup,LLoading,LMask,LLoadMore} from 'taro-linui'
+import {LStatusShow,LMessage,LActionSheet, LAvatar,LAlbum,LButton,LPopup,LLoading,LMask,LLoadMore} from 'taro-linui'
 const Home =  ()=>{ 
   const [show,setShow] = useState(false) 
   const [showMask,setShowMask] = useState(false)
@@ -39,24 +39,16 @@ const Home =  ()=>{
       ]} />
       {/* <View>胶囊导航栏</View>  
       <LCapsuleBar  homePage="/pages/index/index" title="标题咯" /> */}
-      <Label> 
-        <Button></Button>
-        <CoverImage></CoverImage>
-        <CoverView></CoverView>
-        <OpenData></OpenData>
-      </Label>
-      <Block>  
       <LLoadMore show line={true} type="end" loadingText="疯狂加载中..."/>
-      </Block> 
       <LButton type="success" onClick={()=>setShowMask(true)}>测试mask组件，点击弹窗</LButton>
       <LMask show={showMask}  onClose={()=>setShowMask(false)}>
         <LLoading show/>
       </LMask>
       <View>loading组件</View>
-      <LLoading show type="flip"/>
-      <LLoading show type="change"/>
-      <LLoading show type="flash"/>
-      <LLoading show type="circle"/> 
+      <LLoading show type="flip" bgColor="rgba(0,0,0,0.2)" content={<View style={{height:180}}>啊实打实的</View>}/>
+      <LLoading show type="change" content={<View style={{height:180}}>啊实打实的</View>}/>
+      <LLoading show type="flash" content={<View style={{height:180}}>啊实打实的</View>}/>
+      <LLoading show type="circle" content={<View style={{height:180}}>啊实打实的</View>}/> 
       <View>按钮组件</View>
       <LPopup  direction="bottom" show={show} onClose={()=>setShow(false)}>
         <View style={{backgroundColor:'white'}}>
@@ -120,7 +112,7 @@ const Home =  ()=>{
       <View>
       =========查看Spin组件
       </View>
-      type:"flash"
+      {/* type:"flash"
       <LSpin show/>
       <View></View>
       size:mini
@@ -128,7 +120,7 @@ const Home =  ()=>{
       size:large
       <LSpin  size="large" show/>
       type:"change",size:larget
-      <LSpin type='change' size="large" show/>
+      <LSpin type='change' size="large" show/> */}
     </View>   
   )
 }

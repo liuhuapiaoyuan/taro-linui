@@ -1,7 +1,7 @@
 import React from 'react'
 import {View} from '@tarojs/components'
 import classnames from 'classnames'
-
+import mergeStyle from '../mergeStyle'
 import '../../style/LLoading.less'
 
 export interface LLoadingProps  {
@@ -33,6 +33,7 @@ export interface LLoadingProps  {
 
 const LLoading : React.FC<LLoadingProps> = props=>{
   const {
+    className,style={},
     fullScreen=false,
     custom=false,
     type='rotate',
@@ -46,14 +47,13 @@ const LLoading : React.FC<LLoadingProps> = props=>{
     distance=0,
     color
   } = props
-  return  <>
+  return  <> 
     {show && fullScreen && (
       <View 
-      //show && fullScreen
-        style={{backgroundColor:bgColor,opacity,zIndex}}
-        className={classnames('container-loading','l-container-class',{
+        style={mergeStyle({backgroundColor:bgColor,opacity,zIndex} , style)}
+        className={classnames(className,'LLoading','LLoading-full','l-container-class',{
           'content':fullScreen
-        })}
+        })} 
       >
         <View 
           //wx:if="{{show}}"
@@ -108,7 +108,9 @@ const LLoading : React.FC<LLoadingProps> = props=>{
       </View>
     )}
     {!fullScreen && (
-      <View className='l-container-class' style='position: relative'>
+      <View style={mergeStyle({position:'relative'} , style)}
+        className={classnames(className,'LLoading','l-container-class')}
+      >
         {content}
         { show && <>
           <View className='inner-loading-container' style={{backgroundColor:bgColor,opacity,zIndex}} />
@@ -118,47 +120,45 @@ const LLoading : React.FC<LLoadingProps> = props=>{
                 ['spinner-' + type + '-' + size]:!(type==='change'||custom)
               })}
             >
-              {custom && children}
-              {
-                !custom && (<>
-                  {(type==='flash' || type==='change' || type==='flip') && <View  
-                    style={{ backgroundColor:color?color:'' }} 
-                    className={classnames(type+'-bounce1','spinner-'+ type + '-' + size)}
-                  />}
-                  {(type==='flash' || type==='change' ) && <View  
-                    style={{ backgroundColor:color?color:'' }} 
-                    className={classnames(type+'-bounce2','spinner-'+ type + '-' + size)}
-                  />}
-                  {( type==='change' ) && <View  
-                    style={{ backgroundColor:color?color:'' }} 
-                    className={classnames(type+'-bounce3','spinner-'+ type + '-' + size)}
-                  />}
-                  {( type==='rotate' ) && <View  
-                    style={{ backgroundColor:color?color:'' }} 
-                    className={classnames('rotate','rotate-' + size)}
-                  />}
-                  {( type==='circle' ) && <View   className={classnames('spinner-circle','spinner-circle-' + size)}>
-                    <View className='spinner-container container1'>
-                      <View className={classnames('circle1','container-view',type + '-' + size)}  style={{backgroundColor:color}} />
-                      <View className={classnames('circle2','container-view',type + '-' + size)}  style={{backgroundColor:color}} />
-                      <View className={classnames('circle3','container-view',type + '-' + size)}  style={{backgroundColor:color}} />
-                      <View className={classnames('circle4','container-view',type + '-' + size)}  style={{backgroundColor:color}} />
-                    </View>
-                    <View className='spinner-container container2'>
-                      <View className={classnames('circle1','container-view',type + '-' + size)}  style={{backgroundColor:color}} />
-                      <View className={classnames('circle2','container-view',type + '-' + size)}  style={{backgroundColor:color}} />
-                      <View className={classnames('circle3','container-view',type + '-' + size)}  style={{backgroundColor:color}} />
-                      <View className={classnames('circle4','container-view',type + '-' + size)}  style={{backgroundColor:color}} />
-                    </View>
-                    <View className='spinner-container container3'>
-                      <View className={classnames('circle1','container-view',type + '-' + size)}  style={{backgroundColor:color}} />
-                      <View className={classnames('circle2','container-view',type + '-' + size)}  style={{backgroundColor:color}} />
-                      <View className={classnames('circle3','container-view',type + '-' + size)}  style={{backgroundColor:color}} />
-                      <View className={classnames('circle4','container-view',type + '-' + size)}  style={{backgroundColor:color}} />
-                    </View>
+              {custom ? children : (<>
+                {(type==='flash' || type==='change' || type==='flip') && <View  
+                  style={{ backgroundColor:color?color:'' }} 
+                  className={classnames(type+'-bounce1','spinner-'+ type + '-' + size)}
+                />}
+                {(type==='flash' || type==='change' ) && <View  
+                  style={{ backgroundColor:color?color:'' }} 
+                  className={classnames(type+'-bounce2','spinner-'+ type + '-' + size)}
+                />}
+                {( type==='change' ) && <View  
+                  style={{ backgroundColor:color?color:'' }} 
+                  className={classnames(type+'-bounce3','spinner-'+ type + '-' + size)}
+                />}
+                {( type==='rotate' ) && <View  
+                  style={{ backgroundColor:color?color:'' }} 
+                  className={classnames('rotate','rotate-' + size)}
+                />}
+                {( type==='circle' ) && <View   className={classnames('spinner-circle','spinner-circle-' + size)}>
+                  <View className='spinner-container container1'>
+                    <View className={classnames('circle1','container-view',type + '-' + size)}  style={{backgroundColor:color}} />
+                    <View className={classnames('circle2','container-view',type + '-' + size)}  style={{backgroundColor:color}} />
+                    <View className={classnames('circle3','container-view',type + '-' + size)}  style={{backgroundColor:color}} />
+                    <View className={classnames('circle4','container-view',type + '-' + size)}  style={{backgroundColor:color}} />
                   </View>
-                  }
-                </>)
+                  <View className='spinner-container container2'>
+                    <View className={classnames('circle1','container-view',type + '-' + size)}  style={{backgroundColor:color}} />
+                    <View className={classnames('circle2','container-view',type + '-' + size)}  style={{backgroundColor:color}} />
+                    <View className={classnames('circle3','container-view',type + '-' + size)}  style={{backgroundColor:color}} />
+                    <View className={classnames('circle4','container-view',type + '-' + size)}  style={{backgroundColor:color}} />
+                  </View>
+                  <View className='spinner-container container3'>
+                    <View className={classnames('circle1','container-view',type + '-' + size)}  style={{backgroundColor:color}} />
+                    <View className={classnames('circle2','container-view',type + '-' + size)}  style={{backgroundColor:color}} />
+                    <View className={classnames('circle3','container-view',type + '-' + size)}  style={{backgroundColor:color}} />
+                    <View className={classnames('circle4','container-view',type + '-' + size)}  style={{backgroundColor:color}} />
+                  </View>
+                </View>
+                }
+              </>)
               }
             </View>
           </View>

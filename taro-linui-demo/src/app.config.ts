@@ -3,11 +3,15 @@ export default {
     'pages/index/index',
     'pages/home/home',
     'pages/about/about',
+    'pages/content/index',
+
+    //按钮
+    'pages/components/basic/button/index',
   ],
   window: {
     backgroundTextStyle: 'light',
     navigationBarBackgroundColor: '#fff',
-    navigationBarTitleText: 'WeChat',
+    navigationBarTitleText: 'TaroLinUI',
     navigationBarTextStyle: 'black'
   },
   "tabBar": {

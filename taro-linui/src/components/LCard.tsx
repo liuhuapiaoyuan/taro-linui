@@ -26,16 +26,17 @@ export interface LCardProps  {
   /** 图片的类型 默认为primary*/
   type?:'primary'|'avatar'|'cover'
   /** 图片的显示mode */
-  imageMode?:keyof ImageProps.mode
+  imageMode?:keyof ImageProps.mode,
+  onClick?:ImageProps['onClick']
 }
 
 const LCard : React.FC<LCardProps> = props=>{
   const {
-    children,more,className,style,full=false,
+    onClick,children,more,className,style,full=false,
     type='primary',position='left',plaintext=false,
     title,imageMode='aspectFill',image,describe
   } = props
-  return  <View style={style} className={classnames(className,'card-container','card-container-' + type,
+  return  <View onClick={onClick} style={style} className={classnames(className,'card-container','card-container-' + type,
     'card-container-' + type + '-' + position,full?'card-container-full':'card-container-unfull'
   )}
   >
