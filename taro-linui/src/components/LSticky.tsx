@@ -15,7 +15,7 @@ export interface LStickyProps  {
 const LSticky : React.FC<LStickyProps> = props=>{
   const {
     scrollTop=0,className,style,children,
-    mode='js'
+    mode='css'
   } = props
   return  <View style={style} className={classnames('l-sticky',className)}>
     {React.Children.map(children,(child)=>{

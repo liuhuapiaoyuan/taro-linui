@@ -19,7 +19,7 @@ const StickyBase: React.FC<any> = props => {
   return <View className="sticky-base">
     <ContentTitle name="Sticky" describe="吸顶容器">
       <ContentCard name="基本案例">
-        <LSticky scrollTop={scrollTop} mode="css">
+        <LSticky scrollTop={scrollTop} mode="js">
           {addresses.map(item => <LStickyItem
             header={<View className="index-header" >{item.index}</View>}
             key={item.index}>

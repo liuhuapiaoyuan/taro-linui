@@ -1072,12 +1072,12 @@
         "affectsGlobalScope": false
       },
       "./src/components/lsticky.tsx": {
-        "version": "7feb145984e15377f4cdc5803511430379b30ed1b297aa93291150bfd29ef86a",
+        "version": "1c104b7d760a3dfc366ee288fdfdc97f12636b7cedca70d1af2217a344ec9713",
         "signature": "2b9851554f22c0c5ff55eb9683b647cefdcf4a622fbdd854e8ab09a4b0eb02aa",
         "affectsGlobalScope": false
       },
       "./src/components/lstickyitem.tsx": {
-        "version": "16380b0ce544eacbbfc35c374bb1e679d6577857b6b7fe6a0105e84d13f9ee1c",
+        "version": "4c77ec0125a2157934ed68793eeb1982cb555b7f48f1fc3ce7318a3fd92ab497",
         "signature": "7a357d4f539c032dda1ae225443227cfbdc3cca1e0eb3d5d051af2bae26ae0e3",
         "affectsGlobalScope": false
       },

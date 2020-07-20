@@ -71,7 +71,7 @@ const LStickyItem : React.FC<LStickyItemProps> = props=>{
     <View
       className='l-sticky-item-header-wrapper l-header-wrapper-class'
       style={{
-        height: (isFixedTop&&stickyItemWrapperHeight)?stickyItemWrapperHeight:'auto'
+        height: (isFixedTop&&mode==='js')?stickyItemWrapperHeight:'auto'
       }}
     ></View>
     <View 
