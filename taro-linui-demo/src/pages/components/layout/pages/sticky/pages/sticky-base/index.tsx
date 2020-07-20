@@ -21,6 +21,7 @@ const StickyBase: React.FC<any> = props => {
       <ContentCard name="基本案例">
         <LSticky scrollTop={scrollTop} mode="js">
           {addresses.map(item => <LStickyItem
+            // top={20}
             header={<View className="index-header" >{item.index}</View>}
             key={item.index}>
             {item.items.map((sitem, index) => <View
