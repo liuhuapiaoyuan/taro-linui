@@ -40,7 +40,10 @@ const LGrid : React.FC<LGridProps> = props=>{
         style:{
           minWidth:100/rowNum + '%'
         },
-        onClick:e=>onClickItem && onClickItem(index,e)
+        onClick:e=>{
+          child && child.props && child.props.onClick && child.props.onClick(e)
+          onClickItem && onClickItem(index,e)
+        }
       }))
     }
   </View>

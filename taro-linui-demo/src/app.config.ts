@@ -1,12 +1,20 @@
 export default {
   pages: [
+    //吸顶组件-基础用法
+    'pages/components/layout/pages/sticky/pages/sticky-base/index',
+    //吸顶组件
+    'pages/components/layout/pages/sticky/index',
     'pages/index/index',
+    //IndexList
+    'pages/components/layout/pages/index-list/index',
     'pages/home/home',
-    'pages/about/about',
     'pages/content/index',
+    'pages/about/about',
 
     //按钮
     'pages/components/basic/button/index',
+    //list
+    'pages/components/layout/pages/list/index',
   ],
   window: {
     backgroundTextStyle: 'light',

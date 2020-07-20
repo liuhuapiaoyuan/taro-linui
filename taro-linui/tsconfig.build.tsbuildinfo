@@ -192,13 +192,13 @@
         "affectsGlobalScope": true
       },
       "./node_modules/@tarojs/taro/types/taro.component.d.ts": {
-        "version": "dc683cc0c1b51d3fcdf020d5aabb3a96a9eede04a8df9f60619637c98816c3ce",
-        "signature": "dc683cc0c1b51d3fcdf020d5aabb3a96a9eede04a8df9f60619637c98816c3ce",
+        "version": "855d9e9df0593741d4a15d4e65a9d55a5538eac45d1290d13028c6f0966c27c9",
+        "signature": "855d9e9df0593741d4a15d4e65a9d55a5538eac45d1290d13028c6f0966c27c9",
         "affectsGlobalScope": true
       },
       "./node_modules/@tarojs/taro/types/taro.hooks.d.ts": {
-        "version": "04129c7d284a70cc4d9ccfa16857fdb1bb3956be3ef1ea80c851edabdaa75e28",
-        "signature": "04129c7d284a70cc4d9ccfa16857fdb1bb3956be3ef1ea80c851edabdaa75e28",
+        "version": "5794b40f08aa4b7bbff266cbcf959b0ffaa1751ce9ae7b0535bb72e4b0056c18",
+        "signature": "5794b40f08aa4b7bbff266cbcf959b0ffaa1751ce9ae7b0535bb72e4b0056c18",
         "affectsGlobalScope": true
       },
       "./node_modules/@tarojs/taro/types/api/network/request.d.ts": {
@@ -642,8 +642,8 @@
         "affectsGlobalScope": false
       },
       "./src/device.ts": {
-        "version": "de2f7eebdca3cf26c2c8a186ba7827cc9651619862bbbd94500949dcfe4faf40",
-        "signature": "4fba4454ec035c4e6eb369dc7ef06c4ebdeaf562cd10bb2e7d3faca277b2af1d",
+        "version": "90bedc5a710b89daff61d956f2509cc1abfd693f88bf5169994140c344b8e997",
+        "signature": "63cdd5b444d8a2e15804e71c0a46b30b46068cf514404f951fde866f8cdde25b",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/classnames/types.d.ts": {
@@ -662,8 +662,8 @@
         "affectsGlobalScope": false
       },
       "./node_modules/@tarojs/components/types/scrollview.d.ts": {
-        "version": "b71151eaaae90bf6b6dfd60f5c5732a844093013aecc2e3503a2b1b4f294ac20",
-        "signature": "b71151eaaae90bf6b6dfd60f5c5732a844093013aecc2e3503a2b1b4f294ac20",
+        "version": "6068b6021f4f2cd1eb40391dd8c685c7ffd2f27deb6b689f03aff23d2540618e",
+        "signature": "6068b6021f4f2cd1eb40391dd8c685c7ffd2f27deb6b689f03aff23d2540618e",
         "affectsGlobalScope": false
       },
       "./node_modules/@tarojs/components/types/view.d.ts": {
@@ -892,198 +892,213 @@
         "affectsGlobalScope": false
       },
       "./src/px.ts": {
-        "version": "9c001a8c1a6d0a6feb00b2dd97acb06a3cc108ccd85aa1aefbbee80db7477651",
-        "signature": "97918bb942cc8bfeb8f9fc8a43574416ed8309abdbffc4a92b53b6ddf3f10e6b",
+        "version": "1517f6ade5b59fea5bed2244ea4a6bf8bfd4e14cbd1c1c4dba72dfaaa8a7a66c",
+        "signature": "a544ddcc140976ebd1cf14636d3aceebd2369e5bab768bf439b9f29c70978183",
         "affectsGlobalScope": false
       },
       "./src/components/licon.tsx": {
-        "version": "c19a771d6ee50e6f6e1e93df81a4e189b1ebd2ec983026d1af8d1ef780feecae",
-        "signature": "575b418091dd1c32eb612561fad20217cac120990ff235f17ac18d0bfdb194aa",
+        "version": "b0fbd2f2a1c66254a670325fd2434f58ea5e367e4d59052b340a67622e9c7ba2",
+        "signature": "5effdb2d370a6c0a7ddc960620e567c9110aa6d97c31998e496c8ec87484e6ef",
         "affectsGlobalScope": false
       },
       "./src/components/lpopup.tsx": {
-        "version": "b2e42077ce6260adcf1ccddcdf2ebeb481c31c432c3f714895d4cbfd19bbe699",
-        "signature": "39dc094ee8d33ea08487562f5912cbd2f7ebd8cd4d738ac8f9c42926167c2c90",
+        "version": "83f7606d7aeb5e4a051686e52f9052861973a1a3392694695e592cb753772216",
+        "signature": "4176b45f9e6760e75d0c69c84867b1272f720bb6cb92d5468c132457df7df1ef",
         "affectsGlobalScope": false
       },
       "./src/components/lbutton.tsx": {
-        "version": "04fd2a1c453a8fa77568ea3ecfb93903ec45eccf1638626d477899c688b9435e",
-        "signature": "675ea6431a67dd39dd220047cf15dea18e0dc6ae5f3250a121aaa22eb9af481f",
+        "version": "d66d2886ea5a48fa39334ee07cb0f7e272be1a2b3ee4aeed08d84f7c1cd4eb43",
+        "signature": "138cff3117d2b58a64902824a675b8b6b289ba7d37c372e295dc9a1e9bc6039a",
         "affectsGlobalScope": false
       },
       "./src/components/lactionsheet.tsx": {
-        "version": "42f2fa1d4a4c0903665a7b18030cf2ba6551827120493e108a7cef16a180cbf3",
-        "signature": "ceabd13e565ed0f2dff17f4ab374131406770b05d68b9231ffe43c2050f73043",
+        "version": "65734d2a0d7f2a72303601802afa85c722445ad11894c5848a3c72979482e03e",
+        "signature": "cffea10e39184ea2769bdcd8c7b512d09bf4bd5498b1e8add3cbcc138ae259a4",
         "affectsGlobalScope": false
       },
       "./src/components/lalbumlayout.ts": {
-        "version": "539661eb4d484f4b3e92e2cecb85bf0abe76580aaa6e39698be5e5c73d91c209",
-        "signature": "3fa9b7d3bb4ee282bd4d51102e38982f10d0858ea8793bfd1b4eac5640d6ae76",
+        "version": "5c24781b3902c08f4b97bdd44e860dead955d5c8d53ed1ca66048b4c4b1bebe4",
+        "signature": "de4a54099b786c44e94f19a692ffe7b3b6eea225c0ead8dda78e3e6fd42edfb5",
         "affectsGlobalScope": false
       },
       "./src/components/lalbum.tsx": {
-        "version": "a1f709c698302ec810f933b231448390b574b99f45dde986e1f5359a3c239b49",
-        "signature": "857d542f9e327672ed3adc8e3dbbad23ccf722eb5c6b5c482f85127e1fdbc233",
+        "version": "03eee5e2262c4e8d1190dbe205e73678d307bb6b6261379f7bb09a21599118be",
+        "signature": "3cc0199c30417b124e63e402c4f8e005642b6dcb2cdcbc650f9c47527c900e18",
         "affectsGlobalScope": false
       },
       "./src/components/lavatar.tsx": {
-        "version": "cd17e94f81ca85eecb27fbf8788253f012f4004ea49c9ce62c85347d9c029aab",
-        "signature": "11b0ff47991ff2f070d5e64cd48d86d90206f6527666b55826f7464469569500",
+        "version": "7d33dc63f779dcc7977aa4526d748eed20e58bfa84967bf5241e9ac7d640d6a2",
+        "signature": "50382492fd41ca1648e9032141f31c5c46ae1ce74d67402ba170283b5d2b83f0",
         "affectsGlobalScope": false
       },
       "./src/mergestyle.ts": {
-        "version": "1c46248913a274f47a0f986eff774c0fad27cc12ad110d8854e076116671f1ee",
-        "signature": "f85be8905520361e23d7440673bdcb7775acb407cfcb8af31459b3943e71601c",
+        "version": "b08e8bd6e766a9f4299706f65d3af2dd9029f3118307b7fdd6e259a83ed9f070",
+        "signature": "f51e83c22a3a345098d6ca88ecd66df4ffcfc14c9e5606b6b7065102a702d129",
         "affectsGlobalScope": false
       },
       "./src/components/lloading.tsx": {
-        "version": "cb5247c3e3ae6f428f85db46c374bea3acd6fffa610987b512c0e8f5f0f9d8ee",
-        "signature": "d08b741f8be99642ed303d38fafd2759a55036f69b0bd46ca0ab7519f647f930",
+        "version": "ed320bd16f7c15ddf681378dba013236c86ce6fce70a14aaabf345f4e3966087",
+        "signature": "8d8c72bac3f08038ee2fc9d153f96e70d4987f0cceeeff3e2b3f20e0866e844f",
         "affectsGlobalScope": false
       },
       "./src/components/lloadmore.tsx": {
-        "version": "8406f895c05d697816d74089501e658a80d8c31c4f3e84e8d734622f0c075d8d",
-        "signature": "4735003880ef061e127daa6bc7683126217cec3830b38c8f86e8c2a489b9c46b",
+        "version": "f089687d064b492c86fe4bdd33511dc5f74c8c2b7025352690028e97f676ef7c",
+        "signature": "8bec31f99e5f96750dd68224909a4c5389a62a1f8dcd629b9ca12444dcb60a62",
         "affectsGlobalScope": false
       },
       "./src/components/lmask.tsx": {
-        "version": "a712257317568f646d6ab1b2d55d3944500ca31d3d8bb1ce7acf521c7fe03b2f",
-        "signature": "2ff78030a43830832771ca3a62f7b04ef2bdbeb2c3eb40ba848eafd72e52c087",
+        "version": "912d3e1adc8fd8f2504e3a86162760a9ef823e96d58ff2ff80c70f776d5174ed",
+        "signature": "94be130c4c6eb7157bb7107c465e257bc31340f77665fae543526c49bb41d4a6",
         "affectsGlobalScope": false
       },
       "./src/components/lspin.tsx": {
-        "version": "27dca58eae89f4972f61e6bbea8be8bc069759cead29bd5cdb72022fcbceab57",
-        "signature": "137e0e3004c5eddd50ae5194536dd4ca40ef5ef53e73921acf2571ab6578a779",
+        "version": "39c7b18e42d8b3b1df02e8336d948ad7cd89ba1952afb40964d506db27a5d32b",
+        "signature": "7b8ef6fcc54ea770d8948377f478b763fc77d2046af3e697b828314e397f6454",
         "affectsGlobalScope": false
       },
       "./src/components/ltag.tsx": {
-        "version": "5472492af57961774b09da1980b7d6d0c60406ed601171a636e5edf9405ea982",
-        "signature": "aa7c4bd9b34a4927abd4ff43c4120e85aaaee7dd181ad8312d76402293adf86d",
+        "version": "153a5bbee8573bed3cfd9bf4e0eb04e116ef83910838b863f375f320551bac75",
+        "signature": "419d363a52c6b5af2fd10c24b008f7fcd45c215b5b67370aac0f9589f8071436",
         "affectsGlobalScope": false
       },
       "./src/components/lcapsulebar/index.tsx": {
-        "version": "fe429542f7a2cc26333fe16d1340daaa40fb6439ca5143a6785eaec6ef724ab9",
-        "signature": "2a7ad7eee4cf6c5dfc1ff7472a6b8e63878371a321d2667a29b02b35c14cf676",
+        "version": "4b6f328944d31178dad8df0777d061ed2f8eca856dfd862f811440f9f1b926a4",
+        "signature": "be6ee6809b3d95809be162e73987e20e716d5a8959c947afc162f8dde72e7b99",
         "affectsGlobalScope": false
       },
       "./src/components/lmessage.tsx": {
-        "version": "d23f44f8284b19e7cca1dcda23ae5d557b41caf9ea76cc57f0ab5dd4b7dd9460",
-        "signature": "6d35492d6173eda454fbb424990071f02c9f6bb6ce982db760abe730eb9fc816",
+        "version": "8d15156295f8fd854a2755bb6ba52d41413a9cbf30624649b998d6c7a4a16b82",
+        "signature": "fd09d24b9e9f1db9cd72cf2d5ad089afa44fe5b0ffd6985b6b552b19c577585a",
         "affectsGlobalScope": false
       },
       "./src/components/lstatusshow.tsx": {
-        "version": "7eff887c655bd7109473f6c48a9c5f25fc6bb1cf986bd6f7bc47041cb9415ca2",
-        "signature": "c5861c10073fc74265939ff48b979699ede8e8d838ad280f167aeb00e0ecbde2",
+        "version": "7c7271e6abe9544910865a444be58503ad3d2096e8a5eca8d869325bee9e965a",
+        "signature": "381bace2cb5bb781b41802e7dbb05bf2fcfa2a998443aa15cb06af822f83b57b",
         "affectsGlobalScope": false
       },
       "./src/components/larcpopup.tsx": {
-        "version": "9ad35787b273a11793bd473e89806884408a79767a43d5ec32549db0b227555a",
-        "signature": "8e98f43251780b2810adeafea814f9ca1f30a5c7ef854cd0e23dfd448b2df581",
+        "version": "278879a0b4c0cfcdc7835f89245a942941f221e13296647a3887c4c53741be2b",
+        "signature": "34a2c3f26b67194dc82c026f316a4d29a5fa792a5b886a2dccebe3ba21bcc876",
         "affectsGlobalScope": false
       },
       "./src/components/lcard.tsx": {
-        "version": "401a4ca28d00d6a1fc7a3907414debefce57c96d2accd7b9225fbe1084437ea3",
-        "signature": "21eeb6f03d800bb58d88f1519d2ed41f04abf09e8673f5d232c6cb2ef18d656e",
+        "version": "8b5e5d3a8c35f609fb016ca851394674c8dd73acae1d6caba5527407a642b70f",
+        "signature": "de8c6e15bec2181af0001973241d1f25230ba33c6088133dff9195b1b214900d",
         "affectsGlobalScope": false
       },
       "./src/components/lbadge.tsx": {
-        "version": "cb86972874ee16d64b53bc8206190fb29e1c09676bd77fa3e20eea3a18ab0189",
-        "signature": "9225b8991f169c29f7bc5e7493716ded217e108293209a0cc99115b36dca2153",
+        "version": "0ceb9937700d99042578b5fd0043ff189f89f7c157711111087768ce5b1ee6dd",
+        "signature": "1e10e547752608bfc29920f5028f204745ddfc5a6fcf4899a93e27b6c1c7d5d6",
         "affectsGlobalScope": false
       },
       "./src/components/llist.tsx": {
-        "version": "6e7ed5b308e91ef65da43ba1a98478b7e3d35bed1fb5d3348306dab4d8b6afb8",
-        "signature": "4968585f15f721a134d4ec234b69adfa413cbf3fe4c0e97e0c1c7f714612c72d",
+        "version": "4c88f5e17471ec8e038c01743d8eaa7b9078af9f0fa0bf0b4f9327189576e201",
+        "signature": "08ef41fd83bb8bdf32afc574cc7d6f8b505229f720afe623b980c68cd329f9a1",
         "affectsGlobalScope": false
       },
       "./src/components/lgriditem.tsx": {
-        "version": "3fc969fac309024f677b3275079b13f0ee7b3bb74c623f111a012da5480a8090",
-        "signature": "efa16c6336172c447b9e6894176eaa71ef7233c0a82c23f3de52c3329a0170b9",
+        "version": "1c45241c2aca7d759dd92a79fac98ec00ac6b42b580110116b2fec33fc469d39",
+        "signature": "6e34d07cd60d108f3bab407d7083eafc43cb83befe6ba71cd147aabf0d813b55",
         "affectsGlobalScope": false
       },
       "./src/components/lgrid.tsx": {
-        "version": "f45c6e554810d6da47a149d97976bbe007904522afe336dcfd21452ae5bf8574",
-        "signature": "c3d9d25e2595ec673de83ba02b9f2a0f58f49f05a5d4304def2f69f7c552c5df",
+        "version": "b31b9145bd06c1130e711c932521d421b623fc83f9473f2c5218d7da3f0bd34e",
+        "signature": "9662268dd7883681a961778777b18ea94586afdd5a35c4f2c14c1961f9797f4d",
         "affectsGlobalScope": false
       },
       "./src/components/lwaterflow.tsx": {
-        "version": "d86cf121e3c3748e6e2757221b53476bf6bef8a29d465ba052e0b8737b00e197",
-        "signature": "d2303755a387bbedd48cddfe4e85f2d35eeda23055e66971780ee7a9b7b1964e",
+        "version": "bda509cd4ed9d33ab29fdd94ede9ebd8611db35f1cde6528a70f34a9349a5b81",
+        "signature": "4f7daf8bde6cc6e8ce916f09c1ca2bf77ec4cf555193c17bd6ad013384ed6ae3",
         "affectsGlobalScope": false
       },
       "./src/components/lstep.tsx": {
-        "version": "79a7e3e012920659901427c1d57511c7e3288e71395101ba320a2a8a79dc5a83",
-        "signature": "2cef8df853fc5d8c06940dc6a76b5e55f08cf4460d63eb6c4f2d4fc84f54cd92",
+        "version": "b60e1015cf55bf65fd5b2119d133adb9bb7bb9bc98a86f3b7814cb4dcc2da53b",
+        "signature": "8953905787af2206fd111837d046155d6de590d4e884e25648cfb18287757be4",
         "affectsGlobalScope": false
       },
       "./src/components/lsteps.tsx": {
-        "version": "279a88329bc3a506ac07d2bf7f65bc29ebafd3f1a3614234b9b97670234fd98f",
-        "signature": "bce1642d6d646cf3fd7a2c2308b192291eaeab863fd23abb07123673f3b8cce0",
+        "version": "dc9e79912880e94868d8baab4a5aebe2771c633dd13d239fe7b2bd5173c94252",
+        "signature": "033b0258bc5e9071128a1b70cf6eaa936852f0563a16040041f3be7eb376ac6b",
         "affectsGlobalScope": false
       },
       "./src/components/ldialog.tsx": {
-        "version": "fa100115ae11594c48ee375c789b5ec36cf8c4e7ae6d6e218fc4825d24c1de0e",
-        "signature": "33206b6b5db8dc6bac3d7eac67cb7b11c9049243d3d371f80a05e805aee1cacf",
+        "version": "48c3dc0e27a5b2beb589cd1e391247ae77ebc2121b3d9bcde57ef13ed1636e54",
+        "signature": "b52d261e600c599204f73be0417ac5cddc4695695528fdf63fd214e4118b2cf2",
         "affectsGlobalScope": false
       },
       "./src/components/lprice.tsx": {
-        "version": "36139c4d75008c0bb6cd8c9d18dd06d74359443c4ff504d0b8006170374029c7",
-        "signature": "1ff972884687c1ffcc1bcaf6b54e10776bd4d9f3e1de24e372c2bb105b446012",
+        "version": "047c1497b948cd0804c389ddba26d14f221298d4c5074a85c168f53dccc7efea",
+        "signature": "c8ef2d3c1a14fef509f138039624d807c368802d82c391a764ba91a47d11ef85",
         "affectsGlobalScope": false
       },
       "./src/components/lcheckbox.tsx": {
-        "version": "83ad81fb516f25cf8ccdb501322e296b4837d2210d79581765da2113a5c4760b",
-        "signature": "607f1e34136d217d565f9f7c30a5406582d763c040a1e0956c1c261036ba3966",
+        "version": "7f823e324ced6d287432b3ba67323dec107ab5dbd0711d6499e1754d8e5a346f",
+        "signature": "9c3f5d407eb9804b49f71cf5a8c89c013a581692608acba5c7ea1982d86a0a9f",
         "affectsGlobalScope": false
       },
       "./src/components/lcheckboxgroup.tsx": {
-        "version": "002685276b86628332d410d6e56e6402f3216ace0f47af3574f7c2b7558cd05a",
-        "signature": "8afe5a457364998a0ee48502dd8398d6022ab6ddd657e368e9a61ae1ac81eec6",
+        "version": "d0396cab488c075dcc5983a4761376a7fb06918e7abdc9bbab792e2bf41e96c6",
+        "signature": "361ee2b803f6dc7059626af07ac78e439ff6027cd98aad143852d0f3e79d6617",
         "affectsGlobalScope": false
       },
       "./src/nodeutils.ts": {
-        "version": "3c44bd6b14fba600370356a74049719269d2d776691516f32e96ee6016ba4a0e",
-        "signature": "87a9ab07074d8e6f489bd9ef0a380d9ca5230591164274cb031f823d3faeb793",
+        "version": "8318e93994babf089fa133fda62457e75fd02465601f32df785a6d526f81ff0d",
+        "signature": "5b72ffae4eeeb5cda92dba2b010c81dc72af9c9335e20e806d345af1fea8c93f",
         "affectsGlobalScope": false
       },
       "./src/components/lcollapseitem.tsx": {
-        "version": "4ce3662185bfc9ec17de81d3cfb46baae45a3b718bfeb87a1d29bf5f1e2ba737",
-        "signature": "71b472602b8614c9e97d41b12064c607e84f2ce97bf2058c4115adce1af5f796",
+        "version": "0e16e91f8a9e7c5625a2ecf8576d88e685d1e37592678f611e648ca827ac93aa",
+        "signature": "38c1c954962da16910c644da7a6d6eaf719cf439496fbced03c9412e5e03157f",
         "affectsGlobalScope": false
       },
       "./src/components/lcollapse.tsx": {
-        "version": "1aefc80bbe40676afd9e2178ca49dcff560b08f83ba15660ebc1363803ca7997",
-        "signature": "62206a0f891fa7c537b627ef16ab2c5f43bb59a7bb993fd908640e000ffc9386",
+        "version": "207fd3f851cf20a05bbfe7f5f332ada865c995682e33706a26bcb6256f06cc7e",
+        "signature": "6f7c9741d6e9585c6c2497b92519b3d086db83cd587d1989dedc83eed0c0e65f",
         "affectsGlobalScope": false
       },
       "./src/components/lrate.tsx": {
-        "version": "d9a8582b3ef4a3962e4287706f4bcedbb3cc4291a4e8309b66e2d884e2f64b0e",
-        "signature": "8969177e4e6a146bcb17207b2195140631381c4a90116f3c75caf6a6ff1f9944",
+        "version": "27e75ee86ccea6822a3d210c4f01f407c750324cb5406cfb591b430c6c6fc379",
+        "signature": "03333cedaf5940a6a03335494c93e0cbac15b65a9dc476d0580190d9ee97c7fd",
         "affectsGlobalScope": false
       },
       "./src/components/lnoticebar.tsx": {
-        "version": "39ca1597fdb66a7dc1138aa79c3dfd3f3e80ca817332342f89c79335b817ef50",
-        "signature": "26ab8d8a0b62f7344e45f4b7bd7b29235fa6e0a0a2382771e97a338119b03332",
+        "version": "141ca84fb062399af9ba7c27f0c0a358374ca4752352754258ed4d95abd8e87f",
+        "signature": "41e7bdce60a4fa4beecb240e1d5d5421d8f19fa9bbd8548566bc4bce7399c8af",
         "affectsGlobalScope": false
       },
-      "./src/index.ts": {
-        "version": "2e94fec8cd0eddc0aa1ed2fd92c0e00302929ac9954f822bd867708e22578c44",
-        "signature": "4d1edce55bd8e4ab4711bf343cdfee6e509a26b13ddced26276595b119f73bf6",
-        "affectsGlobalScope": false
-      },
-      "./src/components/lerrortip.tsx": {
-        "version": "a0f6046f08fe4afc4eafd1c81af3c4f5635e3a9f5fd27dbcd5cfbdc25ba12807",
-        "signature": "9956a38927acabf66e209fc7794258182c994cb1c30b20b6ee2e94d5b940efc0",
+      "./src/components/lindexlist/index.tsx": {
+        "version": "3353d597bb3d87e3701bc2a618f46a7823e92e66e9cc40348a624a26eb8e8ec2",
+        "signature": "e146681984d69b52d19a8b66271437adbd14462e4bfb294be69aa5492f588365",
         "affectsGlobalScope": false
       },
       "./src/components/lsticky.tsx": {
-        "version": "7ebecde4b35bdd03de9ea5f9e85db73d0e870a34f50cc3535fc12d0ecdd4f80b",
-        "signature": "d8f3d2d749c9af8e35d917deda65c377c6c9aece4499e2e9c3f577434f3fa844",
+        "version": "7feb145984e15377f4cdc5803511430379b30ed1b297aa93291150bfd29ef86a",
+        "signature": "2b9851554f22c0c5ff55eb9683b647cefdcf4a622fbdd854e8ab09a4b0eb02aa",
         "affectsGlobalScope": false
       },
       "./src/components/lstickyitem.tsx": {
-        "version": "b23ff1d9901d23cce2a534138ddd48189de41d31cecfb4388f28113a756c34cf",
-        "signature": "a3ee14489106b42c5d4f4fcf65fe4400d44b47983ad4eb17605fd19621fdff0d",
+        "version": "16380b0ce544eacbbfc35c374bb1e679d6577857b6b7fe6a0105e84d13f9ee1c",
+        "signature": "7a357d4f539c032dda1ae225443227cfbdc3cca1e0eb3d5d051af2bae26ae0e3",
+        "affectsGlobalScope": false
+      },
+      "./src/index.ts": {
+        "version": "59bd43c6a612545cd7fcc7c3a85732ec5025cd2269a62a2562ca551a25786082",
+        "signature": "eabb157e35b2d199c7e7d67c169882bd6585d487633f85dd6424f35e13787f3d",
+        "affectsGlobalScope": false
+      },
+      "./src/components/lerrortip.tsx": {
+        "version": "afdd65971e0020967681e88aed8ba3d972306d07fe6c1f4efd5792de02c567af",
+        "signature": "159bb0301a60ba03ba0805b6b92c608c6c7ec11e6f986701531c72de86935c3e",
+        "affectsGlobalScope": false
+      },
+      "./src/components/lsegment.tsx": {
+        "version": "d0f18bf2223991f89dbc99aba483a89be15de7a6bd15c5d87c5d817c58e12beb",
+        "signature": "5c09fb15cc21e010b2140ee208a045ca1864467a3a7872f2bdb3f35e972eae52",
+        "affectsGlobalScope": false
+      },
+      "./src/components/lsegmentitem.tsx": {
+        "version": "86a6cf26700c85b610294b39cf999e86521e4f8a873355c9120d919eab357ab3",
+        "signature": "2b8427b43936ad9d9c1691bfda5a52f222479fbd338aa528532aa170aeb31f4e",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/color-name/index.d.ts": {
@@ -3681,6 +3696,15 @@
         "./node_modules/@types/react/index.d.ts",
         "./src/px.ts"
       ],
+      "./src/components/lindexlist/index.tsx": [
+        "./node_modules/@tarojs/components/types/index.d.ts",
+        "./node_modules/@types/classnames/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./src/components/llist.tsx": [
         "./node_modules/@tarojs/components/types/index.d.ts",
         "./node_modules/@tarojs/components/types/view.d.ts",
@@ -3770,13 +3794,33 @@
       ],
       "./src/components/lrate.tsx": [
         "./node_modules/@tarojs/components/types/index.d.ts",
-        "./node_modules/@tarojs/components/types/view.d.ts",
         "./node_modules/@types/classnames/index.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/react/index.d.ts",
+        "./src/components/licon.tsx"
+      ],
+      "./src/components/lsegment.tsx": [
+        "./node_modules/@tarojs/components/types/index.d.ts",
+        "./node_modules/@types/classnames/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/react/index.d.ts",
+        "./src/mergestyle.ts"
+      ],
+      "./src/components/lsegmentitem.tsx": [
+        "./node_modules/@tarojs/components/types/index.d.ts",
+        "./node_modules/@types/classnames/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/react/index.d.ts",
+        "./src/components/lbadge.tsx",
         "./src/components/licon.tsx"
       ],
       "./src/components/lspin.tsx": [
@@ -3834,7 +3878,8 @@
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/react/index.d.ts"
+        "./node_modules/@types/react/index.d.ts",
+        "./src/nodeutils.ts"
       ],
       "./src/components/ltag.tsx": [
         "./node_modules/@tarojs/components/types/index.d.ts",
@@ -3883,6 +3928,7 @@
         "./src/components/ldialog.tsx",
         "./src/components/lgrid.tsx",
         "./src/components/licon.tsx",
+        "./src/components/lindexlist/index.tsx",
         "./src/components/llist.tsx",
         "./src/components/lloading.tsx",
         "./src/components/lloadmore.tsx",
@@ -3896,6 +3942,8 @@
         "./src/components/lstatusshow.tsx",
         "./src/components/lstep.tsx",
         "./src/components/lsteps.tsx",
+        "./src/components/lsticky.tsx",
+        "./src/components/lstickyitem.tsx",
         "./src/components/ltag.tsx",
         "./src/components/lwaterflow.tsx"
       ],
@@ -5988,6 +6036,9 @@
         "./node_modules/@tarojs/components/types/view.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./src/components/lindexlist/index.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./src/components/llist.tsx": [
         "./node_modules/@tarojs/components/types/view.d.ts",
         "./node_modules/@types/react/index.d.ts"
@@ -6018,6 +6069,13 @@
       ],
       "./src/components/lrate.tsx": [
         "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/lsegment.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/lsegmentitem.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/components/lbadge.tsx"
       ],
       "./src/components/lspin.tsx": [
         "./node_modules/@types/react/index.d.ts"
@@ -6060,6 +6118,7 @@
         "./src/components/ldialog.tsx",
         "./src/components/lgrid.tsx",
         "./src/components/licon.tsx",
+        "./src/components/lindexlist/index.tsx",
         "./src/components/llist.tsx",
         "./src/components/lloading.tsx",
         "./src/components/lloadmore.tsx",
@@ -6073,6 +6132,8 @@
         "./src/components/lstatusshow.tsx",
         "./src/components/lstep.tsx",
         "./src/components/lsteps.tsx",
+        "./src/components/lsticky.tsx",
+        "./src/components/lstickyitem.tsx",
         "./src/components/ltag.tsx",
         "./src/components/lwaterflow.tsx"
       ]
@@ -6217,7 +6278,7 @@
         [
           {
             "file": "./node_modules/@tarojs/taro/types/taro.component.d.ts",
-            "start": 5053,
+            "start": 3990,
             "length": 3,
             "messageText": "Cannot find namespace 'Vue'.",
             "category": 1,
@@ -6225,7 +6286,7 @@
           },
           {
             "file": "./node_modules/@tarojs/taro/types/taro.component.d.ts",
-            "start": 5074,
+            "start": 4011,
             "length": 3,
             "messageText": "Cannot find name 'Vue'.",
             "category": 1,
@@ -6356,7 +6417,7 @@
         [
           {
             "file": "./src/components/lalbumlayout.ts",
-            "start": 101,
+            "start": 98,
             "length": 11,
             "messageText": "Expected 1 arguments, but got 2.",
             "category": 1,
@@ -6364,7 +6425,7 @@
           },
           {
             "file": "./src/components/lalbumlayout.ts",
-            "start": 176,
+            "start": 171,
             "length": 9,
             "messageText": "'gapColumn' is declared but its value is never read.",
             "category": 1,
@@ -6382,7 +6443,7 @@
         [
           {
             "file": "./src/components/lcapsulebar/index.tsx",
-            "start": 1715,
+            "start": 1657,
             "length": 11,
             "messageText": "'disableBack' is declared but its value is never read.",
             "category": 1,
@@ -6391,7 +6452,7 @@
           },
           {
             "file": "./src/components/lcapsulebar/index.tsx",
-            "start": 1739,
+            "start": 1680,
             "length": 11,
             "messageText": "'disableHome' is declared but its value is never read.",
             "category": 1,
@@ -6415,7 +6476,7 @@
           },
           {
             "file": "./src/components/lcheckbox.tsx",
-            "start": 54,
+            "start": 53,
             "length": 5,
             "messageText": "'Label' is declared but its value is never read.",
             "category": 1,
@@ -6424,7 +6485,7 @@
           },
           {
             "file": "./src/components/lcheckbox.tsx",
-            "start": 60,
+            "start": 59,
             "length": 8,
             "messageText": "'Checkbox' is declared but its value is never read.",
             "category": 1,
@@ -6438,7 +6499,7 @@
         [
           {
             "file": "./src/components/lcheckboxgroup.tsx",
-            "start": 877,
+            "start": 847,
             "length": 5,
             "messageText": "Object is possibly 'null' or 'undefined'.",
             "category": 1,
@@ -6446,7 +6507,7 @@
           },
           {
             "file": "./src/components/lcheckboxgroup.tsx",
-            "start": 883,
+            "start": 853,
             "length": 5,
             "code": 2339,
             "category": 1,
@@ -6465,7 +6526,7 @@
           },
           {
             "file": "./src/components/lcheckboxgroup.tsx",
-            "start": 1148,
+            "start": 1113,
             "length": 5,
             "code": 2339,
             "category": 1,
@@ -6488,18 +6549,93 @@
       "./src/components/lcollapseitem.tsx",
       "./src/components/ldialog.tsx",
       "./src/components/lerrortip.tsx",
-      "./src/components/lgrid.tsx",
+      [
+        "./src/components/lgrid.tsx",
+        [
+          {
+            "file": "./src/components/lgrid.tsx",
+            "start": 1355,
+            "length": 5,
+            "code": 2339,
+            "category": 1,
+            "messageText": {
+              "messageText": "Property 'props' does not exist on type 'string | number | true | {} | ReactElement<any, string | ((props: any) => ReactElement<any, string | ... | (new (props: any) => Component<any, any, any>)> | null) | (new (props: any) => Component<...>)> | ReactNodeArray | ReactPortal'.",
+              "category": 1,
+              "code": 2339,
+              "next": [
+                {
+                  "messageText": "Property 'props' does not exist on type 'string'.",
+                  "category": 1,
+                  "code": 2339
+                }
+              ]
+            }
+          },
+          {
+            "file": "./src/components/lgrid.tsx",
+            "start": 1370,
+            "length": 5,
+            "code": 2339,
+            "category": 1,
+            "messageText": {
+              "messageText": "Property 'props' does not exist on type 'string | number | true | {} | ReactElement<any, string | ((props: any) => ReactElement<any, string | ... | (new (props: any) => Component<any, any, any>)> | null) | (new (props: any) => Component<...>)> | ReactNodeArray | ReactPortal'.",
+              "category": 1,
+              "code": 2339,
+              "next": [
+                {
+                  "messageText": "Property 'props' does not exist on type 'string'.",
+                  "category": 1,
+                  "code": 2339
+                }
+              ]
+            }
+          },
+          {
+            "file": "./src/components/lgrid.tsx",
+            "start": 1393,
+            "length": 5,
+            "code": 2339,
+            "category": 1,
+            "messageText": {
+              "messageText": "Property 'props' does not exist on type 'string | number | true | {} | ReactElement<any, string | ((props: any) => ReactElement<any, string | ... | (new (props: any) => Component<any, any, any>)> | null) | (new (props: any) => Component<...>)> | ReactNodeArray | ReactPortal'.",
+              "category": 1,
+              "code": 2339,
+              "next": [
+                {
+                  "messageText": "Property 'props' does not exist on type 'string'.",
+                  "category": 1,
+                  "code": 2339
+                }
+              ]
+            }
+          }
+        ]
+      ],
       "./src/components/lgriditem.tsx",
       [
         "./src/components/licon.tsx",
         [
           {
             "file": "./src/components/licon.tsx",
-            "start": 927,
+            "start": 894,
             "length": 8,
             "messageText": "Spread types may only be created from object types.",
             "category": 1,
             "code": 2698
+          }
+        ]
+      ],
+      [
+        "./src/components/lindexlist/index.tsx",
+        [
+          {
+            "file": "./src/components/lindexlist/index.tsx",
+            "start": 517,
+            "length": 9,
+            "messageText": "'scrollTop' is declared but its value is never read.",
+            "category": 1,
+            "code": 6133,
+            "reportsUnnecessary": true
           }
         ]
       ],
@@ -6510,7 +6646,7 @@
         [
           {
             "file": "./src/components/lloadmore.tsx",
-            "start": 95,
+            "start": 89,
             "length": 35,
             "messageText": "'classnames' is declared but its value is never read.",
             "category": 1,
@@ -6538,7 +6674,7 @@
         [
           {
             "file": "./src/components/lmessage.tsx",
-            "start": 516,
+            "start": 492,
             "length": 10,
             "code": 2339,
             "category": 1,
@@ -6546,7 +6682,7 @@
           },
           {
             "file": "./src/components/lmessage.tsx",
-            "start": 854,
+            "start": 820,
             "length": 15,
             "messageText": "Namespace 'Taro' has no exported member 'LMessageOptions'.",
             "category": 1,
@@ -6554,7 +6690,7 @@
           },
           {
             "file": "./src/components/lmessage.tsx",
-            "start": 921,
+            "start": 886,
             "length": 15,
             "messageText": "Namespace 'Taro' has no exported member 'LMessageOptions'.",
             "category": 1,
@@ -6567,7 +6703,7 @@
         [
           {
             "file": "./src/components/lnoticebar.tsx",
-            "start": 1643,
+            "start": 1591,
             "length": 3,
             "messageText": "Expected 1 arguments, but got 2.",
             "category": 1,
@@ -6575,7 +6711,7 @@
           },
           {
             "file": "./src/components/lnoticebar.tsx",
-            "start": 3080,
+            "start": 2985,
             "length": 8,
             "messageText": "Spread types may only be created from object types.",
             "category": 1,
@@ -6590,16 +6726,7 @@
         [
           {
             "file": "./src/components/lrate.tsx",
-            "start": 194,
-            "length": 57,
-            "messageText": "'ViewProps' is declared but its value is never read.",
-            "category": 1,
-            "code": 6133,
-            "reportsUnnecessary": true
-          },
-          {
-            "file": "./src/components/lrate.tsx",
-            "start": 1110,
+            "start": 1071,
             "length": 1,
             "messageText": "'v' is declared but its value is never read.",
             "category": 1,
@@ -6608,6 +6735,74 @@
           }
         ]
       ],
+      [
+        "./src/components/lsegment.tsx",
+        [
+          {
+            "file": "./src/components/lsegment.tsx",
+            "start": 54,
+            "length": 5,
+            "messageText": "'Block' is declared but its value is never read.",
+            "category": 1,
+            "code": 6133,
+            "reportsUnnecessary": true
+          },
+          {
+            "file": "./src/components/lsegment.tsx",
+            "start": 1040,
+            "length": 5,
+            "code": 2345,
+            "category": 1,
+            "messageText": {
+              "messageText": "Argument of type 'CSSProperties | undefined' is not assignable to parameter of type 'string | object'.",
+              "category": 1,
+              "code": 2345,
+              "next": [
+                {
+                  "messageText": "Type 'undefined' is not assignable to type 'string | object'.",
+                  "category": 1,
+                  "code": 2322
+                }
+              ]
+            }
+          },
+          {
+            "file": "./src/components/lsegment.tsx",
+            "start": 1499,
+            "length": 4,
+            "messageText": "Cannot find name 'even'. Did you mean 'Event'?",
+            "category": 1,
+            "code": 2552,
+            "relatedInformation": [
+              {
+                "file": "./node_modules/typescript/lib/lib.dom.d.ts",
+                "start": 180077,
+                "length": 5,
+                "messageText": "'Event' is declared here.",
+                "category": 3,
+                "code": 2728
+              }
+            ]
+          },
+          {
+            "file": "./src/components/lsegment.tsx",
+            "start": 1507,
+            "length": 10,
+            "messageText": "Cannot find name 'equalWidth'.",
+            "category": 1,
+            "code": 2304
+          },
+          {
+            "file": "./src/components/lsegment.tsx",
+            "start": 1575,
+            "length": 9,
+            "messageText": "JSX elements cannot have multiple attributes with the same name.",
+            "category": 1,
+            "code": 17001
+          }
+        ]
+      ],
+      "./src/components/lsegmentitem.tsx",
       "./src/components/lspin.tsx",
       "./src/components/lstatusshow.tsx",
       [
@@ -6615,7 +6810,7 @@
         [
           {
             "file": "./src/components/lstep.tsx",
-            "start": 1593,
+            "start": 1521,
             "length": 5,
             "messageText": "'style' is declared but its value is never read.",
             "category": 1,
@@ -6624,7 +6819,7 @@
           },
           {
             "file": "./src/components/lstep.tsx",
-            "start": 1602,
+            "start": 1530,
             "length": 8,
             "messageText": "'children' is declared but its value is never read.",
             "category": 1,
@@ -6633,7 +6828,7 @@
           },
           {
             "file": "./src/components/lstep.tsx",
-            "start": 1825,
+            "start": 1744,
             "length": 10,
             "messageText": "'stepsWidth' is declared but its value is never read.",
             "category": 1,
@@ -6643,41 +6838,15 @@
         ]
       ],
       "./src/components/lsteps.tsx",
-      [
-        "./src/components/lsticky.tsx",
-        [
-          {
-            "file": "./src/components/lsticky.tsx",
-            "start": 68,
-            "length": 35,
-            "messageText": "'classnames' is declared but its value is never read.",
-            "category": 1,
-            "code": 6133,
-            "reportsUnnecessary": true
-          }
-        ]
-      ],
-      [
-        "./src/components/lstickyitem.tsx",
-        [
-          {
-            "file": "./src/components/lstickyitem.tsx",
-            "start": 68,
-            "length": 35,
-            "messageText": "'classnames' is declared but its value is never read.",
-            "category": 1,
-            "code": 6133,
-            "reportsUnnecessary": true
-          }
-        ]
-      ],
+      "./src/components/lsticky.tsx",
+      "./src/components/lstickyitem.tsx",
       "./src/components/ltag.tsx",
       [
         "./src/components/lwaterflow.tsx",
         [
           {
             "file": "./src/components/lwaterflow.tsx",
-            "start": 269,
+            "start": 259,
             "length": 2,
             "code": 2345,
             "category": 1,
@@ -6694,7 +6863,7 @@
         [
           {
             "file": "./src/px.ts",
-            "start": 159,
+            "start": 152,
             "length": 11,
             "messageText": "Expected 1 arguments, but got 2.",
             "category": 1,

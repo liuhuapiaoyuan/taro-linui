@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "description": "基于LinUi的taro3UI框架的demo",
+  "moduleNameMapper": {
+    "^@/(.*)": "./src/$1"
+  },
   "templateInfo": {
     "name": "default",
     "typescript": true,

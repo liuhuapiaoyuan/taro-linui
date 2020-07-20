@@ -24,11 +24,12 @@ const config = {
   },
   framework: 'react',
   mini: {
-    webpackChain (chain, webpack) {
+    webpackChain(chain, webpack) {
       chain.plugin('analyzer')
-      .use(require('webpack-bundle-analyzer').BundleAnalyzerPlugin, [])
+        .use(require('webpack-bundle-analyzer').BundleAnalyzerPlugin, [])
     },
     alias: {
+      '@': path.resolve(__dirname, '..', 'src'),
       '@tarojs/taro': path.resolve(__dirname, '..', 'node_modules/@tarojs/taro'),
       '@tarojs/components': path.resolve(__dirname, '..', 'node_modules/@tarojs/components/mini'),
       '@tarojs/runtime': path.resolve(__dirname, '..', 'node_modules/@tarojs/runtime/dist'),
@@ -74,7 +75,7 @@ const config = {
       }
     }
   }
-} 
+}
 
 
 module.exports = function (merge) {

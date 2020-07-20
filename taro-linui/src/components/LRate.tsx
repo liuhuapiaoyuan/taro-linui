@@ -6,7 +6,7 @@ import {View,Image} from '@tarojs/components'
 import classnames from 'classnames'
 import {LIcon} from './LIcon'
 import '../../style/LRate.less'
-import { ViewProps } from '@tarojs/components/types/View'
+// import { ViewProps } from '@tarojs/components/types/View'
 
 export interface LRateProps  {
   className?: string

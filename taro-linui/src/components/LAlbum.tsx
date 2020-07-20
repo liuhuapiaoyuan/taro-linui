@@ -91,7 +91,7 @@ const LAlbum : React.FC<LAlbumProps> = props=>{
   //计算horizontalScreen,shortSideValue
   const [calValues,setCalValues] = useState({horizontalScreen:0,shortSideValue:0})
   const [containerWidth,setContainerWidth] = useState(750)
-  const [id] = useState('L'+Date.now()+'' + Math.round(Math.random()*1000)) 
+  const [id] = useState(()=>'L'+Date.now()+'' + Math.round(Math.random()*1000)) 
   useLayoutEffect(()=>{
     horizontalOrVertical(urls[0],singleSize)
       .then(setCalValues) 
