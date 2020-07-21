@@ -1087,7 +1087,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/lprogress.tsx": {
-        "version": "3b700739fc736c2fb0515622e833d14a946f75f4bf07eb98420777e68733bb52",
+        "version": "a6e03ecc7e26eba4c27e73e88ec6eb04c706c0507b498b86dce9e6ba09d66e66",
         "signature": "0b9276a0893984ae3b4a6508c70892b56eafd49384e59948305bca8bbb3741c6",
         "affectsGlobalScope": false
       },

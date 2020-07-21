@@ -6,37 +6,37 @@
     flex-direction: row;
     align-items: center;
 
-    .progress {
+    &-progress {
         position: relative;
         width: 100%;
         transition: all 0.25s ease-in-out;
     }
 
-    .percent {
+    &-percent {
         position: absolute;
         z-index: 1;
     }
 
-    .active {
+    &-active {
         background-color: @progress-active-color;
     }
 
-    .text {
+    &-text {
         color: @progress-active-color;
         font-size: 30px;
     }
 
-    .background {
+    &-background {
         position: absolute;
         width: 100%;
     }
 
-    .header {
+    &-header {
         position: absolute !important;
         z-index: 2;
     }
 
-    .slot {
+    &-slot {
         position: absolute;
         z-index: 2;
         left: 0;

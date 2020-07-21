@@ -67,7 +67,7 @@ const LProgress: React.FC<LProgressProps> = props => {
 
   return <View style={style} className={classnames('l-progress',className)}>
     {showInfo && textPosition==='left' && <View 
-      className='text l-text-class'  
+      className='l-progress-text l-text-class'  
       style={{
         color:textColor?textColor:undefined,
         marginRight:interval
@@ -75,15 +75,15 @@ const LProgress: React.FC<LProgressProps> = props => {
     >
       {percent}%
     </View>}
-    <View className='progress short' style={{height:strokeWidth}}  >
-      {header && <View className='slot' 
+    <View className='l-progress-progress l-progress-short' style={{height:strokeWidth}}  >
+      {header && <View className='l-progress-slot' 
         style={{
           left:`${active?activePercent : percent}%`
         }}
       >
         {header}
       </View>}
-      <View className={classnames('percent','l-active-class',{active:!activeColor})} 
+      <View className={classnames('l-progress-percent','l-active-class',{'l-progress-active':!activeColor})} 
         style={{
           width:`${active?activePercent : percent}%`,
           height:strokeWidth,
@@ -91,13 +91,13 @@ const LProgress: React.FC<LProgressProps> = props => {
           backgroundColor:activeColor
         }}
       />
-      <View className='background l-background-class'
+      <View className='l-progress-background l-background-class'
         style={{height:strokeWidth,borderRadius,backgroundColor}}
       />
     </View>
     {
       showInfo && textPosition==='right' && <View 
-        className='text l-text-class' 
+        className='l-progress-text l-text-class' 
         style={{
           color:textColor,
           marginLeft:interval
