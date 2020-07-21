@@ -3,7 +3,7 @@ import Taro from '@tarojs/taro'
 const designWidth = 750
 const px = (pxx)=>Taro.pxTransform(pxx*2,designWidth)
 
-var containerStyle = function (urls, multipleSize, gapRow, gapColumn) {
+const containerStyle = function (urls, multipleSize, gapRow, gapColumn) {
   let width = 3 * multipleSize + 2 * gapRow
   if(urls.length === 2 || urls.length === 4){
     width = 2 * multipleSize + gapRow

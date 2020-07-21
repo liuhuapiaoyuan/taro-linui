@@ -917,8 +917,8 @@
         "affectsGlobalScope": false
       },
       "./src/components/lalbumlayout.ts": {
-        "version": "5c24781b3902c08f4b97bdd44e860dead955d5c8d53ed1ca66048b4c4b1bebe4",
-        "signature": "de4a54099b786c44e94f19a692ffe7b3b6eea225c0ead8dda78e3e6fd42edfb5",
+        "version": "88dcaafd54a335b623e3d88a8dde05ff9603002b0389b5d3bbc7404ecb5d7b55",
+        "signature": "b35afe414313536752927390e5f50c9f4d00620f2ea196eb618f3671c2d64500",
         "affectsGlobalScope": false
       },
       "./src/components/lalbum.tsx": {
@@ -1077,13 +1077,23 @@
         "affectsGlobalScope": false
       },
       "./src/components/lstickyitem.tsx": {
-        "version": "4c77ec0125a2157934ed68793eeb1982cb555b7f48f1fc3ce7318a3fd92ab497",
+        "version": "018b940475ec5fc89cf372fa9df643896eadeeb861e60426a1058398e9604618",
         "signature": "7a357d4f539c032dda1ae225443227cfbdc3cca1e0eb3d5d051af2bae26ae0e3",
         "affectsGlobalScope": false
       },
+      "./src/components/lcountdown.tsx": {
+        "version": "59fed60a10dfc516fdb09403d28755eb6bd4457f146b5b540cd50e7ae8d9ec80",
+        "signature": "d44f1ed9583a4d546d3ab0288f498bf5ba1ab09dd157f2e460b6b17f4d7e7847",
+        "affectsGlobalScope": false
+      },
+      "./src/components/lprogress.tsx": {
+        "version": "3b700739fc736c2fb0515622e833d14a946f75f4bf07eb98420777e68733bb52",
+        "signature": "0b9276a0893984ae3b4a6508c70892b56eafd49384e59948305bca8bbb3741c6",
+        "affectsGlobalScope": false
+      },
       "./src/index.ts": {
-        "version": "59bd43c6a612545cd7fcc7c3a85732ec5025cd2269a62a2562ca551a25786082",
-        "signature": "eabb157e35b2d199c7e7d67c169882bd6585d487633f85dd6424f35e13787f3d",
+        "version": "cecee960eb9013e7413e42a737494085e3fa008e98c7f9a723969491a6b24725",
+        "signature": "fba1a5816dcb4810fda6c778939dbbbb3d05fb42d9d18aec4cb6b94d2e4dbc05",
         "affectsGlobalScope": false
       },
       "./src/components/lerrortip.tsx": {
@@ -3644,6 +3654,15 @@
         "./src/components/licon.tsx",
         "./src/nodeutils.ts"
       ],
+      "./src/components/lcountdown.tsx": [
+        "./node_modules/@tarojs/components/types/index.d.ts",
+        "./node_modules/@types/classnames/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./src/components/ldialog.tsx": [
         "./node_modules/@tarojs/components/types/common.d.ts",
         "./node_modules/@tarojs/components/types/index.d.ts",
@@ -3792,6 +3811,15 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./src/components/lprogress.tsx": [
+        "./node_modules/@tarojs/components/types/index.d.ts",
+        "./node_modules/@types/classnames/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./src/components/lrate.tsx": [
         "./node_modules/@tarojs/components/types/index.d.ts",
         "./node_modules/@types/classnames/index.d.ts",
@@ -3925,6 +3953,7 @@
         "./src/components/lcheckboxgroup.tsx",
         "./src/components/lcollapse.tsx",
         "./src/components/lcollapseitem.tsx",
+        "./src/components/lcountdown.tsx",
         "./src/components/ldialog.tsx",
         "./src/components/lgrid.tsx",
         "./src/components/licon.tsx",
@@ -3937,6 +3966,7 @@
         "./src/components/lnoticebar.tsx",
         "./src/components/lpopup.tsx",
         "./src/components/lprice.tsx",
+        "./src/components/lprogress.tsx",
         "./src/components/lrate.tsx",
         "./src/components/lspin.tsx",
         "./src/components/lstatusshow.tsx",
@@ -6017,6 +6047,9 @@
         "./node_modules/@tarojs/components/types/view.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./src/components/lcountdown.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./src/components/ldialog.tsx": [
         "./node_modules/@tarojs/components/types/common.d.ts",
         "./node_modules/@types/react/index.d.ts"
@@ -6067,6 +6100,9 @@
       "./src/components/lprice.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./src/components/lprogress.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./src/components/lrate.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
@@ -6115,6 +6151,7 @@
         "./src/components/lcheckboxgroup.tsx",
         "./src/components/lcollapse.tsx",
         "./src/components/lcollapseitem.tsx",
+        "./src/components/lcountdown.tsx",
         "./src/components/ldialog.tsx",
         "./src/components/lgrid.tsx",
         "./src/components/licon.tsx",
@@ -6127,6 +6164,7 @@
         "./src/components/lnoticebar.tsx",
         "./src/components/lpopup.tsx",
         "./src/components/lprice.tsx",
+        "./src/components/lprogress.tsx",
         "./src/components/lrate.tsx",
         "./src/components/lspin.tsx",
         "./src/components/lstatusshow.tsx",
@@ -6425,7 +6463,7 @@
           },
           {
             "file": "./src/components/lalbumlayout.ts",
-            "start": 171,
+            "start": 173,
             "length": 9,
             "messageText": "'gapColumn' is declared but its value is never read.",
             "category": 1,
@@ -6547,6 +6585,7 @@
       ],
       "./src/components/lcollapse.tsx",
       "./src/components/lcollapseitem.tsx",
+      "./src/components/lcountdown.tsx",
       "./src/components/ldialog.tsx",
       "./src/components/lerrortip.tsx",
       [
@@ -6721,6 +6760,29 @@
       ],
       "./src/components/lpopup.tsx",
       "./src/components/lprice.tsx",
+      [
+        "./src/components/lprogress.tsx",
+        [
+          {
+            "file": "./src/components/lprogress.tsx",
+            "start": 1084,
+            "length": 10,
+            "messageText": "'marginLeft' is declared but its value is never read.",
+            "category": 1,
+            "code": 6133,
+            "reportsUnnecessary": true
+          },
+          {
+            "file": "./src/components/lprogress.tsx",
+            "start": 1107,
+            "length": 9,
+            "messageText": "'marginTop' is declared but its value is never read.",
+            "category": 1,
+            "code": 6133,
+            "reportsUnnecessary": true
+          }
+        ]
+      ],
       [
         "./src/components/lrate.tsx",
         [

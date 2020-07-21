@@ -1,0 +1,48 @@
+/* components/progress/index.wxss */
+@import "./_base.less";
+
+.l-progress {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .progress {
+        position: relative;
+        width: 100%;
+        transition: all 0.25s ease-in-out;
+    }
+
+    .percent {
+        position: absolute;
+        z-index: 1;
+    }
+
+    .active {
+        background-color: @progress-active-color;
+    }
+
+    .text {
+        color: @progress-active-color;
+        font-size: 30px;
+    }
+
+    .background {
+        position: absolute;
+        width: 100%;
+    }
+
+    .header {
+        position: absolute !important;
+        z-index: 2;
+    }
+
+    .slot {
+        position: absolute;
+        z-index: 2;
+        left: 0;
+        top: 50%;
+        transform-origin: center center;
+        // transform 
+        transform: translate(-50% , -50%);
+    }
+}

@@ -64,8 +64,10 @@ const LStickyItem : React.FC<LStickyItemProps> = props=>{
     Calculate(stickyItemId,stickyItemHeaderId)
       .then(data=>setStickyState(data))
   },[stickyItemId,stickyItemHeaderId])
+
   const {stickyItemHeight,stickyItemWrapperHeight} = stickyState 
   const isFixedTop = (scrollTop > (stickyItemTop - top) )&& (scrollTop < (stickyItemHeight + stickyItemTop - top));
+  
   return  <View className={`l-sticky-item l-class ${stickyItemId}`}>
     {/* <!-- sticky-item-header-wrapper用于占位，因为sticky-item-header吸顶后脱离文档流，导致sticky-item组件高度减小 --> */}
     <View

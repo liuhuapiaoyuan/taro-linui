@@ -1,5 +1,9 @@
 export default {
   pages: [
+    //进度条
+    'pages/components/view/pages/progress/index',
+    //视图--countdown组件
+    'pages/components/view/pages/countdown/index',
     //吸顶组件-基础用法
     'pages/components/layout/pages/sticky/pages/sticky-base/index',
     //吸顶组件
