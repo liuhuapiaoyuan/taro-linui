@@ -1,5 +1,7 @@
 export default {
   pages: [
+    // 'tabbar'
+    'pages/components/nav/pages/tabbar/index',
     //进度条
     'pages/components/view/pages/progress/index',
     //视图--countdown组件

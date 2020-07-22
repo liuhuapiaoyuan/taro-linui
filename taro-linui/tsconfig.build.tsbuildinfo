@@ -932,8 +932,8 @@
         "affectsGlobalScope": false
       },
       "./src/mergestyle.ts": {
-        "version": "b08e8bd6e766a9f4299706f65d3af2dd9029f3118307b7fdd6e259a83ed9f070",
-        "signature": "f51e83c22a3a345098d6ca88ecd66df4ffcfc14c9e5606b6b7065102a702d129",
+        "version": "0c167c1d224749bf3ee5c386cce7bc7a74b67204af850bf16d128871bc4158a1",
+        "signature": "60cfbf412c01cb07d1960d6aa223a4da63f62b4462c14c5e80e973622f4d449c",
         "affectsGlobalScope": false
       },
       "./src/components/lloading.tsx": {
@@ -1087,13 +1087,18 @@
         "affectsGlobalScope": false
       },
       "./src/components/lprogress.tsx": {
-        "version": "a6e03ecc7e26eba4c27e73e88ec6eb04c706c0507b498b86dce9e6ba09d66e66",
+        "version": "00aeb494316c1da6dfb81393391f7112ac685d0a467924300260b9d37fd03aa3",
         "signature": "0b9276a0893984ae3b4a6508c70892b56eafd49384e59948305bca8bbb3741c6",
         "affectsGlobalScope": false
       },
+      "./src/components/ltabbar/index.tsx": {
+        "version": "b70d81fdaf7ca1f56f6dfd42cc6e2e61a2e829ceafddda594b765d4f0120d247",
+        "signature": "1a10bc72df63585ad7914a090b81f065866f60b266f4f9cc587f3217ac41b974",
+        "affectsGlobalScope": false
+      },
       "./src/index.ts": {
-        "version": "cecee960eb9013e7413e42a737494085e3fa008e98c7f9a723969491a6b24725",
-        "signature": "fba1a5816dcb4810fda6c778939dbbbb3d05fb42d9d18aec4cb6b94d2e4dbc05",
+        "version": "b7c9feba5821d58c9daf69ab6e655cb829e3e390be301c60ba08932abc21010c",
+        "signature": "c6d53b6e5ebeef22c4b23b48a698c67f8b3684c980410f7874edf61604ec49c5",
         "affectsGlobalScope": false
       },
       "./src/components/lerrortip.tsx": {
@@ -3909,6 +3914,17 @@
         "./node_modules/@types/react/index.d.ts",
         "./src/nodeutils.ts"
       ],
+      "./src/components/ltabbar/index.tsx": [
+        "./node_modules/@tarojs/components/types/index.d.ts",
+        "./node_modules/@tarojs/taro/types/index.d.ts",
+        "./node_modules/@types/classnames/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/react/index.d.ts",
+        "./src/mergestyle.ts"
+      ],
       "./src/components/ltag.tsx": [
         "./node_modules/@tarojs/components/types/index.d.ts",
         "./node_modules/@types/classnames/index.d.ts",
@@ -3974,6 +3990,7 @@
         "./src/components/lsteps.tsx",
         "./src/components/lsticky.tsx",
         "./src/components/lstickyitem.tsx",
+        "./src/components/ltabbar/index.tsx",
         "./src/components/ltag.tsx",
         "./src/components/lwaterflow.tsx"
       ],
@@ -6132,6 +6149,9 @@
       "./src/components/lstickyitem.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./src/components/ltabbar/index.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./src/components/ltag.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
@@ -6172,6 +6192,7 @@
         "./src/components/lsteps.tsx",
         "./src/components/lsticky.tsx",
         "./src/components/lstickyitem.tsx",
+        "./src/components/ltabbar/index.tsx",
         "./src/components/ltag.tsx",
         "./src/components/lwaterflow.tsx"
       ]
@@ -6765,7 +6786,7 @@
         [
           {
             "file": "./src/components/lprogress.tsx",
-            "start": 1084,
+            "start": 1120,
             "length": 10,
             "messageText": "'marginLeft' is declared but its value is never read.",
             "category": 1,
@@ -6774,7 +6795,7 @@
           },
           {
             "file": "./src/components/lprogress.tsx",
-            "start": 1107,
+            "start": 1143,
             "length": 9,
             "messageText": "'marginTop' is declared but its value is never read.",
             "category": 1,
@@ -6808,25 +6829,6 @@
             "category": 1,
             "code": 6133,
             "reportsUnnecessary": true
-          },
-          {
-            "file": "./src/components/lsegment.tsx",
-            "start": 1040,
-            "length": 5,
-            "code": 2345,
-            "category": 1,
-            "messageText": {
-              "messageText": "Argument of type 'CSSProperties | undefined' is not assignable to parameter of type 'string | object'.",
-              "category": 1,
-              "code": 2345,
-              "next": [
-                {
-                  "messageText": "Type 'undefined' is not assignable to type 'string | object'.",
-                  "category": 1,
-                  "code": 2322
-                }
-              ]
-            }
           },
           {
             "file": "./src/components/lsegment.tsx",
@@ -6902,6 +6904,38 @@
       "./src/components/lsteps.tsx",
       "./src/components/lsticky.tsx",
       "./src/components/lstickyitem.tsx",
+      [
+        "./src/components/ltabbar/index.tsx",
+        [
+          {
+            "file": "./src/components/ltabbar/index.tsx",
+            "start": 69,
+            "length": 4,
+            "messageText": "'Text' is declared but its value is never read.",
+            "category": 1,
+            "code": 6133,
+            "reportsUnnecessary": true
+          },
+          {
+            "file": "./src/components/ltabbar/index.tsx",
+            "start": 1237,
+            "length": 15,
+            "messageText": "'isRedirectToTab' is declared but its value is never read.",
+            "category": 1,
+            "code": 6133,
+            "reportsUnnecessary": true
+          },
+          {
+            "file": "./src/components/ltabbar/index.tsx",
+            "start": 1258,
+            "length": 5,
+            "messageText": "'isNav' is declared but its value is never read.",
+            "category": 1,
+            "code": 6133,
+            "reportsUnnecessary": true
+          }
+        ]
+      ],
       "./src/components/ltag.tsx",
       [
         "./src/components/lwaterflow.tsx",

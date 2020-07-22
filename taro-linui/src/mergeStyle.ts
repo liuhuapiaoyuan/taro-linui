@@ -19,8 +19,9 @@ const objectToString = (style: object | string): string => {
  */
 const mergeStyle = (
   style1: object | string,
-  style2: object | string
+  style2?: object | string
 ): object | string =>{
+  if(!style2){return style1}
   if (
     style1 &&
       typeof style1 === 'object' &&
