@@ -126,7 +126,7 @@ const LInput: React.FC<LInputProps> = props => {
       />
     }
     {
-      clear&&value && <View className='close' onClick={onClear} >
+      clear&&value && <View className='l-input-close' onClick={onClear} >
         <View  className='l-input-close-icon'>
           <LIcon  name='close' color='#fff' size={16} />
         </View>
