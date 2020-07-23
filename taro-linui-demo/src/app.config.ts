@@ -1,5 +1,7 @@
 export default {
   pages: [
+    //表单组件
+    'pages/components/form/pages/input/index',
     // 'tabbar'
     'pages/components/nav/pages/tabbar/index',
     //进度条

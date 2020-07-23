@@ -1096,14 +1096,19 @@
         "signature": "1a10bc72df63585ad7914a090b81f065866f60b266f4f9cc587f3217ac41b974",
         "affectsGlobalScope": false
       },
-      "./src/index.ts": {
-        "version": "b7c9feba5821d58c9daf69ab6e655cb829e3e390be301c60ba08932abc21010c",
-        "signature": "c6d53b6e5ebeef22c4b23b48a698c67f8b3684c980410f7874edf61604ec49c5",
-        "affectsGlobalScope": false
-      },
       "./src/components/lerrortip.tsx": {
         "version": "afdd65971e0020967681e88aed8ba3d972306d07fe6c1f4efd5792de02c567af",
         "signature": "159bb0301a60ba03ba0805b6b92c608c6c7ec11e6f986701531c72de86935c3e",
+        "affectsGlobalScope": false
+      },
+      "./src/components/linput.tsx": {
+        "version": "461725f96ca4e198a09faebef18140a414383bdb2b3b6ba5e833d15b31a0669c",
+        "signature": "d46556b910b574498cb686287287e98815b9719722da5e342a56f1976c07b74e",
+        "affectsGlobalScope": false
+      },
+      "./src/index.ts": {
+        "version": "05874e4ccb6b9baa1dcad0e80fee1fcd0015a5164b1a267185732688771b87f0",
+        "signature": "feaae9b8561e40f11fb1be65085164ec1d125c76cabf5bec39500dbf4a427991",
         "affectsGlobalScope": false
       },
       "./src/components/lsegment.tsx": {
@@ -3729,6 +3734,19 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./src/components/linput.tsx": [
+        "./node_modules/@tarojs/components/types/index.d.ts",
+        "./node_modules/@tarojs/components/types/input.d.ts",
+        "./node_modules/@types/classnames/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/react/index.d.ts",
+        "./src/components/lerrortip.tsx",
+        "./src/components/licon.tsx",
+        "./src/mergestyle.ts"
+      ],
       "./src/components/llist.tsx": [
         "./node_modules/@tarojs/components/types/index.d.ts",
         "./node_modules/@tarojs/components/types/view.d.ts",
@@ -3974,6 +3992,7 @@
         "./src/components/lgrid.tsx",
         "./src/components/licon.tsx",
         "./src/components/lindexlist/index.tsx",
+        "./src/components/linput.tsx",
         "./src/components/llist.tsx",
         "./src/components/lloading.tsx",
         "./src/components/lloadmore.tsx",
@@ -6089,6 +6108,10 @@
       "./src/components/lindexlist/index.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./src/components/linput.tsx": [
+        "./node_modules/@tarojs/components/types/input.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./src/components/llist.tsx": [
         "./node_modules/@tarojs/components/types/view.d.ts",
         "./node_modules/@types/react/index.d.ts"
@@ -6176,6 +6199,7 @@
         "./src/components/lgrid.tsx",
         "./src/components/licon.tsx",
         "./src/components/lindexlist/index.tsx",
+        "./src/components/linput.tsx",
         "./src/components/llist.tsx",
         "./src/components/lloading.tsx",
         "./src/components/lloadmore.tsx",
@@ -6699,6 +6723,7 @@
           }
         ]
       ],
+      "./src/components/linput.tsx",
       "./src/components/llist.tsx",
       "./src/components/lloading.tsx",
       [

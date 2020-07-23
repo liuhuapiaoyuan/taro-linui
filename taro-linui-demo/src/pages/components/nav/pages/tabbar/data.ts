@@ -8,7 +8,7 @@ export const data = {
     backgroundColor: '#fff',
     list: [
       {
-        pagePath: '/index/index',
+        pagePath: '/pages/index/index',
         iconPath: require('../../images/tab-icon/home.png'),
         selectedIconPath: require('../../images/tab-icon/home_fill1.png'),
         text: '首页'
