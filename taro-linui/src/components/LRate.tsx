@@ -38,7 +38,9 @@ const LRate : React.FC<LRateProps> = props=>{
     count=5,style,className,
     value:score=0,name='favor-fill',
     onChange,
-    inActiveImage,activeImage,activeColor='#FF5252',inActiveColor='#FFE5E5',size=36
+    inActiveImage,activeImage,
+    activeColor='#FF5252',inActiveColor='#FFE5E5',
+    size=36
   } = props
   const showList   = Array.from({length:count}, (_,k) => Number(k) )
   return  <View style={style} className={classnames('l-rate','l-class',className)}>
@@ -53,6 +55,7 @@ const LRate : React.FC<LRateProps> = props=>{
               {(inActiveImage && activeImage ) ?  <Image 
                 className='l-rate-image-item l-class-image l-image-class'
                 src={activeImage}
+                style={{width:size,height:size}}
                 mode='aspectFit' lazyLoad={false}
               /> : <LIcon  
                 name={name} 
@@ -67,6 +70,7 @@ const LRate : React.FC<LRateProps> = props=>{
           (inActiveImage && activeImage ) ?  <Image 
             className='l-rate-image-item l-class-image l-image-class'
             src={inActiveImage}
+            style={{width:size,height:size}}
             mode='aspectFit' lazyLoad={false}
           /> : <LIcon  
             name={name} 

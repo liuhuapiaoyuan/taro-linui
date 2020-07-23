@@ -56,7 +56,7 @@ const RatePage: React.FC<any> = props => {
       </ContentCard>
 
       <ContentCard className="content" name="自定义图片">
-        <LRate value={4}
+        <LRate value={4} size={44}
           activeImage={require('../../images/smile-active.png')}
           inActiveImage={require('../../images/smile-inactive.png')}
         />

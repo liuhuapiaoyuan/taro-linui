@@ -1057,7 +1057,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/lrate.tsx": {
-        "version": "e9402a67baaf0b2e027f89637611317a6cd1396e2dacaa88b00b797e05736995",
+        "version": "a06a52d83c6f0fdc695fae8de32162347084b13ece28981eb924af973c89e9c5",
         "signature": "03333cedaf5940a6a03335494c93e0cbac15b65a9dc476d0580190d9ee97c7fd",
         "affectsGlobalScope": false
       },
