@@ -83,29 +83,29 @@ const LInput: React.FC<LInputProps> = props => {
     ...inputRest 
   } = props
   const [stype,setStype] = useState(type)
-
+    
 
   return <Label 
-    className={classnames(className,'form-item',`form-item-${labelLayout}`,{'disabled':disabled})}
+    className={classnames(className,'l-input-form-item',`l-input-form-item-${labelLayout}`,{'l-input-disabled':disabled})}
     style={mergeStyle({width:width??'auto'},style)}
   >
-    {disabled && <View className='mask'></View>}
-    <View className={classnames('row',{'hidden':!showRow})}   style={{width}} />
+    {disabled && <View className='l-input-mask'></View>}
+    <View className={classnames('l-input-row',{'l-input-hidden':!showRow})}   style={{width}} />
     <View   
-      className={classnames('l-label-class','form-label',`form-label-${labelLayout}`,{'hidden':hideLabel})}
+      className={classnames('l-label-class','l-input-form-label',`l-input-form-label-${labelLayout}`,{'l-input-hidden':hideLabel})}
       style={{
         width:labelLayout!=='top' ? labelWidth : undefined,
         height:labelLayout=='top' ? labelWidth : undefined,
       }}
     >
       {(label && !labelCustom ) ? <Text>
-        {required && <Text className='text-require'>* </Text>}
+        {required && <Text className='l-input-text-require'>* </Text>}
         {label}{colon &&<Text>：</Text>}
       </Text> : left}
     </View>
     <Input
-      className={classnames('input','l-input-class',{
-        'hideLabel' : hideLabel
+      className={classnames('l-input-input','l-input-class',{
+        'l-input-hideLabel' : hideLabel
       })}
       type={stype==='password' ? 'text' : stype}
       password={stype=='password'}
@@ -122,12 +122,12 @@ const LInput: React.FC<LInputProps> = props => {
       showEye&&value && <LIcon name='eye'
         onClick={()=>setStype(s=>s==='password' ? 'text' : 'password')}
         size={40}
-        className={classnames('l-eye','l-eye-'+type)}
+        className={classnames('l-input-l-eye','l-input-l-eye-'+type)}
       />
     }
     {
       clear&&value && <View className='close' onClick={onClear} >
-        <View  className='close-icon'>
+        <View  className='l-input-close-icon'>
           <LIcon  name='close' color='#fff' size={16} />
         </View>
       </View>

@@ -1,98 +1,100 @@
 @import "./_base.less";
-
-.form-item{
-  position: relative;
-  font-size: 28px;
-  color: #333;
-  height: 88px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding-right: 25px;
-  box-sizing: border-box;
-}
-
-.hidden{
-  display: none !important;
-}
-
-.row{
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  height: 2px;
-  width: 730px;
-  background: #f3f3f3;
-}
-
-.text-require{
-  color: #e23;
-  vertical-align: middle;
-}
-
-.form-label{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  height: 88px;
-  padding-left: 25px;
-  padding-right: 15px;
-  box-sizing: border-box;
-}
-
-.disabled{
-  color: #9a9a9a !important
-}
-
-.mask{
-  position: absolute;
-  z-index: 999;
-  height: 100%;
-  width: 100%;
-}
-
-.form-label-right{
-  justify-content: flex-end
-}
-
-.form-label-left{
-  justify-content: flex-start
-}
-
-.input{
-  height: 100%;
-  line-height: 100%;
-  flex: 1;
-}
-
-.close{ 
-  height: 36px;
-  width: 36px;
-  background: #ddd;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  margin-right: 20px;
-}
-
-.pls-class{
-  color: #9a9a9a
-}
-
-.hideLabel{
-  padding-left: 25px;
-}
-
-.l-eye{
-  padding: 10px;
-
-  &-text{
-    color: @default-color !important;
+.l-input{ 
+  &-form-item{
+    position: relative;
+    font-size: 28px;
+    color: #333;
+    height: 88px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 25px;
+    box-sizing: border-box;
+  }
+  
+  &-hidden{
+    display: none !important;
+  }
+  
+  &-row{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 2px;
+    width: 730px;
+    background: #f3f3f3;
+  }
+  
+  &-text-require{
+    color: #e23;
+    vertical-align: middle;
+  }
+  
+  &-form-label{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 88px;
+    padding-left: 25px;
+    padding-right: 15px;
+    box-sizing: border-box;
+  }
+  
+  &-disabled{
+    color: #9a9a9a !important
+  }
+  
+  &-mask{
+    position: absolute;
+    z-index: 999;
+    height: 100%;
+    width: 100%;
+  }
+  
+  &-form-label-right{
+    justify-content: flex-end
+  }
+  
+  &-form-label-left{
+    justify-content: flex-start
+  }
+  
+  &-input{
+    height: 100%;
+    line-height: 100%;
+    flex: 1;
+  }
+  
+  &-close{ 
+    height: 36px;
+    width: 36px;
+    background: #ddd;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  &-pls-class{
+    color: #9a9a9a
+  }
+  
+  &-hideLabel{
+    padding-left: 25px;
+  }
+  
+  &-l-eye{
+    padding: 10px;
+  
+    &-text{
+      color: @default-color !important;
+    }
+  
+    &-password{
+      color: fadeout(@default-color, 40%) !important;
+    }
   }
 
-  &-password{
-    color: fadeout(@default-color, 40%) !important;
-  }
 }
