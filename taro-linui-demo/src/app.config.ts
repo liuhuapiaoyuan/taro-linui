@@ -1,5 +1,6 @@
 export default {
   pages: [
+
     //表单组件
     'pages/components/form/pages/rate/index',
     'pages/components/form/pages/input/index',
@@ -13,7 +14,6 @@ export default {
     'pages/components/layout/pages/sticky/pages/sticky-base/index',
     //吸顶组件
     'pages/components/layout/pages/sticky/index',
-    'pages/index/index',
     //IndexList
     'pages/components/layout/pages/index-list/index',
     'pages/home/home',
@@ -24,6 +24,7 @@ export default {
     'pages/components/basic/button/index',
     //list
     'pages/components/layout/pages/list/index',
+    'pages/index/index',
   ],
   window: {
     backgroundTextStyle: 'light',
