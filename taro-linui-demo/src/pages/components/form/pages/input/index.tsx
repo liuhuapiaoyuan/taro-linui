@@ -113,6 +113,7 @@ const InputPage: React.FC<any> = props => {
             value={c}
             onChange={setC}
             labelWidth={85}
+            onClear={() => setC("")}
             placeholder="输入后可以清除" />
           <LInput
             label="禁用"

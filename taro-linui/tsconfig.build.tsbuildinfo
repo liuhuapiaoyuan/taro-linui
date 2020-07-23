@@ -896,8 +896,13 @@
         "signature": "a544ddcc140976ebd1cf14636d3aceebd2369e5bab768bf439b9f29c70978183",
         "affectsGlobalScope": false
       },
+      "./src/mergestyle.ts": {
+        "version": "0c167c1d224749bf3ee5c386cce7bc7a74b67204af850bf16d128871bc4158a1",
+        "signature": "60cfbf412c01cb07d1960d6aa223a4da63f62b4462c14c5e80e973622f4d449c",
+        "affectsGlobalScope": false
+      },
       "./src/components/licon.tsx": {
-        "version": "b0fbd2f2a1c66254a670325fd2434f58ea5e367e4d59052b340a67622e9c7ba2",
+        "version": "92b71c5b72cd65208cd8de42c9b5003025c40a9a0e9b796933b0438d5f974366",
         "signature": "5effdb2d370a6c0a7ddc960620e567c9110aa6d97c31998e496c8ec87484e6ef",
         "affectsGlobalScope": false
       },
@@ -929,11 +934,6 @@
       "./src/components/lavatar.tsx": {
         "version": "7d33dc63f779dcc7977aa4526d748eed20e58bfa84967bf5241e9ac7d640d6a2",
         "signature": "50382492fd41ca1648e9032141f31c5c46ae1ce74d67402ba170283b5d2b83f0",
-        "affectsGlobalScope": false
-      },
-      "./src/mergestyle.ts": {
-        "version": "0c167c1d224749bf3ee5c386cce7bc7a74b67204af850bf16d128871bc4158a1",
-        "signature": "60cfbf412c01cb07d1960d6aa223a4da63f62b4462c14c5e80e973622f4d449c",
         "affectsGlobalScope": false
       },
       "./src/components/lloading.tsx": {
@@ -1057,7 +1057,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/lrate.tsx": {
-        "version": "27e75ee86ccea6822a3d210c4f01f407c750324cb5406cfb591b430c6c6fc379",
+        "version": "e9402a67baaf0b2e027f89637611317a6cd1396e2dacaa88b00b797e05736995",
         "signature": "03333cedaf5940a6a03335494c93e0cbac15b65a9dc476d0580190d9ee97c7fd",
         "affectsGlobalScope": false
       },
@@ -1101,8 +1101,13 @@
         "signature": "159bb0301a60ba03ba0805b6b92c608c6c7ec11e6f986701531c72de86935c3e",
         "affectsGlobalScope": false
       },
+      "./src/hooks/usecontrolled.ts": {
+        "version": "0127befd186a5d3cb98dce37e93cbee5280b684bf59e31ce069f763b75d5d287",
+        "signature": "566d7908cf05308dcc46136ad6e8bda71bed4b81f0e2f47c78d87e464ea0dbb8",
+        "affectsGlobalScope": false
+      },
       "./src/components/linput.tsx": {
-        "version": "a15557cfbf4a0086140db3994080cf8092bde9026a9c3456905f0e56136a2b6a",
+        "version": "e890ec1f57a1390cf4adfc2c4eb85e1752f09706bdd952a341149043a0f660f7",
         "signature": "d46556b910b574498cb686287287e98815b9719722da5e342a56f1976c07b74e",
         "affectsGlobalScope": false
       },
@@ -3723,6 +3728,7 @@
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/react/index.d.ts",
+        "./src/mergestyle.ts",
         "./src/px.ts"
       ],
       "./src/components/lindexlist/index.tsx": [
@@ -3745,6 +3751,7 @@
         "./node_modules/@types/react/index.d.ts",
         "./src/components/lerrortip.tsx",
         "./src/components/licon.tsx",
+        "./src/hooks/usecontrolled.ts",
         "./src/mergestyle.ts"
       ],
       "./src/components/llist.tsx": [
@@ -3969,6 +3976,13 @@
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts"
+      ],
+      "./src/hooks/usecontrolled.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/react/index.d.ts"
       ],
       "./src/index.ts": [
         "./node_modules/@types/node/fs.d.ts",
@@ -6696,19 +6710,7 @@
         ]
       ],
       "./src/components/lgriditem.tsx",
-      [
-        "./src/components/licon.tsx",
-        [
-          {
-            "file": "./src/components/licon.tsx",
-            "start": 894,
-            "length": 8,
-            "messageText": "Spread types may only be created from object types.",
-            "category": 1,
-            "code": 2698
-          }
-        ]
-      ],
+      "./src/components/licon.tsx",
       [
         "./src/components/lindexlist/index.tsx",
         [
@@ -6829,20 +6831,7 @@
           }
         ]
       ],
-      [
-        "./src/components/lrate.tsx",
-        [
-          {
-            "file": "./src/components/lrate.tsx",
-            "start": 1071,
-            "length": 1,
-            "messageText": "'v' is declared but its value is never read.",
-            "category": 1,
-            "code": 6133,
-            "reportsUnnecessary": true
-          }
-        ]
-      ],
+      "./src/components/lrate.tsx",
       [
         "./src/components/lsegment.tsx",
         [
@@ -6976,6 +6965,7 @@
         ]
       ],
       "./src/device.ts",
+      "./src/hooks/usecontrolled.ts",
       "./src/index.ts",
       "./src/mergestyle.ts",
       "./src/nodeutils.ts",

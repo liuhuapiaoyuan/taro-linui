@@ -3,7 +3,7 @@ import {View} from '@tarojs/components'
 import classnames from 'classnames'
 import { ViewProps } from '@tarojs/components/types/View'
 import {px} from '../px'
-
+import mergeStyle from '../mergeStyle'
 import '../../style/LIcon.less'
 
 export interface LIconProps  {
@@ -29,10 +29,10 @@ const LIcon : React.FC<LIconProps> = props=>{
     className={classnames(className,'l-class l-class-self l-self-class l-icon',{
       [`l-icon-${name}`]:name
     })}
-    style={{
+    style={mergeStyle({
       fontSize:(typeof(size)==='number')? (px(size)) : size,
-      color,...style
-    }}
+      color
+    },style)}
   />
   )
 }  

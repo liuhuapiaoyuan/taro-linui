@@ -6,7 +6,7 @@ import {View,Image} from '@tarojs/components'
 import classnames from 'classnames'
 import {LIcon} from './LIcon'
 import '../../style/LRate.less'
-// import { ViewProps } from '@tarojs/components/types/View'
+
 
 export interface LRateProps  {
   className?: string
@@ -40,18 +40,18 @@ const LRate : React.FC<LRateProps> = props=>{
     onChange,
     inActiveImage,activeImage,activeColor='#FF5252',inActiveColor='#FFE5E5',size=36
   } = props
-  const showList   = Array.from({length:count}, (v,k) => Number(k) )
+  const showList   = Array.from({length:count}, (_,k) => Number(k) )
   return  <View style={style} className={classnames('l-rate','l-class',className)}>
     {
       showList.map(item=>(<View key={item} onClick={()=>onChange && onChange(item+1)} className='l-rate-star'>
         {
           score > item ? (
-            <View className='icon-checked' hoverClass='none' 
+            <View className='l-rate-icon-checked' hoverClass='none' 
               hoverStopPropagation={false}  
               style={{width:(score-item<1?(score-item)*100:100)+'%'}}
             >
               {(inActiveImage && activeImage ) ?  <Image 
-                className='image-item l-class-image l-image-class'
+                className='l-rate-image-item l-class-image l-image-class'
                 src={activeImage}
                 mode='aspectFit' lazyLoad={false}
               /> : <LIcon  
@@ -65,12 +65,12 @@ const LRate : React.FC<LRateProps> = props=>{
         }
         {
           (inActiveImage && activeImage ) ?  <Image 
-            className='image-item l-class-image l-image-class'
+            className='l-rate-image-item l-class-image l-image-class'
             src={inActiveImage}
             mode='aspectFit' lazyLoad={false}
           /> : <LIcon  
             name={name} 
-            l-className='l-class-icon l-icon-class' 
+            className='l-class-icon l-icon-class' 
             size={size} 
             color={inActiveColor}
           />

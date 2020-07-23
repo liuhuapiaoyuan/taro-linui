@@ -4,7 +4,7 @@ import { View ,Text,Label,Input} from '@tarojs/components'
 import {InputProps} from '@tarojs/components/types/Input'
 import {LIcon} from './LIcon'
 import {LErrorTip} from './LErrorTip'
-
+import {useControlled} from '../hooks/useControlled'
 import mergeStyle from '../mergeStyle'
 import '../../style/LInput.less'
 
@@ -83,7 +83,8 @@ const LInput: React.FC<LInputProps> = props => {
     ...inputRest 
   } = props
   const [stype,setStype] = useState(type)
-    
+  //受控组件
+  const [svalue,setSvalue] = useControlled<string>(value)
 
   return <Label 
     className={classnames(className,'l-input-form-item',`l-input-form-item-${labelLayout}`,{'l-input-disabled':disabled})}
@@ -111,22 +112,28 @@ const LInput: React.FC<LInputProps> = props => {
       password={stype=='password'}
       maxlength={maxlength}
       disabled={disabled}
-      value={value}
+      value={svalue}
       onInput={e=>{
+        (!value) && setSvalue(e.detail.value)
         onChange && onChange(e.detail.value)
         onInput && onInput(e)
       }}
       {...inputRest}
     />
     {
-      showEye&&value && <LIcon name='eye'
+      showEye&&svalue && <LIcon name='eye'
         onClick={()=>setStype(s=>s==='password' ? 'text' : 'password')}
         size={40}
         className={classnames('l-input-l-eye','l-input-l-eye-'+type)}
       />
     }
     {
-      clear&&value && <View className='l-input-close' onClick={onClear} >
+      clear&&svalue && <View className='l-input-close' onClick={
+        ()=>{
+          (!value) && setSvalue('')
+          onClear && onClear()
+        }}
+      >
         <View  className='l-input-close-icon'>
           <LIcon  name='close' color='#fff' size={16} />
         </View>
