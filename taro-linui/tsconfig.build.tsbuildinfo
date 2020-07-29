@@ -1111,19 +1111,19 @@
         "signature": "d46556b910b574498cb686287287e98815b9719722da5e342a56f1976c07b74e",
         "affectsGlobalScope": false
       },
-      "./src/index.ts": {
-        "version": "05874e4ccb6b9baa1dcad0e80fee1fcd0015a5164b1a267185732688771b87f0",
-        "signature": "feaae9b8561e40f11fb1be65085164ec1d125c76cabf5bec39500dbf4a427991",
-        "affectsGlobalScope": false
-      },
       "./src/components/lsegment.tsx": {
-        "version": "d0f18bf2223991f89dbc99aba483a89be15de7a6bd15c5d87c5d817c58e12beb",
-        "signature": "5c09fb15cc21e010b2140ee208a045ca1864467a3a7872f2bdb3f35e972eae52",
+        "version": "67ac6b4a56efdbcec0f40e49b0f6e4eb8f975f58b3b6610ee50d3f95cb4805c4",
+        "signature": "e3e215a01720eb6af66aa1f0567a2c8c6b75156724db9bef00126633d2ab8bc9",
         "affectsGlobalScope": false
       },
       "./src/components/lsegmentitem.tsx": {
-        "version": "86a6cf26700c85b610294b39cf999e86521e4f8a873355c9120d919eab357ab3",
-        "signature": "2b8427b43936ad9d9c1691bfda5a52f222479fbd338aa528532aa170aeb31f4e",
+        "version": "13940f5085a415b15136a3d45e7fd46f57d238a295b10ffec48f1e87289be536",
+        "signature": "6f29907c378922e166ce905140b56e27c6f6ad5eb40f17b9d4d93d0628fb0c1c",
+        "affectsGlobalScope": false
+      },
+      "./src/index.ts": {
+        "version": "0ed8f22108f539d92bfb5964b463c406b79c968360dc625351594778e4947c2f",
+        "signature": "4b591aa74310323f25a0dc71407cf820f1c07e731e2864bf15a6389b2bb9f841",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/color-name/index.d.ts": {
@@ -3868,6 +3868,7 @@
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/react/index.d.ts",
+        "./src/index.ts",
         "./src/mergestyle.ts"
       ],
       "./src/components/lsegmentitem.tsx": [
@@ -4017,6 +4018,8 @@
         "./src/components/lprice.tsx",
         "./src/components/lprogress.tsx",
         "./src/components/lrate.tsx",
+        "./src/components/lsegment.tsx",
+        "./src/components/lsegmentitem.tsx",
         "./src/components/lspin.tsx",
         "./src/components/lstatusshow.tsx",
         "./src/components/lstep.tsx",
@@ -6224,6 +6227,8 @@
         "./src/components/lprice.tsx",
         "./src/components/lprogress.tsx",
         "./src/components/lrate.tsx",
+        "./src/components/lsegment.tsx",
+        "./src/components/lsegmentitem.tsx",
         "./src/components/lspin.tsx",
         "./src/components/lstatusshow.tsx",
         "./src/components/lstep.tsx",
@@ -6832,55 +6837,146 @@
         ]
       ],
       "./src/components/lrate.tsx",
+      "./src/components/lsegment.tsx",
       [
-        "./src/components/lsegment.tsx",
+        "./src/components/lsegmentitem.tsx",
         [
           {
-            "file": "./src/components/lsegment.tsx",
-            "start": 54,
-            "length": 5,
-            "messageText": "'Block' is declared but its value is never read.",
+            "file": "./src/components/lsegmentitem.tsx",
+            "start": 26,
+            "length": 47,
+            "messageText": "All imports in import declaration are unused.",
+            "category": 1,
+            "code": 6192,
+            "reportsUnnecessary": true
+          },
+          {
+            "file": "./src/components/lsegmentitem.tsx",
+            "start": 74,
+            "length": 35,
+            "messageText": "'classnames' is declared but its value is never read.",
             "category": 1,
             "code": 6133,
             "reportsUnnecessary": true
           },
           {
-            "file": "./src/components/lsegment.tsx",
-            "start": 1499,
-            "length": 4,
-            "messageText": "Cannot find name 'even'. Did you mean 'Event'?",
+            "file": "./src/components/lsegmentitem.tsx",
+            "start": 148,
+            "length": 31,
+            "messageText": "'LIcon' is declared but its value is never read.",
             "category": 1,
-            "code": 2552,
-            "relatedInformation": [
-              {
-                "file": "./node_modules/typescript/lib/lib.dom.d.ts",
-                "start": 180077,
-                "length": 5,
-                "messageText": "'Event' is declared here.",
-                "category": 3,
-                "code": 2728
-              }
-            ]
+            "code": 6133,
+            "reportsUnnecessary": true
           },
           {
-            "file": "./src/components/lsegment.tsx",
-            "start": 1507,
-            "length": 10,
-            "messageText": "Cannot find name 'equalWidth'.",
+            "file": "./src/components/lsegmentitem.tsx",
+            "start": 881,
+            "length": 12,
+            "code": 2322,
             "category": 1,
-            "code": 2304
+            "messageText": {
+              "messageText": "Type '(props: PropsWithChildren<LSegmentItemProps>) => ReactNode' is not assignable to type 'FC<LSegmentItemProps>'.",
+              "category": 1,
+              "code": 2322,
+              "next": [
+                {
+                  "messageText": "Type 'ReactNode' is not assignable to type 'ReactElement<any, any> | null'.",
+                  "category": 1,
+                  "code": 2322,
+                  "next": [
+                    {
+                      "messageText": "Type 'undefined' is not assignable to type 'ReactElement<any, any> | null'.",
+                      "category": 1,
+                      "code": 2322
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
-            "file": "./src/components/lsegment.tsx",
-            "start": 1575,
+            "file": "./src/components/lsegmentitem.tsx",
+            "start": 950,
             "length": 9,
-            "messageText": "JSX elements cannot have multiple attributes with the same name.",
+            "messageText": "'className' is declared but its value is never read.",
             "category": 1,
-            "code": 17001
+            "code": 6133,
+            "reportsUnnecessary": true
+          },
+          {
+            "file": "./src/components/lsegmentitem.tsx",
+            "start": 960,
+            "length": 5,
+            "messageText": "'style' is declared but its value is never read.",
+            "category": 1,
+            "code": 6133,
+            "reportsUnnecessary": true
+          },
+          {
+            "file": "./src/components/lsegmentitem.tsx",
+            "start": 985,
+            "length": 5,
+            "messageText": "'image' is declared but its value is never read.",
+            "category": 1,
+            "code": 6133,
+            "reportsUnnecessary": true
+          },
+          {
+            "file": "./src/components/lsegmentitem.tsx",
+            "start": 996,
+            "length": 8,
+            "messageText": "'isActive' is declared but its value is never read.",
+            "category": 1,
+            "code": 6133,
+            "reportsUnnecessary": true
+          },
+          {
+            "file": "./src/components/lsegmentitem.tsx",
+            "start": 1016,
+            "length": 3,
+            "messageText": "'tab' is declared but its value is never read.",
+            "category": 1,
+            "code": 6133,
+            "reportsUnnecessary": true
+          },
+          {
+            "file": "./src/components/lsegmentitem.tsx",
+            "start": 1025,
+            "length": 4,
+            "messageText": "'icon' is declared but its value is never read.",
+            "category": 1,
+            "code": 6133,
+            "reportsUnnecessary": true
+          },
+          {
+            "file": "./src/components/lsegmentitem.tsx",
+            "start": 1030,
+            "length": 8,
+            "messageText": "'iconSize' is declared but its value is never read.",
+            "category": 1,
+            "code": 6133,
+            "reportsUnnecessary": true
+          },
+          {
+            "file": "./src/components/lsegmentitem.tsx",
+            "start": 1039,
+            "length": 11,
+            "messageText": "'activeColor' is declared but its value is never read.",
+            "category": 1,
+            "code": 6133,
+            "reportsUnnecessary": true
+          },
+          {
+            "file": "./src/components/lsegmentitem.tsx",
+            "start": 1051,
+            "length": 13,
+            "messageText": "'inactiveColor' is declared but its value is never read.",
+            "category": 1,
+            "code": 6133,
+            "reportsUnnecessary": true
           }
         ]
       ],
-      "./src/components/lsegmentitem.tsx",
       "./src/components/lspin.tsx",
       "./src/components/lstatusshow.tsx",
       [

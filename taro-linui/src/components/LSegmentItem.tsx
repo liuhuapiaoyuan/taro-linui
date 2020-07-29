@@ -15,7 +15,7 @@ type LSegmentItemImage = {
 export interface LSegmentItemProps {
   className?: string
   style?:React.CSSProperties
-  children: React.ReactChild,
+  children?: React.ReactNode,
   tab?:string,
   key?:string,
   icon?:string,
@@ -25,7 +25,7 @@ export interface LSegmentItemProps {
   /** 设定激活/未激活的图标URl */
   image?:LSegmentItemImage
   /** 图片位置 */
-  picPlacement?:'top'|'bottom'|'left'|'right'
+  picPlacement?:'top'|'bottom'|'left'|'right'|string
   /** 显示红点 */
   dotBadge?:boolean 
   /** 红点数量 */
@@ -35,6 +35,7 @@ export interface LSegmentItemProps {
   /** 数字展现形式，默认 overflow  */
   badgeCountType?:LBadgeProps['numberType']
   isActive?:boolean 
+  even?:boolean
 }
 
 const LSegmentItem: React.FC<LSegmentItemProps> = props => {
@@ -46,24 +47,25 @@ const LSegmentItem: React.FC<LSegmentItemProps> = props => {
     tab,
     icon,iconSize,activeColor,inactiveColor
   } = props
-  return <View  style={style} className={classnames('SegmentItem',className)}>
-    {
-      image &&( image.activeImage && image.defaultImage) && <Image
-        src={isActive ? image.activeImage : image.defaultImage}
-        className='l-tab-image l-class-tabimage l-tab-image-class'
-      />
-    }
+  return children
+  // return <View  style={style} className={classnames('SegmentItem',className)}>
+  //   {
+  //     image &&( image.activeImage && image.defaultImage) && <Image
+  //       src={isActive ? image.activeImage : image.defaultImage}
+  //       className='l-tab-image l-class-tabimage l-tab-image-class'
+  //     />
+  //   }
 
-    {
-      icon && <LIcon
-        name={icon}
-        color={isActive ?  activeColor : inactiveColor}
-        size={iconSize}
-        className='l-class-icon'
-      />
-    }
-    {(!!!tab) ? children : tab } 
-  </View>
+  //   {
+  //     icon && <LIcon
+  //       name={icon}
+  //       color={isActive ?  activeColor : inactiveColor}
+  //       size={iconSize}
+  //       className='l-class-icon'
+  //     />
+  //   }
+  //   {(!!!tab) ? children : tab } 
+  // </View>
 }
 
 export { LSegmentItem }

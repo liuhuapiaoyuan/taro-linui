@@ -1,6 +1,5 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { View } from '@tarojs/components'
-import classnames from 'classnames'
 
 import ContentTitle from '@/components/ContentTitle'
 import ContentCard from '@/components/ContentCard'
@@ -13,14 +12,15 @@ import './index.less'
 
 
 const RatePage: React.FC<any> = props => {
-  const {
-  } = props
+  const [rate, setRate] = useState(0)
   return <View className='rate-page'>
     <ContentTitle name="Rate" describe="评分">
       <ContentCard className="content" name="基本案例">
         <LRate />
       </ContentCard>
-
+      <ContentCard className="content" name="可交互 ">
+        <LRate value={rate} onChange={setRate} />
+      </ContentCard>
       <ContentCard className="content" name="设置默认选中的个数">
         <LRate value={3} />
       </ContentCard>

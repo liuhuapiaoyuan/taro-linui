@@ -1,3 +1,44 @@
 .SegmentItem{
-  
+  .l-tabs-item {
+    font-size: 28px;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .l-icon-active,
+  .l-tabs-active {
+      color: #333333;
+
+  }
+
+  .l-icon-active,
+  .l-icon-inactive {
+      font-size: 28px;
+  }
+
+  .l-icon-inactive,
+  .l-tabs-inactive {
+      color: #bbbbbb;
+  }
+
+  .l-tabsitems-row {
+      flex-direction: row;
+
+      .l-icon-inactive,
+      .l-icon-active {
+          margin-right: 10px;
+      }
+  }
+
+  .l-tabsitems-row-reverse {
+      flex-direction: row-reverse;
+
+      .l-icon-inactive,
+      .l-icon-active {
+          margin-left: 10px;
+      }
+  }
 }

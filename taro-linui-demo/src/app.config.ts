@@ -1,5 +1,7 @@
 export default {
   pages: [
+    //segment
+    'pages/components/nav/pages/segment/index',
 
     //表单组件
     'pages/components/form/pages/rate/index',
