@@ -1111,6 +1111,11 @@
         "signature": "d46556b910b574498cb686287287e98815b9719722da5e342a56f1976c07b74e",
         "affectsGlobalScope": false
       },
+      "./src/components/ltextarea.tsx": {
+        "version": "13ad074cb2f758d6c3969685e608cb301c5b0cc98de8f8a4d1a91d5bb8bf3d0f",
+        "signature": "0aed20d5439a3dade3d143e20603e19a1a28725af963838ed6cf207d3c163a0d",
+        "affectsGlobalScope": false
+      },
       "./src/components/lsegment.tsx": {
         "version": "67ac6b4a56efdbcec0f40e49b0f6e4eb8f975f58b3b6610ee50d3f95cb4805c4",
         "signature": "e3e215a01720eb6af66aa1f0567a2c8c6b75156724db9bef00126633d2ab8bc9",
@@ -1122,8 +1127,8 @@
         "affectsGlobalScope": false
       },
       "./src/index.ts": {
-        "version": "0ed8f22108f539d92bfb5964b463c406b79c968360dc625351594778e4947c2f",
-        "signature": "4b591aa74310323f25a0dc71407cf820f1c07e731e2864bf15a6389b2bb9f841",
+        "version": "bdc313212def9c73cb82002bb0ee6e0ac01dd1b99e8ae63559fb577cec4611df",
+        "signature": "58f3411bd6af388dbad58b72e20b5603cc5fee03f38593dda244e5513ea691dd",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/color-name/index.d.ts": {
@@ -3962,6 +3967,17 @@
         "./src/components/licon.tsx",
         "./src/mergestyle.ts"
       ],
+      "./src/components/ltextarea.tsx": [
+        "./node_modules/@tarojs/components/types/index.d.ts",
+        "./node_modules/@tarojs/components/types/textarea.d.ts",
+        "./node_modules/@types/classnames/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/react/index.d.ts",
+        "./src/index.ts"
+      ],
       "./src/components/lwaterflow.tsx": [
         "./node_modules/@tarojs/components/types/index.d.ts",
         "./node_modules/@types/classnames/index.d.ts",
@@ -4004,6 +4020,7 @@
         "./src/components/lcollapseitem.tsx",
         "./src/components/lcountdown.tsx",
         "./src/components/ldialog.tsx",
+        "./src/components/lerrortip.tsx",
         "./src/components/lgrid.tsx",
         "./src/components/licon.tsx",
         "./src/components/lindexlist/index.tsx",
@@ -4028,6 +4045,7 @@
         "./src/components/lstickyitem.tsx",
         "./src/components/ltabbar/index.tsx",
         "./src/components/ltag.tsx",
+        "./src/components/ltextarea.tsx",
         "./src/components/lwaterflow.tsx"
       ],
       "./src/mergestyle.ts": [
@@ -6195,6 +6213,11 @@
       "./src/components/ltag.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./src/components/ltextarea.tsx": [
+        "./node_modules/@tarojs/components/types/index.d.ts",
+        "./node_modules/@tarojs/components/types/textarea.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./src/components/lwaterflow.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
@@ -6213,6 +6236,7 @@
         "./src/components/lcollapseitem.tsx",
         "./src/components/lcountdown.tsx",
         "./src/components/ldialog.tsx",
+        "./src/components/lerrortip.tsx",
         "./src/components/lgrid.tsx",
         "./src/components/licon.tsx",
         "./src/components/lindexlist/index.tsx",
@@ -6237,6 +6261,7 @@
         "./src/components/lstickyitem.tsx",
         "./src/components/ltabbar/index.tsx",
         "./src/components/ltag.tsx",
+        "./src/components/ltextarea.tsx",
         "./src/components/lwaterflow.tsx"
       ]
     },
@@ -7047,6 +7072,7 @@
         ]
       ],
       "./src/components/ltag.tsx",
+      "./src/components/ltextarea.tsx",
       [
         "./src/components/lwaterflow.tsx",
         [

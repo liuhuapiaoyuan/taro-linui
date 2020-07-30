@@ -1,5 +1,7 @@
 export default {
   pages: [
+    //输入框textarea
+    'pages/components/form/pages/textarea/index',
     //segment
     'pages/components/nav/pages/segment/index',
 

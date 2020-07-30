@@ -35,6 +35,8 @@ export {LCountdown} from './components/LCountdown'
 export {LProgress} from './components/LProgress'  
 export {LTabbar} from './components/LTabbar'  
 export {LInput} from './components/LInput'  
+export {LTextarea} from './components/LTextarea'  
+export {LErrorTip} from './components/LErrorTip'  
 
 
 export {LSegment} from './components/LSegment'  
