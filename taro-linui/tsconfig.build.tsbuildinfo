@@ -1111,8 +1111,13 @@
         "signature": "d46556b910b574498cb686287287e98815b9719722da5e342a56f1976c07b74e",
         "affectsGlobalScope": false
       },
+      "./src/components/textareaenhance.tsx": {
+        "version": "de2cd1a08924dcda5dab77ff393629de1b0f5d70e69cae10177e510cf3d5cadc",
+        "signature": "44515767cc6f4642eebb362f815c4f3852c372c504116508aef0e0f7ff408f34",
+        "affectsGlobalScope": false
+      },
       "./src/components/ltextarea.tsx": {
-        "version": "13ad074cb2f758d6c3969685e608cb301c5b0cc98de8f8a4d1a91d5bb8bf3d0f",
+        "version": "a4d067e1d0af57bbac073e691ab5045d6f7259bbb525bb11317e673fccd0959e",
         "signature": "0aed20d5439a3dade3d143e20603e19a1a28725af963838ed6cf207d3c163a0d",
         "affectsGlobalScope": false
       },
@@ -3976,11 +3981,21 @@
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/react/index.d.ts",
+        "./src/components/textareaenhance.tsx",
         "./src/index.ts"
       ],
       "./src/components/lwaterflow.tsx": [
         "./node_modules/@tarojs/components/types/index.d.ts",
         "./node_modules/@types/classnames/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/textareaenhance.tsx": [
+        "./node_modules/@tarojs/components/types/index.d.ts",
+        "./node_modules/@tarojs/components/types/textarea.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts",
@@ -6221,6 +6236,10 @@
       "./src/components/lwaterflow.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./src/components/textareaenhance.tsx": [
+        "./node_modules/@tarojs/components/types/textarea.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./src/index.ts": [
         "./src/components/lactionsheet.tsx",
         "./src/components/lalbum.tsx",
@@ -7072,7 +7091,20 @@
         ]
       ],
       "./src/components/ltag.tsx",
-      "./src/components/ltextarea.tsx",
+      [
+        "./src/components/ltextarea.tsx",
+        [
+          {
+            "file": "./src/components/ltextarea.tsx",
+            "start": 48,
+            "length": 8,
+            "messageText": "'Textarea' is declared but its value is never read.",
+            "category": 1,
+            "code": 6133,
+            "reportsUnnecessary": true
+          }
+        ]
+      ],
       [
         "./src/components/lwaterflow.tsx",
         [
@@ -7083,6 +7115,121 @@
             "code": 2345,
             "category": 1,
             "messageText": "Argument of type 'never[]' is not assignable to parameter of type 'never'."
+          }
+        ]
+      ],
+      [
+        "./src/components/textareaenhance.tsx",
+        [
+          {
+            "file": "./src/components/textareaenhance.tsx",
+            "start": 867,
+            "length": 11,
+            "code": 2769,
+            "category": 1,
+            "messageText": {
+              "messageText": "No overload matches this call.",
+              "category": 1,
+              "code": 2769,
+              "next": [
+                {
+                  "messageText": "Overload 1 of 3, '(initialValue: string): MutableRefObject<string>', gave the following error.",
+                  "category": 1,
+                  "code": 2772,
+                  "next": [
+                    {
+                      "messageText": "Argument of type 'string | undefined' is not assignable to parameter of type 'string'.",
+                      "category": 1,
+                      "code": 2345,
+                      "next": [
+                        {
+                          "messageText": "Type 'undefined' is not assignable to type 'string'.",
+                          "category": 1,
+                          "code": 2322
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "messageText": "Overload 2 of 3, '(initialValue: string | null): RefObject<string>', gave the following error.",
+                  "category": 1,
+                  "code": 2772,
+                  "next": [
+                    {
+                      "messageText": "Argument of type 'string | undefined' is not assignable to parameter of type 'string | null'.",
+                      "category": 1,
+                      "code": 2345,
+                      "next": [
+                        {
+                          "messageText": "Type 'undefined' is not assignable to type 'string | null'.",
+                          "category": 1,
+                          "code": 2322
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "relatedInformation": []
+          },
+          {
+            "file": "./src/components/textareaenhance.tsx",
+            "start": 915,
+            "length": 14,
+            "code": 2344,
+            "category": 1,
+            "messageText": {
+              "messageText": "Type 'BaseEventOrigFunction<onInputEventDetail> | undefined' does not satisfy the constraint '(...args: any[]) => any'.",
+              "category": 1,
+              "code": 2344,
+              "next": [
+                {
+                  "messageText": "Type 'undefined' is not assignable to type '(...args: any[]) => any'.",
+                  "category": 1,
+                  "code": 2322
+                }
+              ]
+            }
+          },
+          {
+            "file": "./src/components/textareaenhance.tsx",
+            "start": 1096,
+            "length": 13,
+            "code": 2344,
+            "category": 1,
+            "messageText": {
+              "messageText": "Type 'BaseEventOrigFunction<onBlurEventDetail> | undefined' does not satisfy the constraint '(...args: any[]) => any'.",
+              "category": 1,
+              "code": 2344,
+              "next": [
+                {
+                  "messageText": "Type 'undefined' is not assignable to type '(...args: any[]) => any'.",
+                  "category": 1,
+                  "code": 2322
+                }
+              ]
+            }
+          },
+          {
+            "file": "./src/components/textareaenhance.tsx",
+            "start": 1439,
+            "length": 16,
+            "code": 2344,
+            "category": 1,
+            "messageText": {
+              "messageText": "Type 'BaseEventOrigFunction<onConfirmEventDetail> | undefined' does not satisfy the constraint '(...args: any[]) => any'.",
+              "category": 1,
+              "code": 2344,
+              "next": [
+                {
+                  "messageText": "Type 'undefined' is not assignable to type '(...args: any[]) => any'.",
+                  "category": 1,
+                  "code": 2322
+                }
+              ]
+            }
           }
         ]
       ],
