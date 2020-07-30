@@ -41,8 +41,8 @@
 * [x] LCard   卡片
 * [x] LCheckbox   多选框
 * [x] LCheckboxGroup   多选框组
-* [x] LCollapse     自动收缩组件
-  * [x] LCollapseItem 子组件
+* [x] LCollapse     折叠面板
+  * [x] LCollapseItem 折叠面板-子组件
 * [x] LCountdown  倒计时组件
 * [x] LDialog     弹窗组件
 * [x] LErrorTip   错误提示文本
@@ -74,3 +74,13 @@
 * [x] LTextarea 输入栏组件
 * [x] LWaterFlow  瀑布流组件
 
+## 未完成组件 TODO
+* [ ] 骨架屏组件  Skeleton
+* [ ] 圆型进度条 Circle
+* [ ] 混合标签 Combined Tabs
+* [ ] 滑动组件  SlideView
+* [ ] 图片选择器 ImagePicker
+* [ ] 数量选择器 Counter
+* [ ] 搜索栏组件 SearchBar
+* [ ] 表单 Form
+* [ ] 表单项 FormItem
