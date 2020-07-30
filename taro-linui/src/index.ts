@@ -37,6 +37,8 @@ export {LTabbar} from './components/LTabbar'
 export {LInput} from './components/LInput'  
 export {LTextarea} from './components/LTextarea'  
 export {LErrorTip} from './components/LErrorTip'  
+export {LRadio} from './components/LRadio'  
+export {LRadioGroup} from './components/LRadioGroup'  
 
 
 export {LSegment} from './components/LSegment'  

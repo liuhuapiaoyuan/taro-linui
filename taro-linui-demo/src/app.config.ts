@@ -1,5 +1,7 @@
 export default {
   pages: [
+    //输入radio
+    'pages/components/form/pages/radio/index',
     //输入框textarea
     'pages/components/form/pages/textarea/index',
     //segment

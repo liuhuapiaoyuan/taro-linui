@@ -1121,6 +1121,16 @@
         "signature": "0aed20d5439a3dade3d143e20603e19a1a28725af963838ed6cf207d3c163a0d",
         "affectsGlobalScope": false
       },
+      "./src/components/lradio.tsx": {
+        "version": "63d7765a72b20f9b4d9ec7e29d1777cf7addf1cf4d787a257808e5107a605f48",
+        "signature": "aa83f629aad9782eb8f740dca652cd592ef6e3b9d37b818a1a03f0e4fd27b304",
+        "affectsGlobalScope": false
+      },
+      "./src/components/lradiogroup.tsx": {
+        "version": "97ba13316c62b478d3b1cf972afcea6f63d8f0d1c1055578ffd45845dc071f5d",
+        "signature": "da68091d77742c27dbbe95beb9df4c3e0c8e345aebad5f447dc348bb244a2e01",
+        "affectsGlobalScope": false
+      },
       "./src/components/lsegment.tsx": {
         "version": "67ac6b4a56efdbcec0f40e49b0f6e4eb8f975f58b3b6610ee50d3f95cb4805c4",
         "signature": "e3e215a01720eb6af66aa1f0567a2c8c6b75156724db9bef00126633d2ab8bc9",
@@ -1132,8 +1142,8 @@
         "affectsGlobalScope": false
       },
       "./src/index.ts": {
-        "version": "bdc313212def9c73cb82002bb0ee6e0ac01dd1b99e8ae63559fb577cec4611df",
-        "signature": "58f3411bd6af388dbad58b72e20b5603cc5fee03f38593dda244e5513ea691dd",
+        "version": "54dfa3c714ee06e32597d7722624aa4dcdf0b8451634b99063ff1d02d67bc339",
+        "signature": "21d47763ea4b237edcca6004e3a2c2c70995b77fa41e7f6f23fd76717c74b529",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/color-name/index.d.ts": {
@@ -3860,6 +3870,26 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./src/components/lradio.tsx": [
+        "./node_modules/@tarojs/components/types/index.d.ts",
+        "./node_modules/@tarojs/components/types/radio.d.ts",
+        "./node_modules/@types/classnames/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/lradiogroup.tsx": [
+        "./node_modules/@tarojs/components/types/index.d.ts",
+        "./node_modules/@types/classnames/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/react/index.d.ts",
+        "./src/index.ts"
+      ],
       "./src/components/lrate.tsx": [
         "./node_modules/@tarojs/components/types/index.d.ts",
         "./node_modules/@types/classnames/index.d.ts",
@@ -4049,6 +4079,8 @@
         "./src/components/lpopup.tsx",
         "./src/components/lprice.tsx",
         "./src/components/lprogress.tsx",
+        "./src/components/lradio.tsx",
+        "./src/components/lradiogroup.tsx",
         "./src/components/lrate.tsx",
         "./src/components/lsegment.tsx",
         "./src/components/lsegmentitem.tsx",
@@ -6193,6 +6225,13 @@
       "./src/components/lprogress.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./src/components/lradio.tsx": [
+        "./node_modules/@tarojs/components/types/radio.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/lradiogroup.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./src/components/lrate.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
@@ -6269,6 +6308,8 @@
         "./src/components/lpopup.tsx",
         "./src/components/lprice.tsx",
         "./src/components/lprogress.tsx",
+        "./src/components/lradio.tsx",
+        "./src/components/lradiogroup.tsx",
         "./src/components/lrate.tsx",
         "./src/components/lsegment.tsx",
         "./src/components/lsegmentitem.tsx",
@@ -6874,6 +6915,52 @@
             "start": 1143,
             "length": 9,
             "messageText": "'marginTop' is declared but its value is never read.",
+            "category": 1,
+            "code": 6133,
+            "reportsUnnecessary": true
+          }
+        ]
+      ],
+      [
+        "./src/components/lradio.tsx",
+        [
+          {
+            "file": "./src/components/lradio.tsx",
+            "start": 40,
+            "length": 5,
+            "messageText": "'Label' is declared but its value is never read.",
+            "category": 1,
+            "code": 6133,
+            "reportsUnnecessary": true
+          },
+          {
+            "file": "./src/components/lradio.tsx",
+            "start": 46,
+            "length": 5,
+            "messageText": "'Radio' is declared but its value is never read.",
+            "category": 1,
+            "code": 6133,
+            "reportsUnnecessary": true
+          },
+          {
+            "file": "./src/components/lradio.tsx",
+            "start": 870,
+            "length": 10,
+            "messageText": "'transition' is declared but its value is never read.",
+            "category": 1,
+            "code": 6133,
+            "reportsUnnecessary": true
+          }
+        ]
+      ],
+      [
+        "./src/components/lradiogroup.tsx",
+        [
+          {
+            "file": "./src/components/lradiogroup.tsx",
+            "start": 726,
+            "length": 5,
+            "messageText": "'index' is declared but its value is never read.",
             "category": 1,
             "code": 6133,
             "reportsUnnecessary": true

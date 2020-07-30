@@ -22,7 +22,9 @@ const TextarePage: React.FC<any> = () => {
         name="基本案例"
       >
         <View className='buttun-wrapper'>
-          <LTextarea value={a} onChange={seta} style="width:100%" indicator={false} placeholder="说说你的想法吧..." />
+          <LTextarea
+            errorText={a.length < 1 ? '请填写内容' : undefined}
+            value={a} onChange={seta} style="width:100%" indicator={false} placeholder="说说你的想法吧..." />
         </View>
       </ContentCard>
 
